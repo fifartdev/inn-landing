@@ -447,10 +447,6 @@ img, video {
   margin-top: .25rem;
 }
 
-.mt-1\.5 {
-  margin-top: .375rem;
-}
-
 .mt-10 {
   margin-top: 2.5rem;
 }
@@ -515,6 +511,10 @@ img, video {
   height: 3rem;
 }
 
+.h-14 {
+  height: 3.5rem;
+}
+
 .h-16 {
   height: 4rem;
 }
@@ -575,16 +575,12 @@ img, video {
   height: 1px;
 }
 
-.h-14 {
-  height: 3.5rem;
+.max-h-10 {
+  max-height: 2.5rem;
 }
 
 .max-h-14 {
   max-height: 3.5rem;
-}
-
-.max-h-10 {
-  max-height: 2.5rem;
 }
 
 .min-h-screen {
@@ -611,6 +607,10 @@ img, video {
   width: 5rem;
 }
 
+.w-28 {
+  width: 7rem;
+}
+
 .w-3 {
   width: .75rem;
 }
@@ -635,20 +635,16 @@ img, video {
   width: 2rem;
 }
 
+.w-auto {
+  width: auto;
+}
+
 .w-full {
   width: 100%;
 }
 
 .w-px {
   width: 1px;
-}
-
-.w-28 {
-  width: 7rem;
-}
-
-.w-auto {
-  width: auto;
 }
 
 .min-w-0 {
@@ -667,16 +663,16 @@ img, video {
   max-width: 80rem;
 }
 
+.max-w-full {
+  max-width: 100%;
+}
+
 .max-w-lg {
   max-width: 32rem;
 }
 
 .max-w-xl {
   max-width: 36rem;
-}
-
-.max-w-full {
-  max-width: 100%;
 }
 
 .shrink-0 {
@@ -945,16 +941,6 @@ img, video {
 .border-t-white {
   --tw-border-opacity: 1;
   border-top-color: rgb(255 255 255 / var(--tw-border-opacity, 1));
-}
-
-.bg-amber-600 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(217 119 6 / var(--tw-bg-opacity, 1));
-}
-
-.bg-blue-600 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(37 99 235 / var(--tw-bg-opacity, 1));
 }
 
 .bg-emerald-50 {
@@ -1372,10 +1358,6 @@ img, video {
   line-height: 1.1;
 }
 
-.leading-none {
-  line-height: 1;
-}
-
 .leading-relaxed {
   line-height: 1.625;
 }
@@ -1386,10 +1368,6 @@ img, video {
 
 .leading-tight {
   line-height: 1.25;
-}
-
-.tracking-tight {
-  letter-spacing: -.025em;
 }
 
 .tracking-wide {
@@ -1768,17 +1746,17 @@ input:focus, textarea:focus, select:focus {
   background-color: rgb(241 245 249 / var(--tw-bg-opacity, 1));
 }
 
+.hover\:bg-slate-50:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(248 250 252 / var(--tw-bg-opacity, 1));
+}
+
 .hover\:bg-white\/10:hover {
   background-color: #ffffff1a;
 }
 
 .hover\:bg-white\/25:hover {
   background-color: #ffffff40;
-}
-
-.hover\:bg-slate-50:hover {
-  --tw-bg-opacity: 1;
-  background-color: rgb(248 250 252 / var(--tw-bg-opacity, 1));
 }
 
 .hover\:text-inn-orange:hover {
