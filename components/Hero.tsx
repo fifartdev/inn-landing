@@ -14,7 +14,7 @@ export default function Hero() {
         <img
           src="hero.jpg"
           alt="Hotel lobby"
-          className="w-full h-full object-cover object-center"
+          className="w-full h-full object-cover object-right sm:object-center"
         />
         <div className="hero-overlay absolute inset-0" />
       </div>
