@@ -1130,6 +1130,11 @@ img, video {
   object-position: center;
 }
 
+.object-right {
+  -o-object-position: right;
+  object-position: right;
+}
+
 .p-2 {
   padding: .5rem;
 }
@@ -1555,6 +1560,11 @@ img, video {
   transition-duration: .7s;
 }
 
+.\[object-position\:75\%_center\] {
+  -o-object-position: 75% center;
+  object-position: 75% center;
+}
+
 :root {
   --inn-teal: #0a7ea4;
   --inn-orange: #e8622a;
@@ -1863,6 +1873,11 @@ input:focus, textarea:focus, select:focus {
 
   .sm\:flex-row {
     flex-direction: row;
+  }
+
+  .sm\:object-center {
+    -o-object-position: center;
+    object-position: center;
   }
 
   .sm\:px-6 {
