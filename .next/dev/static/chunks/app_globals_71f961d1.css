@@ -1125,16 +1125,6 @@ img, video {
   object-fit: cover;
 }
 
-.object-center {
-  -o-object-position: center;
-  object-position: center;
-}
-
-.object-right {
-  -o-object-position: right;
-  object-position: right;
-}
-
 .p-2 {
   padding: .5rem;
 }
@@ -1869,6 +1859,10 @@ input:focus, textarea:focus, select:focus {
 
   .sm\:grid-cols-4 {
     grid-template-columns: repeat(4, minmax(0, 1fr));
+  }
+
+  .sm\:grid-cols-5 {
+    grid-template-columns: repeat(5, minmax(0, 1fr));
   }
 
   .sm\:flex-row {

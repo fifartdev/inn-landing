@@ -1,0 +1,7 @@
+{
+  "permissions": {
+    "allow": [
+      "Read(//private/var/folders/k7/b6tztcgx2jd47_xm5j785g1m0000gn/T/**)"
+    ]
+  }
+}

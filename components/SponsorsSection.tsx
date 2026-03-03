@@ -23,6 +23,11 @@ const sponsors = [
     subtitle: "Maison de Champagne",
     logo: "/sponsors/ernest-berat.png",
   },
+  {
+    name: "EpsiloNet",
+    subtitle: "Professional Business Services",
+    logo: "/sponsors/EpsilonNet.png",
+  },
 ];
 
 export default function SponsorsSection() {
@@ -39,7 +44,7 @@ export default function SponsorsSection() {
           <h3 className="text-xl font-black text-white">{s.title}</h3>
         </div>
 
-        <div className="grid grid-cols-2 sm:grid-cols-4 gap-5">
+        <div className="grid grid-cols-2 sm:grid-cols-5 gap-5">
           {sponsors.map((sponsor) => (
             <div
               key={sponsor.name}
@@ -55,7 +60,9 @@ export default function SponsorsSection() {
               <div className="font-bold text-slate-800 text-sm group-hover:text-inn-orange transition-colors">
                 {sponsor.name}
               </div>
-              <div className="text-slate-400 text-xs mt-1">{sponsor.subtitle}</div>
+              <div className="text-slate-400 text-xs mt-1">
+                {sponsor.subtitle}
+              </div>
             </div>
           ))}
         </div>

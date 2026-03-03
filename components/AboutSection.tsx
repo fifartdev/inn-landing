@@ -8,7 +8,11 @@ export default function AboutSection() {
   const a = t.about;
 
   const stats = [
-    { val: a.stat1, label: a.stat1label, icon: <Building2 className="w-5 h-5" /> },
+    {
+      val: a.stat1,
+      label: a.stat1label,
+      icon: <Building2 className="w-5 h-5" />,
+    },
     { val: a.stat2, label: a.stat2label, icon: <Award className="w-5 h-5" /> },
     { val: a.stat3, label: a.stat3label, icon: <Globe className="w-5 h-5" /> },
     { val: a.stat4, label: a.stat4label, icon: <Users className="w-5 h-5" /> },
@@ -71,7 +75,7 @@ export default function AboutSection() {
           <div>
             <div className="relative">
               <img
-                src="https://images.unsplash.com/photo-1551882547-ff40c63fe5fa?w=800&q=80&fit=crop"
+                src="/assets/online.jpg"
                 alt="Hotel manager"
                 className="w-full h-80 lg:h-96 object-cover rounded-3xl shadow-2xl"
               />
