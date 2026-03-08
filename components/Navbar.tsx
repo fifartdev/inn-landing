@@ -25,6 +25,7 @@ export default function Navbar() {
     { href: "#professors", label: t.nav.professors },
     { href: "#pricing", label: t.nav.pricing },
     { href: "#faq", label: t.nav.faq },
+    { href: "#gallery", label: t.nav.gallery },
   ];
 
   return (

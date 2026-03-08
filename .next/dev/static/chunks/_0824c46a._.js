@@ -24,6 +24,7 @@ const translations = {
             professors: "Καθηγητές",
             pricing: "Κόστος",
             faq: "Ερωτήσεις",
+            gallery: "Γκάλερι",
             apply: "Αίτηση Εγγραφής"
         },
         hero: {
@@ -166,12 +167,16 @@ const translations = {
                 "2 ημέρες σεμινάρια στη La Défense από Γάλλους εκπαιδευτικούς τουρισμού",
                 "Εκπαιδευτική επίσκεψη στο Intercontinental Paris",
                 "Εκπαιδευτική επίσκεψη σε αμπελώνα στην Καμπανία",
-                "Οινολογία & Οινογνωσία",
                 "Ξενάγηση σε αμπελώνες — Ernest Berat Champagne",
                 "Συμμετοχή στην τελετή αποφοίτησης Paris Education"
             ],
             graduation: "Τελετή Αποφοίτησης Paris Education",
             graduationDesc: "Οι απόφοιτοι προσκαλούνται στην επίσημη Graduation Ceremony του Paris Education Institute — μια μοναδική εμπειρία που σφραγίζει την επαγγελματική σου πορεία."
+        },
+        gallery: {
+            tag: "Φωτογραφικό Αρχείο",
+            title: "Προηγούμενες Εκπαιδευτικές Περίοδοι",
+            subtitle: "Στιγμές από τις ολοκληρωμένες εκπαιδευτικές μας περιόδους"
         },
         professors: {
             tag: "Καθηγητές",
@@ -316,6 +321,7 @@ const translations = {
             professors: "Faculty",
             pricing: "Pricing",
             faq: "FAQ",
+            gallery: "Gallery",
             apply: "Apply Now"
         },
         hero: {
@@ -458,12 +464,16 @@ const translations = {
                 "2 days of seminars at La Défense by French tourism educators",
                 "Educational visit to Intercontinental Paris",
                 "Educational visit to a vineyard in Champagne",
-                "Oenology & Wine Knowledge",
                 "Vineyard tour — Ernest Berat Champagne",
                 "Participation in Paris Education Graduation Ceremony"
             ],
             graduation: "Paris Education Graduation Ceremony",
             graduationDesc: "Graduates are invited to the official Paris Education Institute Graduation Ceremony — a unique experience that marks your professional journey."
+        },
+        gallery: {
+            tag: "Photo Archive",
+            title: "Previous Educational Seasons",
+            subtitle: "Moments from our successfully completed educational seasons"
         },
         professors: {
             tag: "Faculty",
@@ -608,6 +618,7 @@ const translations = {
             professors: "Professeurs",
             pricing: "Tarifs",
             faq: "FAQ",
+            gallery: "Galerie",
             apply: "Postuler"
         },
         hero: {
@@ -750,12 +761,16 @@ const translations = {
                 "2 jours de séminaires à La Défense par des formateurs français du tourisme",
                 "Visite éducative à l'Intercontinental Paris",
                 "Visite éducative d'un vignoble en Champagne",
-                "Œnologie & Connaissance des vins",
                 "Visite de vignobles — Ernest Berat Champagne",
                 "Participation à la Cérémonie de Remise des Diplômes Paris Education"
             ],
             graduation: "Cérémonie de Remise des Diplômes Paris Education",
             graduationDesc: "Les diplômés sont invités à la cérémonie officielle de remise des diplômes du Paris Education Institute — une expérience unique qui marque votre parcours professionnel."
+        },
+        gallery: {
+            tag: "Archives Photo",
+            title: "Saisons Éducatives Précédentes",
+            subtitle: "Moments de nos saisons éducatives menées à bien"
         },
         professors: {
             tag: "Corps Professoral",
@@ -899,24 +914,24 @@ const courseData = [
         id: 1,
         category: "MANAGEMENT",
         title: "Στρατηγική Διοίκηση Ξενοδοχειακών Επιχειρήσεων",
-        instructor: "Γιόλα Διονυσοπούλου"
+        instructor: "Γώργος Πελακανάκης"
     },
     {
         id: 2,
         category: "MANAGEMENT",
-        title: "Οικονομική Διαχείριση Ξενοδοχειακών Μονάδων",
-        instructor: "Γιώργος Σπυρόπουλος"
+        title: "Mentoring & Coaching στον Τουριστικό και Ξενοδοχειακό Κλάδο",
+        instructor: "Γώργος Σπυρόπουλος"
     },
     {
         id: 3,
         category: "MANAGEMENT",
-        title: "Mentoring & Coaching στον Τουριστικό και Ξενοδοχειακό Κλάδο",
-        instructor: "Γιώργος Σπυρόπουλος"
+        title: "Διοίκηση Ξενοδοχειακών Μονάδων",
+        instructor: "Γώργος Σπυρόπουλος"
     },
     {
         id: 4,
         category: "MANAGEMENT",
-        title: "Διοίκηση Ξενοδοχειακών Μονάδων",
+        title: "Οικονομική Διαχείριση Ξενοδοχειακών Μονάδων",
         instructor: "Αργύρης Νταουλιάρης"
     },
     {
@@ -929,125 +944,131 @@ const courseData = [
         id: 6,
         category: "MANAGEMENT",
         title: "Επιχειρηματικότητα & Δημιουργία Ξενοδοχειακής Επιχείρησης",
-        instructor: "Αργύρης Νταουλιάρης"
+        instructor: "Γώργος Πελακανάκης"
     },
     {
-        id: 8,
+        id: 7,
         category: "MANAGEMENT",
         title: "Διοίκηση Ποιότητας & Πρότυπα Πιστοποίησης",
         instructor: "Ανθή Μανέτα"
     },
     {
-        id: 9,
+        id: 8,
         category: "MANAGEMENT",
         title: "Βιωσιμότητα & Αειφόρος Ανάπτυξη",
-        instructor: "Κοκοτός"
+        instructor: "Ιωάννα Ρώσση"
     },
     {
-        id: 10,
+        id: 9,
         category: "MANAGEMENT",
         title: "Διαχείριση Προμηθειών και Αγορών Ξενοδοχειακών Επιχειρήσεων",
         instructor: "Γιώτα Μπαλάφα"
     },
     {
-        id: 7,
+        id: 10,
         category: "HR",
         title: "Διοίκηση Ανθρώπινου Δυναμικού στον Τουρισμό",
-        instructor: "Δημήτρης Βαλέργας"
+        instructor: "Ράνια Πάσσαρη"
     },
     {
         id: 11,
         category: "HR",
         title: "Τουριστική Νομοθεσία & Εργατικό Δίκαιο",
-        instructor: "Ράνια Πάσσαρη"
+        instructor: "Δημήτρης Βαλέργας"
     },
     {
         id: 12,
+        category: "HR",
+        title: "Ψυχολογία πάνω στο HR",
+        instructor: "Βασιλική Σφονδύλη"
+    },
+    {
+        id: 13,
         category: "MARKETING",
         title: "Μάρκετινγκ Ξενοδοχειακών & Τουριστικών Υπηρεσιών",
         instructor: "Αντώνης Γιαννόπουλος"
     },
     {
-        id: 13,
+        id: 14,
         category: "MARKETING",
         title: "Digital Marketing στον Τουρισμό & Ξενοδοχεία",
         instructor: "Αντώνης Γιαννόπουλος"
     },
     {
-        id: 14,
+        id: 15,
         category: "SALES",
         title: "Πωλήσεις & Ανάπτυξη Πελατολογίου",
         instructor: "Μάριος Ανδρακάκης"
     },
     {
-        id: 15,
+        id: 16,
         category: "SALES",
         title: "Revenue Management & Yield Management",
         instructor: "Μάριος Ανδρακάκης"
     },
     {
-        id: 16,
+        id: 17,
         category: "F&B",
         title: "Βασικές Αρχές Μαγειρικής Τέχνης & Κουζίνας",
         instructor: "Σταμάτης Λουμουσιώτης"
     },
     {
-        id: 17,
-        category: "F&B",
-        title: "Υγιεινή & Ασφάλεια Τροφίμων (HACCP & ISO Standards)",
-        instructor: "Σταμάτης Λουμουσιώτης"
-    },
-    {
         id: 18,
         category: "F&B",
-        title: "Εστιατορική Τεχνική & Service Management",
-        instructor: "Κυριάκος Βάικος"
+        title: "Υγιεινή & Ασφάλεια Τροφίμων (HACCP & ISO Standards)",
+        instructor: "Κωνσταντίνος Ντελέζος"
     },
     {
         id: 19,
         category: "F&B",
-        title: "Bar Management",
-        instructor: "—"
+        title: "Εστιατορική Τεχνική & Service Management",
+        instructor: "Φυλάκτου Γεωργία"
     },
     {
         id: 20,
+        category: "F&B",
+        title: "Bar Management",
+        instructor: "πρακτικό μόνο"
+    },
+    {
+        id: 21,
         category: "F&B",
         title: "Οινολογία & Τέχνη του Sommelier",
         instructor: "Μαρία Κατσούλη"
     },
     {
-        id: 21,
+        id: 22,
         category: "FRONT OFFICE",
         title: "Διοίκηση Front Office & Guest Relations",
-        instructor: "Κωνσταντίνος Σεργόπουλος"
+        instructor: "Φανή Πασπαράκη"
     },
     {
-        id: 22,
+        id: 23,
         category: "FRONT OFFICE",
         title: "Ψηφιακά Συστήματα Ξενοδοχείων (PMS, Channel Managers, CRM)",
         instructor: "Κωνσταντίνος Σεργόπουλος"
     },
     {
-        id: 23,
+        id: 24,
         category: "HOUSEKEEPING",
         title: "Διοίκηση Housekeeping & Οργανωτικές Διεργασίες Ξενοδοχείων",
-        instructor: "Γιώργος Καλογερόπουλος"
+        instructor: "Γώργος Καλογερόπουλος"
     }
 ];
 const professorsData = [
     {
-        name: "Γιόλα Διονυσοπούλου",
-        subject: "Στρατηγική Διοίκηση Ξενοδοχειακών Επιχειρήσεων",
+        name: "Γώργος Πελακανάκης",
+        subject: "Στρατηγική Διοίκηση / Επιχειρηματικότητα",
         category: "MANAGEMENT"
     },
     {
-        name: "Γιώργος Σπυρόπουλος",
-        subject: "Οικονομική Διαχείριση / Mentoring & Coaching",
+        name: "Γώργος Σπυρόπουλος",
+        subject: "Mentoring & Coaching / Διοίκηση Ξενοδοχειακών Μονάδων",
         category: "MANAGEMENT"
     },
     {
         name: "Αργύρης Νταουλιάρης",
-        subject: "Διοίκηση Ξενοδοχειακών Μονάδων / Κρίσεων / Επιχειρηματικότητα",
+        subject: "Οικονομική Διαχείριση / Διαχείριση Κρίσεων",
         category: "MANAGEMENT"
     },
     {
@@ -1056,7 +1077,7 @@ const professorsData = [
         category: "MANAGEMENT"
     },
     {
-        name: "Κοκοτός",
+        name: "Ιωάννα Ρώσση",
         subject: "Βιωσιμότητα & Αειφόρος Ανάπτυξη",
         category: "MANAGEMENT"
     },
@@ -1066,13 +1087,18 @@ const professorsData = [
         category: "MANAGEMENT"
     },
     {
-        name: "Δημήτρης Βαλέργας",
+        name: "Ράνια Πάσσαρη",
         subject: "Διοίκηση Ανθρώπινου Δυναμικού στον Τουρισμό",
         category: "HR"
     },
     {
-        name: "Ράνια Πάσσαρη",
+        name: "Δημήτρης Βαλέργας",
         subject: "Τουριστική Νομοθεσία & Εργατικό Δίκαιο",
+        category: "HR"
+    },
+    {
+        name: "Βασιλική Σφονδύλη",
+        subject: "Ψυχολογία πάνω στο HR",
         category: "HR"
     },
     {
@@ -1087,11 +1113,16 @@ const professorsData = [
     },
     {
         name: "Σταμάτης Λουμουσιώτης",
-        subject: "Βασικές Αρχές Μαγειρικής & Ασφάλεια Τροφίμων",
+        subject: "Βασικές Αρχές Μαγειρικής Τέχνης & Κουζίνας",
         category: "F&B"
     },
     {
-        name: "Κυριάκος Βάικος",
+        name: "Κωνσταντίνος Ντελέζος",
+        subject: "Υγιεινή & Ασφάλεια Τροφίμων (HACCP & ISO Standards)",
+        category: "F&B"
+    },
+    {
+        name: "Φυλάκτου Γεωργία",
         subject: "Εστιατορική Τεχνική & Service Management",
         category: "F&B"
     },
@@ -1101,12 +1132,17 @@ const professorsData = [
         category: "F&B"
     },
     {
-        name: "Κωνσταντίνος Σεργόπουλος",
-        subject: "Front Office & Ψηφιακά Συστήματα Ξενοδοχείων",
+        name: "Φανή Πασπαράκη",
+        subject: "Διοίκηση Front Office & Guest Relations",
         category: "FRONT OFFICE"
     },
     {
-        name: "Γιώργος Καλογερόπουλος",
+        name: "Κωνσταντίνος Σεργόπουλος",
+        subject: "Ψηφιακά Συστήματα Ξενοδοχείων (PMS, Channel Managers, CRM)",
+        category: "FRONT OFFICE"
+    },
+    {
+        name: "Γώργος Καλογερόπουλος",
         subject: "Διοίκηση Housekeeping & Οργανωτικές Διεργασίες",
         category: "HOUSEKEEPING"
     }

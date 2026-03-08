@@ -9,6 +9,7 @@ import ProgramHighlights from "@/components/ProgramHighlights";
 import CurriculumSection from "@/components/CurriculumSection";
 import MasterclassVenues from "@/components/MasterclassVenues";
 import FranceTripSection from "@/components/FranceTripSection";
+import GallerySection from "@/components/GallerySection";
 import ProfessorsSection from "@/components/ProfessorsSection";
 import PricingSection from "@/components/PricingSection";
 import CountriesSection from "@/components/CountriesSection";
@@ -39,6 +40,7 @@ export default function Home() {
           <CurriculumSection />
           <MasterclassVenues />
           <FranceTripSection />
+          <GallerySection />
           <ProfessorsSection />
           <PricingSection />
           <CountriesSection />
