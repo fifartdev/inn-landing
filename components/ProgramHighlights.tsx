@@ -115,6 +115,16 @@ export default function ProgramHighlights() {
             </div>
           </div>
         </div>
+
+        {/* CTA — visible on mobile where the sidebar form is not shown */}
+        <div className="lg:hidden mt-10 text-center">
+          <a
+            href="#apply"
+            className="inline-flex items-center justify-center px-8 py-4 bg-inn-orange hover:bg-inn-orange-dark text-white font-bold text-base rounded-2xl transition-all shadow-lg hover:shadow-xl hover:-translate-y-0.5"
+          >
+            {t.hero.cta}
+          </a>
+        </div>
       </div>
     </section>
   );

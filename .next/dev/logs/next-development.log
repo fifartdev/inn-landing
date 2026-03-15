@@ -1,33 +1,5 @@
-[00:00:03.315] Server  LOG     ✓ Ready in 3.1s
-[01:56:33.970] Server  LOG     ✓ Compiled in 555ms
-[01:56:51.337] Server  WARN    ⚠ Fast Refresh had to perform a full reload when ./lib/translations.ts changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
-[01:56:51.338] Server  LOG     ✓ Compiled in 188ms
-[01:56:55.699] Server  WARN    ⚠ Fast Refresh had to perform a full reload when ./lib/translations.ts changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
-[01:56:55.723] Server  LOG     ✓ Compiled in 28ms
-[01:57:01.600] Server  WARN    ⚠ Fast Refresh had to perform a full reload when ./lib/translations.ts changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
-[01:57:01.620] Server  LOG     ✓ Compiled in 18ms
-[01:57:06.115] Server  LOG     ✓ Compiled in 129ms
-[01:57:12.196] Server  LOG     ✓ Compiled in 132ms
-[02:23:48.166] Server  LOG     ✓ Compiled in 225ms
-[02:23:48.174] Server  WARN    ⚠ Fast Refresh had to perform a full reload when ./lib/translations.ts changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
-[02:24:17.833] Server  LOG     ✓ Compiled in 104ms
-[02:24:17.857] Server  WARN    ⚠ Fast Refresh had to perform a full reload when ./lib/translations.ts changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
-[02:25:44.203] Server  LOG     ✓ Compiled in 247ms
-[02:27:01.632] Server  WARN    ⚠ Fast Refresh had to perform a full reload when ./lib/translations.ts changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
-[02:27:01.657] Server  LOG     ✓ Compiled in 26ms
-[02:27:06.294] Server  WARN    ⚠ Fast Refresh had to perform a full reload when ./lib/translations.ts changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
-[02:27:06.325] Server  LOG     ✓ Compiled in 28ms
-[02:27:10.804] Server  WARN    ⚠ Fast Refresh had to perform a full reload when ./lib/translations.ts changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
-[02:27:10.862] Server  LOG     ✓ Compiled in 20ms
-[02:36:03.255] Server  LOG     ✓ Compiled in 145ms
-[02:37:20.304] Server  LOG     ✓ Compiled in 137ms
-[02:37:25.420] Server  LOG     ✓ Compiled in 63ms
-[02:39:09.567] Server  WARN    ⚠ Fast Refresh had to perform a full reload when ./lib/translations.ts changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
-[02:39:09.579] Server  LOG     ✓ Compiled in 27ms
-[02:41:08.547] Server  WARN    ⚠ Fast Refresh had to perform a full reload when ./lib/translations.ts changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
-[02:41:08.572] Server  LOG     ✓ Compiled in 28ms
-[02:41:13.627] Server  WARN    ⚠ Fast Refresh had to perform a full reload when ./lib/translations.ts changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
-[02:41:13.647] Server  LOG     ✓ Compiled in 16ms
-[02:41:18.846] Server  WARN    ⚠ Fast Refresh had to perform a full reload when ./lib/translations.ts changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
-[02:41:18.871] Server  LOG     ✓ Compiled in 17ms
-[02:41:25.420] Server  LOG     ✓ Compiled in 112ms
+[00:00:02.071] Server  LOG     ✓ Ready in 1734ms
+[00:09:15.879] Server  LOG     ✓ Compiled in 1698ms
+[00:09:21.183] Server  LOG     ✓ Compiled in 109ms
+[00:09:42.470] Server  LOG     ✓ Compiled in 122ms
+[00:10:01.870] Server  LOG     ✓ Compiled in 125ms

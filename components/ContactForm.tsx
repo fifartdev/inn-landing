@@ -25,7 +25,6 @@ export default function ContactForm({ variant = "sticky" }: { variant?: "sticky"
 
   return (
     <div
-      id="apply"
       className={`bg-white rounded-3xl border border-slate-100 shadow-xl overflow-hidden ${
         isSection ? "max-w-xl mx-auto" : ""
       }`}

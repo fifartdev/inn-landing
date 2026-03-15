@@ -1,7 +1,7 @@
 "use client";
 
 import { useLang } from "@/contexts/LanguageContext";
-import { CheckCircle, GraduationCap, MapPin } from "lucide-react";
+import { CheckCircle, GraduationCap, MapPin, ArrowRight } from "lucide-react";
 
 export default function FranceTripSection() {
   const { t } = useLang();
@@ -81,6 +81,17 @@ export default function FranceTripSection() {
                   </p>
                 </div>
               </div>
+            </div>
+
+            {/* CTA — visible on mobile where the sidebar form is not shown */}
+            <div className="lg:hidden mt-6">
+              <a
+                href="#apply"
+                className="inline-flex w-full items-center justify-center gap-2 px-8 py-4 bg-inn-orange hover:bg-inn-orange-dark text-white font-bold text-base rounded-2xl transition-all shadow-lg hover:shadow-xl hover:-translate-y-0.5"
+              >
+                {t.hero.cta}
+                <ArrowRight className="w-4 h-4" />
+              </a>
             </div>
           </div>
         </div>

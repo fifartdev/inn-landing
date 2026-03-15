@@ -54,7 +54,7 @@ export default function Home() {
       </div>
 
       {/* Mobile contact form */}
-      <section className="lg:hidden py-16 px-4 bg-inn-light-grey">
+      <section id="apply" className="lg:hidden py-16 px-4 bg-inn-light-grey">
         <ContactForm variant="section" />
       </section>
 
