@@ -1,6 +1,6 @@
 "use client";
 
-import React, { createContext, useContext, useState, ReactNode } from "react";
+import React, { createContext, useContext, useState, useEffect, ReactNode } from "react";
 import { translations, Lang } from "@/lib/translations";
 
 interface LanguageContextType {
@@ -18,8 +18,20 @@ const LanguageContext = createContext<LanguageContextType>({
 export function LanguageProvider({ children }: { children: ReactNode }) {
   const [lang, setLang] = useState<Lang>("gr");
 
+  useEffect(() => {
+    const stored = localStorage.getItem("inn_lang") as Lang | null;
+    if (stored && ["gr", "en", "fr"].includes(stored)) {
+      setLang(stored);
+    }
+  }, []);
+
+  const handleSetLang = (l: Lang) => {
+    setLang(l);
+    localStorage.setItem("inn_lang", l);
+  };
+
   return (
-    <LanguageContext.Provider value={{ lang, setLang, t: translations[lang] }}>
+    <LanguageContext.Provider value={{ lang, setLang: handleSetLang, t: translations[lang] }}>
       {children}
     </LanguageContext.Provider>
   );

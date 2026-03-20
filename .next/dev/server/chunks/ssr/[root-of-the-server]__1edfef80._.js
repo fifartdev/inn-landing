@@ -1442,16 +1442,30 @@ const LanguageContext = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$pro
 });
 function LanguageProvider({ children }) {
     const [lang, setLang] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useState"])("gr");
+    (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useEffect"])(()=>{
+        const stored = localStorage.getItem("inn_lang");
+        if (stored && [
+            "gr",
+            "en",
+            "fr"
+        ].includes(stored)) {
+            setLang(stored);
+        }
+    }, []);
+    const handleSetLang = (l)=>{
+        setLang(l);
+        localStorage.setItem("inn_lang", l);
+    };
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(LanguageContext.Provider, {
         value: {
             lang,
-            setLang,
+            setLang: handleSetLang,
             t: __TURBOPACK__imported__module__$5b$project$5d2f$lib$2f$translations$2e$ts__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["translations"][lang]
         },
         children: children
     }, void 0, false, {
         fileName: "[project]/contexts/LanguageContext.tsx",
-        lineNumber: 22,
+        lineNumber: 34,
         columnNumber: 5
     }, this);
 }
