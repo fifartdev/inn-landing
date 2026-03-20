@@ -24,6 +24,8 @@ export default function Navbar() {
 
   const isScrolledStyle = scrolled || !isHomepage;
 
+  const applyHref = isHomepage ? "#apply" : "/#apply";
+
   const navLinks = [
     { href: "/", label: t.nav.home },
     { href: "/#program", label: t.nav.program },
@@ -103,7 +105,7 @@ export default function Navbar() {
 
             {/* CTA */}
             <a
-              href="/#apply"
+              href={applyHref}
               className="hidden sm:inline-flex items-center px-5 py-2 bg-inn-orange hover:bg-inn-orange-dark text-white text-sm font-bold rounded-xl transition-all shadow-sm hover:shadow-md"
             >
               {t.nav.apply}
@@ -138,7 +140,7 @@ export default function Navbar() {
             ))}
             <div className="pt-2 border-t border-slate-100">
               <a
-                href="/#apply"
+                href={applyHref}
                 onClick={() => setMobileOpen(false)}
                 className="block text-center px-4 py-3 bg-inn-orange text-white font-bold rounded-xl text-sm"
               >

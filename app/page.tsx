@@ -37,7 +37,7 @@ export default function Home() {
         </div>
 
         {/* Right: sticky form sidebar — sticky works on a grid item with self-start */}
-        <aside className="hidden lg:block sticky top-20 self-start px-5 pt-10 pb-10">
+        <aside id="apply" className="hidden lg:block sticky top-20 self-start px-5 pt-10 pb-10">
           <ContactForm variant="sticky" />
         </aside>
       </div>
