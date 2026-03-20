@@ -76,14 +76,13 @@ export default function MasterclassVenues() {
         </div>
 
         {/* Bottom note */}
-        <div className="mt-10 text-center">
-          <p className="text-slate-500 text-sm">
-            + Εκπαιδευτικές επισκέψεις στη{" "}
-            <span className="text-white font-semibold">Nef-Nef</span> (Λινά &
-            Housekeeping) και στην{" "}
-            <span className="text-white font-semibold">Delifrance</span> (Κουζίνα &
-            Πρωινά)
-          </p>
+        <div className="mt-10 flex flex-col items-center gap-2">
+          {[v.venueNote1, v.venueNote2].map((note, i) => (
+            <p key={i} className="text-slate-400 text-sm flex items-start gap-2">
+              <span className="text-inn-orange font-bold">+</span>
+              <span>{note}</span>
+            </p>
+          ))}
         </div>
       </div>
     </section>

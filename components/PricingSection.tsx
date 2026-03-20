@@ -58,7 +58,7 @@ export default function PricingSection() {
               </div>
 
               <a
-                href="#apply"
+                href="/#apply"
                 className="block text-center px-6 py-4 bg-white text-inn-teal font-black rounded-2xl hover:bg-inn-orange hover:text-white transition-all shadow-lg text-sm"
               >
                 {p.earlyBird.cta}
@@ -92,7 +92,7 @@ export default function PricingSection() {
             </div>
 
             <a
-              href="#apply"
+              href="/#apply"
               className="block text-center px-6 py-4 bg-inn-dark text-white font-black rounded-2xl hover:bg-inn-teal transition-all text-sm"
             >
               {p.regular.cta}

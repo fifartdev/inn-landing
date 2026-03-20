@@ -19,7 +19,7 @@ export default function Footer() {
               <div className="bg-white rounded-2xl p-2 inline-block">
                 <img
                   src="/logo.png"
-                  alt="InnAcademy Hospitality School"
+                  alt="Inn Academy Hospitality School"
                   className="h-14 w-auto object-contain"
                 />
               </div>
@@ -155,7 +155,7 @@ export default function Footer() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-5">
           <div className="flex flex-col sm:flex-row items-center justify-between gap-3">
             <p className="text-white/30 text-xs">
-              © {year} InnAcademy by Innjobs. {f.rights}
+              © {year} Inn Academy by Innjobs. {f.rights}
             </p>
             <div className="flex items-center gap-4">
               <a href="#" className="text-white/30 hover:text-white/60 text-xs transition-colors">

@@ -30,7 +30,7 @@ export default function AboutSection() {
             <h2 className="text-3xl sm:text-4xl font-black text-inn-dark mb-2 leading-tight">
               {a.title}
             </h2>
-            <p className="text-lg text-inn-orange font-semibold mb-6">
+            <p className="text-lg text-inn-teal font-semibold mb-6">
               {a.subtitle}
             </p>
 
@@ -42,21 +42,21 @@ export default function AboutSection() {
 
             <div className="mt-6 p-4 bg-inn-teal/5 border-l-4 border-inn-teal rounded-r-xl">
               <p className="font-bold text-inn-teal italic text-lg">
-                &ldquo;InnAcademy – {a.motto}&rdquo;
+                &ldquo;Inn Academy – {a.motto}&rdquo;
               </p>
             </div>
 
             {/* Innjobs connection */}
             <div className="mt-8 flex items-center gap-4 p-5 bg-inn-dark rounded-2xl">
-              <div className="w-12 h-12 rounded-xl bg-inn-teal flex items-center justify-center shrink-0">
-                <span className="text-white font-black text-xl">ij</span>
+              <div className="w-12 h-12 rounded-xl bg-white flex items-center justify-center shrink-0">
+                <img src="/innjobs_logo.png" alt="Innjobs" className="w-10 h-10 object-contain" />
               </div>
               <div>
                 <p className="text-white text-sm font-semibold">
                   Powered by <span className="text-inn-orange">Innjobs</span>
                 </p>
                 <p className="text-white/60 text-xs mt-0.5">
-                  Η #1 πλατφόρμα εργασίας για τον ξενοδοχειακό κλάδο
+                  {a.innjobsTagline}
                 </p>
               </div>
               <a
@@ -95,7 +95,7 @@ export default function AboutSection() {
             </div>
 
             {/* Stats grid */}
-            <div className="grid grid-cols-2 gap-4 mt-10">
+            <div className="hidden lg:grid grid-cols-2 gap-4 mt-10">
               {stats.map((s, i) => (
                 <div
                   key={i}

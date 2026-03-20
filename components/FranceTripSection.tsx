@@ -86,7 +86,7 @@ export default function FranceTripSection() {
             {/* CTA — visible on mobile where the sidebar form is not shown */}
             <div className="lg:hidden mt-6">
               <a
-                href="#apply"
+                href="/#apply"
                 className="inline-flex w-full items-center justify-center gap-2 px-8 py-4 bg-inn-orange hover:bg-inn-orange-dark text-white font-bold text-base rounded-2xl transition-all shadow-lg hover:shadow-xl hover:-translate-y-0.5"
               >
                 {t.hero.cta}

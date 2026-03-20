@@ -81,7 +81,7 @@ export default function FAQSection() {
             Δεν βρήκες απάντηση στην ερώτησή σου;
           </p>
           <a
-            href="#apply"
+            href="/#apply"
             className="inline-flex items-center px-6 py-3 bg-inn-teal text-white font-bold rounded-xl text-sm hover:bg-inn-teal-dark transition-colors"
           >
             Επικοινώνησε μαζί μας

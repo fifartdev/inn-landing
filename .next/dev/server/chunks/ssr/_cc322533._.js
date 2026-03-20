@@ -60,11 +60,11 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$contexts$2f$LanguageContext$
 ;
 ;
 const metadata = {
-    title: "InnAcademy | Diploma in Hotel Management — NextGen Hospitality Leaders",
+    title: "Inn Academy | Diploma in Hotel Management — NextGen Hospitality Leaders",
     description: "Πρόγραμμα Εξειδίκευσης στη Διοίκηση Ξενοδοχειακών Επιχειρήσεων. Online εκπαίδευση, masterclasses σε 5★ ξενοδοχεία, πιστοποίηση ACTA & Paris Education. Innjobs.",
-    keywords: "hotel management, ξενοδοχειακή διοίκηση, InnAcademy, Innjobs, ACTA, Paris Education, diploma hospitality",
+    keywords: "hotel management, ξενοδοχειακή διοίκηση, Inn Academy, Innjobs, ACTA, Paris Education, diploma hospitality",
     openGraph: {
-        title: "InnAcademy | Diploma in Hotel Management",
+        title: "Inn Academy | Diploma in Hotel Management",
         description: "Εξελίξου σε διοικητική θέση στον ξενοδοχειακό κλάδο. Online + Masterclasses + Career Day.",
         type: "website"
     }

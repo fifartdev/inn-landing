@@ -1,6 +1,7 @@
 "use client";
 
 import { useState, useEffect } from "react";
+import { usePathname } from "next/navigation";
 import { useLang } from "@/contexts/LanguageContext";
 import { Lang } from "@/lib/translations";
 import { Menu, X, ChevronDown } from "lucide-react";
@@ -9,6 +10,8 @@ const langLabels: Record<Lang, string> = { gr: "ΕΛ", en: "EN", fr: "FR" };
 
 export default function Navbar() {
   const { t, lang, setLang } = useLang();
+  const pathname = usePathname();
+  const isHomepage = pathname === "/";
   const [scrolled, setScrolled] = useState(false);
   const [mobileOpen, setMobileOpen] = useState(false);
   const [langOpen, setLangOpen] = useState(false);
@@ -19,19 +22,23 @@ export default function Navbar() {
     return () => window.removeEventListener("scroll", onScroll);
   }, []);
 
+  const isScrolledStyle = scrolled || !isHomepage;
+
   const navLinks = [
-    { href: "#program", label: t.nav.program },
-    { href: "#curriculum", label: t.nav.curriculum },
-    { href: "#professors", label: t.nav.professors },
-    { href: "#pricing", label: t.nav.pricing },
-    { href: "#faq", label: t.nav.faq },
-    { href: "#gallery", label: t.nav.gallery },
+    { href: "/", label: t.nav.home },
+    { href: "/#program", label: t.nav.program },
+    { href: "/#curriculum", label: t.nav.curriculum },
+    { href: "/professors", label: t.nav.professors },
+    { href: "/#pricing", label: t.nav.pricing },
+    { href: "/faq", label: t.nav.faq },
+    { href: "/gallery", label: t.nav.gallery },
+    { href: "/sponsors", label: t.nav.sponsors },
   ];
 
   return (
     <header
       className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
-        scrolled
+        isScrolledStyle
           ? "bg-white/95 backdrop-blur-md shadow-sm border-b border-slate-100"
           : "bg-transparent"
       }`}
@@ -39,10 +46,10 @@ export default function Navbar() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16 lg:h-20">
           {/* Logo */}
-          <a href="#" className="flex items-center group">
+          <a href="/" className="flex items-center group">
             <img
               src="/logo.png"
-              alt="InnAcademy Hospitality School"
+              alt="Inn Academy Hospitality School"
               className="h-16 w-auto object-contain"
             />
           </a>
@@ -54,7 +61,7 @@ export default function Navbar() {
                 key={link.href}
                 href={link.href}
                 className={`px-4 py-2 rounded-lg text-sm font-medium transition-all hover:bg-inn-teal/10 hover:text-inn-teal ${
-                  scrolled ? "text-slate-600" : "text-white/90 hover:text-white hover:bg-white/10"
+                  isScrolledStyle ? "text-slate-600" : "text-white/90 hover:text-white hover:bg-white/10"
                 }`}
               >
                 {link.label}
@@ -69,7 +76,7 @@ export default function Navbar() {
               <button
                 onClick={() => setLangOpen(!langOpen)}
                 className={`flex items-center gap-1.5 px-3 py-2 rounded-lg text-sm font-semibold border transition-all ${
-                  scrolled
+                  isScrolledStyle
                     ? "border-slate-200 text-slate-600 hover:border-inn-teal hover:text-inn-teal"
                     : "border-white/30 text-white hover:border-white hover:bg-white/10"
                 }`}
@@ -96,7 +103,7 @@ export default function Navbar() {
 
             {/* CTA */}
             <a
-              href="#apply"
+              href="/#apply"
               className="hidden sm:inline-flex items-center px-5 py-2 bg-inn-orange hover:bg-inn-orange-dark text-white text-sm font-bold rounded-xl transition-all shadow-sm hover:shadow-md"
             >
               {t.nav.apply}
@@ -106,7 +113,7 @@ export default function Navbar() {
             <button
               onClick={() => setMobileOpen(!mobileOpen)}
               className={`lg:hidden p-2 rounded-lg transition-colors ${
-                scrolled ? "text-slate-600 hover:bg-slate-100" : "text-white hover:bg-white/10"
+                isScrolledStyle ? "text-slate-600 hover:bg-slate-100" : "text-white hover:bg-white/10"
               }`}
             >
               {mobileOpen ? <X className="w-5 h-5" /> : <Menu className="w-5 h-5" />}
@@ -131,7 +138,7 @@ export default function Navbar() {
             ))}
             <div className="pt-2 border-t border-slate-100">
               <a
-                href="#apply"
+                href="/#apply"
                 onClick={() => setMobileOpen(false)}
                 className="block text-center px-4 py-3 bg-inn-orange text-white font-bold rounded-xl text-sm"
               >

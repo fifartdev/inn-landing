@@ -19,12 +19,14 @@ __turbopack_context__.s([
 const translations = {
     gr: {
         nav: {
+            home: "Αρχική",
             program: "Πρόγραμμα",
             curriculum: "Μαθήματα",
             professors: "Καθηγητές",
             pricing: "Κόστος",
             faq: "Ερωτήσεις",
             gallery: "Γκάλερι",
+            sponsors: "Χορηγοί",
             apply: "Αίτηση Εγγραφής"
         },
         hero: {
@@ -48,28 +50,33 @@ const translations = {
         },
         certBar: {
             title: "Πιστοποιημένο από:",
-            acta: "Πιστοποίηση ACTA",
-            paris: "Certificat Paris Education",
             kdvm: "ΚΔΒΜ",
-            graduation: "Paris Education Graduation Ceremony"
+            kdvmSub: "Κέντρο Δια Βίου Μάθησης",
+            acta: "Πιστοποίηση ACTA",
+            actaSub: "Αναγνωρισμένη Πιστοποίηση",
+            paris: "Certificat Paris Education",
+            parisSub: "Institut Paris Education",
+            graduation: "Paris Education Graduation Ceremony",
+            graduationSub: "Τελετή Αποφοίτησης στο Παρίσι"
         },
         about: {
             tag: "Ποιοι Είμαστε",
-            title: "Η InnAcademy",
+            title: "Inn Academy",
             subtitle: "Ο εκπαιδευτικός βραχίονας της Innjobs",
-            p1: "Η InnAcademy είναι το εκπαιδευτικό πρόγραμμα της Innjobs για επαγγελματίες που επιθυμούν να εξελιχθούν σε διοικητικές και managerial θέσεις στον ξενοδοχειακό κλάδο.",
-            p2: "Με online μαθήματα, βιωματικά masterclasses σε 5★ ξενοδοχεία, εκπαιδευτική εμπειρία στη Γαλλία και άμεση σύνδεση με τα συνεργαζόμενα ξενοδοχειακά brands, η InnAcademy συνδυάζει εκπαίδευση, εμπειρία και επαγγελματικές ευκαιρίες.",
+            p1: "Η Inn Academy είναι το εκπαιδευτικό πρόγραμμα της Innjobs για επαγγελματίες που επιθυμούν να εξελιχθούν σε διοικητικές και managerial θέσεις στον ξενοδοχειακό κλάδο.",
+            p2: "Με online μαθήματα, βιωματικά masterclasses σε 5★ ξενοδοχεία, εκπαιδευτική εμπειρία στη Γαλλία και άμεση σύνδεση με τα συνεργαζόμενα ξενοδοχειακά brands, η Inn Academy συνδυάζει εκπαίδευση, εμπειρία και επαγγελματικές ευκαιρίες.",
             p3: "Το πρόγραμμα ολοκληρώνεται με αποκλειστική Career Day, προσφέροντας στους συμμετέχοντες τη δυνατότητα προσωπικής επαφής με εργοδότες και στελέχη του κλάδου.",
             motto: "Από τη γνώση στη θέση ευθύνης.",
             innJobsLink: "Μάθε περισσότερα για την Innjobs →",
+            innjobsTagline: "Η #1 πλατφόρμα εργασίας για τον ξενοδοχειακό κλάδο",
             stat1: "20+",
             stat1label: "Συνεργαζόμενα Brands",
             stat2: "5★",
-            stat2label: "Ξενοδοχεία Masterclass",
+            stat2label: "Masterclass σε Ξενοδοχεία",
             stat3: "9",
-            stat3label: "Χώρες Ευκαιριών",
+            stat3label: "Χώρες Επαγγελματικών Ευκαιριών",
             stat4: "100%",
-            stat4label: "Πιστοποιημένο"
+            stat4label: "Πιστοποιημένο Πρόγραμμα"
         },
         program: {
             tag: "Το Πρόγραμμα",
@@ -134,7 +141,35 @@ const translations = {
                 HOUSEKEEPING: "Housekeeping"
             },
             course: "Μάθημα",
-            instructor: "Εισηγητής"
+            instructor: "Εισηγητής",
+            all: "Όλα τα Μαθήματα",
+            count: "μαθήματα",
+            courseTitles: [
+                "Στρατηγική Διοίκηση Ξενοδοχειακών Επιχειρήσεων",
+                "Mentoring & Coaching στον Τουριστικό και Ξενοδοχειακό Κλάδο",
+                "Διοίκηση Ξενοδοχειακών Μονάδων",
+                "Οικονομική Διαχείριση Ξενοδοχειακών Μονάδων",
+                "Διαχείριση Κρίσεων",
+                "Επιχειρηματικότητα & Δημιουργία Ξενοδοχειακής Επιχείρησης",
+                "Διοίκηση Ποιότητας & Πρότυπα Πιστοποίησης",
+                "Βιωσιμότητα & Αειφόρος Ανάπτυξη",
+                "Διαχείριση Προμηθειών και Αγορών Ξενοδοχειακών Επιχειρήσεων",
+                "Διοίκηση Ανθρώπινου Δυναμικού στον Τουρισμό",
+                "Τουριστική Νομοθεσία & Εργατικό Δίκαιο",
+                "Ψυχολογία πάνω στο HR",
+                "Μάρκετινγκ Ξενοδοχειακών & Τουριστικών Υπηρεσιών",
+                "Digital Marketing στον Τουρισμό & Ξενοδοχεία",
+                "Πωλήσεις & Ανάπτυξη Πελατολογίου",
+                "Revenue Management & Yield Management",
+                "Βασικές Αρχές Μαγειρικής Τέχνης & Κουζίνας",
+                "Υγιεινή & Ασφάλεια Τροφίμων (HACCP & ISO Standards)",
+                "Εστιατορική Τεχνική & Service Management",
+                "Bar Management",
+                "Οινολογία & Τέχνη του Sommelier",
+                "Διοίκηση Front Office & Guest Relations",
+                "Ψηφιακά Συστήματα Ξενοδοχείων (PMS, Channel Managers, CRM)",
+                "Διοίκηση Housekeeping & Οργανωτικές Διεργασίες Ξενοδοχείων"
+            ]
         },
         venues: {
             tag: "Masterclass Venues",
@@ -144,19 +179,21 @@ const translations = {
                 {
                     name: "Grand Hyatt Athens",
                     area: "Reception & Front Office",
-                    desc: "Εκπαίδευση υποδοχής και guest relations στο επίπεδο των διεθνών προτύπων της Hyatt."
+                    desc: "Εκπαίδευση υποδοχής και guest relations στο επίπεδο των διεθνών προτύπων."
                 },
                 {
                     name: "Electra Metropolis Athens",
-                    area: "Bar & Restaurant Management",
-                    desc: "Bar management, mixology και service excellence σε ένα από τα κορυφαία αστικά ξενοδοχεία."
+                    area: "EventManagement & Operations",
+                    desc: "Event management και operations σε μοναδικό περιβάλλον Ξενοδοχείου, στο κέντρο της Αθήνας."
                 },
                 {
-                    name: "Aluma Athens",
-                    area: "Roof Garden & Events",
-                    desc: "Event management και operations σε μοναδικό περιβάλλον rooftop στο κέντρο της Αθήνας."
+                    name: "Brown Athens",
+                    area: "Bar & Restaurant Management",
+                    desc: "Bar management, mixology και service excellence σε ένα από τα κορυφαία αστικά ξενοδοχεία."
                 }
-            ]
+            ],
+            venueNote1: "Εκπαιδευτική επίσκεψη στη Nef-Nef (Λινά & Housekeeping)",
+            venueNote2: "Εκπαιδευτική επίσκεψη Delifrance (Κουζίνα & Πρωινά)"
         },
         france: {
             tag: "Προαιρετική",
@@ -181,7 +218,27 @@ const translations = {
         professors: {
             tag: "Καθηγητές",
             title: "Εισηγητές Προγράμματος",
-            subtitle: "Ενεργοί επαγγελματίες του ξενοδοχειακού κλάδου με εκτεταμένη πείρα"
+            subtitle: "Ενεργοί επαγγελματίες του ξενοδοχειακού κλάδου με εκτεταμένη πείρα",
+            professorSubjects: [
+                "Στρατηγική Διοίκηση / Επιχειρηματικότητα",
+                "Mentoring & Coaching / Διοίκηση Ξενοδοχειακών Μονάδων",
+                "Οικονομική Διαχείριση / Διαχείριση Κρίσεων",
+                "Διοίκηση Ποιότητας & Πρότυπα Πιστοποίησης",
+                "Βιωσιμότητα & Αειφόρος Ανάπτυξη",
+                "Διαχείριση Προμηθειών και Αγορών",
+                "Διοίκηση Ανθρώπινου Δυναμικού στον Τουρισμό",
+                "Τουριστική Νομοθεσία & Εργατικό Δίκαιο",
+                "Ψυχολογία πάνω στο HR",
+                "Μάρκετινγκ & Digital Marketing Ξενοδοχείων",
+                "Πωλήσεις & Revenue Management",
+                "Βασικές Αρχές Μαγειρικής Τέχνης & Κουζίνας",
+                "Υγιεινή & Ασφάλεια Τροφίμων (HACCP & ISO Standards)",
+                "Εστιατορική Τεχνική & Service Management",
+                "Οινολογία & Τέχνη του Sommelier",
+                "Διοίκηση Front Office & Guest Relations",
+                "Ψηφιακά Συστήματα Ξενοδοχείων (PMS, Channel Managers, CRM)",
+                "Διοίκηση Housekeeping & Οργανωτικές Διεργασίες"
+            ]
         },
         pricing: {
             tag: "Κόστος Φοίτησης",
@@ -211,7 +268,7 @@ const translations = {
                 "Όλα τα online μαθήματα",
                 "Δια ζώσης masterclasses (3 Σαββατοκύριακα)",
                 "Εκπαιδευτικό υλικό",
-                "Πιστοποιητικό ολοκλήρωσης InnAcademy",
+                "Πιστοποιητικό ολοκλήρωσης Inn Academy",
                 "Πιστοποίηση ACTA",
                 "Πιστοποιητικό Paris Education",
                 "Συμμετοχή σε Career Day",
@@ -242,14 +299,14 @@ const translations = {
                 },
                 {
                     q: "Τι πιστοποιήσεις λαμβάνω;",
-                    a: "Βεβαίωση Εξειδίκευσης InnAcademy, Πιστοποίηση ACTA, Πιστοποιητικό Paris Education (Certificat) και πρόσκληση στην Paris Education Graduation Ceremony."
+                    a: "Βεβαίωση Εξειδίκευσης Inn Academy, Πιστοποίηση ACTA, Πιστοποιητικό Paris Education (Certificat) και πρόσκληση στην Paris Education Graduation Ceremony."
                 },
                 {
                     q: "Υπάρχει σύνδεση με την αγορά εργασίας;",
-                    a: "Ναι! Η InnAcademy συνεργάζεται άμεσα με 20+ ξενοδοχειακά brands μέσω της πλατφόρμας Innjobs. Οι σπουδαστές αποκτούν πρόσβαση σε αγγελίες θέσεων και ευκαιρίες τοποθέτησης σε managerial θέσεις."
+                    a: "Ναι! Η Inn Academy συνεργάζεται άμεσα με 20+ ξενοδοχειακά brands μέσω της πλατφόρμας Innjobs. Οι σπουδαστές αποκτούν πρόσβαση σε αγγελίες θέσεων και ευκαιρίες τοποθέτησης σε managerial θέσεις."
                 },
                 {
-                    q: "Τι είναι η InnAcademy Career Day;",
+                    q: "Τι είναι η Inn Academy Career Day;",
                     a: "Αποκλειστικό event για τους σπουδαστές όπου γίνεται προσωπική επαφή με εργοδότες, πραγματοποιούνται συνεντεύξεις και παρουσιάζονται θέσεις ευθύνης και εξέλιξης στον ξενοδοχειακό κλάδο."
                 },
                 {
@@ -316,12 +373,14 @@ const translations = {
     },
     en: {
         nav: {
+            home: "Home",
             program: "Program",
             curriculum: "Curriculum",
             professors: "Faculty",
             pricing: "Pricing",
             faq: "FAQ",
             gallery: "Gallery",
+            sponsors: "Sponsors",
             apply: "Apply Now"
         },
         hero: {
@@ -345,20 +404,25 @@ const translations = {
         },
         certBar: {
             title: "Certified by:",
+            kdvm: "CLL",
+            kdvmSub: "Centre for Lifelong Learning",
             acta: "ACTA Certification",
+            actaSub: "Recognized Certification",
             paris: "Paris Education Certificat",
-            kdvm: "KDVM",
-            graduation: "Paris Education Graduation Ceremony"
+            parisSub: "Institut Paris Education",
+            graduation: "Paris Education Graduation Ceremony",
+            graduationSub: "Graduation Ceremony in Paris"
         },
         about: {
             tag: "About Us",
-            title: "InnAcademy",
+            title: "Inn Academy",
             subtitle: "The educational arm of Innjobs",
-            p1: "InnAcademy is Innjobs' educational program for professionals who wish to advance into management and managerial positions in the hotel industry.",
-            p2: "With online courses, experiential masterclasses at 5★ hotels, an educational experience in France, and direct connection with partner hotel brands, InnAcademy combines education, experience and career opportunities.",
+            p1: "Inn Academy is Innjobs' educational program for professionals who wish to advance into management and managerial positions in the hotel industry.",
+            p2: "With online courses, experiential masterclasses at 5★ hotels, an educational experience in France, and direct connection with partner hotel brands, Inn Academy combines education, experience and career opportunities.",
             p3: "The program concludes with an exclusive Career Day, offering participants the opportunity to make personal contact with employers and industry executives.",
             motto: "From knowledge to leadership.",
             innJobsLink: "Learn more about Innjobs →",
+            innjobsTagline: "The #1 job platform for the hotel industry",
             stat1: "20+",
             stat1label: "Partner Brands",
             stat2: "5★",
@@ -431,7 +495,35 @@ const translations = {
                 HOUSEKEEPING: "Housekeeping"
             },
             course: "Course",
-            instructor: "Instructor"
+            instructor: "Instructor",
+            all: "All Courses",
+            count: "courses",
+            courseTitles: [
+                "Strategic Management of Hotel Businesses",
+                "Mentoring & Coaching in Tourism and Hospitality",
+                "Hotel Unit Management",
+                "Financial Management of Hotel Units",
+                "Crisis Management",
+                "Entrepreneurship & Hotel Business Creation",
+                "Quality Management & Certification Standards",
+                "Sustainability & Sustainable Development",
+                "Procurement & Purchasing Management for Hotels",
+                "Human Resources Management in Tourism",
+                "Tourism Legislation & Labor Law",
+                "Psychology in HR",
+                "Hotel & Tourism Services Marketing",
+                "Digital Marketing in Tourism & Hotels",
+                "Sales & Client Portfolio Development",
+                "Revenue Management & Yield Management",
+                "Basic Principles of Culinary Arts & Cooking",
+                "Food Hygiene & Safety (HACCP & ISO Standards)",
+                "Restaurant Technique & Service Management",
+                "Bar Management",
+                "Oenology & The Art of Sommelier",
+                "Front Office Management & Guest Relations",
+                "Hotel Digital Systems (PMS, Channel Managers, CRM)",
+                "Housekeeping Management & Hotel Organizational Processes"
+            ]
         },
         venues: {
             tag: "Masterclass Venues",
@@ -453,7 +545,9 @@ const translations = {
                     area: "Roof Garden & Events",
                     desc: "Event management and operations in a unique rooftop setting in central Athens."
                 }
-            ]
+            ],
+            venueNote1: "Educational visit to Nef-Nef (Linen & Housekeeping)",
+            venueNote2: "Educational visit to Delifrance (Kitchen & Breakfasts)"
         },
         france: {
             tag: "Optional",
@@ -478,7 +572,27 @@ const translations = {
         professors: {
             tag: "Faculty",
             title: "Program Instructors",
-            subtitle: "Active hospitality professionals with extensive field experience"
+            subtitle: "Active hospitality professionals with extensive field experience",
+            professorSubjects: [
+                "Strategic Management / Entrepreneurship",
+                "Mentoring & Coaching / Hotel Unit Management",
+                "Financial Management / Crisis Management",
+                "Quality Management & Certification Standards",
+                "Sustainability & Sustainable Development",
+                "Procurement & Purchasing Management",
+                "Human Resources Management in Tourism",
+                "Tourism Legislation & Labor Law",
+                "Psychology in HR",
+                "Marketing & Digital Marketing for Hotels",
+                "Sales & Revenue Management",
+                "Basic Principles of Culinary Arts & Cooking",
+                "Food Hygiene & Safety (HACCP & ISO Standards)",
+                "Restaurant Technique & Service Management",
+                "Oenology & The Art of Sommelier",
+                "Front Office Management & Guest Relations",
+                "Hotel Digital Systems (PMS, Channel Managers, CRM)",
+                "Housekeeping Management & Organizational Processes"
+            ]
         },
         pricing: {
             tag: "Tuition",
@@ -508,7 +622,7 @@ const translations = {
                 "All online courses",
                 "In-person masterclasses (3 weekends)",
                 "Educational materials",
-                "InnAcademy completion certificate",
+                "Inn Academy completion certificate",
                 "ACTA Certification",
                 "Paris Education Certificate",
                 "Career Day participation",
@@ -539,14 +653,14 @@ const translations = {
                 },
                 {
                     q: "What certifications do I receive?",
-                    a: "InnAcademy Specialization Certificate, ACTA Certification, Paris Education Certificate (Certificat) and invitation to the Paris Education Graduation Ceremony."
+                    a: "Inn Academy Specialization Certificate, ACTA Certification, Paris Education Certificate (Certificat) and invitation to the Paris Education Graduation Ceremony."
                 },
                 {
                     q: "Is there a connection to the job market?",
-                    a: "Yes! InnAcademy directly collaborates with 20+ hotel brands through the Innjobs platform. Students gain access to job listings and placement opportunities in managerial positions."
+                    a: "Yes! Inn Academy directly collaborates with 20+ hotel brands through the Innjobs platform. Students gain access to job listings and placement opportunities in managerial positions."
                 },
                 {
-                    q: "What is the InnAcademy Career Day?",
+                    q: "What is the Inn Academy Career Day?",
                     a: "An exclusive event for students where they make personal contact with employers, conduct interviews and are presented with leadership and advancement positions in the hospitality industry."
                 },
                 {
@@ -613,12 +727,14 @@ const translations = {
     },
     fr: {
         nav: {
+            home: "Accueil",
             program: "Programme",
             curriculum: "Cours",
             professors: "Professeurs",
             pricing: "Tarifs",
             faq: "FAQ",
             gallery: "Galerie",
+            sponsors: "Sponsors",
             apply: "Postuler"
         },
         hero: {
@@ -642,20 +758,25 @@ const translations = {
         },
         certBar: {
             title: "Certifié par:",
+            kdvm: "CAP",
+            kdvmSub: "Centre d'Apprentissage Permanent",
             acta: "Certification ACTA",
+            actaSub: "Certification Reconnue",
             paris: "Certificat Paris Education",
-            kdvm: "KDVM",
-            graduation: "Cérémonie de Remise des Diplômes Paris Education"
+            parisSub: "Institut Paris Education",
+            graduation: "Cérémonie de Remise des Diplômes Paris Education",
+            graduationSub: "Cérémonie de Remise des Diplômes à Paris"
         },
         about: {
             tag: "Qui Sommes-Nous",
-            title: "InnAcademy",
+            title: "Inn Academy",
             subtitle: "Le bras éducatif d'Innjobs",
-            p1: "InnAcademy est le programme éducatif d'Innjobs pour les professionnels souhaitant évoluer vers des postes de direction dans l'industrie hôtelière.",
-            p2: "Avec des cours en ligne, des masterclasses expérientielles dans des hôtels 5★, une expérience éducative en France et une connexion directe avec les marques hôtelières partenaires, InnAcademy combine éducation, expérience et opportunités de carrière.",
+            p1: "Inn Academy est le programme éducatif d'Innjobs pour les professionnels souhaitant évoluer vers des postes de direction dans l'industrie hôtelière.",
+            p2: "Avec des cours en ligne, des masterclasses expérientielles dans des hôtels 5★, une expérience éducative en France et une connexion directe avec les marques hôtelières partenaires, Inn Academy combine éducation, expérience et opportunités de carrière.",
             p3: "Le programme se termine par une Career Day exclusive, offrant aux participants l'opportunité de rencontrer personnellement des employeurs et des cadres du secteur.",
             motto: "Du savoir au poste de responsabilité.",
             innJobsLink: "En savoir plus sur Innjobs →",
+            innjobsTagline: "La plateforme #1 d'emploi pour l'industrie hôtelière",
             stat1: "20+",
             stat1label: "Marques Partenaires",
             stat2: "5★",
@@ -728,7 +849,35 @@ const translations = {
                 HOUSEKEEPING: "Housekeeping"
             },
             course: "Cours",
-            instructor: "Instructeur"
+            instructor: "Instructeur",
+            all: "Tous les Cours",
+            count: "cours",
+            courseTitles: [
+                "Management Stratégique des Entreprises Hôtelières",
+                "Mentoring & Coaching dans le Tourisme et l'Hôtellerie",
+                "Gestion des Unités Hôtelières",
+                "Gestion Financière des Unités Hôtelières",
+                "Gestion de Crise",
+                "Entrepreneuriat & Création d'Entreprise Hôtelière",
+                "Management de la Qualité & Normes de Certification",
+                "Durabilité & Développement Durable",
+                "Gestion des Achats et des Approvisionnements Hôteliers",
+                "Gestion des Ressources Humaines dans le Tourisme",
+                "Législation Touristique & Droit du Travail",
+                "Psychologie en RH",
+                "Marketing Hôtelier & des Services Touristiques",
+                "Marketing Digital dans le Tourisme & l'Hôtellerie",
+                "Ventes & Développement de Clientèle",
+                "Revenue Management & Yield Management",
+                "Principes de Base des Arts Culinaires & Cuisine",
+                "Hygiène & Sécurité Alimentaire (HACCP & Normes ISO)",
+                "Technique de Restauration & Service Management",
+                "Bar Management",
+                "Œnologie & L'Art du Sommelier",
+                "Gestion du Front Office & Relations Clients",
+                "Systèmes Numériques Hôteliers (PMS, Channel Managers, CRM)",
+                "Gestion du Housekeeping & Processus Organisationnels des Hôtels"
+            ]
         },
         venues: {
             tag: "Lieux de Masterclass",
@@ -750,7 +899,9 @@ const translations = {
                     area: "Roof Garden & Événements",
                     desc: "Gestion d'événements et opérations dans un cadre rooftop unique au centre d'Athènes."
                 }
-            ]
+            ],
+            venueNote1: "Visite éducative à Nef-Nef (Linge & Housekeeping)",
+            venueNote2: "Visite éducative à Delifrance (Cuisine & Petits-déjeuners)"
         },
         france: {
             tag: "Optionnel",
@@ -775,7 +926,27 @@ const translations = {
         professors: {
             tag: "Corps Professoral",
             title: "Instructeurs du Programme",
-            subtitle: "Professionnels actifs de l'hôtellerie avec une vaste expérience sur le terrain"
+            subtitle: "Professionnels actifs de l'hôtellerie avec une vaste expérience sur le terrain",
+            professorSubjects: [
+                "Management Stratégique / Entrepreneuriat",
+                "Mentoring & Coaching / Gestion des Unités Hôtelières",
+                "Gestion Financière / Gestion de Crise",
+                "Management de la Qualité & Normes de Certification",
+                "Durabilité & Développement Durable",
+                "Gestion des Achats et des Approvisionnements",
+                "Gestion des Ressources Humaines dans le Tourisme",
+                "Législation Touristique & Droit du Travail",
+                "Psychologie en RH",
+                "Marketing & Digital Marketing pour les Hôtels",
+                "Ventes & Revenue Management",
+                "Principes de Base des Arts Culinaires & Cuisine",
+                "Hygiène & Sécurité Alimentaire (HACCP & Normes ISO)",
+                "Technique de Restauration & Service Management",
+                "Œnologie & L'Art du Sommelier",
+                "Gestion du Front Office & Relations Clients",
+                "Systèmes Numériques Hôteliers (PMS, Channel Managers, CRM)",
+                "Gestion du Housekeeping & Processus Organisationnels"
+            ]
         },
         pricing: {
             tag: "Frais de Scolarité",
@@ -805,7 +976,7 @@ const translations = {
                 "Tous les cours en ligne",
                 "Masterclasses en présentiel (3 week-ends)",
                 "Matériel pédagogique",
-                "Certificat de fin de formation InnAcademy",
+                "Certificat de fin de formation Inn Academy",
                 "Certification ACTA",
                 "Certificat Paris Education",
                 "Participation à la Career Day",
@@ -836,14 +1007,14 @@ const translations = {
                 },
                 {
                     q: "Quelles certifications est-ce que je reçois?",
-                    a: "Certificat de spécialisation InnAcademy, Certification ACTA, Certificat Paris Education et invitation à la Cérémonie de Remise des Diplômes."
+                    a: "Certificat de spécialisation Inn Academy, Certification ACTA, Certificat Paris Education et invitation à la Cérémonie de Remise des Diplômes."
                 },
                 {
                     q: "Y a-t-il un lien avec le marché du travail?",
-                    a: "Oui! InnAcademy collabore directement avec 20+ marques hôtelières via la plateforme Innjobs. Les étudiants accèdent aux offres d'emploi et aux opportunités de placement dans des postes de direction."
+                    a: "Oui! Inn Academy collabore directement avec 20+ marques hôtelières via la plateforme Innjobs. Les étudiants accèdent aux offres d'emploi et aux opportunités de placement dans des postes de direction."
                 },
                 {
-                    q: "Qu'est-ce que la Career Day d'InnAcademy?",
+                    q: "Qu'est-ce que la Career Day d'Inn Academy?",
                     a: "Un événement exclusif pour les étudiants où ils rencontrent personnellement des employeurs, passent des entretiens et se voient présenter des postes de responsabilité dans l'hôtellerie."
                 },
                 {
@@ -914,237 +1085,279 @@ const courseData = [
         id: 1,
         category: "MANAGEMENT",
         title: "Στρατηγική Διοίκηση Ξενοδοχειακών Επιχειρήσεων",
-        instructor: "Γώργος Πελακανάκης"
+        instructor: "Γιώργος Πελακανάκης",
+        instructorLatin: "Giorgos Pelakanakis"
     },
     {
         id: 2,
         category: "MANAGEMENT",
         title: "Mentoring & Coaching στον Τουριστικό και Ξενοδοχειακό Κλάδο",
-        instructor: "Γώργος Σπυρόπουλος"
+        instructor: "Γιώργος Σπυρόπουλος",
+        instructorLatin: "Giorgos Spyropoulos"
     },
     {
         id: 3,
         category: "MANAGEMENT",
         title: "Διοίκηση Ξενοδοχειακών Μονάδων",
-        instructor: "Γώργος Σπυρόπουλος"
+        instructor: "Γιώργος Σπυρόπουλος",
+        instructorLatin: "Giorgos Spyropoulos"
     },
     {
         id: 4,
         category: "MANAGEMENT",
         title: "Οικονομική Διαχείριση Ξενοδοχειακών Μονάδων",
-        instructor: "Αργύρης Νταουλιάρης"
+        instructor: "Αργύρης Νταουλιάρης",
+        instructorLatin: "Argyris Ntaoularis"
     },
     {
         id: 5,
         category: "MANAGEMENT",
         title: "Διαχείριση Κρίσεων",
-        instructor: "Αργύρης Νταουλιάρης"
+        instructor: "Αργύρης Νταουλιάρης",
+        instructorLatin: "Argyris Ntaoularis"
     },
     {
         id: 6,
         category: "MANAGEMENT",
         title: "Επιχειρηματικότητα & Δημιουργία Ξενοδοχειακής Επιχείρησης",
-        instructor: "Γώργος Πελακανάκης"
+        instructor: "Γιώργος Πελακανάκης",
+        instructorLatin: "Giorgos Pelakanakis"
     },
     {
         id: 7,
         category: "MANAGEMENT",
         title: "Διοίκηση Ποιότητας & Πρότυπα Πιστοποίησης",
-        instructor: "Ανθή Μανέτα"
+        instructor: "Ανθή Μανέτα",
+        instructorLatin: "Anthi Maneta"
     },
     {
         id: 8,
         category: "MANAGEMENT",
         title: "Βιωσιμότητα & Αειφόρος Ανάπτυξη",
-        instructor: "Ιωάννα Ρώσση"
+        instructor: "Ιωάννα Ρώσση",
+        instructorLatin: "Ioanna Rossi"
     },
     {
         id: 9,
         category: "MANAGEMENT",
         title: "Διαχείριση Προμηθειών και Αγορών Ξενοδοχειακών Επιχειρήσεων",
-        instructor: "Γιώτα Μπαλάφα"
+        instructor: "Γιώτα Μπαλάφα",
+        instructorLatin: "Giota Balafa"
     },
     {
         id: 10,
         category: "HR",
         title: "Διοίκηση Ανθρώπινου Δυναμικού στον Τουρισμό",
-        instructor: "Ράνια Πάσσαρη"
+        instructor: "Ράνια Πάσσαρη",
+        instructorLatin: "Rania Passari"
     },
     {
         id: 11,
         category: "HR",
         title: "Τουριστική Νομοθεσία & Εργατικό Δίκαιο",
-        instructor: "Δημήτρης Βαλέργας"
+        instructor: "Δημήτρης Βαλέργας",
+        instructorLatin: "Dimitris Valergas"
     },
     {
         id: 12,
         category: "HR",
         title: "Ψυχολογία πάνω στο HR",
-        instructor: "Βασιλική Σφονδύλη"
+        instructor: "Βασιλική Σφονδύλη",
+        instructorLatin: "Vasiliki Sfondyli"
     },
     {
         id: 13,
         category: "MARKETING",
         title: "Μάρκετινγκ Ξενοδοχειακών & Τουριστικών Υπηρεσιών",
-        instructor: "Αντώνης Γιαννόπουλος"
+        instructor: "Αντώνης Γιαννόπουλος",
+        instructorLatin: "Antonis Giannopoulos"
     },
     {
         id: 14,
         category: "MARKETING",
         title: "Digital Marketing στον Τουρισμό & Ξενοδοχεία",
-        instructor: "Αντώνης Γιαννόπουλος"
+        instructor: "Αντώνης Γιαννόπουλος",
+        instructorLatin: "Antonis Giannopoulos"
     },
     {
         id: 15,
         category: "SALES",
         title: "Πωλήσεις & Ανάπτυξη Πελατολογίου",
-        instructor: "Μάριος Ανδρακάκης"
+        instructor: "Μάριος Ανδρακάκης",
+        instructorLatin: "Marios Andrakakis"
     },
     {
         id: 16,
         category: "SALES",
         title: "Revenue Management & Yield Management",
-        instructor: "Μάριος Ανδρακάκης"
+        instructor: "Μάριος Ανδρακάκης",
+        instructorLatin: "Marios Andrakakis"
     },
     {
         id: 17,
         category: "F&B",
         title: "Βασικές Αρχές Μαγειρικής Τέχνης & Κουζίνας",
-        instructor: "Σταμάτης Λουμουσιώτης"
+        instructor: "Σταμάτης Λουμουσιώτης",
+        instructorLatin: "Stamatis Loumousiotis"
     },
     {
         id: 18,
         category: "F&B",
         title: "Υγιεινή & Ασφάλεια Τροφίμων (HACCP & ISO Standards)",
-        instructor: "Κωνσταντίνος Ντελέζος"
+        instructor: "Κωνσταντίνος Ντελέζος",
+        instructorLatin: "Konstantinos Ntelezos"
     },
     {
         id: 19,
         category: "F&B",
         title: "Εστιατορική Τεχνική & Service Management",
-        instructor: "Φυλάκτου Γεωργία"
+        instructor: "Φυλάκτου Γεωργία",
+        instructorLatin: "Georgia Fylaktou"
     },
     {
         id: 20,
         category: "F&B",
         title: "Bar Management",
-        instructor: "πρακτικό μόνο"
+        instructor: "πρακτικό μόνο",
+        instructorLatin: "Practical only"
     },
     {
         id: 21,
         category: "F&B",
         title: "Οινολογία & Τέχνη του Sommelier",
-        instructor: "Μαρία Κατσούλη"
+        instructor: "Μαρία Κατσούλη",
+        instructorLatin: "Maria Katsouli"
     },
     {
         id: 22,
         category: "FRONT OFFICE",
         title: "Διοίκηση Front Office & Guest Relations",
-        instructor: "Φανή Πασπαράκη"
+        instructor: "Φανή Πασπαράκη",
+        instructorLatin: "Fani Pasparaki"
     },
     {
         id: 23,
         category: "FRONT OFFICE",
         title: "Ψηφιακά Συστήματα Ξενοδοχείων (PMS, Channel Managers, CRM)",
-        instructor: "Κωνσταντίνος Σεργόπουλος"
+        instructor: "Κωνσταντίνος Σεργόπουλος",
+        instructorLatin: "Konstantinos Sergopoulos"
     },
     {
         id: 24,
         category: "HOUSEKEEPING",
         title: "Διοίκηση Housekeeping & Οργανωτικές Διεργασίες Ξενοδοχείων",
-        instructor: "Γώργος Καλογερόπουλος"
+        instructor: "Γιώργος Καλογερόπουλος",
+        instructorLatin: "Giorgos Kalogeropoulos"
     }
 ];
 const professorsData = [
     {
-        name: "Γώργος Πελακανάκης",
-        subject: "Στρατηγική Διοίκηση / Επιχειρηματικότητα",
-        category: "MANAGEMENT"
+        name: "Γιώργος Πελακανάκης",
+        nameLatin: "Giorgos Pelakanakis",
+        category: "MANAGEMENT",
+        linkedin: "#"
     },
     {
-        name: "Γώργος Σπυρόπουλος",
-        subject: "Mentoring & Coaching / Διοίκηση Ξενοδοχειακών Μονάδων",
-        category: "MANAGEMENT"
+        name: "Γιώργος Σπυρόπουλος",
+        nameLatin: "Giorgos Spyropoulos",
+        category: "MANAGEMENT",
+        linkedin: "#"
     },
     {
         name: "Αργύρης Νταουλιάρης",
-        subject: "Οικονομική Διαχείριση / Διαχείριση Κρίσεων",
-        category: "MANAGEMENT"
+        nameLatin: "Argyris Ntaoularis",
+        category: "MANAGEMENT",
+        linkedin: "#"
     },
     {
         name: "Ανθή Μανέτα",
-        subject: "Διοίκηση Ποιότητας & Πρότυπα Πιστοποίησης",
-        category: "MANAGEMENT"
+        nameLatin: "Anthi Maneta",
+        category: "MANAGEMENT",
+        linkedin: "#"
     },
     {
         name: "Ιωάννα Ρώσση",
-        subject: "Βιωσιμότητα & Αειφόρος Ανάπτυξη",
-        category: "MANAGEMENT"
+        nameLatin: "Ioanna Rossi",
+        category: "MANAGEMENT",
+        linkedin: "#"
     },
     {
         name: "Γιώτα Μπαλάφα",
-        subject: "Διαχείριση Προμηθειών και Αγορών",
-        category: "MANAGEMENT"
+        nameLatin: "Giota Balafa",
+        category: "MANAGEMENT",
+        linkedin: "#"
     },
     {
         name: "Ράνια Πάσσαρη",
-        subject: "Διοίκηση Ανθρώπινου Δυναμικού στον Τουρισμό",
-        category: "HR"
+        nameLatin: "Rania Passari",
+        category: "HR",
+        linkedin: "#"
     },
     {
         name: "Δημήτρης Βαλέργας",
-        subject: "Τουριστική Νομοθεσία & Εργατικό Δίκαιο",
-        category: "HR"
+        nameLatin: "Dimitris Valergas",
+        category: "HR",
+        linkedin: "#"
     },
     {
         name: "Βασιλική Σφονδύλη",
-        subject: "Ψυχολογία πάνω στο HR",
-        category: "HR"
+        nameLatin: "Vasiliki Sfondyli",
+        category: "HR",
+        linkedin: "#"
     },
     {
         name: "Αντώνης Γιαννόπουλος",
-        subject: "Μάρκετινγκ & Digital Marketing Ξενοδοχείων",
-        category: "MARKETING"
+        nameLatin: "Antonis Giannopoulos",
+        category: "MARKETING",
+        linkedin: "#"
     },
     {
         name: "Μάριος Ανδρακάκης",
-        subject: "Πωλήσεις & Revenue Management",
-        category: "SALES"
+        nameLatin: "Marios Andrakakis",
+        category: "SALES",
+        linkedin: "#"
     },
     {
         name: "Σταμάτης Λουμουσιώτης",
-        subject: "Βασικές Αρχές Μαγειρικής Τέχνης & Κουζίνας",
-        category: "F&B"
+        nameLatin: "Stamatis Loumousiotis",
+        category: "F&B",
+        linkedin: "#"
     },
     {
         name: "Κωνσταντίνος Ντελέζος",
-        subject: "Υγιεινή & Ασφάλεια Τροφίμων (HACCP & ISO Standards)",
-        category: "F&B"
+        nameLatin: "Konstantinos Ntelezos",
+        category: "F&B",
+        linkedin: "#"
     },
     {
         name: "Φυλάκτου Γεωργία",
-        subject: "Εστιατορική Τεχνική & Service Management",
-        category: "F&B"
+        nameLatin: "Georgia Fylaktou",
+        category: "F&B",
+        linkedin: "#"
     },
     {
         name: "Μαρία Κατσούλη",
-        subject: "Οινολογία & Τέχνη του Sommelier",
-        category: "F&B"
+        nameLatin: "Maria Katsouli",
+        category: "F&B",
+        linkedin: "#"
     },
     {
         name: "Φανή Πασπαράκη",
-        subject: "Διοίκηση Front Office & Guest Relations",
-        category: "FRONT OFFICE"
+        nameLatin: "Fani Pasparaki",
+        category: "FRONT OFFICE",
+        linkedin: "#"
     },
     {
         name: "Κωνσταντίνος Σεργόπουλος",
-        subject: "Ψηφιακά Συστήματα Ξενοδοχείων (PMS, Channel Managers, CRM)",
-        category: "FRONT OFFICE"
+        nameLatin: "Konstantinos Sergopoulos",
+        category: "FRONT OFFICE",
+        linkedin: "#"
     },
     {
-        name: "Γώργος Καλογερόπουλος",
-        subject: "Διοίκηση Housekeeping & Οργανωτικές Διεργασίες",
-        category: "HOUSEKEEPING"
+        name: "Γιώργος Καλογερόπουλος",
+        nameLatin: "Giorgos Kalogeropoulos",
+        category: "HOUSEKEEPING",
+        linkedin: "#"
     }
 ];
 const hotelPartners = [

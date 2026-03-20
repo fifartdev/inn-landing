@@ -9,24 +9,24 @@ export default function CertificationsBar() {
 
   const items = [
     {
+      icon: <CheckCircle className="w-5 h-5 text-inn-teal" />,
+      label: c.kdvm,
+      sub: c.kdvmSub,
+    },
+    {
       icon: <Shield className="w-5 h-5 text-inn-teal" />,
       label: c.acta,
-      sub: "Αναγνωρισμένη Πιστοποίηση",
+      sub: c.actaSub,
     },
     {
       icon: <Award className="w-5 h-5 text-inn-orange" />,
       label: c.paris,
-      sub: "Institut Paris Education",
-    },
-    {
-      icon: <CheckCircle className="w-5 h-5 text-inn-teal" />,
-      label: c.kdvm,
-      sub: "Κέντρο Δια Βίου Μάθησης",
+      sub: c.parisSub,
     },
     {
       icon: <GraduationCap className="w-5 h-5 text-inn-orange" />,
       label: c.graduation,
-      sub: "Τελετή Αποφοίτησης στο Παρίσι",
+      sub: c.graduationSub,
     },
   ];
 

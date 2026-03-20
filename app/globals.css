@@ -62,9 +62,9 @@ body {
 .hero-overlay {
   background: linear-gradient(
     135deg,
-    rgba(10, 30, 60, 0.88) 0%,
-    rgba(10, 30, 60, 0.75) 50%,
-    rgba(10, 126, 164, 0.4) 100%
+    rgba(10, 30, 60, 0.70) 0%,
+    rgba(10, 30, 60, 0.55) 50%,
+    rgba(10, 126, 164, 0.25) 100%
   );
 }
 

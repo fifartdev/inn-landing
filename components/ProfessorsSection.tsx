@@ -4,7 +4,7 @@ import { useLang } from "@/contexts/LanguageContext";
 import { professorsData, categoryColors } from "@/lib/translations";
 
 export default function ProfessorsSection() {
-  const { t } = useLang();
+  const { t, lang } = useLang();
   const p = t.professors;
 
   return (
@@ -23,39 +23,45 @@ export default function ProfessorsSection() {
 
         {/* Professor grid */}
         <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 gap-5">
-          {professorsData.map((prof, i) => (
-            <div
-              key={i}
-              className="bg-white rounded-2xl p-5 border border-slate-100 shadow-sm card-hover group text-center"
-            >
-              {/* Avatar */}
-              <div className="w-20 h-20 mx-auto mb-4 rounded-2xl overflow-hidden bg-gradient-to-br from-inn-teal/20 to-inn-teal/5 border-2 border-inn-teal/10 group-hover:border-inn-teal/30 transition-colors">
-                <img
-                  src={`https://ui-avatars.com/api/?name=${encodeURIComponent(prof.name)}&background=0a7ea4&color=fff&size=80&font-size=0.4&bold=true`}
-                  alt={prof.name}
-                  className="w-full h-full object-cover"
-                />
-              </div>
-
-              {/* Name */}
-              <h3 className="font-bold text-inn-dark text-sm leading-tight mb-2 group-hover:text-inn-teal transition-colors">
-                {prof.name}
-              </h3>
-
-              {/* Subject */}
-              <p className="text-xs text-slate-500 leading-snug mb-3">{prof.subject}</p>
-
-              {/* Category pill */}
-              <span
-                className={`category-pill text-[10px] ${
-                  (categoryColors as Record<string, string>)[prof.category] ||
-                  "bg-slate-100 text-slate-600 border-slate-200"
-                }`}
+          {professorsData.map((prof, i) => {
+            const displayName = lang === "gr" ? prof.name : prof.nameLatin;
+            return (
+              <a
+                key={i}
+                href={prof.linkedin}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="bg-white rounded-2xl p-5 border border-slate-100 shadow-sm card-hover group text-center block"
               >
-                {prof.category}
-              </span>
-            </div>
-          ))}
+                {/* Avatar */}
+                <div className="w-20 h-20 mx-auto mb-4 rounded-2xl overflow-hidden bg-gradient-to-br from-inn-teal/20 to-inn-teal/5 border-2 border-inn-teal/10 group-hover:border-inn-teal/30 transition-colors">
+                  <img
+                    src={`https://ui-avatars.com/api/?name=${encodeURIComponent(prof.nameLatin)}&background=0a7ea4&color=fff&size=80&font-size=0.4&bold=true`}
+                    alt={displayName}
+                    className="w-full h-full object-cover"
+                  />
+                </div>
+
+                {/* Name */}
+                <h3 className="font-bold text-inn-dark text-sm leading-tight mb-2 group-hover:text-inn-teal transition-colors">
+                  {displayName}
+                </h3>
+
+                {/* Subject */}
+                <p className="text-xs text-slate-500 leading-snug mb-3">{p.professorSubjects[i]}</p>
+
+                {/* Category pill */}
+                <span
+                  className={`category-pill text-[10px] ${
+                    (categoryColors as Record<string, string>)[prof.category] ||
+                    "bg-slate-100 text-slate-600 border-slate-200"
+                  }`}
+                >
+                  {prof.category}
+                </span>
+              </a>
+            );
+          })}
         </div>
       </div>
     </section>

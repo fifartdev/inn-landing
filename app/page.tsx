@@ -8,13 +8,7 @@ import AboutSection from "@/components/AboutSection";
 import ProgramHighlights from "@/components/ProgramHighlights";
 import CurriculumSection from "@/components/CurriculumSection";
 import MasterclassVenues from "@/components/MasterclassVenues";
-import FranceTripSection from "@/components/FranceTripSection";
-import GallerySection from "@/components/GallerySection";
-import ProfessorsSection from "@/components/ProfessorsSection";
 import PricingSection from "@/components/PricingSection";
-import CountriesSection from "@/components/CountriesSection";
-import FAQSection from "@/components/FAQSection";
-import SponsorsSection from "@/components/SponsorsSection";
 import Footer from "@/components/Footer";
 import ContactForm from "@/components/ContactForm";
 
@@ -39,12 +33,7 @@ export default function Home() {
           <ProgramHighlights />
           <CurriculumSection />
           <MasterclassVenues />
-          <FranceTripSection />
-          <GallerySection />
-          <ProfessorsSection />
           <PricingSection />
-          <CountriesSection />
-          <FAQSection />
         </div>
 
         {/* Right: sticky form sidebar — sticky works on a grid item with self-start */}
@@ -58,7 +47,6 @@ export default function Home() {
         <ContactForm variant="section" />
       </section>
 
-      <SponsorsSection />
       <Footer />
     </main>
   );
