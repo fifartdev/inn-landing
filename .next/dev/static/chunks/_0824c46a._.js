@@ -455,6 +455,58 @@ const translations = {
                     body: "Έχετε το δικαίωμα να υποβάλετε καταγγελία στην Αρχή Προστασίας Δεδομένων Προσωπικού Χαρακτήρα (www.dpa.gr), εάν θεωρείτε ότι η επεξεργασία των δεδομένων σας παραβιάζει τον ΓΚΠΔ."
                 }
             ]
+        },
+        terms: {
+            title: "Όροι Χρήσης",
+            lastUpdated: "Τελευταία ενημέρωση: Μάρτιος 2026",
+            sections: [
+                {
+                    heading: "1. Αποδοχή Όρων",
+                    body: "Η χρήση της παρούσας ιστοσελίδας συνεπάγεται την ανεπιφύλακτη αποδοχή των παρόντων Όρων Χρήσης. Εάν δεν συμφωνείτε με τους όρους αυτούς, παρακαλούμε να μην χρησιμοποιείτε την ιστοσελίδα."
+                },
+                {
+                    heading: "2. Πληροφορίες για την Inn Academy",
+                    body: "Η Inn Academy αποτελεί τον εκπαιδευτικό βραχίονα της Innjobs και λειτουργεί ως φορέας παροχής εκπαιδευτικών υπηρεσιών στον τομέα της φιλοξενίας. Έδρα: Πανεπιστημίου 63, 10564, Αθήνα. Email: academy@innjobs.net. Τηλ: 210 2204187."
+                },
+                {
+                    heading: "3. Εκπαιδευτικές Υπηρεσίες",
+                    body: "Το πρόγραμμα «Diploma in Hotel Management» προσφέρεται υπό τους όρους που περιγράφονται στην ιστοσελίδα. Η Inn Academy διατηρεί το δικαίωμα να τροποποιεί το περιεχόμενο, το κόστος ή τη δομή του προγράμματος χωρίς προηγούμενη ειδοποίηση, εκτός αν ορίζεται διαφορετικά σε ισχύουσα σύμβαση."
+                },
+                {
+                    heading: "4. Αίτηση Συμμετοχής",
+                    body: "Η υποβολή αίτησης μέσω της ιστοσελίδας δεν συνιστά εγγύηση αποδοχής. Η Inn Academy αξιολογεί κάθε αίτηση και επικοινωνεί με τον υποψήφιο για την έκβασή της. Η εγγραφή οριστικοποιείται με την καταβολή της πρώτης δόσης."
+                },
+                {
+                    heading: "5. Οικονομικοί Όροι",
+                    body: "Τα δίδακτρα, το πρόγραμμα δόσεων και οι τρόποι πληρωμής αναφέρονται αναλυτικά στην ενότητα «Κόστος» της ιστοσελίδας. Σε περίπτωση ακύρωσης πριν την έναρξη ισχύουν οι όροι επιστροφής που καθορίζονται από τη γραμματεία. Μετά την έναρξη των μαθημάτων δεν προβλέπεται επιστροφή διδάκτρων."
+                },
+                {
+                    heading: "6. Πνευματική Ιδιοκτησία",
+                    body: "Όλο το περιεχόμενο της ιστοσελίδας (κείμενα, εικόνες, λογότυπα, εκπαιδευτικό υλικό) αποτελεί πνευματική ιδιοκτησία της Inn Academy ή των δικαιούχων τρίτων και προστατεύεται από την ισχύουσα νομοθεσία. Απαγορεύεται η αναπαραγωγή ή χρήση χωρίς γραπτή άδεια."
+                },
+                {
+                    heading: "7. Περιορισμός Ευθύνης",
+                    body: "Η Inn Academy καταβάλλει κάθε δυνατή προσπάθεια για την ακρίβεια των πληροφοριών της ιστοσελίδας, δεν ευθύνεται όμως για τυχόν λάθη, παραλείψεις ή τεχνικά προβλήματα. Η χρήση της ιστοσελίδας γίνεται με αποκλειστική ευθύνη του χρήστη."
+                },
+                {
+                    heading: "8. Σύνδεσμοι προς Τρίτους",
+                    body: "Η ιστοσελίδα μπορεί να περιέχει συνδέσμους προς εξωτερικές ιστοσελίδες (π.χ. LinkedIn, Innjobs). Η Inn Academy δεν ευθύνεται για το περιεχόμενο ή τις πρακτικές απορρήτου τρίτων."
+                },
+                {
+                    heading: "9. Εφαρμοστέο Δίκαιο",
+                    body: "Οι παρόντες Όροι διέπονται από το ελληνικό δίκαιο. Για οποιαδήποτε διαφορά αρμόδια είναι τα Δικαστήρια των Αθηνών."
+                },
+                {
+                    heading: "10. Τροποποιήσεις",
+                    body: "Η Inn Academy διατηρεί το δικαίωμα να τροποποιεί τους παρόντες Όρους ανά πάσα στιγμή. Οι αλλαγές τίθενται σε ισχύ από τη δημοσίευσή τους στην ιστοσελίδα."
+                }
+            ]
+        },
+        cookieBanner: {
+            message: "Χρησιμοποιούμε cookies για τη σωστή λειτουργία της ιστοσελίδας. Δεν χρησιμοποιούμε cookies παρακολούθησης ή διαφήμισης.",
+            accept: "Αποδοχή",
+            decline: "Απόρριψη",
+            learnMore: "Μάθε Περισσότερα"
         }
     },
     en: {
@@ -895,6 +947,58 @@ const translations = {
                     body: "You have the right to lodge a complaint with the Hellenic Data Protection Authority (www.dpa.gr) if you believe that the processing of your data violates the GDPR."
                 }
             ]
+        },
+        terms: {
+            title: "Terms & Conditions",
+            lastUpdated: "Last updated: March 2026",
+            sections: [
+                {
+                    heading: "1. Acceptance of Terms",
+                    body: "Using this website constitutes unconditional acceptance of these Terms & Conditions. If you do not agree with these terms, please do not use the website."
+                },
+                {
+                    heading: "2. About Inn Academy",
+                    body: "Inn Academy is the educational arm of Innjobs and operates as a provider of educational services in the hospitality sector. Address: 63 Panepistimiou St., 10564, Athens. Email: academy@innjobs.net. Tel: 210 2204187."
+                },
+                {
+                    heading: "3. Educational Services",
+                    body: "The 'Diploma in Hotel Management' program is offered under the terms described on the website. Inn Academy reserves the right to modify the content, cost or structure of the program without prior notice, unless otherwise specified in an applicable contract."
+                },
+                {
+                    heading: "4. Application",
+                    body: "Submitting an application via the website does not constitute a guarantee of acceptance. Inn Academy evaluates each application and contacts the candidate with the outcome. Registration is finalised upon payment of the first installment."
+                },
+                {
+                    heading: "5. Financial Terms",
+                    body: "Tuition fees, the installment schedule and payment methods are detailed in the 'Pricing' section of the website. Cancellation before the start date is subject to the refund terms set by the secretariat. After classes begin, no tuition refund is available."
+                },
+                {
+                    heading: "6. Intellectual Property",
+                    body: "All content on the website (texts, images, logos, educational materials) is the intellectual property of Inn Academy or third-party rights holders and is protected by applicable law. Reproduction or use without written permission is prohibited."
+                },
+                {
+                    heading: "7. Limitation of Liability",
+                    body: "Inn Academy makes every effort to ensure the accuracy of website information but is not liable for errors, omissions or technical issues. Use of the website is at the user's own risk."
+                },
+                {
+                    heading: "8. Third-Party Links",
+                    body: "The website may contain links to external websites (e.g. LinkedIn, Innjobs). Inn Academy is not responsible for the content or privacy practices of third parties."
+                },
+                {
+                    heading: "9. Governing Law",
+                    body: "These Terms are governed by Greek law. The courts of Athens have jurisdiction for any dispute."
+                },
+                {
+                    heading: "10. Amendments",
+                    body: "Inn Academy reserves the right to amend these Terms at any time. Changes take effect upon publication on the website."
+                }
+            ]
+        },
+        cookieBanner: {
+            message: "We use cookies for the proper functioning of the website. We do not use tracking or advertising cookies.",
+            accept: "Accept",
+            decline: "Decline",
+            learnMore: "Learn More"
         }
     },
     fr: {

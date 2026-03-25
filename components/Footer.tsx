@@ -164,7 +164,7 @@ export default function Footer() {
                 Πολιτική Απορρήτου
               </a>
               <span className="text-white/10">|</span>
-              <a href="#" className="text-white/30 hover:text-white/60 text-xs transition-colors">
+              <a href="/terms" className="text-white/30 hover:text-white/60 text-xs transition-colors">
                 Όροι Χρήσης
               </a>
             </div>
