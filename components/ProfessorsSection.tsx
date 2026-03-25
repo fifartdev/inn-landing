@@ -36,7 +36,7 @@ export default function ProfessorsSection() {
                 {/* Avatar */}
                 <div className="w-20 h-20 mx-auto mb-4 rounded-2xl overflow-hidden bg-gradient-to-br from-inn-teal/20 to-inn-teal/5 border-2 border-inn-teal/10 group-hover:border-inn-teal/30 transition-colors">
                   <img
-                    src={`https://ui-avatars.com/api/?name=${encodeURIComponent(prof.nameLatin)}&background=0a7ea4&color=fff&size=80&font-size=0.4&bold=true`}
+                    src={prof.image}
                     alt={displayName}
                     className="w-full h-full object-cover"
                   />

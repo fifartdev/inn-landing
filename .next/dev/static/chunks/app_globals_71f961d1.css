@@ -759,6 +759,10 @@ img, video {
   grid-template-columns: repeat(2, minmax(0, 1fr));
 }
 
+.grid-cols-3 {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
 .flex-col {
   flex-direction: column;
 }
@@ -829,6 +833,10 @@ img, video {
 
 .gap-8 {
   gap: 2rem;
+}
+
+.gap-12 {
+  gap: 3rem;
 }
 
 .gap-x-8 {
@@ -1189,6 +1197,10 @@ img, video {
   padding: 2rem;
 }
 
+.p-10 {
+  padding: 2.5rem;
+}
+
 .px-2 {
   padding-left: .5rem;
   padding-right: .5rem;
@@ -1267,6 +1279,11 @@ img, video {
 .py-6 {
   padding-top: 1.5rem;
   padding-bottom: 1.5rem;
+}
+
+.py-3\.5 {
+  padding-top: .875rem;
+  padding-bottom: .875rem;
 }
 
 .pb-10 {
@@ -1812,6 +1829,10 @@ input:focus, textarea:focus, select:focus {
 
 .hover\:bg-white\/25:hover {
   background-color: #ffffff40;
+}
+
+.hover\:bg-white\/90:hover {
+  background-color: #ffffffe6;
 }
 
 .hover\:text-inn-orange:hover {

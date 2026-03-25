@@ -33,7 +33,9 @@ const translations = {
             faq: "Ερωτήσεις",
             gallery: "Γκάλερι",
             sponsors: "Χορηγοί",
-            apply: "Αίτηση Εγγραφής"
+            apply: "Αίτηση Εγγραφής",
+            countries: "Ευκαιρίες Εργασίας",
+            france: "Εκπαιδευτική Εκδρομή"
         },
         hero: {
             badge: "Πιστοποιημένο Εκπαιδευτικό Πρόγραμμα",
@@ -206,6 +208,7 @@ const translations = {
             title: "Εκπαιδευτική Εκδρομή στη Γαλλία",
             subtitle: "4 ημέρες στο Παρίσι & την Καμπανία — εκπαίδευση, πολιτισμός, οινολογία",
             badge: "Με επιπλέον κόστος",
+            days: "4 ημέρες εκπαίδευση",
             items: [
                 "2 ημέρες σεμινάρια στη La Défense από Γάλλους εκπαιδευτικούς τουρισμού",
                 "Εκπαιδευτική επίσκεψη στο Intercontinental Paris",
@@ -333,6 +336,37 @@ const translations = {
             tag: "Ευκαιρίες Εργασίας",
             title: "Χώρες Μελλοντικής Εργασίας",
             subtitle: "Αποκτήστε πρόσβαση σε ευκαιρίες σε 9 ευρωπαϊκές χώρες μέσω του δικτύου της Innjobs",
+            description: "Ως απόφοιτος του Inn Academy, γίνεσαι μέλος του δικτύου της Innjobs — της #1 πλατφόρμας εργασίας για τον ξενοδοχειακό κλάδο. Αποκτάς πρόσβαση σε θέσεις εργασίας και διοικητικές θέσεις σε 9 χώρες, με υποστήριξη καριέρας και άμεση διασύνδεση με εργοδότες.",
+            stat1: "9",
+            stat1label: "Χώρες Δικτύου",
+            stat2: "1.000+",
+            stat2label: "Θέσεις Εργασίας",
+            stat3: "100%",
+            stat3label: "Υποστήριξη Καριέρας",
+            features: [
+                {
+                    icon: "Globe",
+                    title: "Διεθνές Δίκτυο",
+                    desc: "Πρόσβαση σε θέσεις εργασίας σε 9 χώρες μέσω της πλατφόρμας Innjobs."
+                },
+                {
+                    icon: "Briefcase",
+                    title: "Άμεση Τοποθέτηση",
+                    desc: "Συστάσεις σε ξενοδοχειακά brands και εργοδότες-μέλη του δικτύου."
+                },
+                {
+                    icon: "Award",
+                    title: "Αναγνωρισμένο Δίπλωμα",
+                    desc: "Πιστοποιημένο diploma που ανοίγει πόρτες σε διοικητικές θέσεις διεθνώς."
+                },
+                {
+                    icon: "Users",
+                    title: "Career Support",
+                    desc: "Υποστήριξη καριέρας, mentoring και αποκλειστική Career Day με εργοδότες."
+                }
+            ],
+            platformTitle: "Powered by Innjobs",
+            platformDesc: "Η #1 πλατφόρμα εργασίας για τον ξενοδοχειακό κλάδο με χιλιάδες θέσεις σε Ελλάδα και Ευρώπη.",
             list: [
                 "Ελλάδα",
                 "Κύπρος",
@@ -387,7 +421,9 @@ const translations = {
             faq: "FAQ",
             gallery: "Gallery",
             sponsors: "Sponsors",
-            apply: "Apply Now"
+            apply: "Apply Now",
+            countries: "Work Opportunities",
+            france: "France Trip"
         },
         hero: {
             badge: "Certified Educational Program",
@@ -560,6 +596,7 @@ const translations = {
             title: "Educational Trip to France",
             subtitle: "4 days in Paris & Champagne — education, culture, oenology",
             badge: "Additional cost",
+            days: "4 days education",
             items: [
                 "2 days of seminars at La Défense by French tourism educators",
                 "Educational visit to Intercontinental Paris",
@@ -687,6 +724,37 @@ const translations = {
             tag: "Career Opportunities",
             title: "Countries of Future Employment",
             subtitle: "Gain access to opportunities in 9 European countries through the Innjobs network",
+            description: "As an Inn Academy graduate, you become part of the Innjobs network — the #1 job platform for the hospitality industry. Gain access to job openings and management positions across 9 countries, with career support and direct connections to employers.",
+            stat1: "9",
+            stat1label: "Network Countries",
+            stat2: "1,000+",
+            stat2label: "Job Positions",
+            stat3: "100%",
+            stat3label: "Career Support",
+            features: [
+                {
+                    icon: "Globe",
+                    title: "International Network",
+                    desc: "Access job positions in 9 countries via the Innjobs platform."
+                },
+                {
+                    icon: "Briefcase",
+                    title: "Direct Placement",
+                    desc: "Referrals to hotel brands and employers within the Innjobs network."
+                },
+                {
+                    icon: "Award",
+                    title: "Recognized Diploma",
+                    desc: "A certified diploma that opens doors to management roles internationally."
+                },
+                {
+                    icon: "Users",
+                    title: "Career Support",
+                    desc: "Career guidance, mentoring, and an exclusive Career Day with top employers."
+                }
+            ],
+            platformTitle: "Powered by Innjobs",
+            platformDesc: "The #1 job platform for the hospitality industry with thousands of positions across Greece and Europe.",
             list: [
                 "Greece",
                 "Cyprus",
@@ -741,7 +809,9 @@ const translations = {
             faq: "FAQ",
             gallery: "Galerie",
             sponsors: "Sponsors",
-            apply: "Postuler"
+            apply: "Postuler",
+            countries: "Opportunités d'Emploi",
+            france: "Voyage en France"
         },
         hero: {
             badge: "Programme Éducatif Certifié",
@@ -914,6 +984,7 @@ const translations = {
             title: "Voyage Éducatif en France",
             subtitle: "4 jours à Paris & en Champagne — éducation, culture, œnologie",
             badge: "Coût supplémentaire",
+            days: "4 jours éducation",
             items: [
                 "2 jours de séminaires à La Défense par des formateurs français du tourisme",
                 "Visite éducative à l'Intercontinental Paris",
@@ -1041,6 +1112,37 @@ const translations = {
             tag: "Opportunités de Carrière",
             title: "Pays d'Emploi Futur",
             subtitle: "Accédez à des opportunités dans 9 pays européens via le réseau Innjobs",
+            description: "En tant que diplômé de l'Inn Academy, vous rejoignez le réseau Innjobs — la plateforme d'emploi #1 dans l'hôtellerie. Accédez à des offres d'emploi et des postes de direction dans 9 pays, avec un accompagnement de carrière et des connexions directes avec les employeurs.",
+            stat1: "9",
+            stat1label: "Pays du Réseau",
+            stat2: "1 000+",
+            stat2label: "Offres d'Emploi",
+            stat3: "100%",
+            stat3label: "Accompagnement",
+            features: [
+                {
+                    icon: "Globe",
+                    title: "Réseau International",
+                    desc: "Accès aux offres d'emploi dans 9 pays via la plateforme Innjobs."
+                },
+                {
+                    icon: "Briefcase",
+                    title: "Placement Direct",
+                    desc: "Recommandations auprès des hôtels et employeurs membres du réseau."
+                },
+                {
+                    icon: "Award",
+                    title: "Diplôme Reconnu",
+                    desc: "Un diplôme certifié qui ouvre les portes aux postes de direction à l'international."
+                },
+                {
+                    icon: "Users",
+                    title: "Soutien Carrière",
+                    desc: "Accompagnement, mentorat et une Career Day exclusive avec les meilleurs employeurs."
+                }
+            ],
+            platformTitle: "Propulsé par Innjobs",
+            platformDesc: "La plateforme d'emploi #1 dans l'hôtellerie avec des milliers de postes en Grèce et en Europe.",
             list: [
                 "Grèce",
                 "Chypre",
@@ -1259,111 +1361,129 @@ const courseData = [
 const professorsData = [
     {
         name: "Γιώργος Πελακανάκης",
-        nameLatin: "Giorgos Pelakanakis",
+        nameLatin: "George Pelekanakis",
         category: "MANAGEMENT",
-        linkedin: "#"
+        linkedin: "https://www.linkedin.com/in/george-pelekanakis-35a879123/",
+        image: "/professors/george_pelakanakis.jpeg"
     },
     {
         name: "Γιώργος Σπυρόπουλος",
-        nameLatin: "Giorgos Spyropoulos",
+        nameLatin: "George Spyropoulos",
         category: "MANAGEMENT",
-        linkedin: "#"
+        linkedin: "https://www.linkedin.com/in/george-spyropoulos-25714131/",
+        image: "/professors/george_spyropoulos.jpeg"
     },
     {
         name: "Αργύρης Νταουλιάρης",
-        nameLatin: "Argyris Ntaoularis",
+        nameLatin: "Argiris Daouliaris",
         category: "MANAGEMENT",
-        linkedin: "#"
+        linkedin: "https://www.linkedin.com/in/argiris-daouliaris-88829226/",
+        image: "/professors/argiris_daouliaris.jpeg"
     },
     {
         name: "Ανθή Μανέτα",
         nameLatin: "Anthi Maneta",
         category: "MANAGEMENT",
-        linkedin: "#"
+        linkedin: "https://www.linkedin.com/in/anthi-maneta/",
+        image: "/professors/anthi_maneta.jpeg"
     },
     {
         name: "Ιωάννα Ρώσση",
         nameLatin: "Ioanna Rossi",
         category: "MANAGEMENT",
-        linkedin: "#"
+        linkedin: "https://www.linkedin.com/in/ioanna-rossi-8a422b2/",
+        image: "/professors/ioanna_rossi.jpeg"
     },
     {
         name: "Γιώτα Μπαλάφα",
         nameLatin: "Giota Balafa",
         category: "MANAGEMENT",
-        linkedin: "#"
+        linkedin: "https://www.linkedin.com/in/giota-balafa-889a62184/",
+        image: "/professors/giota_balafa.jpeg"
     },
     {
         name: "Ράνια Πάσσαρη",
         nameLatin: "Rania Passari",
         category: "HR",
-        linkedin: "#"
+        linkedin: "https://www.linkedin.com/in/rania-passari/",
+        image: "/professors/rania_pasari.jpeg"
     },
     {
         name: "Δημήτρης Βαλέργας",
         nameLatin: "Dimitris Valergas",
         category: "HR",
-        linkedin: "#"
+        linkedin: "https://www.linkedin.com/in/dimitris-valergas-39a36347/",
+        image: "/professors/dimitris_valergas.jpeg"
     },
     {
         name: "Βασιλική Σφονδύλη",
         nameLatin: "Vasiliki Sfondyli",
         category: "HR",
-        linkedin: "#"
+        linkedin: "https://www.doctoranytime.gr/d/Psychologos/sfondyli-vasiliki",
+        image: "/professors/vasiliki_sfondyli.webp"
     },
     {
         name: "Αντώνης Γιαννόπουλος",
         nameLatin: "Antonis Giannopoulos",
         category: "MARKETING",
-        linkedin: "#"
+        linkedin: "https://www.linkedin.com/in/antoniosgiannopoulos/",
+        image: "/professors/antonis_giannopoulos.jpeg"
     },
     {
         name: "Μάριος Ανδρακάκης",
         nameLatin: "Marios Andrakakis",
         category: "SALES",
-        linkedin: "#"
+        linkedin: "https://www.linkedin.com/in/marios-a-00a92823/",
+        image: "/professors/marios_andrakakis.jpeg"
     },
     {
         name: "Σταμάτης Λουμουσιώτης",
         nameLatin: "Stamatis Loumousiotis",
         category: "F&B",
-        linkedin: "#"
+        linkedin: "https://www.linkedin.com/in/stamatis-loumousiotis-27703847/",
+        image: "/professors/stamatis_loumousiotis.jpeg"
     },
     {
         name: "Κωνσταντίνος Ντελέζος",
         nameLatin: "Konstantinos Ntelezos",
         category: "F&B",
-        linkedin: "#"
+        linkedin: "https://shorturl.at/di7Sh",
+        image: "/professors/konstantinos_ntelezos.jpg"
     },
     {
         name: "Φυλάκτου Γεωργία",
         nameLatin: "Georgia Fylaktou",
         category: "F&B",
-        linkedin: "#"
+        linkedin: "https://www.linkedin.com/in/georgia-fylaktou-2b274a327/",
+        image: "/professors/georgia_fylaktou.jpeg"
     },
     {
         name: "Μαρία Κατσούλη",
         nameLatin: "Maria Katsouli",
         category: "F&B",
-        linkedin: "#"
+        linkedin: "https://www.linkedin.com/in/maria-katsouli-5942ba6/",
+        image: "/professors/maria_katsouli.webp"
     },
     {
         name: "Φανή Πασπαράκη",
         nameLatin: "Fani Pasparaki",
         category: "FRONT OFFICE",
-        linkedin: "#"
+        linkedin: "https://www.linkedin.com/in/fani-pasparaki-61004974/",
+        image: "/professors/fani_pasparaki.jpeg"
     },
     {
         name: "Κωνσταντίνος Σεργόπουλος",
         nameLatin: "Konstantinos Sergopoulos",
         category: "FRONT OFFICE",
-        linkedin: "#"
+        linkedin: "https://tourism.uniwa.gr/profile/sergopoulos-konstantinos/",
+        image: "/professors/konstantinos_sergopoulos.jpg"
     },
     {
         name: "Γιώργος Καλογερόπουλος",
         nameLatin: "Giorgos Kalogeropoulos",
         category: "HOUSEKEEPING",
-        linkedin: "#"
+        linkedin: "https://www.linkedin.com/in/giorgos-kalogeropoulos-96074647/",
+        image: "/professors/giorgos_kalogeropoulos.jpeg"
     }
 ];
 const hotelPartners = [

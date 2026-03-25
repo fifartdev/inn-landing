@@ -39,7 +39,7 @@ export default function FranceTripSection() {
                 <MapPin className="w-4 h-4" />
                 <span className="text-sm font-bold">Paris & Champagne</span>
               </div>
-              <div className="text-xs text-white/70 mt-0.5">4 ημέρες εκπαίδευση</div>
+              <div className="text-xs text-white/70 mt-0.5">{f.days}</div>
             </div>
           </div>
 

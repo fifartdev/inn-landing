@@ -7,7 +7,6 @@ import { ImageIcon, X, ChevronLeft, ChevronRight } from "lucide-react";
 const galleryImages = [
   { src: "/gallery/innacademy-1.jpeg", alt: "Season 1 - Photo 1" },
   { src: "/gallery/innacademy-2.jpeg", alt: "Season 1 - Photo 2" },
-  { src: "/gallery/innacademy-3.jpeg", alt: "Season 2 - Photo 3" },
   { src: "/gallery/innacademy-4.jpeg", alt: "Season 2 - Photo 4" },
   { src: "/gallery/innacademy-5.jpeg", alt: "Season 3 - Photo 5" },
 ];

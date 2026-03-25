@@ -26,7 +26,7 @@ export default function Navbar() {
 
   const applyHref = isHomepage ? "#apply" : "/#apply";
 
-  const navLinks = [
+  const desktopLinks = [
     { href: "/", label: t.nav.home },
     { href: "/#program", label: t.nav.program },
     { href: "/#curriculum", label: t.nav.curriculum },
@@ -35,6 +35,12 @@ export default function Navbar() {
     { href: "/faq", label: t.nav.faq },
     { href: "/gallery", label: t.nav.gallery },
     { href: "/sponsors", label: t.nav.sponsors },
+  ];
+
+  const mobileLinks = [
+    ...desktopLinks,
+    { href: "/countries", label: t.nav.countries },
+    { href: "/france", label: t.nav.france },
   ];
 
   return (
@@ -58,7 +64,7 @@ export default function Navbar() {
 
           {/* Desktop Nav */}
           <nav className="hidden lg:flex items-center gap-1">
-            {navLinks.map((link) => (
+            {desktopLinks.map((link) => (
               <a
                 key={link.href}
                 href={link.href}
@@ -128,7 +134,7 @@ export default function Navbar() {
       {mobileOpen && (
         <div className="lg:hidden bg-white border-t border-slate-100 shadow-lg">
           <div className="max-w-7xl mx-auto px-4 py-4 space-y-1">
-            {navLinks.map((link) => (
+            {mobileLinks.map((link) => (
               <a
                 key={link.href}
                 href={link.href}
