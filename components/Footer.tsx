@@ -76,7 +76,7 @@ export default function Footer() {
             </h4>
             <div className="flex flex-col gap-4">
               {[
-                { src: "/accrediations/acta.jpg", alt: "ACTA" },
+                { src: "/accrediations/logo_ist.svg", alt: "IST College" },
                 { src: "/accrediations/Paris-Education.png", alt: "Paris Education" },
               ].map((logo) => (
                 <div key={logo.alt} className="bg-white rounded-xl p-2 flex items-center justify-center w-28 h-14">
@@ -117,13 +117,13 @@ export default function Footer() {
               </li>
               <li>
                 <a
-                  href="tel:+302100000000"
+                  href="tel:+302102204187"
                   className="flex items-center gap-3 text-white/60 hover:text-inn-orange text-sm transition-colors group"
                 >
                   <div className="w-8 h-8 rounded-lg bg-white/5 group-hover:bg-inn-orange/20 flex items-center justify-center transition-colors">
                     <Phone className="w-4 h-4" />
                   </div>
-                  +30 210 000 0000
+                  210 2204187
                 </a>
               </li>
               <li>
@@ -131,7 +131,7 @@ export default function Footer() {
                   <div className="w-8 h-8 rounded-lg bg-white/5 flex items-center justify-center shrink-0">
                     <MapPin className="w-4 h-4" />
                   </div>
-                  Αθήνα, Ελλάδα
+                  Πανεπιστημίου 63, 10564, Αθήνα
                 </div>
               </li>
               <li className="pt-2">
@@ -160,7 +160,7 @@ export default function Footer() {
               © {year} Inn Academy by Innjobs. {f.rights}
             </p>
             <div className="flex items-center gap-4">
-              <a href="#" className="text-white/30 hover:text-white/60 text-xs transition-colors">
+              <a href="/privacy" className="text-white/30 hover:text-white/60 text-xs transition-colors">
                 Πολιτική Απορρήτου
               </a>
               <span className="text-white/10">|</span>

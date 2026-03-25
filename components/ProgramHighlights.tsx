@@ -111,19 +111,18 @@ export default function ProgramHighlights() {
                   </span>
                   <span className="text-slate-600 text-sm leading-relaxed">{p.req2}</span>
                 </div>
+                <div className="flex items-center gap-3 pl-9">
+                  <span className="text-inn-orange font-bold text-sm uppercase tracking-wide">{p.reqOr}</span>
+                </div>
+                <div className="flex items-start gap-3">
+                  <span className="w-6 h-6 rounded-full bg-inn-teal/10 text-inn-teal flex items-center justify-center text-xs font-bold shrink-0 mt-0.5">
+                    3
+                  </span>
+                  <span className="text-slate-600 text-sm leading-relaxed">{p.req3}</span>
+                </div>
               </div>
             </div>
           </div>
-        </div>
-
-        {/* CTA — visible on mobile where the sidebar form is not shown */}
-        <div className="lg:hidden mt-10 text-center">
-          <a
-            href="#apply"
-            className="inline-flex items-center justify-center px-8 py-4 bg-inn-orange hover:bg-inn-orange-dark text-white font-bold text-base rounded-2xl transition-all shadow-lg hover:shadow-xl hover:-translate-y-0.5"
-          >
-            {t.hero.cta}
-          </a>
         </div>
       </div>
     </section>

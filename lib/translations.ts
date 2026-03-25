@@ -39,7 +39,7 @@ export const translations = {
       title: "Πιστοποιημένο από:",
       kdvm: "ΚΔΒΜ",
       kdvmSub: "Κέντρο Δια Βίου Μάθησης",
-      acta: "Πιστοποίηση ACTA",
+      acta: "Πιστοποίηση IST College",
       actaSub: "Αναγνωρισμένη Πιστοποίηση",
       paris: "Certificat Paris Education",
       parisSub: "Institut Paris Education",
@@ -87,12 +87,12 @@ export const translations = {
         {
           icon: "Building",
           title: "Masterclasses σε 5★ Ξενοδοχεία",
-          desc: "3 Σαββατοκύριακα στην Αθήνα — Grand Hyatt, Electra Metropolis & Aluma.",
+          desc: "3 Σαββατοκύριακα στην Αθήνα — Grand Hyatt, Electra Metropolis & Brown.",
         },
         {
           icon: "Plane",
           title: "Εκπαιδευτική Εκδρομή Γαλλία",
-          desc: "4 ημέρες Παρίσι & Καμπανία. Σεμινάρια, Intercontinental Paris & αμπελώνες.",
+          desc: "4 ημέρες Παρίσι & Καμπανία. Σεμινάρια, Masterclass στο Paris.Education College & αμπελώνες.",
         },
         {
           icon: "Briefcase",
@@ -101,7 +101,7 @@ export const translations = {
         },
         {
           icon: "Award",
-          title: "Πιστοποίηση ACTA & Paris Education",
+          title: "Πιστοποίηση IST College & Paris Education",
           desc: "Πιστοποιημένο δίπλωμα με διεθνή αναγνώριση και τελετή αποφοίτησης.",
         },
         {
@@ -114,6 +114,7 @@ export const translations = {
       req1: "Πτυχίο Διοίκησης Ξενοδοχειακών Επιχειρήσεων 4ετούς φοίτησης",
       reqOr: "ή",
       req2: "Πτυχίο 2ετούς φοίτησης + τουλάχιστον 2 έτη επαγγελματικής εμπειρίας στον ξενοδοχειακό κλάδο",
+      req3: "Πτυχίο οποιασδήποτε κατεύθυνσης + τουλάχιστον 2 έτη επαγγελματικής εμπειρίας στον ξενοδοχειακό κλάδο",
     },
     curriculum: {
       tag: "Αναλυτικό Πρόγραμμα",
@@ -194,7 +195,7 @@ export const translations = {
       days: "4 ημέρες εκπαίδευση",
       items: [
         "2 ημέρες σεμινάρια στη La Défense από Γάλλους εκπαιδευτικούς τουρισμού",
-        "Εκπαιδευτική επίσκεψη στο Intercontinental Paris",
+        "Masterclass στο Paris.Education College",
         "Εκπαιδευτική επίσκεψη σε αμπελώνα στην Καμπανία",
         "Ξενάγηση σε αμπελώνες — Ernest Berat Champagne",
         "Συμμετοχή στην τελετή αποφοίτησης Paris Education",
@@ -244,17 +245,18 @@ export const translations = {
         subtitle: "Εγγραφή έως 1 μήνα πριν την έναρξη",
         price: "1.850€",
         saving: "Εξοικονομείς 550€",
-        installment1: "555€ με την εγγραφή (30%)",
-        installment2: "1.295€ με την έναρξη (70%)",
+        installment1: "925€ με την εγγραφή (50%)",
+        installment2: "925€ με την έναρξη (50%)",
         cta: "Εγγραφή Early Bird",
       },
       regular: {
         badge: "Κανονική",
         title: "Κανονική Εγγραφή",
-        subtitle: "Σε δύο ισόποσες δόσεις",
+        subtitle: "Σε τρεις δόσεις",
         price: "2.400€",
-        installment1: "1.200€ με την εγγραφή (50%)",
-        installment2: "1.200€ έως 2 μήνες μετά (50%)",
+        installment1: "720€ με την εγγραφή (30%)",
+        installment2: "480€ με την έναρξη (20%)",
+        installment3: "1.200€ έως 2 μήνες μετά την έναρξη (50%)",
         cta: "Κανονική Εγγραφή",
       },
       includes: "Περιλαμβάνει:",
@@ -263,12 +265,20 @@ export const translations = {
         "Δια ζώσης masterclasses (3 Σαββατοκύριακα)",
         "Εκπαιδευτικό υλικό",
         "Πιστοποιητικό ολοκλήρωσης Inn Academy",
-        "Πιστοποίηση ACTA",
+        "Πιστοποίηση IST College",
         "Πιστοποιητικό Paris Education",
         "Συμμετοχή σε Career Day",
         "Πρόσβαση σε αγγελίες μέσω Innjobs",
       ],
       franceExtra: "* Η εκπαιδευτική εκδρομή στη Γαλλία έχει επιπλέον κόστος",
+      paymentTitle: "Τρόποι Πληρωμής",
+      bank: {
+        title: "Κατάθεση σε Τράπεζα",
+        name: "Alpha Bank",
+        iban: "IBAN: GR7101401420142002002019061",
+        beneficiary: "Δικαιούχος: Νταουλιάρης Αργύρης",
+      },
+      card: "Πληρωμή με Κάρτα",
     },
     faq: {
       tag: "Συχνές Ερωτήσεις",
@@ -289,11 +299,11 @@ export const translations = {
         },
         {
           q: "Ποιο είναι το κόστος συμμετοχής;",
-          a: "Early Bird (εγγραφή έως 1 μήνα πριν): 1.700€ σε δύο δόσεις (30% + 70%). Κανονική εγγραφή: 2.200€ σε δύο δόσεις (50% + 50%). Η εκδρομή στη Γαλλία έχει επιπλέον κόστος.",
+          a: "Early Bird (εγγραφή έως 1 μήνα πριν): 1.850€ σε δύο δόσεις (50% + 50%). Κανονική εγγραφή: 2.400€ σε τρεις δόσεις (30% + 20% + 50%). Η εκδρομή στη Γαλλία έχει επιπλέον κόστος.",
         },
         {
           q: "Τι πιστοποιήσεις λαμβάνω;",
-          a: "Βεβαίωση Εξειδίκευσης Inn Academy, Πιστοποίηση ACTA, Πιστοποιητικό Paris Education (Certificat) και πρόσκληση στην Paris Education Graduation Ceremony.",
+          a: "Βεβαίωση Εξειδίκευσης Inn Academy, Πιστοποίηση IST College, Πιστοποιητικό Paris Education (Certificat) και πρόσκληση στην Paris Education Graduation Ceremony.",
         },
         {
           q: "Υπάρχει σύνδεση με την αγορά εργασίας;",
@@ -398,6 +408,48 @@ export const translations = {
       rights: "Όλα τα δικαιώματα κατοχυρωμένα.",
       poweredBy: "Εκπαιδευτικός Βραχίονας της",
     },
+    privacy: {
+      title: "Πολιτική Απορρήτου",
+      lastUpdated: "Τελευταία ενημέρωση: Μάρτιος 2026",
+      sections: [
+        {
+          heading: "1. Υπεύθυνος Επεξεργασίας",
+          body: "Υπεύθυνος επεξεργασίας των προσωπικών σας δεδομένων είναι η Inn Academy (εκπαιδευτικός βραχίονας της Innjobs), με έδρα στην Πανεπιστημίου 63, 10564, Αθήνα. Για κάθε ερώτηση σχετικά με τα προσωπικά σας δεδομένα, μπορείτε να επικοινωνήσετε μαζί μας στο academy@innjobs.net.",
+        },
+        {
+          heading: "2. Ποια Δεδομένα Συλλέγουμε",
+          body: "Συλλέγουμε τα δεδομένα που υποβάλλετε μέσω της φόρμας αίτησης: ονοματεπώνυμο, αριθμό τηλεφώνου και διεύθυνση email. Δεν συλλέγουμε δεδομένα πληρωμής μέσω της ιστοσελίδας.",
+        },
+        {
+          heading: "3. Σκοπός Επεξεργασίας",
+          body: "Τα δεδομένα σας χρησιμοποιούνται αποκλειστικά για την επικοινωνία μαζί σας σχετικά με το εκπαιδευτικό πρόγραμμα Inn Academy, την αξιολόγηση της αίτησής σας και την παροχή πληροφοριών για το πρόγραμμα.",
+        },
+        {
+          heading: "4. Νομική Βάση Επεξεργασίας",
+          body: "Η επεξεργασία βασίζεται στη συγκατάθεσή σας (άρθρο 6 παρ. 1 στοιχ. α ΓΚΠΔ), η οποία δίνεται κατά την υποβολή της φόρμας επικοινωνίας. Έχετε το δικαίωμα να ανακαλέσετε τη συγκατάθεσή σας ανά πάσα στιγμή.",
+        },
+        {
+          heading: "5. Διαβίβαση Δεδομένων",
+          body: "Τα δεδομένα σας δεν διαβιβάζονται σε τρίτους, εκτός αν απαιτείται από τον νόμο. Δεν πραγματοποιείται διαβίβαση εκτός Ευρωπαϊκής Ένωσης.",
+        },
+        {
+          heading: "6. Χρόνος Διατήρησης",
+          body: "Διατηρούμε τα δεδομένα σας για όσο χρόνο είναι απαραίτητος για τον σκοπό επεξεργασίας ή έως ότου ζητήσετε τη διαγραφή τους.",
+        },
+        {
+          heading: "7. Τα Δικαιώματά σας",
+          body: "Σύμφωνα με τον ΓΚΠΔ έχετε δικαίωμα πρόσβασης, διόρθωσης, διαγραφής, περιορισμού της επεξεργασίας, φορητότητας δεδομένων και εναντίωσης. Για την άσκηση των δικαιωμάτων σας επικοινωνήστε μαζί μας στο academy@innjobs.net.",
+        },
+        {
+          heading: "8. Cookies",
+          body: "Η ιστοσελίδα μπορεί να χρησιμοποιεί τεχνικά cookies για τη σωστή λειτουργία της. Δεν χρησιμοποιούμε cookies παρακολούθησης ή διαφήμισης.",
+        },
+        {
+          heading: "9. Αρχή Προστασίας Δεδομένων",
+          body: "Έχετε το δικαίωμα να υποβάλετε καταγγελία στην Αρχή Προστασίας Δεδομένων Προσωπικού Χαρακτήρα (www.dpa.gr), εάν θεωρείτε ότι η επεξεργασία των δεδομένων σας παραβιάζει τον ΓΚΠΔ.",
+        },
+      ],
+    },
   },
 
   en: {
@@ -438,7 +490,7 @@ export const translations = {
       title: "Certified by:",
       kdvm: "CLL",
       kdvmSub: "Centre for Lifelong Learning",
-      acta: "ACTA Certification",
+      acta: "IST College Certification",
       actaSub: "Recognized Certification",
       paris: "Paris Education Certificat",
       parisSub: "Institut Paris Education",
@@ -485,12 +537,12 @@ export const translations = {
         {
           icon: "Building",
           title: "5★ Hotel Masterclasses",
-          desc: "3 weekends in Athens — Grand Hyatt, Electra Metropolis & Aluma.",
+          desc: "3 weekends in Athens — Grand Hyatt, Electra Metropolis & Brown.",
         },
         {
           icon: "Plane",
           title: "France Educational Trip",
-          desc: "4 days in Paris & Champagne. Seminars, Intercontinental Paris & vineyards.",
+          desc: "4 days in Paris & Champagne. Seminars, Masterclass at Paris.Education College & vineyards.",
         },
         {
           icon: "Briefcase",
@@ -499,7 +551,7 @@ export const translations = {
         },
         {
           icon: "Award",
-          title: "ACTA & Paris Education Certification",
+          title: "IST College & Paris Education Certification",
           desc: "Certified diploma with international recognition and graduation ceremony.",
         },
         {
@@ -512,6 +564,7 @@ export const translations = {
       req1: "4-year degree in Hotel Business Administration",
       reqOr: "or",
       req2: "2-year degree + at least 2 years of professional experience in the hotel industry",
+      req3: "Degree in any field + at least 2 years of professional experience in the hotel industry",
     },
     curriculum: {
       tag: "Curriculum",
@@ -574,9 +627,9 @@ export const translations = {
           desc: "Bar management, mixology and service excellence at one of the leading urban hotels.",
         },
         {
-          name: "Aluma Athens",
-          area: "Roof Garden & Events",
-          desc: "Event management and operations in a unique rooftop setting in central Athens.",
+          name: "Brown Athens",
+          area: "Bar & Restaurant Management",
+          desc: "Bar management, mixology and service excellence at one of the leading urban hotels.",
         },
       ],
       venueNote1: "Educational visit to Nef-Nef (Linen & Housekeeping)",
@@ -590,7 +643,7 @@ export const translations = {
       days: "4 days education",
       items: [
         "2 days of seminars at La Défense by French tourism educators",
-        "Educational visit to Intercontinental Paris",
+        "Masterclass at Paris.Education College",
         "Educational visit to a vineyard in Champagne",
         "Vineyard tour — Ernest Berat Champagne",
         "Participation in Paris Education Graduation Ceremony",
@@ -640,17 +693,18 @@ export const translations = {
         subtitle: "Register up to 1 month before start",
         price: "€1,850",
         saving: "Save €550",
-        installment1: "€555 on registration (30%)",
-        installment2: "€1,295 on start date (70%)",
+        installment1: "€925 on registration (50%)",
+        installment2: "€925 on start date (50%)",
         cta: "Early Bird Registration",
       },
       regular: {
         badge: "Regular",
         title: "Regular Registration",
-        subtitle: "In two equal installments",
+        subtitle: "In three installments",
         price: "€2,400",
-        installment1: "€1,200 on registration (50%)",
-        installment2: "€1,200 within 2 months of start (50%)",
+        installment1: "€720 on registration (30%)",
+        installment2: "€480 on start date (20%)",
+        installment3: "€1,200 up to 2 months after start (50%)",
         cta: "Regular Registration",
       },
       includes: "Includes:",
@@ -659,12 +713,20 @@ export const translations = {
         "In-person masterclasses (3 weekends)",
         "Educational materials",
         "Inn Academy completion certificate",
-        "ACTA Certification",
+        "IST College Certification",
         "Paris Education Certificate",
         "Career Day participation",
         "Job listings access via Innjobs",
       ],
       franceExtra: "* The France educational trip has an additional cost",
+      paymentTitle: "Payment Methods",
+      bank: {
+        title: "Bank Transfer",
+        name: "Alpha Bank",
+        iban: "IBAN: GR7101401420142002002019061",
+        beneficiary: "Beneficiary: Ntaoularis Argyris",
+      },
+      card: "Card Payment",
     },
     faq: {
       tag: "FAQ",
@@ -685,11 +747,11 @@ export const translations = {
         },
         {
           q: "What is the participation cost?",
-          a: "Early Bird (registration up to 1 month before): €1,700 in two installments (30% + 70%). Regular registration: €2,200 in two installments (50% + 50%). The France trip has an additional cost.",
+          a: "Early Bird (registration up to 1 month before): €1,850 in two installments (50% + 50%). Regular registration: €2,400 in three installments (30% + 20% + 50%). The France trip has an additional cost.",
         },
         {
           q: "What certifications do I receive?",
-          a: "Inn Academy Specialization Certificate, ACTA Certification, Paris Education Certificate (Certificat) and invitation to the Paris Education Graduation Ceremony.",
+          a: "Inn Academy Specialization Certificate, IST College Certification, Paris Education Certificate (Certificat) and invitation to the Paris Education Graduation Ceremony.",
         },
         {
           q: "Is there a connection to the job market?",
@@ -794,6 +856,48 @@ export const translations = {
       rights: "All rights reserved.",
       poweredBy: "Educational Arm of",
     },
+    privacy: {
+      title: "Privacy Policy",
+      lastUpdated: "Last updated: March 2026",
+      sections: [
+        {
+          heading: "1. Data Controller",
+          body: "The data controller for your personal data is Inn Academy (educational arm of Innjobs), headquartered at 63 Panepistimiou St., 10564, Athens. For any questions regarding your personal data, please contact us at academy@innjobs.net.",
+        },
+        {
+          heading: "2. Data We Collect",
+          body: "We collect the data you submit through the application form: full name, phone number, and email address. We do not collect payment data through the website.",
+        },
+        {
+          heading: "3. Purpose of Processing",
+          body: "Your data is used exclusively to contact you about the Inn Academy educational program, to evaluate your application, and to provide information about the program.",
+        },
+        {
+          heading: "4. Legal Basis for Processing",
+          body: "Processing is based on your consent (Article 6(1)(a) GDPR), given when you submit the contact form. You have the right to withdraw your consent at any time.",
+        },
+        {
+          heading: "5. Data Transfers",
+          body: "Your data is not transferred to third parties unless required by law. No transfers outside the European Union take place.",
+        },
+        {
+          heading: "6. Retention Period",
+          body: "We retain your data for as long as necessary for the processing purpose or until you request its deletion.",
+        },
+        {
+          heading: "7. Your Rights",
+          body: "Under the GDPR you have the right of access, rectification, erasure, restriction of processing, data portability and objection. To exercise your rights, contact us at academy@innjobs.net.",
+        },
+        {
+          heading: "8. Cookies",
+          body: "The website may use technical cookies for its proper operation. We do not use tracking or advertising cookies.",
+        },
+        {
+          heading: "9. Data Protection Authority",
+          body: "You have the right to lodge a complaint with the Hellenic Data Protection Authority (www.dpa.gr) if you believe that the processing of your data violates the GDPR.",
+        },
+      ],
+    },
   },
 
   fr: {
@@ -834,7 +938,7 @@ export const translations = {
       title: "Certifié par:",
       kdvm: "CAP",
       kdvmSub: "Centre d'Apprentissage Permanent",
-      acta: "Certification ACTA",
+      acta: "Certification IST College",
       actaSub: "Certification Reconnue",
       paris: "Certificat Paris Education",
       parisSub: "Institut Paris Education",
@@ -881,12 +985,12 @@ export const translations = {
         {
           icon: "Building",
           title: "Masterclasses en Hôtels 5★",
-          desc: "3 week-ends à Athènes — Grand Hyatt, Electra Metropolis & Aluma.",
+          desc: "3 week-ends à Athènes — Grand Hyatt, Electra Metropolis & Brown.",
         },
         {
           icon: "Plane",
           title: "Voyage Éducatif en France",
-          desc: "4 jours à Paris & en Champagne. Séminaires, Intercontinental Paris & vignobles.",
+          desc: "4 jours à Paris & en Champagne. Séminaires, Masterclass au Paris.Education College & vignobles.",
         },
         {
           icon: "Briefcase",
@@ -895,7 +999,7 @@ export const translations = {
         },
         {
           icon: "Award",
-          title: "Certification ACTA & Paris Education",
+          title: "Certification IST College & Paris Education",
           desc: "Diplôme certifié avec reconnaissance internationale et cérémonie de remise.",
         },
         {
@@ -908,6 +1012,7 @@ export const translations = {
       req1: "Diplôme de 4 ans en Administration Hôtelière",
       reqOr: "ou",
       req2: "Diplôme de 2 ans + au moins 2 ans d'expérience professionnelle dans l'hôtellerie",
+      req3: "Diplôme dans n'importe quel domaine + au moins 2 ans d'expérience professionnelle dans l'hôtellerie",
     },
     curriculum: {
       tag: "Programme des Cours",
@@ -971,9 +1076,9 @@ export const translations = {
           desc: "Bar management, mixologie et excellence du service dans l'un des meilleurs hôtels urbains.",
         },
         {
-          name: "Aluma Athens",
-          area: "Roof Garden & Événements",
-          desc: "Gestion d'événements et opérations dans un cadre rooftop unique au centre d'Athènes.",
+          name: "Brown Athens",
+          area: "Bar & Restaurant Management",
+          desc: "Bar management, mixologie et excellence du service dans l'un des meilleurs hôtels urbains.",
         },
       ],
       venueNote1: "Visite éducative à Nef-Nef (Linge & Housekeeping)",
@@ -987,7 +1092,7 @@ export const translations = {
       days: "4 jours éducation",
       items: [
         "2 jours de séminaires à La Défense par des formateurs français du tourisme",
-        "Visite éducative à l'Intercontinental Paris",
+        "Masterclass au Paris.Education College",
         "Visite éducative d'un vignoble en Champagne",
         "Visite de vignobles — Ernest Berat Champagne",
         "Participation à la Cérémonie de Remise des Diplômes Paris Education",
@@ -1037,17 +1142,18 @@ export const translations = {
         subtitle: "Inscription jusqu'à 1 mois avant le début",
         price: "1.850€",
         saving: "Économisez 550€",
-        installment1: "555€ à l'inscription (30%)",
-        installment2: "1.295€ au début des cours (70%)",
+        installment1: "925€ à l'inscription (50%)",
+        installment2: "925€ au début des cours (50%)",
         cta: "Inscription Early Bird",
       },
       regular: {
         badge: "Régulier",
         title: "Inscription Régulière",
-        subtitle: "En deux versements égaux",
+        subtitle: "En trois versements",
         price: "2.400€",
-        installment1: "1.200€ à l'inscription (50%)",
-        installment2: "1.200€ dans les 2 mois suivant le début (50%)",
+        installment1: "720€ à l'inscription (30%)",
+        installment2: "480€ au début des cours (20%)",
+        installment3: "1.200€ jusqu'à 2 mois après le début (50%)",
         cta: "Inscription Régulière",
       },
       includes: "Comprend:",
@@ -1056,12 +1162,20 @@ export const translations = {
         "Masterclasses en présentiel (3 week-ends)",
         "Matériel pédagogique",
         "Certificat de fin de formation Inn Academy",
-        "Certification ACTA",
+        "Certification IST College",
         "Certificat Paris Education",
         "Participation à la Career Day",
         "Accès aux offres d'emploi via Innjobs",
       ],
       franceExtra: "* Le voyage éducatif en France a un coût supplémentaire",
+      paymentTitle: "Modes de Paiement",
+      bank: {
+        title: "Virement Bancaire",
+        name: "Alpha Bank",
+        iban: "IBAN: GR7101401420142002002019061",
+        beneficiary: "Bénéficiaire: Ntaoularis Argyris",
+      },
+      card: "Paiement par Carte",
     },
     faq: {
       tag: "Questions Fréquentes",
@@ -1083,11 +1197,11 @@ export const translations = {
         },
         {
           q: "Quel est le coût de participation?",
-          a: "Early Bird (inscription jusqu'à 1 mois avant): 1.700€ en deux versements (30% + 70%). Inscription régulière: 2.200€ en deux versements (50% + 50%). Le voyage en France a un coût supplémentaire.",
+          a: "Early Bird (inscription jusqu'à 1 mois avant): 1.850€ en deux versements (50% + 50%). Inscription régulière: 2.400€ en trois versements (30% + 20% + 50%). Le voyage en France a un coût supplémentaire.",
         },
         {
           q: "Quelles certifications est-ce que je reçois?",
-          a: "Certificat de spécialisation Inn Academy, Certification ACTA, Certificat Paris Education et invitation à la Cérémonie de Remise des Diplômes.",
+          a: "Certificat de spécialisation Inn Academy, Certification IST College, Certificat Paris Education et invitation à la Cérémonie de Remise des Diplômes.",
         },
         {
           q: "Y a-t-il un lien avec le marché du travail?",
@@ -1192,6 +1306,48 @@ export const translations = {
       faq: "FAQ",
       rights: "Tous droits réservés.",
       poweredBy: "Bras Éducatif de",
+    },
+    privacy: {
+      title: "Politique de Confidentialité",
+      lastUpdated: "Dernière mise à jour: Mars 2026",
+      sections: [
+        {
+          heading: "1. Responsable du Traitement",
+          body: "Le responsable du traitement de vos données personnelles est Inn Academy (bras éducatif d'Innjobs), dont le siège est au 63 rue Panepistimiou, 10564, Athènes. Pour toute question concernant vos données personnelles, contactez-nous à academy@innjobs.net.",
+        },
+        {
+          heading: "2. Données Collectées",
+          body: "Nous collectons les données que vous soumettez via le formulaire de candidature: nom complet, numéro de téléphone et adresse email. Nous ne collectons pas de données de paiement via le site web.",
+        },
+        {
+          heading: "3. Finalité du Traitement",
+          body: "Vos données sont utilisées exclusivement pour vous contacter au sujet du programme éducatif Inn Academy, pour évaluer votre candidature et pour vous fournir des informations sur le programme.",
+        },
+        {
+          heading: "4. Base Juridique du Traitement",
+          body: "Le traitement est fondé sur votre consentement (article 6(1)(a) RGPD), donné lors de la soumission du formulaire de contact. Vous avez le droit de retirer votre consentement à tout moment.",
+        },
+        {
+          heading: "5. Transferts de Données",
+          body: "Vos données ne sont pas transférées à des tiers, sauf si la loi l'exige. Aucun transfert en dehors de l'Union Européenne n'est effectué.",
+        },
+        {
+          heading: "6. Durée de Conservation",
+          body: "Nous conservons vos données aussi longtemps que nécessaire aux fins du traitement ou jusqu'à ce que vous en demandiez la suppression.",
+        },
+        {
+          heading: "7. Vos Droits",
+          body: "En vertu du RGPD, vous disposez d'un droit d'accès, de rectification, d'effacement, de limitation du traitement, de portabilité des données et d'opposition. Pour exercer vos droits, contactez-nous à academy@innjobs.net.",
+        },
+        {
+          heading: "8. Cookies",
+          body: "Le site web peut utiliser des cookies techniques pour son bon fonctionnement. Nous n'utilisons pas de cookies de suivi ou de publicité.",
+        },
+        {
+          heading: "9. Autorité de Protection des Données",
+          body: "Vous avez le droit de déposer une plainte auprès de l'Autorité Hellénique de Protection des Données (www.dpa.gr) si vous estimez que le traitement de vos données viole le RGPD.",
+        },
+      ],
     },
   },
 };

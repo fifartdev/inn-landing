@@ -1,7 +1,7 @@
 "use client";
 
 import { useLang } from "@/contexts/LanguageContext";
-import { CheckCircle, Zap, Tag } from "lucide-react";
+import { CheckCircle, Zap, Tag, Building2, CreditCard } from "lucide-react";
 
 export default function PricingSection() {
   const { t } = useLang();
@@ -89,6 +89,10 @@ export default function PricingSection() {
                 <span className="text-xs font-bold text-slate-400 w-6 text-center">2</span>
                 <span className="text-sm text-slate-600">{p.regular.installment2}</span>
               </div>
+              <div className="flex items-center gap-3 bg-slate-50 rounded-xl p-3">
+                <span className="text-xs font-bold text-slate-400 w-6 text-center">3</span>
+                <span className="text-sm text-slate-600">{p.regular.installment3}</span>
+              </div>
             </div>
 
             <a
@@ -113,6 +117,36 @@ export default function PricingSection() {
 
             <div className="mt-6 pt-5 border-t border-slate-200">
               <p className="text-xs text-slate-400 italic">{p.franceExtra}</p>
+            </div>
+          </div>
+        </div>
+
+        {/* Payment methods */}
+        <div className="mt-12">
+          <h3 className="text-center text-base font-bold text-inn-dark mb-6">{p.paymentTitle}</h3>
+          <div className="grid sm:grid-cols-2 gap-4 max-w-2xl mx-auto">
+            {/* Bank transfer */}
+            <div className="bg-inn-light-grey rounded-2xl p-6 border border-slate-100">
+              <div className="flex items-center gap-3 mb-4">
+                <div className="w-9 h-9 rounded-xl bg-inn-teal/10 flex items-center justify-center shrink-0">
+                  <Building2 className="w-4 h-4 text-inn-teal" />
+                </div>
+                <div>
+                  <div className="font-bold text-inn-dark text-sm">{p.bank.title}</div>
+                  <div className="text-xs text-slate-400">{p.bank.name}</div>
+                </div>
+              </div>
+              <div className="space-y-1.5">
+                <p className="text-xs font-mono text-slate-700 bg-white rounded-lg px-3 py-2 border border-slate-100 break-all">{p.bank.iban}</p>
+                <p className="text-xs text-slate-500 px-1">{p.bank.beneficiary}</p>
+              </div>
+            </div>
+            {/* Card */}
+            <div className="bg-inn-light-grey rounded-2xl p-6 border border-slate-100 flex items-center gap-3">
+              <div className="w-9 h-9 rounded-xl bg-inn-orange/10 flex items-center justify-center shrink-0">
+                <CreditCard className="w-4 h-4 text-inn-orange" />
+              </div>
+              <div className="font-bold text-inn-dark text-sm">{p.card}</div>
             </div>
           </div>
         </div>
