@@ -1,5 +1,9 @@
 {
   "/countries/page": "app/countries/page.js",
+  "/faq/page": "app/faq/page.js",
   "/france/page": "app/france/page.js",
-  "/page": "app/page.js"
+  "/gallery/page": "app/gallery/page.js",
+  "/page": "app/page.js",
+  "/professors/page": "app/professors/page.js",
+  "/sponsors/page": "app/sponsors/page.js"
 }

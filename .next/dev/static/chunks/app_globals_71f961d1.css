@@ -775,6 +775,10 @@ img, video {
   cursor: pointer;
 }
 
+.scroll-mt-20 {
+  scroll-margin-top: 5rem;
+}
+
 .grid-cols-12 {
   grid-template-columns: repeat(12, minmax(0, 1fr));
 }
