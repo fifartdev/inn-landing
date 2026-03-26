@@ -1198,6 +1198,7 @@ __turbopack_context__.s([
     ()=>ProgramHighlights
 ]);
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/compiled/react/jsx-dev-runtime.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/client/app-dir/link.js [app-client] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$contexts$2f$LanguageContext$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/contexts/LanguageContext.tsx [app-client] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$monitor$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Monitor$3e$__ = __turbopack_context__.i("[project]/node_modules/lucide-react/dist/esm/icons/monitor.js [app-client] (ecmascript) <export default as Monitor>");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$building$2d$2$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Building2$3e$__ = __turbopack_context__.i("[project]/node_modules/lucide-react/dist/esm/icons/building-2.js [app-client] (ecmascript) <export default as Building2>");
@@ -1213,47 +1214,48 @@ var _s = __turbopack_context__.k.signature();
 "use client";
 ;
 ;
+;
 const iconMap = {
     Monitor: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$monitor$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Monitor$3e$__["Monitor"], {
         className: "w-6 h-6"
     }, void 0, false, {
         fileName: "[project]/components/ProgramHighlights.tsx",
-        lineNumber: 7,
+        lineNumber: 8,
         columnNumber: 12
     }, ("TURBOPACK compile-time value", void 0)),
     Building: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$building$2d$2$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Building2$3e$__["Building2"], {
         className: "w-6 h-6"
     }, void 0, false, {
         fileName: "[project]/components/ProgramHighlights.tsx",
-        lineNumber: 8,
+        lineNumber: 9,
         columnNumber: 13
     }, ("TURBOPACK compile-time value", void 0)),
     Plane: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$plane$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Plane$3e$__["Plane"], {
         className: "w-6 h-6"
     }, void 0, false, {
         fileName: "[project]/components/ProgramHighlights.tsx",
-        lineNumber: 9,
+        lineNumber: 10,
         columnNumber: 10
     }, ("TURBOPACK compile-time value", void 0)),
     Briefcase: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$briefcase$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Briefcase$3e$__["Briefcase"], {
         className: "w-6 h-6"
     }, void 0, false, {
         fileName: "[project]/components/ProgramHighlights.tsx",
-        lineNumber: 10,
+        lineNumber: 11,
         columnNumber: 14
     }, ("TURBOPACK compile-time value", void 0)),
     Award: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$award$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Award$3e$__["Award"], {
         className: "w-6 h-6"
     }, void 0, false, {
         fileName: "[project]/components/ProgramHighlights.tsx",
-        lineNumber: 11,
+        lineNumber: 12,
         columnNumber: 10
     }, ("TURBOPACK compile-time value", void 0)),
     Globe: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$globe$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Globe$3e$__["Globe"], {
         className: "w-6 h-6"
     }, void 0, false, {
         fileName: "[project]/components/ProgramHighlights.tsx",
-        lineNumber: 12,
+        lineNumber: 13,
         columnNumber: 10
     }, ("TURBOPACK compile-time value", void 0))
 };
@@ -1283,7 +1285,7 @@ function ProgramHighlights() {
                             children: p.tag
                         }, void 0, false, {
                             fileName: "[project]/components/ProgramHighlights.tsx",
-                            lineNumber: 33,
+                            lineNumber: 34,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
@@ -1291,7 +1293,7 @@ function ProgramHighlights() {
                             children: p.title
                         }, void 0, false, {
                             fileName: "[project]/components/ProgramHighlights.tsx",
-                            lineNumber: 36,
+                            lineNumber: 37,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1299,13 +1301,13 @@ function ProgramHighlights() {
                             children: p.subtitle
                         }, void 0, false, {
                             fileName: "[project]/components/ProgramHighlights.tsx",
-                            lineNumber: 39,
+                            lineNumber: 40,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/components/ProgramHighlights.tsx",
-                    lineNumber: 32,
+                    lineNumber: 33,
                     columnNumber: 9
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1316,7 +1318,7 @@ function ProgramHighlights() {
                                 className: "w-5 h-5 text-inn-teal"
                             }, void 0, false, {
                                 fileName: "[project]/components/ProgramHighlights.tsx",
-                                lineNumber: 45,
+                                lineNumber: 46,
                                 columnNumber: 21
                             }, this),
                             label: p.duration,
@@ -1327,7 +1329,7 @@ function ProgramHighlights() {
                                 className: "w-5 h-5 text-inn-orange"
                             }, void 0, false, {
                                 fileName: "[project]/components/ProgramHighlights.tsx",
-                                lineNumber: 46,
+                                lineNumber: 47,
                                 columnNumber: 21
                             }, this),
                             label: p.start,
@@ -1338,7 +1340,7 @@ function ProgramHighlights() {
                                 className: "w-5 h-5 text-inn-teal"
                             }, void 0, false, {
                                 fileName: "[project]/components/ProgramHighlights.tsx",
-                                lineNumber: 47,
+                                lineNumber: 48,
                                 columnNumber: 21
                             }, this),
                             label: p.mode,
@@ -1352,7 +1354,7 @@ function ProgramHighlights() {
                                     children: item.icon
                                 }, void 0, false, {
                                     fileName: "[project]/components/ProgramHighlights.tsx",
-                                    lineNumber: 53,
+                                    lineNumber: 54,
                                     columnNumber: 15
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1362,7 +1364,7 @@ function ProgramHighlights() {
                                             children: item.label
                                         }, void 0, false, {
                                             fileName: "[project]/components/ProgramHighlights.tsx",
-                                            lineNumber: 57,
+                                            lineNumber: 58,
                                             columnNumber: 17
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1370,38 +1372,48 @@ function ProgramHighlights() {
                                             children: item.val
                                         }, void 0, false, {
                                             fileName: "[project]/components/ProgramHighlights.tsx",
-                                            lineNumber: 60,
+                                            lineNumber: 61,
                                             columnNumber: 17
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/components/ProgramHighlights.tsx",
-                                    lineNumber: 56,
+                                    lineNumber: 57,
                                     columnNumber: 15
                                 }, this)
                             ]
                         }, i, true, {
                             fileName: "[project]/components/ProgramHighlights.tsx",
-                            lineNumber: 49,
+                            lineNumber: 50,
                             columnNumber: 13
                         }, this))
                 }, void 0, false, {
                     fileName: "[project]/components/ProgramHighlights.tsx",
-                    lineNumber: 43,
+                    lineNumber: 44,
                     columnNumber: 9
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                     className: "grid sm:grid-cols-2 lg:grid-cols-3 gap-6 mb-14",
-                    children: p.highlights.map((h, i)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                            className: "bg-white rounded-2xl p-6 border border-slate-100 shadow-sm card-hover group",
+                    children: p.highlights.map((h, i)=>{
+                        const links = [
+                            "#curriculum",
+                            "#venues",
+                            "/france",
+                            null,
+                            null,
+                            "/countries"
+                        ];
+                        const href = links[i] ?? null;
+                        const cardClass = "bg-white rounded-2xl p-6 border border-slate-100 shadow-sm card-hover group" + (href ? " cursor-pointer" : "");
+                        const inner = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Fragment"], {
                             children: [
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                     className: `w-12 h-12 rounded-2xl flex items-center justify-center mb-4 ${highlightColors[i]}`,
                                     children: iconMap[h.icon]
                                 }, void 0, false, {
                                     fileName: "[project]/components/ProgramHighlights.tsx",
-                                    lineNumber: 75,
-                                    columnNumber: 15
+                                    lineNumber: 77,
+                                    columnNumber: 17
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
                                     className: "font-bold text-inn-dark mb-2 text-base group-hover:text-inn-teal transition-colors",
@@ -1409,7 +1421,7 @@ function ProgramHighlights() {
                                 }, void 0, false, {
                                     fileName: "[project]/components/ProgramHighlights.tsx",
                                     lineNumber: 80,
-                                    columnNumber: 15
+                                    columnNumber: 17
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                     className: "text-sm text-slate-500 leading-relaxed",
@@ -1417,17 +1429,40 @@ function ProgramHighlights() {
                                 }, void 0, false, {
                                     fileName: "[project]/components/ProgramHighlights.tsx",
                                     lineNumber: 83,
-                                    columnNumber: 15
+                                    columnNumber: 17
                                 }, this)
                             ]
-                        }, i, true, {
+                        }, void 0, true);
+                        if (!href) return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                            className: cardClass,
+                            children: inner
+                        }, i, false, {
                             fileName: "[project]/components/ProgramHighlights.tsx",
-                            lineNumber: 71,
-                            columnNumber: 13
-                        }, this))
+                            lineNumber: 86,
+                            columnNumber: 31
+                        }, this);
+                        if (href.startsWith("#")) return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
+                            href: href,
+                            className: cardClass,
+                            children: inner
+                        }, i, false, {
+                            fileName: "[project]/components/ProgramHighlights.tsx",
+                            lineNumber: 87,
+                            columnNumber: 46
+                        }, this);
+                        return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
+                            href: href,
+                            className: cardClass,
+                            children: inner
+                        }, i, false, {
+                            fileName: "[project]/components/ProgramHighlights.tsx",
+                            lineNumber: 88,
+                            columnNumber: 20
+                        }, this);
+                    })
                 }, void 0, false, {
                     fileName: "[project]/components/ProgramHighlights.tsx",
-                    lineNumber: 69,
+                    lineNumber: 70,
                     columnNumber: 9
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1441,12 +1476,12 @@ function ProgramHighlights() {
                                     className: "w-5 h-5 text-inn-teal"
                                 }, void 0, false, {
                                     fileName: "[project]/components/ProgramHighlights.tsx",
-                                    lineNumber: 92,
+                                    lineNumber: 96,
                                     columnNumber: 15
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/components/ProgramHighlights.tsx",
-                                lineNumber: 91,
+                                lineNumber: 95,
                                 columnNumber: 13
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1456,7 +1491,7 @@ function ProgramHighlights() {
                                         children: p.requirements
                                     }, void 0, false, {
                                         fileName: "[project]/components/ProgramHighlights.tsx",
-                                        lineNumber: 95,
+                                        lineNumber: 99,
                                         columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1470,7 +1505,7 @@ function ProgramHighlights() {
                                                         children: "1"
                                                     }, void 0, false, {
                                                         fileName: "[project]/components/ProgramHighlights.tsx",
-                                                        lineNumber: 100,
+                                                        lineNumber: 104,
                                                         columnNumber: 19
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -1478,13 +1513,13 @@ function ProgramHighlights() {
                                                         children: p.req1
                                                     }, void 0, false, {
                                                         fileName: "[project]/components/ProgramHighlights.tsx",
-                                                        lineNumber: 103,
+                                                        lineNumber: 107,
                                                         columnNumber: 19
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/components/ProgramHighlights.tsx",
-                                                lineNumber: 99,
+                                                lineNumber: 103,
                                                 columnNumber: 17
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1494,12 +1529,12 @@ function ProgramHighlights() {
                                                     children: p.reqOr
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/ProgramHighlights.tsx",
-                                                    lineNumber: 106,
+                                                    lineNumber: 110,
                                                     columnNumber: 19
                                                 }, this)
                                             }, void 0, false, {
                                                 fileName: "[project]/components/ProgramHighlights.tsx",
-                                                lineNumber: 105,
+                                                lineNumber: 109,
                                                 columnNumber: 17
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1510,7 +1545,7 @@ function ProgramHighlights() {
                                                         children: "2"
                                                     }, void 0, false, {
                                                         fileName: "[project]/components/ProgramHighlights.tsx",
-                                                        lineNumber: 109,
+                                                        lineNumber: 113,
                                                         columnNumber: 19
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -1518,13 +1553,13 @@ function ProgramHighlights() {
                                                         children: p.req2
                                                     }, void 0, false, {
                                                         fileName: "[project]/components/ProgramHighlights.tsx",
-                                                        lineNumber: 112,
+                                                        lineNumber: 116,
                                                         columnNumber: 19
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/components/ProgramHighlights.tsx",
-                                                lineNumber: 108,
+                                                lineNumber: 112,
                                                 columnNumber: 17
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1534,12 +1569,12 @@ function ProgramHighlights() {
                                                     children: p.reqOr
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/ProgramHighlights.tsx",
-                                                    lineNumber: 115,
+                                                    lineNumber: 119,
                                                     columnNumber: 19
                                                 }, this)
                                             }, void 0, false, {
                                                 fileName: "[project]/components/ProgramHighlights.tsx",
-                                                lineNumber: 114,
+                                                lineNumber: 118,
                                                 columnNumber: 17
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1550,7 +1585,7 @@ function ProgramHighlights() {
                                                         children: "3"
                                                     }, void 0, false, {
                                                         fileName: "[project]/components/ProgramHighlights.tsx",
-                                                        lineNumber: 118,
+                                                        lineNumber: 122,
                                                         columnNumber: 19
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -1558,47 +1593,47 @@ function ProgramHighlights() {
                                                         children: p.req3
                                                     }, void 0, false, {
                                                         fileName: "[project]/components/ProgramHighlights.tsx",
-                                                        lineNumber: 121,
+                                                        lineNumber: 125,
                                                         columnNumber: 19
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/components/ProgramHighlights.tsx",
-                                                lineNumber: 117,
+                                                lineNumber: 121,
                                                 columnNumber: 17
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/components/ProgramHighlights.tsx",
-                                        lineNumber: 98,
+                                        lineNumber: 102,
                                         columnNumber: 15
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/components/ProgramHighlights.tsx",
-                                lineNumber: 94,
+                                lineNumber: 98,
                                 columnNumber: 13
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/components/ProgramHighlights.tsx",
-                        lineNumber: 90,
+                        lineNumber: 94,
                         columnNumber: 11
                     }, this)
                 }, void 0, false, {
                     fileName: "[project]/components/ProgramHighlights.tsx",
-                    lineNumber: 89,
+                    lineNumber: 93,
                     columnNumber: 9
                 }, this)
             ]
         }, void 0, true, {
             fileName: "[project]/components/ProgramHighlights.tsx",
-            lineNumber: 30,
+            lineNumber: 31,
             columnNumber: 7
         }, this)
     }, void 0, false, {
         fileName: "[project]/components/ProgramHighlights.tsx",
-        lineNumber: 29,
+        lineNumber: 30,
         columnNumber: 5
     }, this);
 }

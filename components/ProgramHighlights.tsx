@@ -1,5 +1,6 @@
 "use client";
 
+import Link from "next/link";
 import { useLang } from "@/contexts/LanguageContext";
 import { Monitor, Building2, Plane, Briefcase, Award, Globe, Clock, Calendar, CheckCircle } from "lucide-react";
 
@@ -67,22 +68,25 @@ export default function ProgramHighlights() {
 
         {/* Highlights grid */}
         <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6 mb-14">
-          {p.highlights.map((h, i) => (
-            <div
-              key={i}
-              className="bg-white rounded-2xl p-6 border border-slate-100 shadow-sm card-hover group"
-            >
-              <div
-                className={`w-12 h-12 rounded-2xl flex items-center justify-center mb-4 ${highlightColors[i]}`}
-              >
-                {iconMap[h.icon]}
-              </div>
-              <h3 className="font-bold text-inn-dark mb-2 text-base group-hover:text-inn-teal transition-colors">
-                {h.title}
-              </h3>
-              <p className="text-sm text-slate-500 leading-relaxed">{h.desc}</p>
-            </div>
-          ))}
+          {p.highlights.map((h, i) => {
+            const links: (string | null)[] = ["#curriculum", "#venues", "/france", null, null, "/countries"];
+            const href = links[i] ?? null;
+            const cardClass = "bg-white rounded-2xl p-6 border border-slate-100 shadow-sm card-hover group" + (href ? " cursor-pointer" : "");
+            const inner = (
+              <>
+                <div className={`w-12 h-12 rounded-2xl flex items-center justify-center mb-4 ${highlightColors[i]}`}>
+                  {iconMap[h.icon]}
+                </div>
+                <h3 className="font-bold text-inn-dark mb-2 text-base group-hover:text-inn-teal transition-colors">
+                  {h.title}
+                </h3>
+                <p className="text-sm text-slate-500 leading-relaxed">{h.desc}</p>
+              </>
+            );
+            if (!href) return <div key={i} className={cardClass}>{inner}</div>;
+            if (href.startsWith("#")) return <a key={i} href={href} className={cardClass}>{inner}</a>;
+            return <Link key={i} href={href} className={cardClass}>{inner}</Link>;
+          })}
         </div>
 
         {/* Requirements */}
