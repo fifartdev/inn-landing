@@ -229,6 +229,7 @@ const translations = {
             tag: "Καθηγητές",
             title: "Εισηγητές Προγράμματος",
             subtitle: "Ενεργοί επαγγελματίες του ξενοδοχειακού κλάδου με εκτεταμένη πείρα",
+            guestTitle: "Επίτιμοι Προσκεκλημένοι / Guest",
             professorSubjects: [
                 "Στρατηγική Διοίκηση / Επιχειρηματικότητα",
                 "Mentoring & Coaching / Διοίκηση Ξενοδοχειακών Μονάδων",
@@ -721,6 +722,7 @@ const translations = {
             tag: "Faculty",
             title: "Program Instructors",
             subtitle: "Active hospitality professionals with extensive field experience",
+            guestTitle: "Honorary Guests / Guest",
             professorSubjects: [
                 "Strategic Management / Entrepreneurship",
                 "Mentoring & Coaching / Hotel Unit Management",
@@ -1213,6 +1215,7 @@ const translations = {
             tag: "Corps Professoral",
             title: "Instructeurs du Programme",
             subtitle: "Professionnels actifs de l'hôtellerie avec une vaste expérience sur le terrain",
+            guestTitle: "Invités d'Honneur / Guest",
             professorSubjects: [
                 "Management Stratégique / Entrepreneuriat",
                 "Mentoring & Coaching / Gestion des Unités Hôtelières",
@@ -1739,7 +1742,8 @@ const professorsData = [
         nameLatin: "Antonis Giannopoulos",
         category: "MARKETING",
         linkedin: "https://www.linkedin.com/in/antoniosgiannopoulos/",
-        image: "/professors/antonis_giannopoulos.jpeg"
+        image: "/professors/antonis_giannopoulos.jpeg",
+        guestSpeaker: true
     },
     {
         name: "Μάριος Ανδρακάκης",
@@ -1760,7 +1764,8 @@ const professorsData = [
         nameLatin: "Konstantinos Ntelezos",
         category: "F&B",
         linkedin: "https://shorturl.at/di7Sh",
-        image: "/professors/konstantinos_ntelezos.jpg"
+        image: "/professors/konstantinos_ntelezos.jpg",
+        guestSpeaker: true
     },
     {
         name: "Φυλάκτου Γεωργία",
@@ -1788,7 +1793,8 @@ const professorsData = [
         nameLatin: "Konstantinos Sergopoulos",
         category: "FRONT OFFICE",
         linkedin: "https://tourism.uniwa.gr/profile/sergopoulos-konstantinos/",
-        image: "/professors/konstantinos_sergopoulos.jpg"
+        image: "/professors/konstantinos_sergopoulos.jpg",
+        guestSpeaker: true
     },
     {
         name: "Γιώργος Καλογερόπουλος",

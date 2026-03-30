@@ -314,6 +314,69 @@ function ProfessorsSection() {
     _s();
     const { t, lang } = (0, __TURBOPACK__imported__module__$5b$project$5d2f$contexts$2f$LanguageContext$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useLang"])();
     const p = t.professors;
+    const regularProfessors = __TURBOPACK__imported__module__$5b$project$5d2f$lib$2f$translations$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__["professorsData"].map((prof, i)=>({
+            prof,
+            i
+        })).filter(({ prof })=>!prof.guestSpeaker);
+    const guestSpeakers = __TURBOPACK__imported__module__$5b$project$5d2f$lib$2f$translations$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__["professorsData"].map((prof, i)=>({
+            prof,
+            i
+        })).filter(({ prof })=>prof.guestSpeaker);
+    const renderCard = ({ prof, i })=>{
+        const displayName = lang === "gr" ? prof.name : prof.nameLatin;
+        return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
+            href: prof.linkedin,
+            target: "_blank",
+            rel: "noopener noreferrer",
+            className: "bg-white rounded-2xl p-5 border border-slate-100 shadow-sm card-hover group text-center block",
+            children: [
+                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                    className: "w-20 h-20 mx-auto mb-4 rounded-2xl overflow-hidden bg-gradient-to-br from-inn-teal/20 to-inn-teal/5 border-2 border-inn-teal/10 group-hover:border-inn-teal/30 transition-colors",
+                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
+                        src: prof.image,
+                        alt: displayName,
+                        className: "w-full h-full object-cover"
+                    }, void 0, false, {
+                        fileName: "[project]/components/ProfessorsSection.tsx",
+                        lineNumber: 29,
+                        columnNumber: 11
+                    }, this)
+                }, void 0, false, {
+                    fileName: "[project]/components/ProfessorsSection.tsx",
+                    lineNumber: 28,
+                    columnNumber: 9
+                }, this),
+                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
+                    className: "font-bold text-inn-dark text-sm leading-tight mb-2 group-hover:text-inn-teal transition-colors",
+                    children: displayName
+                }, void 0, false, {
+                    fileName: "[project]/components/ProfessorsSection.tsx",
+                    lineNumber: 36,
+                    columnNumber: 9
+                }, this),
+                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                    className: "text-xs text-slate-500 leading-snug mb-3",
+                    children: p.professorSubjects[i]
+                }, void 0, false, {
+                    fileName: "[project]/components/ProfessorsSection.tsx",
+                    lineNumber: 40,
+                    columnNumber: 9
+                }, this),
+                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                    className: `category-pill text-[10px] ${__TURBOPACK__imported__module__$5b$project$5d2f$lib$2f$translations$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__["categoryColors"][prof.category] || "bg-slate-100 text-slate-600 border-slate-200"}`,
+                    children: prof.category
+                }, void 0, false, {
+                    fileName: "[project]/components/ProfessorsSection.tsx",
+                    lineNumber: 42,
+                    columnNumber: 9
+                }, this)
+            ]
+        }, i, true, {
+            fileName: "[project]/components/ProfessorsSection.tsx",
+            lineNumber: 21,
+            columnNumber: 7
+        }, this);
+    };
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
         id: "professors",
         className: "py-20 lg:py-28 bg-inn-light-grey",
@@ -328,7 +391,7 @@ function ProfessorsSection() {
                             children: p.tag
                         }, void 0, false, {
                             fileName: "[project]/components/ProfessorsSection.tsx",
-                            lineNumber: 15,
+                            lineNumber: 59,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
@@ -336,7 +399,7 @@ function ProfessorsSection() {
                             children: p.title
                         }, void 0, false, {
                             fileName: "[project]/components/ProfessorsSection.tsx",
-                            lineNumber: 18,
+                            lineNumber: 62,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -344,86 +407,80 @@ function ProfessorsSection() {
                             children: p.subtitle
                         }, void 0, false, {
                             fileName: "[project]/components/ProfessorsSection.tsx",
-                            lineNumber: 21,
+                            lineNumber: 65,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/components/ProfessorsSection.tsx",
-                    lineNumber: 14,
+                    lineNumber: 58,
                     columnNumber: 9
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                     className: "grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 gap-5",
-                    children: __TURBOPACK__imported__module__$5b$project$5d2f$lib$2f$translations$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__["professorsData"].map((prof, i)=>{
-                        const displayName = lang === "gr" ? prof.name : prof.nameLatin;
-                        return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
-                            href: prof.linkedin,
-                            target: "_blank",
-                            rel: "noopener noreferrer",
-                            className: "bg-white rounded-2xl p-5 border border-slate-100 shadow-sm card-hover group text-center block",
-                            children: [
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                    className: "w-20 h-20 mx-auto mb-4 rounded-2xl overflow-hidden bg-gradient-to-br from-inn-teal/20 to-inn-teal/5 border-2 border-inn-teal/10 group-hover:border-inn-teal/30 transition-colors",
-                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
-                                        src: prof.image,
-                                        alt: displayName,
-                                        className: "w-full h-full object-cover"
-                                    }, void 0, false, {
-                                        fileName: "[project]/components/ProfessorsSection.tsx",
-                                        lineNumber: 38,
-                                        columnNumber: 19
-                                    }, this)
-                                }, void 0, false, {
-                                    fileName: "[project]/components/ProfessorsSection.tsx",
-                                    lineNumber: 37,
-                                    columnNumber: 17
-                                }, this),
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
-                                    className: "font-bold text-inn-dark text-sm leading-tight mb-2 group-hover:text-inn-teal transition-colors",
-                                    children: displayName
-                                }, void 0, false, {
-                                    fileName: "[project]/components/ProfessorsSection.tsx",
-                                    lineNumber: 46,
-                                    columnNumber: 17
-                                }, this),
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                    className: "text-xs text-slate-500 leading-snug mb-3",
-                                    children: p.professorSubjects[i]
-                                }, void 0, false, {
-                                    fileName: "[project]/components/ProfessorsSection.tsx",
-                                    lineNumber: 51,
-                                    columnNumber: 17
-                                }, this),
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                    className: `category-pill text-[10px] ${__TURBOPACK__imported__module__$5b$project$5d2f$lib$2f$translations$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__["categoryColors"][prof.category] || "bg-slate-100 text-slate-600 border-slate-200"}`,
-                                    children: prof.category
-                                }, void 0, false, {
-                                    fileName: "[project]/components/ProfessorsSection.tsx",
-                                    lineNumber: 54,
-                                    columnNumber: 17
-                                }, this)
-                            ]
-                        }, i, true, {
-                            fileName: "[project]/components/ProfessorsSection.tsx",
-                            lineNumber: 29,
-                            columnNumber: 15
-                        }, this);
-                    })
+                    children: regularProfessors.map(renderCard)
                 }, void 0, false, {
                     fileName: "[project]/components/ProfessorsSection.tsx",
-                    lineNumber: 25,
+                    lineNumber: 69,
+                    columnNumber: 9
+                }, this),
+                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                    className: "mt-14",
+                    children: [
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                            className: "flex items-center gap-4 mb-8",
+                            children: [
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                    className: "h-px flex-1 bg-slate-200"
+                                }, void 0, false, {
+                                    fileName: "[project]/components/ProfessorsSection.tsx",
+                                    lineNumber: 76,
+                                    columnNumber: 13
+                                }, this),
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                    className: "text-sm font-semibold text-slate-500 uppercase tracking-widest whitespace-nowrap",
+                                    children: p.guestTitle
+                                }, void 0, false, {
+                                    fileName: "[project]/components/ProfessorsSection.tsx",
+                                    lineNumber: 77,
+                                    columnNumber: 13
+                                }, this),
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                    className: "h-px flex-1 bg-slate-200"
+                                }, void 0, false, {
+                                    fileName: "[project]/components/ProfessorsSection.tsx",
+                                    lineNumber: 80,
+                                    columnNumber: 13
+                                }, this)
+                            ]
+                        }, void 0, true, {
+                            fileName: "[project]/components/ProfessorsSection.tsx",
+                            lineNumber: 75,
+                            columnNumber: 11
+                        }, this),
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                            className: "grid grid-cols-2 sm:grid-cols-3 gap-5 max-w-xl mx-auto",
+                            children: guestSpeakers.map(renderCard)
+                        }, void 0, false, {
+                            fileName: "[project]/components/ProfessorsSection.tsx",
+                            lineNumber: 82,
+                            columnNumber: 11
+                        }, this)
+                    ]
+                }, void 0, true, {
+                    fileName: "[project]/components/ProfessorsSection.tsx",
+                    lineNumber: 74,
                     columnNumber: 9
                 }, this)
             ]
         }, void 0, true, {
             fileName: "[project]/components/ProfessorsSection.tsx",
-            lineNumber: 12,
+            lineNumber: 56,
             columnNumber: 7
         }, this)
     }, void 0, false, {
         fileName: "[project]/components/ProfessorsSection.tsx",
-        lineNumber: 11,
+        lineNumber: 55,
         columnNumber: 5
     }, this);
 }

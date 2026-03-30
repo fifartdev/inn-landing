@@ -214,6 +214,7 @@ export const translations = {
       title: "Εισηγητές Προγράμματος",
       subtitle:
         "Ενεργοί επαγγελματίες του ξενοδοχειακού κλάδου με εκτεταμένη πείρα",
+      guestTitle: "Επίτιμοι Προσκεκλημένοι / Guest",
       professorSubjects: [
         "Στρατηγική Διοίκηση / Επιχειρηματικότητα",
         "Mentoring & Coaching / Διοίκηση Ξενοδοχειακών Μονάδων",
@@ -714,6 +715,7 @@ export const translations = {
       title: "Program Instructors",
       subtitle:
         "Active hospitality professionals with extensive field experience",
+      guestTitle: "Honorary Guests / Guest",
       professorSubjects: [
         "Strategic Management / Entrepreneurship",
         "Mentoring & Coaching / Hotel Unit Management",
@@ -1215,6 +1217,7 @@ export const translations = {
       title: "Instructeurs du Programme",
       subtitle:
         "Professionnels actifs de l'hôtellerie avec une vaste expérience sur le terrain",
+      guestTitle: "Invités d'Honneur / Guest",
       professorSubjects: [
         "Management Stratégique / Entrepreneuriat",
         "Mentoring & Coaching / Gestion des Unités Hôtelières",
@@ -1545,14 +1548,14 @@ export const professorsData = [
   { name: "Ράνια Πάσσαρη", nameLatin: "Rania Passari", category: "HR", linkedin: "https://www.linkedin.com/in/rania-passari/", image: "/professors/rania_pasari.jpeg" },
   { name: "Δημήτρης Βαλέργας", nameLatin: "Dimitris Valergas", category: "HR", linkedin: "https://www.linkedin.com/in/dimitris-valergas-39a36347/", image: "/professors/dimitris_valergas.jpeg" },
   { name: "Βασιλική Σφονδύλη", nameLatin: "Vasiliki Sfondyli", category: "HR", linkedin: "https://www.doctoranytime.gr/d/Psychologos/sfondyli-vasiliki", image: "/professors/vasiliki_sfondyli.webp" },
-  { name: "Αντώνης Γιαννόπουλος", nameLatin: "Antonis Giannopoulos", category: "MARKETING", linkedin: "https://www.linkedin.com/in/antoniosgiannopoulos/", image: "/professors/antonis_giannopoulos.jpeg" },
+  { name: "Αντώνης Γιαννόπουλος", nameLatin: "Antonis Giannopoulos", category: "MARKETING", linkedin: "https://www.linkedin.com/in/antoniosgiannopoulos/", image: "/professors/antonis_giannopoulos.jpeg", guestSpeaker: true },
   { name: "Μάριος Ανδρακάκης", nameLatin: "Marios Andrakakis", category: "SALES", linkedin: "https://www.linkedin.com/in/marios-a-00a92823/", image: "/professors/marios_andrakakis.jpeg" },
   { name: "Σταμάτης Λουμουσιώτης", nameLatin: "Stamatis Loumousiotis", category: "F&B", linkedin: "https://www.linkedin.com/in/stamatis-loumousiotis-27703847/", image: "/professors/stamatis_loumousiotis.jpeg" },
-  { name: "Κωνσταντίνος Ντελέζος", nameLatin: "Konstantinos Ntelezos", category: "F&B", linkedin: "https://shorturl.at/di7Sh", image: "/professors/konstantinos_ntelezos.jpg" },
+  { name: "Κωνσταντίνος Ντελέζος", nameLatin: "Konstantinos Ntelezos", category: "F&B", linkedin: "https://shorturl.at/di7Sh", image: "/professors/konstantinos_ntelezos.jpg", guestSpeaker: true },
   { name: "Φυλάκτου Γεωργία", nameLatin: "Georgia Fylaktou", category: "F&B", linkedin: "https://www.linkedin.com/in/georgia-fylaktou-2b274a327/", image: "/professors/georgia_fylaktou.jpeg" },
   { name: "Μαρία Κατσούλη", nameLatin: "Maria Katsouli", category: "F&B", linkedin: "https://www.linkedin.com/in/maria-katsouli-5942ba6/", image: "/professors/maria_katsouli.webp" },
   { name: "Φανή Πασπαράκη", nameLatin: "Fani Pasparaki", category: "FRONT OFFICE", linkedin: "https://www.linkedin.com/in/fani-pasparaki-61004974/", image: "/professors/fani_pasparaki.jpeg" },
-  { name: "Κωνσταντίνος Σεργόπουλος", nameLatin: "Konstantinos Sergopoulos", category: "FRONT OFFICE", linkedin: "https://tourism.uniwa.gr/profile/sergopoulos-konstantinos/", image: "/professors/konstantinos_sergopoulos.jpg" },
+  { name: "Κωνσταντίνος Σεργόπουλος", nameLatin: "Konstantinos Sergopoulos", category: "FRONT OFFICE", linkedin: "https://tourism.uniwa.gr/profile/sergopoulos-konstantinos/", image: "/professors/konstantinos_sergopoulos.jpg", guestSpeaker: true },
   { name: "Γιώργος Καλογερόπουλος", nameLatin: "Giorgos Kalogeropoulos", category: "HOUSEKEEPING", linkedin: "https://www.linkedin.com/in/giorgos-kalogeropoulos-96074647/", image: "/professors/giorgos_kalogeropoulos.jpeg" },
 ];
 

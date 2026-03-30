@@ -7,6 +7,50 @@ export default function ProfessorsSection() {
   const { t, lang } = useLang();
   const p = t.professors;
 
+  const regularProfessors = professorsData
+    .map((prof, i) => ({ prof, i }))
+    .filter(({ prof }) => !prof.guestSpeaker);
+
+  const guestSpeakers = professorsData
+    .map((prof, i) => ({ prof, i }))
+    .filter(({ prof }) => prof.guestSpeaker);
+
+  const renderCard = ({ prof, i }: { prof: typeof professorsData[0]; i: number }) => {
+    const displayName = lang === "gr" ? prof.name : prof.nameLatin;
+    return (
+      <a
+        key={i}
+        href={prof.linkedin}
+        target="_blank"
+        rel="noopener noreferrer"
+        className="bg-white rounded-2xl p-5 border border-slate-100 shadow-sm card-hover group text-center block"
+      >
+        <div className="w-20 h-20 mx-auto mb-4 rounded-2xl overflow-hidden bg-gradient-to-br from-inn-teal/20 to-inn-teal/5 border-2 border-inn-teal/10 group-hover:border-inn-teal/30 transition-colors">
+          <img
+            src={prof.image}
+            alt={displayName}
+            className="w-full h-full object-cover"
+          />
+        </div>
+
+        <h3 className="font-bold text-inn-dark text-sm leading-tight mb-2 group-hover:text-inn-teal transition-colors">
+          {displayName}
+        </h3>
+
+        <p className="text-xs text-slate-500 leading-snug mb-3">{p.professorSubjects[i]}</p>
+
+        <span
+          className={`category-pill text-[10px] ${
+            (categoryColors as Record<string, string>)[prof.category] ||
+            "bg-slate-100 text-slate-600 border-slate-200"
+          }`}
+        >
+          {prof.category}
+        </span>
+      </a>
+    );
+  };
+
   return (
     <section id="professors" className="py-20 lg:py-28 bg-inn-light-grey">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -23,45 +67,21 @@ export default function ProfessorsSection() {
 
         {/* Professor grid */}
         <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 gap-5">
-          {professorsData.map((prof, i) => {
-            const displayName = lang === "gr" ? prof.name : prof.nameLatin;
-            return (
-              <a
-                key={i}
-                href={prof.linkedin}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="bg-white rounded-2xl p-5 border border-slate-100 shadow-sm card-hover group text-center block"
-              >
-                {/* Avatar */}
-                <div className="w-20 h-20 mx-auto mb-4 rounded-2xl overflow-hidden bg-gradient-to-br from-inn-teal/20 to-inn-teal/5 border-2 border-inn-teal/10 group-hover:border-inn-teal/30 transition-colors">
-                  <img
-                    src={prof.image}
-                    alt={displayName}
-                    className="w-full h-full object-cover"
-                  />
-                </div>
+          {regularProfessors.map(renderCard)}
+        </div>
 
-                {/* Name */}
-                <h3 className="font-bold text-inn-dark text-sm leading-tight mb-2 group-hover:text-inn-teal transition-colors">
-                  {displayName}
-                </h3>
-
-                {/* Subject */}
-                <p className="text-xs text-slate-500 leading-snug mb-3">{p.professorSubjects[i]}</p>
-
-                {/* Category pill */}
-                <span
-                  className={`category-pill text-[10px] ${
-                    (categoryColors as Record<string, string>)[prof.category] ||
-                    "bg-slate-100 text-slate-600 border-slate-200"
-                  }`}
-                >
-                  {prof.category}
-                </span>
-              </a>
-            );
-          })}
+        {/* Guest Speakers */}
+        <div className="mt-14">
+          <div className="flex items-center gap-4 mb-8">
+            <div className="h-px flex-1 bg-slate-200" />
+            <span className="text-sm font-semibold text-slate-500 uppercase tracking-widest whitespace-nowrap">
+              {p.guestTitle}
+            </span>
+            <div className="h-px flex-1 bg-slate-200" />
+          </div>
+          <div className="grid grid-cols-2 sm:grid-cols-3 gap-5 max-w-xl mx-auto">
+            {guestSpeakers.map(renderCard)}
+          </div>
         </div>
       </div>
     </section>
