@@ -38,7 +38,15 @@ export default function Navbar() {
   ];
 
   const mobileLinks = [
-    ...desktopLinks,
+    { href: "/", label: t.nav.home },
+    { href: "/#program", label: t.nav.program },
+    { href: "/#curriculum", label: t.nav.curriculum },
+    { href: "/professors", label: t.nav.professors },
+    { href: "/guests", label: t.nav.guests },
+    { href: "/#pricing", label: t.nav.pricing },
+    { href: "/faq", label: t.nav.faq },
+    { href: "/gallery", label: t.nav.gallery },
+    { href: "/sponsors", label: t.nav.sponsors },
     { href: "/countries", label: t.nav.countries },
     { href: "/france", label: t.nav.france },
   ];

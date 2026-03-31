@@ -55,7 +55,7 @@ export default function ProgramHighlights() {
                 {item.icon}
               </div>
               <div>
-                <div className="text-xs text-slate-400 font-medium uppercase tracking-wide">
+                <div className="text-xs text-slate-400 font-medium tracking-wide">
                   {item.label}
                 </div>
                 <div className="font-bold text-inn-dark text-sm mt-0.5">
@@ -107,7 +107,7 @@ export default function ProgramHighlights() {
                   <span className="text-slate-600 text-sm leading-relaxed">{p.req1}</span>
                 </div>
                 <div className="flex items-center gap-3 pl-9">
-                  <span className="text-inn-orange font-bold text-sm uppercase tracking-wide">{p.reqOr}</span>
+                  <span className="text-inn-orange font-bold text-sm tracking-wide">{p.reqOr}</span>
                 </div>
                 <div className="flex items-start gap-3">
                   <span className="w-6 h-6 rounded-full bg-inn-teal/10 text-inn-teal flex items-center justify-center text-xs font-bold shrink-0 mt-0.5">
@@ -116,7 +116,7 @@ export default function ProgramHighlights() {
                   <span className="text-slate-600 text-sm leading-relaxed">{p.req2}</span>
                 </div>
                 <div className="flex items-center gap-3 pl-9">
-                  <span className="text-inn-orange font-bold text-sm uppercase tracking-wide">{p.reqOr}</span>
+                  <span className="text-inn-orange font-bold text-sm tracking-wide">{p.reqOr}</span>
                 </div>
                 <div className="flex items-start gap-3">
                   <span className="w-6 h-6 rounded-full bg-inn-teal/10 text-inn-teal flex items-center justify-center text-xs font-bold shrink-0 mt-0.5">

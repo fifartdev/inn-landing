@@ -43,7 +43,7 @@ export default function Footer() {
 
           {/* Links */}
           <div>
-            <h4 className="font-bold text-sm text-white/60 uppercase tracking-wider mb-5">
+            <h4 className="font-bold text-sm text-white/60 mb-5">
               {f.links}
             </h4>
             <ul className="space-y-3">
@@ -55,6 +55,7 @@ export default function Footer() {
                 { href: "/faq", label: f.faq },
                 { href: "/countries", label: t.nav.countries },
                 { href: "/france", label: t.nav.france },
+                { href: "/guests", label: t.nav.guests },
                 { href: "/#apply", label: t.nav.apply },
               ].map((link) => (
                 <li key={link.href}>
@@ -71,7 +72,7 @@ export default function Footer() {
 
           {/* Accreditations */}
           <div>
-            <h4 className="font-bold text-sm text-white/60 uppercase tracking-wider mb-5">
+            <h4 className="font-bold text-sm text-white/60 mb-5">
               Πιστοποιήσεις
             </h4>
             <div className="flex flex-col gap-4">
@@ -87,7 +88,7 @@ export default function Footer() {
 
             {/* Proud member of */}
             <div className="mt-6">
-              <p className="text-white/40 text-xs uppercase tracking-wider mb-3">Proud member of</p>
+              <p className="text-white/40 text-xs mb-3">Proud member of</p>
               <div className="bg-white rounded-xl p-2 flex items-center justify-center w-28 h-14">
                 <img
                   src="/member/ellino-galliko-epimelitirio.jpg"
@@ -100,7 +101,7 @@ export default function Footer() {
 
           {/* Contact */}
           <div>
-            <h4 className="font-bold text-sm text-white/60 uppercase tracking-wider mb-5">
+            <h4 className="font-bold text-sm text-white/60 mb-5">
               {f.contact}
             </h4>
             <ul className="space-y-4">

@@ -64,7 +64,7 @@ export default function MasterclassVenues() {
               <div className="absolute bottom-0 left-0 right-0 p-6">
                 <div className="flex items-center gap-1.5 mb-2">
                   <MapPin className="w-4 h-4 text-inn-orange" />
-                  <span className="text-inn-orange text-xs font-semibold uppercase tracking-wide">
+                  <span className="text-inn-orange text-xs font-semibold">
                     Athens, Greece
                   </span>
                 </div>

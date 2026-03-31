@@ -34,7 +34,7 @@ export default function CertificationsBar() {
     <div className="bg-white border-b border-slate-100 shadow-sm">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4">
         <div className="flex flex-wrap items-center justify-center gap-x-8 gap-y-3">
-          <span className="text-xs font-semibold text-slate-400 uppercase tracking-widest hidden sm:block">
+          <span className="text-xs font-semibold text-slate-400 hidden sm:block">
             {c.title}
           </span>
           {items.map((item, i) => (

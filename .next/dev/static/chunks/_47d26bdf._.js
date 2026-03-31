@@ -29,7 +29,8 @@ const translations = {
             sponsors: "Χορηγοί",
             apply: "Αίτηση Εγγραφής",
             countries: "Ευκαιρίες Εργασίας",
-            france: "Εκπαιδευτική Εκδρομή"
+            france: "Εκπαιδευτική Εκδρομή",
+            guests: "Επίτιμοι Προσκεκλημένοι"
         },
         hero: {
             badge: "Πιστοποιημένο Εκπαιδευτικό Πρόγραμμα",
@@ -224,6 +225,7 @@ const translations = {
             title: "Εισηγητές Προγράμματος",
             subtitle: "Ενεργοί επαγγελματίες του ξενοδοχειακού κλάδου με εκτεταμένη πείρα",
             guestTitle: "Επίτιμοι Προσκεκλημένοι / Guest",
+            guestPageTitle: "Επίτιμοι Προσκεκλημένοι",
             professorSubjects: [
                 "Στρατηγική Διοίκηση / Επιχειρηματικότητα",
                 "Mentoring & Coaching / Διοίκηση Ξενοδοχειακών Μονάδων",
@@ -235,12 +237,12 @@ const translations = {
                 "Τουριστική Νομοθεσία & Εργατικό Δίκαιο",
                 "Ψυχολογία πάνω στο HR",
                 "Μάρκετινγκ & Digital Marketing Ξενοδοχείων",
-                "Πωλήσεις & Revenue Management",
-                "Βασικές Αρχές Μαγειρικής Τέχνης & Κουζίνας",
+                "Μάρκετινγκ, Πωλήσεις & Revenue Management",
+                "Μαγειρική & Υγιεινή Τροφίμων",
                 "Υγιεινή & Ασφάλεια Τροφίμων (HACCP & ISO Standards)",
                 "Εστιατορική Τεχνική & Service Management",
                 "Οινολογία & Τέχνη του Sommelier",
-                "Διοίκηση Front Office & Guest Relations",
+                "Front Office & Ψηφιακά Συστήματα Ξενοδοχείων",
                 "Ψηφιακά Συστήματα Ξενοδοχείων (PMS, Channel Managers, CRM)",
                 "Διοίκηση Housekeeping & Οργανωτικές Διεργασίες"
             ]
@@ -522,7 +524,8 @@ const translations = {
             sponsors: "Sponsors",
             apply: "Apply Now",
             countries: "Work Opportunities",
-            france: "France Trip"
+            france: "France Trip",
+            guests: "Honorary Guests"
         },
         hero: {
             badge: "Certified Educational Program",
@@ -717,6 +720,7 @@ const translations = {
             title: "Program Instructors",
             subtitle: "Active hospitality professionals with extensive field experience",
             guestTitle: "Honorary Guests / Guest",
+            guestPageTitle: "Honorary Guests",
             professorSubjects: [
                 "Strategic Management / Entrepreneurship",
                 "Mentoring & Coaching / Hotel Unit Management",
@@ -728,12 +732,12 @@ const translations = {
                 "Tourism Legislation & Labor Law",
                 "Psychology in HR",
                 "Marketing & Digital Marketing for Hotels",
-                "Sales & Revenue Management",
-                "Basic Principles of Culinary Arts & Cooking",
+                "Marketing, Sales & Revenue Management",
+                "Culinary Arts & Food Hygiene",
                 "Food Hygiene & Safety (HACCP & ISO Standards)",
                 "Restaurant Technique & Service Management",
                 "Oenology & The Art of Sommelier",
-                "Front Office Management & Guest Relations",
+                "Front Office & Hotel Digital Systems",
                 "Hotel Digital Systems (PMS, Channel Managers, CRM)",
                 "Housekeeping Management & Organizational Processes"
             ]
@@ -1015,7 +1019,8 @@ const translations = {
             sponsors: "Sponsors",
             apply: "Postuler",
             countries: "Opportunités d'Emploi",
-            france: "Voyage en France"
+            france: "Voyage en France",
+            guests: "Invités d'Honneur"
         },
         hero: {
             badge: "Programme Éducatif Certifié",
@@ -1210,6 +1215,7 @@ const translations = {
             title: "Instructeurs du Programme",
             subtitle: "Professionnels actifs de l'hôtellerie avec une vaste expérience sur le terrain",
             guestTitle: "Invités d'Honneur / Guest",
+            guestPageTitle: "Invités d'Honneur",
             professorSubjects: [
                 "Management Stratégique / Entrepreneuriat",
                 "Mentoring & Coaching / Gestion des Unités Hôtelières",
@@ -1221,12 +1227,12 @@ const translations = {
                 "Législation Touristique & Droit du Travail",
                 "Psychologie en RH",
                 "Marketing & Digital Marketing pour les Hôtels",
-                "Ventes & Revenue Management",
-                "Principes de Base des Arts Culinaires & Cuisine",
+                "Marketing, Ventes & Revenue Management",
+                "Arts Culinaires & Hygiène Alimentaire",
                 "Hygiène & Sécurité Alimentaire (HACCP & Normes ISO)",
                 "Technique de Restauration & Service Management",
                 "Œnologie & L'Art du Sommelier",
-                "Gestion du Front Office & Relations Clients",
+                "Front Office & Systèmes Numériques Hôteliers",
                 "Systèmes Numériques Hôteliers (PMS, Channel Managers, CRM)",
                 "Gestion du Housekeeping & Processus Organisationnels"
             ]
@@ -1586,15 +1592,19 @@ const courseData = [
         id: 13,
         category: "MARKETING",
         title: "Μάρκετινγκ Ξενοδοχειακών & Τουριστικών Υπηρεσιών",
-        instructor: "Αντώνης Γιαννόπουλος",
-        instructorLatin: "Antonis Giannopoulos"
+        instructor: "Μάριος Ανδρακάκης",
+        instructorLatin: "Marios Andrakakis",
+        guest: "Αντώνης Γιαννόπουλος",
+        guestLatin: "Antonis Giannopoulos"
     },
     {
         id: 14,
         category: "MARKETING",
         title: "Digital Marketing στον Τουρισμό & Ξενοδοχεία",
-        instructor: "Αντώνης Γιαννόπουλος",
-        instructorLatin: "Antonis Giannopoulos"
+        instructor: "Μάριος Ανδρακάκης",
+        instructorLatin: "Marios Andrakakis",
+        guest: "Αντώνης Γιαννόπουλος",
+        guestLatin: "Antonis Giannopoulos"
     },
     {
         id: 15,
@@ -1621,8 +1631,10 @@ const courseData = [
         id: 18,
         category: "F&B",
         title: "Υγιεινή & Ασφάλεια Τροφίμων (HACCP & ISO Standards)",
-        instructor: "Κωνσταντίνος Ντελέζος",
-        instructorLatin: "Konstantinos Ntelezos"
+        instructor: "Σταμάτης Λουμουσιώτης",
+        instructorLatin: "Stamatis Loumousiotis",
+        guest: "Κωνσταντίνος Ντελέζος",
+        guestLatin: "Konstantinos Ntelezos"
     },
     {
         id: 19,
@@ -1656,8 +1668,10 @@ const courseData = [
         id: 23,
         category: "FRONT OFFICE",
         title: "Ψηφιακά Συστήματα Ξενοδοχείων (PMS, Channel Managers, CRM)",
-        instructor: "Κωνσταντίνος Σεργόπουλος",
-        instructorLatin: "Konstantinos Sergopoulos"
+        instructor: "Φανή Πασπαράκη",
+        instructorLatin: "Fani Pasparaki",
+        guest: "Κωνσταντίνος Σεργόπουλος",
+        guestLatin: "Konstantinos Sergopoulos"
     },
     {
         id: 24,

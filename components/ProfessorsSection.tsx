@@ -11,10 +11,6 @@ export default function ProfessorsSection() {
     .map((prof, i) => ({ prof, i }))
     .filter(({ prof }) => !prof.guestSpeaker);
 
-  const guestSpeakers = professorsData
-    .map((prof, i) => ({ prof, i }))
-    .filter(({ prof }) => prof.guestSpeaker);
-
   const renderCard = ({ prof, i }: { prof: typeof professorsData[0]; i: number }) => {
     const displayName = lang === "gr" ? prof.name : prof.nameLatin;
     return (
@@ -70,18 +66,14 @@ export default function ProfessorsSection() {
           {regularProfessors.map(renderCard)}
         </div>
 
-        {/* Guest Speakers */}
-        <div className="mt-14">
-          <div className="flex items-center gap-4 mb-8">
-            <div className="h-px flex-1 bg-slate-200" />
-            <span className="text-sm font-semibold text-slate-500 uppercase tracking-widest whitespace-nowrap">
-              {p.guestTitle}
-            </span>
-            <div className="h-px flex-1 bg-slate-200" />
-          </div>
-          <div className="grid grid-cols-2 sm:grid-cols-3 gap-5 max-w-xl mx-auto">
-            {guestSpeakers.map(renderCard)}
-          </div>
+        {/* Link to guest speakers page */}
+        <div className="mt-14 text-center">
+          <a
+            href="/guests"
+            className="inline-flex items-center gap-2 px-6 py-3 bg-inn-teal/10 hover:bg-inn-teal/20 text-inn-teal font-semibold rounded-xl transition-colors text-sm"
+          >
+            {p.guestTitle} →
+          </a>
         </div>
       </div>
     </section>

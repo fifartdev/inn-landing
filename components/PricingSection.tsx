@@ -28,7 +28,7 @@ export default function PricingSection() {
             <div className="absolute -top-4 left-1/2 -translate-x-1/2">
               <div className="flex items-center gap-1.5 px-4 py-2 bg-inn-orange rounded-full shadow-lg">
                 <Zap className="w-3.5 h-3.5 text-white" />
-                <span className="text-white text-xs font-black uppercase tracking-wide">
+                <span className="text-white text-xs font-black">
                   {p.earlyBird.badge}
                 </span>
               </div>
@@ -69,7 +69,7 @@ export default function PricingSection() {
           {/* Regular card */}
           <div className="bg-white rounded-3xl p-8 border-2 border-slate-100 shadow-sm lg:col-span-1">
             <div className="inline-flex items-center gap-1.5 px-3 py-1 bg-slate-100 rounded-full mb-4">
-              <span className="text-xs font-bold text-slate-600 uppercase tracking-wide">
+              <span className="text-xs font-bold text-slate-600">
                 {p.regular.badge}
               </span>
             </div>

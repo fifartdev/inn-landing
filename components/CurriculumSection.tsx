@@ -56,16 +56,16 @@ export default function CurriculumSection() {
         <div className="bg-white rounded-3xl border border-slate-100 shadow-sm overflow-hidden">
           {/* Table header */}
           <div className="grid grid-cols-12 gap-4 px-6 py-3 bg-inn-dark">
-            <div className="col-span-1 text-xs font-semibold text-white/50 uppercase tracking-wider">
+            <div className="col-span-1 text-xs font-semibold text-white/50 tracking-wider">
               #
             </div>
-            <div className="col-span-3 text-xs font-semibold text-white/50 uppercase tracking-wider hidden sm:block">
+            <div className="col-span-3 text-xs font-semibold text-white/50 tracking-wider hidden sm:block">
               {c.tag}
             </div>
-            <div className="col-span-9 sm:col-span-5 text-xs font-semibold text-white/50 uppercase tracking-wider">
+            <div className="col-span-9 sm:col-span-5 text-xs font-semibold text-white/50 tracking-wider">
               {c.course}
             </div>
-            <div className="col-span-2 hidden lg:block text-xs font-semibold text-white/50 uppercase tracking-wider">
+            <div className="col-span-2 hidden lg:block text-xs font-semibold text-white/50 tracking-wider">
               {c.instructor}
             </div>
           </div>
@@ -103,9 +103,16 @@ export default function CurriculumSection() {
                   <div className="w-6 h-6 rounded-full bg-inn-teal/10 flex items-center justify-center shrink-0">
                     <User className="w-3 h-3 text-inn-teal" />
                   </div>
-                  <span className="text-xs text-slate-500 font-medium">
-                    {lang === "gr" ? course.instructor : course.instructorLatin}
-                  </span>
+                  <div>
+                    <span className="text-xs text-slate-500 font-medium">
+                      {lang === "gr" ? course.instructor : course.instructorLatin}
+                    </span>
+                    {course.guest && (
+                      <div className="text-[10px] text-inn-teal/70 font-medium">
+                        guest: {lang === "gr" ? course.guest : course.guestLatin}
+                      </div>
+                    )}
+                  </div>
                 </div>
               </div>
             ))}
