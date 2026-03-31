@@ -591,14 +591,10 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$lib$2f$translations$2e$ts__$
 "use client";
 ;
 ;
-const allLogos = [
-    ...__TURBOPACK__imported__module__$5b$project$5d2f$lib$2f$translations$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__["organizations"],
-    ...__TURBOPACK__imported__module__$5b$project$5d2f$lib$2f$translations$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__["hotelPartners"]
-];
 function LogoTicker() {
     const doubled = [
-        ...allLogos,
-        ...allLogos
+        ...__TURBOPACK__imported__module__$5b$project$5d2f$lib$2f$translations$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__["hotelPartners"],
+        ...__TURBOPACK__imported__module__$5b$project$5d2f$lib$2f$translations$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__["hotelPartners"]
     ];
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
         className: "bg-inn-dark py-5 overflow-hidden border-y border-white/5",
@@ -613,29 +609,29 @@ function LogoTicker() {
                                 className: "w-1.5 h-1.5 rounded-full bg-inn-orange/50 mr-6 shrink-0"
                             }, void 0, false, {
                                 fileName: "[project]/components/LogoTicker.tsx",
-                                lineNumber: 19,
+                                lineNumber: 17,
                                 columnNumber: 15
                             }, this),
                             name
                         ]
                     }, i, true, {
                         fileName: "[project]/components/LogoTicker.tsx",
-                        lineNumber: 15,
+                        lineNumber: 13,
                         columnNumber: 13
                     }, this))
             }, void 0, false, {
                 fileName: "[project]/components/LogoTicker.tsx",
-                lineNumber: 13,
+                lineNumber: 11,
                 columnNumber: 9
             }, this)
         }, void 0, false, {
             fileName: "[project]/components/LogoTicker.tsx",
-            lineNumber: 12,
+            lineNumber: 10,
             columnNumber: 7
         }, this)
     }, void 0, false, {
         fileName: "[project]/components/LogoTicker.tsx",
-        lineNumber: 11,
+        lineNumber: 9,
         columnNumber: 5
     }, this);
 }

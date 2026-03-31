@@ -1,11 +1,9 @@
 "use client";
 
-import { hotelPartners, organizations } from "@/lib/translations";
-
-const allLogos = [...organizations, ...hotelPartners];
+import { hotelPartners } from "@/lib/translations";
 
 export default function LogoTicker() {
-  const doubled = [...allLogos, ...allLogos];
+  const doubled = [...hotelPartners, ...hotelPartners];
 
   return (
     <div className="bg-inn-dark py-5 overflow-hidden border-y border-white/5">
