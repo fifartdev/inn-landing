@@ -80,13 +80,13 @@ export default function AboutSection() {
                 className="w-full h-80 lg:h-96 object-cover rounded-3xl shadow-2xl"
               />
               {/* Floating stat card */}
-              <div className="absolute -bottom-6 -left-6 bg-white rounded-2xl shadow-xl p-5 border border-slate-100">
+              <div className="absolute -bottom-6 left-0 lg:-left-6 bg-white rounded-2xl shadow-xl p-5 border border-slate-100">
                 <div className="text-3xl font-black text-inn-teal">20+</div>
                 <div className="text-xs text-slate-500 font-medium mt-0.5">
                   Συνεργαζόμενα Hotels
                 </div>
               </div>
-              <div className="absolute -top-6 -right-6 bg-inn-orange rounded-2xl shadow-xl p-5 text-white">
+              <div className="absolute -top-6 right-0 lg:-right-6 bg-inn-orange rounded-2xl shadow-xl p-5 text-white">
                 <div className="text-3xl font-black">5★</div>
                 <div className="text-xs font-medium mt-0.5 text-white/80">
                   Masterclass Hotels
