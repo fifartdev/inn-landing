@@ -9,16 +9,30 @@ export default function ContactForm({ variant = "sticky" }: { variant?: "sticky"
   const f = t.form;
 
   const [formData, setFormData] = useState({ name: "", phone: "", email: "" });
+  const [honeypot, setHoneypot] = useState("");
   const [submitted, setSubmitted] = useState(false);
   const [loading, setLoading] = useState(false);
+  const [error, setError] = useState(false);
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     setLoading(true);
-    // Simulate submission
-    await new Promise((r) => setTimeout(r, 1200));
-    setLoading(false);
-    setSubmitted(true);
+    setError(false);
+
+    try {
+      const res = await fetch("/api/apply", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ ...formData, honeypot }),
+      });
+
+      if (!res.ok) throw new Error();
+      setSubmitted(true);
+    } catch {
+      setError(true);
+    } finally {
+      setLoading(false);
+    }
   };
 
   const isSection = variant === "section";
@@ -58,7 +72,7 @@ export default function ContactForm({ variant = "sticky" }: { variant?: "sticky"
               {f.success}
             </p>
             <button
-              onClick={() => setSubmitted(false)}
+              onClick={() => { setSubmitted(false); setFormData({ name: "", phone: "", email: "" }); }}
               className="text-inn-teal text-sm font-medium hover:underline mt-2"
             >
               Νέα αίτηση
@@ -66,8 +80,19 @@ export default function ContactForm({ variant = "sticky" }: { variant?: "sticky"
           </div>
         ) : (
           <form onSubmit={handleSubmit} className="space-y-4">
+            {/* Honeypot — hidden from real users */}
+            <input
+              type="text"
+              name="website"
+              value={honeypot}
+              onChange={(e) => setHoneypot(e.target.value)}
+              tabIndex={-1}
+              aria-hidden="true"
+              style={{ position: "absolute", left: "-9999px", opacity: 0, height: 0 }}
+            />
+
             <div>
-              <label className="block text-xs font-semibold text-slate-500 uppercase tracking-wide mb-1.5">
+              <label className="block text-xs font-semibold text-slate-500 mb-1.5">
                 {f.name} *
               </label>
               <input
@@ -81,7 +106,7 @@ export default function ContactForm({ variant = "sticky" }: { variant?: "sticky"
             </div>
 
             <div>
-              <label className="block text-xs font-semibold text-slate-500 uppercase tracking-wide mb-1.5">
+              <label className="block text-xs font-semibold text-slate-500 mb-1.5">
                 {f.phone} *
               </label>
               <input
@@ -95,7 +120,7 @@ export default function ContactForm({ variant = "sticky" }: { variant?: "sticky"
             </div>
 
             <div>
-              <label className="block text-xs font-semibold text-slate-500 uppercase tracking-wide mb-1.5">
+              <label className="block text-xs font-semibold text-slate-500 mb-1.5">
                 {f.email} *
               </label>
               <input
@@ -107,6 +132,12 @@ export default function ContactForm({ variant = "sticky" }: { variant?: "sticky"
                 className="w-full px-4 py-3 bg-inn-light-grey border border-slate-200 rounded-xl text-sm text-slate-700 placeholder:text-slate-400 focus:border-inn-teal focus:bg-white transition-all"
               />
             </div>
+
+            {error && (
+              <p className="text-xs text-red-500 text-center">
+                Κάτι πήγε στραβά. Δοκίμασε ξανά ή επικοινώνησε μαζί μας.
+              </p>
+            )}
 
             <button
               type="submit"
