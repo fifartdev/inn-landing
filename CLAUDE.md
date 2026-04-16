@@ -99,7 +99,7 @@ Tracking IDs are driven by environment variables — no code changes or git push
 Handled by [app/api/apply/route.ts](app/api/apply/route.ts) via Resend.
 
 - **From**: `info@innacademy.gr` (verified domain in Resend — must have SPF/DKIM DNS records confirmed)
-- **To**: both `academy@innjobs.net` and `info@innacademy.gr` receive every submission
+- **To**: `info@innacademy.gr`
 - **API key**: `RESEND_API_KEY` env var (never `NEXT_PUBLIC_*`)
 
 ### Key UI Notes

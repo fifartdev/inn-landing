@@ -417,7 +417,7 @@ export const translations = {
       sections: [
         {
           heading: "1. Υπεύθυνος Επεξεργασίας",
-          body: "Υπεύθυνος επεξεργασίας των προσωπικών σας δεδομένων είναι η Inn Academy (εκπαιδευτικός βραχίονας της Innjobs), με έδρα στην Πανεπιστημίου 63, 10564, Αθήνα. Για κάθε ερώτηση σχετικά με τα προσωπικά σας δεδομένα, μπορείτε να επικοινωνήσετε μαζί μας στο academy@innjobs.net.",
+          body: "Υπεύθυνος επεξεργασίας των προσωπικών σας δεδομένων είναι η Inn Academy (εκπαιδευτικός βραχίονας της Innjobs), με έδρα στην Πανεπιστημίου 63, 10564, Αθήνα. Για κάθε ερώτηση σχετικά με τα προσωπικά σας δεδομένα, μπορείτε να επικοινωνήσετε μαζί μας στο info@innacademy.gr.",
         },
         {
           heading: "2. Ποια Δεδομένα Συλλέγουμε",
@@ -441,7 +441,7 @@ export const translations = {
         },
         {
           heading: "7. Τα Δικαιώματά σας",
-          body: "Σύμφωνα με τον ΓΚΠΔ έχετε δικαίωμα πρόσβασης, διόρθωσης, διαγραφής, περιορισμού της επεξεργασίας, φορητότητας δεδομένων και εναντίωσης. Για την άσκηση των δικαιωμάτων σας επικοινωνήστε μαζί μας στο academy@innjobs.net.",
+          body: "Σύμφωνα με τον ΓΚΠΔ έχετε δικαίωμα πρόσβασης, διόρθωσης, διαγραφής, περιορισμού της επεξεργασίας, φορητότητας δεδομένων και εναντίωσης. Για την άσκηση των δικαιωμάτων σας επικοινωνήστε μαζί μας στο info@innacademy.gr.",
         },
         {
           heading: "8. Cookies",
@@ -463,7 +463,7 @@ export const translations = {
         },
         {
           heading: "2. Πληροφορίες για την Inn Academy",
-          body: "Η Inn Academy αποτελεί τον εκπαιδευτικό βραχίονα της Innjobs και λειτουργεί ως φορέας παροχής εκπαιδευτικών υπηρεσιών στον τομέα της φιλοξενίας. Έδρα: Πανεπιστημίου 63, 10564, Αθήνα. Email: academy@innjobs.net. Τηλ: 210 2204187.",
+          body: "Η Inn Academy αποτελεί τον εκπαιδευτικό βραχίονα της Innjobs και λειτουργεί ως φορέας παροχής εκπαιδευτικών υπηρεσιών στον τομέα της φιλοξενίας. Έδρα: Πανεπιστημίου 63, 10564, Αθήνα. Email: info@innacademy.gr. Τηλ: 210 2204187.",
         },
         {
           heading: "3. Εκπαιδευτικές Υπηρεσίες",
@@ -920,7 +920,7 @@ export const translations = {
       sections: [
         {
           heading: "1. Data Controller",
-          body: "The data controller for your personal data is Inn Academy (educational arm of Innjobs), headquartered at 63 Panepistimiou St., 10564, Athens. For any questions regarding your personal data, please contact us at academy@innjobs.net.",
+          body: "The data controller for your personal data is Inn Academy (educational arm of Innjobs), headquartered at 63 Panepistimiou St., 10564, Athens. For any questions regarding your personal data, please contact us at info@innacademy.gr.",
         },
         {
           heading: "2. Data We Collect",
@@ -944,7 +944,7 @@ export const translations = {
         },
         {
           heading: "7. Your Rights",
-          body: "Under the GDPR you have the right of access, rectification, erasure, restriction of processing, data portability and objection. To exercise your rights, contact us at academy@innjobs.net.",
+          body: "Under the GDPR you have the right of access, rectification, erasure, restriction of processing, data portability and objection. To exercise your rights, contact us at info@innacademy.gr.",
         },
         {
           heading: "8. Cookies",
@@ -966,7 +966,7 @@ export const translations = {
         },
         {
           heading: "2. About Inn Academy",
-          body: "Inn Academy is the educational arm of Innjobs and operates as a provider of educational services in the hospitality sector. Address: 63 Panepistimiou St., 10564, Athens. Email: academy@innjobs.net. Tel: 210 2204187.",
+          body: "Inn Academy is the educational arm of Innjobs and operates as a provider of educational services in the hospitality sector. Address: 63 Panepistimiou St., 10564, Athens. Email: info@innacademy.gr. Tel: 210 2204187.",
         },
         {
           heading: "3. Educational Services",
@@ -1426,7 +1426,7 @@ export const translations = {
       sections: [
         {
           heading: "1. Responsable du Traitement",
-          body: "Le responsable du traitement de vos données personnelles est Inn Academy (bras éducatif d'Innjobs), dont le siège est au 63 rue Panepistimiou, 10564, Athènes. Pour toute question concernant vos données personnelles, contactez-nous à academy@innjobs.net.",
+          body: "Le responsable du traitement de vos données personnelles est Inn Academy (bras éducatif d'Innjobs), dont le siège est au 63 rue Panepistimiou, 10564, Athènes. Pour toute question concernant vos données personnelles, contactez-nous à info@innacademy.gr.",
         },
         {
           heading: "2. Données Collectées",
@@ -1450,7 +1450,7 @@ export const translations = {
         },
         {
           heading: "7. Vos Droits",
-          body: "En vertu du RGPD, vous disposez d'un droit d'accès, de rectification, d'effacement, de limitation du traitement, de portabilité des données et d'opposition. Pour exercer vos droits, contactez-nous à academy@innjobs.net.",
+          body: "En vertu du RGPD, vous disposez d'un droit d'accès, de rectification, d'effacement, de limitation du traitement, de portabilité des données et d'opposition. Pour exercer vos droits, contactez-nous à info@innacademy.gr.",
         },
         {
           heading: "8. Cookies",
@@ -1472,7 +1472,7 @@ export const translations = {
         },
         {
           heading: "2. À Propos de l'Inn Academy",
-          body: "Inn Academy est le bras éducatif d'Innjobs et opère en tant que prestataire de services éducatifs dans le secteur de l'hôtellerie. Adresse: 63 rue Panepistimiou, 10564, Athènes. Email: academy@innjobs.net. Tél: 210 2204187.",
+          body: "Inn Academy est le bras éducatif d'Innjobs et opère en tant que prestataire de services éducatifs dans le secteur de l'hôtellerie. Adresse: 63 rue Panepistimiou, 10564, Athènes. Email: info@innacademy.gr. Tél: 210 2204187.",
         },
         {
           heading: "3. Services Éducatifs",

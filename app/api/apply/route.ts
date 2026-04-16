@@ -20,7 +20,7 @@ export async function POST(req: NextRequest) {
   try {
     await resend.emails.send({
       from: "Inn Academy <info@innacademy.gr>",
-      to: ["academy@innjobs.net", "info@innacademy.gr"],
+      to: ["info@innacademy.gr"],
       subject: `Νέα Αίτηση Συμμετοχής — ${name}`,
       html: `
         <div style="font-family: sans-serif; max-width: 600px; margin: 0 auto;">
