@@ -42,7 +42,7 @@ const translations = {
             badge: "Πιστοποιημένο Εκπαιδευτικό Πρόγραμμα",
             title: "Diploma in Hotel Management",
             subtitle: "NextGen Hospitality Leaders",
-            description: "Εξελίξου σε διοικητική θέση στον ξενοδοχειακό κλάδο με online εκπαίδευση, βιωματικά masterclasses σε 5★ ξενοδοχεία και άμεση διασύνδεση με τα κορυφαία ξενοδοχειακά brands της χώρας.",
+            description: "Εξέλιξε την καριέρα σου σε θέση διοίκησης στον ξενοδοχειακό κλάδο με online εκπαίδευση, βιωματικά masterclasses σε 5★ ξενοδοχεία και άμεση διασύνδεση με τα κορυφαία ξενοδοχειακά brands της χώρας.",
             stat1: "5 Μήνες",
             stat1sub: "Διάρκεια Προγράμματος",
             stat2: "23+",
@@ -112,8 +112,8 @@ const translations = {
                 },
                 {
                     icon: "Plane",
-                    title: "Εκπαιδευτική Εκδρομή Γαλλία",
-                    desc: "4 ημέρες Παρίσι & Καμπανία. Σεμινάρια, Masterclass στο Paris.Education College & αμπελώνες."
+                    title: "Εκπαιδευτική Εκδρομή στη Γαλλία",
+                    desc: "4 ημέρες σε Παρίσι & Καμπανία. Σεμινάρια, Masterclasses στο Paris.Education, School of Hospitality & επίσκεψη σε αμπελώνες."
                 },
                 {
                     icon: "Briefcase",
@@ -208,18 +208,18 @@ const translations = {
         france: {
             tag: "Προαιρετική",
             title: "Εκπαιδευτική Εκδρομή στη Γαλλία",
-            subtitle: "4 ημέρες στο Παρίσι & την Καμπανία — εκπαίδευση, πολιτισμός, οινολογία",
+            subtitle: "4 ημέρες σε Παρίσι & Καμπανία — εκπαίδευση, πολιτισμός & Champagne experience",
             badge: "Με επιπλέον κόστος",
-            days: "4 ημέρες εκπαίδευση",
+            days: "4ήμερη εκπαιδευτική εκδρομή",
             items: [
-                "2 ημέρες σεμινάρια στη La Défense από Γάλλους εκπαιδευτικούς τουρισμού",
-                "Masterclass στο Paris.Education College",
-                "Εκπαιδευτική επίσκεψη σε αμπελώνα στην Καμπανία",
+                "2 ημέρες σεμιναρίων στη La Défense από Γάλλους εκπαιδευτές του τουρισμού",
+                "Masterclass στο Paris Education, School of Hospitality",
+                "Εκπαιδευτική επίσκεψη στην περιοχή της Καμπανίας με έμφαση στην παραγωγή Champagne",
                 "Ξενάγηση σε αμπελώνες — Ernest Berat Champagne",
-                "Συμμετοχή στην τελετή αποφοίτησης Paris Education"
+                "Συμμετοχή στην τελετή αποφοίτησης του Paris Education, School of Hospitality"
             ],
-            graduation: "Τελετή Αποφοίτησης Paris Education",
-            graduationDesc: "Οι απόφοιτοι προσκαλούνται στην επίσημη Graduation Ceremony του Paris Education Institute — μια μοναδική εμπειρία που σφραγίζει την επαγγελματική σου πορεία."
+            graduation: "Τελετή Αποφοίτησης Paris Education, School of Hospitality",
+            graduationDesc: "Οι απόφοιτοι προσκαλούνται στην επίσημη Graduation Ceremony του Paris Education, School of Hospitality — μια μοναδική εμπειρία που σφραγίζει την επαγγελματική σου πορεία."
         },
         gallery: {
             tag: "Φωτογραφικό Αρχείο",
@@ -537,7 +537,7 @@ const translations = {
             badge: "Certified Educational Program",
             title: "Diploma in Hotel Management",
             subtitle: "NextGen Hospitality Leaders",
-            description: "Advance to management positions in the hospitality industry with online education, hands-on masterclasses at 5★ hotels and direct connection to Greece's top hotel brands.",
+            description: "Advance your career to a management position in the hospitality industry with online education, hands-on masterclasses at 5★ hotels and direct connection to Greece's top hotel brands.",
             stat1: "5 Months",
             stat1sub: "Program Duration",
             stat2: "23+",
@@ -608,7 +608,7 @@ const translations = {
                 {
                     icon: "Plane",
                     title: "France Educational Trip",
-                    desc: "4 days in Paris & Champagne. Seminars, Masterclass at Paris.Education College & vineyards."
+                    desc: "4 days in Paris & Champagne. Seminars, Masterclasses at Paris.Education, School of Hospitality & vineyard visits."
                 },
                 {
                     icon: "Briefcase",
@@ -703,18 +703,18 @@ const translations = {
         france: {
             tag: "Optional",
             title: "Educational Trip to France",
-            subtitle: "4 days in Paris & Champagne — education, culture, oenology",
+            subtitle: "4 days in Paris & Champagne — education, culture & Champagne experience",
             badge: "Additional cost",
-            days: "4 days education",
+            days: "4-day educational trip",
             items: [
                 "2 days of seminars at La Défense by French tourism educators",
-                "Masterclass at Paris.Education College",
-                "Educational visit to a vineyard in Champagne",
+                "Masterclass at Paris Education, School of Hospitality",
+                "Educational visit to the Champagne region with a focus on Champagne production",
                 "Vineyard tour — Ernest Berat Champagne",
-                "Participation in Paris Education Graduation Ceremony"
+                "Participation in the Paris Education, School of Hospitality Graduation Ceremony"
             ],
-            graduation: "Paris Education Graduation Ceremony",
-            graduationDesc: "Graduates are invited to the official Paris Education Institute Graduation Ceremony — a unique experience that marks your professional journey."
+            graduation: "Paris Education, School of Hospitality Graduation Ceremony",
+            graduationDesc: "Graduates are invited to the official Graduation Ceremony of Paris Education, School of Hospitality — a unique experience that marks your professional journey."
         },
         gallery: {
             tag: "Photo Archive",
@@ -1032,7 +1032,7 @@ const translations = {
             badge: "Programme Éducatif Certifié",
             title: "Diploma in Hotel Management",
             subtitle: "NextGen Hospitality Leaders",
-            description: "Évoluez vers des postes de direction dans l'industrie hôtelière grâce à une formation en ligne, des masterclasses dans des hôtels 5★ et une connexion directe avec les meilleures marques hôtelières.",
+            description: "Faites progresser votre carrière vers un poste de direction dans l'industrie hôtelière grâce à une formation en ligne, des masterclasses dans des hôtels 5★ et une connexion directe avec les meilleures marques hôtelières.",
             stat1: "5 Mois",
             stat1sub: "Durée du Programme",
             stat2: "23+",
@@ -1103,7 +1103,7 @@ const translations = {
                 {
                     icon: "Plane",
                     title: "Voyage Éducatif en France",
-                    desc: "4 jours à Paris & en Champagne. Séminaires, Masterclass au Paris.Education College & vignobles."
+                    desc: "4 jours à Paris & en Champagne. Séminaires, Masterclasses au Paris.Education, School of Hospitality & visites de vignobles."
                 },
                 {
                     icon: "Briefcase",
@@ -1198,18 +1198,18 @@ const translations = {
         france: {
             tag: "Optionnel",
             title: "Voyage Éducatif en France",
-            subtitle: "4 jours à Paris & en Champagne — éducation, culture, œnologie",
+            subtitle: "4 jours à Paris & en Champagne — éducation, culture & Champagne experience",
             badge: "Coût supplémentaire",
-            days: "4 jours éducation",
+            days: "Excursion éducative de 4 jours",
             items: [
                 "2 jours de séminaires à La Défense par des formateurs français du tourisme",
-                "Masterclass au Paris.Education College",
-                "Visite éducative d'un vignoble en Champagne",
+                "Masterclass au Paris Education, School of Hospitality",
+                "Visite éducative dans la région Champagne avec focus sur la production de Champagne",
                 "Visite de vignobles — Ernest Berat Champagne",
-                "Participation à la Cérémonie de Remise des Diplômes Paris Education"
+                "Participation à la cérémonie de remise des diplômes du Paris Education, School of Hospitality"
             ],
-            graduation: "Cérémonie de Remise des Diplômes Paris Education",
-            graduationDesc: "Les diplômés sont invités à la cérémonie officielle de remise des diplômes du Paris Education Institute — une expérience unique qui marque votre parcours professionnel."
+            graduation: "Cérémonie de Remise des Diplômes Paris Education, School of Hospitality",
+            graduationDesc: "Les diplômés sont invités à la cérémonie officielle de remise des diplômes du Paris Education, School of Hospitality — une expérience unique qui marque votre parcours professionnel."
         },
         gallery: {
             tag: "Archives Photo",

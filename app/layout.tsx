@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import "./globals.css";
 import { LanguageProvider } from "@/contexts/LanguageContext";
 import CookieBanner from "@/components/CookieBanner";
+import Analytics from "@/components/Analytics";
 
 export const metadata: Metadata = {
   title: "Inn Academy | Diploma in Hotel Management — NextGen Hospitality Leaders",
@@ -10,7 +11,7 @@ export const metadata: Metadata = {
   keywords: "hotel management, ξενοδοχειακή διοίκηση, Inn Academy, Innjobs, ACTA, Paris Education, diploma hospitality",
   openGraph: {
     title: "Inn Academy | Diploma in Hotel Management",
-    description: "Εξελίξου σε διοικητική θέση στον ξενοδοχειακό κλάδο. Online + Masterclasses + Career Day.",
+    description: "Εξέλιξε την καριέρα σου σε θέση διοίκησης στον ξενοδοχειακό κλάδο. Online + Masterclasses + Career Day.",
     type: "website",
   },
 };
@@ -23,6 +24,7 @@ export default function RootLayout({
   return (
     <html lang="el">
       <body>
+        <Analytics />
         <LanguageProvider>
           {children}
           <CookieBanner />

@@ -77,6 +77,23 @@ Global CSS animations and ticker styles are in [app/globals.css](app/globals.css
 
 Remote image domains allowlisted in [next.config.mjs](next.config.mjs): `images.unsplash.com`, `ui-avatars.com`, `placehold.co`. Local assets live under `public/` in subdirectories: `gallery/`, `masterclasses/`, `member/`, `sponsors/`, `accrediations/`, `professors/`.
 
+### Analytics & Tracking
+
+Tracking IDs are driven by environment variables — no code changes or git pushes needed to add/change pixels.
+
+| Env variable | Platform | Example value |
+|---|---|---|
+| `NEXT_PUBLIC_GA4_ID` | Google Analytics 4 | `G-XXXXXXXXXX` |
+| `NEXT_PUBLIC_GOOGLE_ADS_ID` | Google Ads | `AW-XXXXXXXXX` |
+| `NEXT_PUBLIC_META_PIXEL_ID` | Meta / Facebook Pixel | `1234567890123456` |
+| `NEXT_PUBLIC_TIKTOK_PIXEL_ID` | TikTok Pixel | `CXXXXXXXXXXXXXXX` |
+
+- **Local**: copy `.env.example` → `.env.local`, fill in IDs, restart dev server.
+- **Production**: set variables in Vercel/Netlify dashboard → click Redeploy (no git push).
+- Leave a variable unset or empty to disable that pixel.
+
+[lib/siteConfig.ts](lib/siteConfig.ts) reads the env vars. [components/Analytics.tsx](components/Analytics.tsx) injects the scripts via `<Script strategy="afterInteractive">` and is mounted in `app/layout.tsx`.
+
 ### Key UI Notes
 
 - **Hero overlay opacity**: Lighter than default — 0.70/0.55/0.25 layers.
