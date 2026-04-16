@@ -107,13 +107,13 @@ export default function Footer() {
             <ul className="space-y-4">
               <li>
                 <a
-                  href="mailto:academy@innjobs.net"
+                  href="mailto:info@innacademy.gr"
                   className="flex items-center gap-3 text-white/60 hover:text-inn-orange text-sm transition-colors group"
                 >
                   <div className="w-8 h-8 rounded-lg bg-white/5 group-hover:bg-inn-orange/20 flex items-center justify-center transition-colors">
                     <Mail className="w-4 h-4" />
                   </div>
-                  academy@innjobs.net
+                  info@innacademy.gr
                 </a>
               </li>
               <li>
