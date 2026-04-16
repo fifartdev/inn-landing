@@ -94,6 +94,14 @@ Tracking IDs are driven by environment variables — no code changes or git push
 
 [lib/siteConfig.ts](lib/siteConfig.ts) reads the env vars. [components/Analytics.tsx](components/Analytics.tsx) injects the scripts via `<Script strategy="afterInteractive">` and is mounted in `app/layout.tsx`.
 
+### Email (Contact Form)
+
+Handled by [app/api/apply/route.ts](app/api/apply/route.ts) via Resend.
+
+- **From**: `info@innacademy.gr` (verified domain in Resend — must have SPF/DKIM DNS records confirmed)
+- **To**: both `academy@innjobs.net` and `info@innacademy.gr` receive every submission
+- **API key**: `RESEND_API_KEY` env var (never `NEXT_PUBLIC_*`)
+
 ### Key UI Notes
 
 - **Hero overlay opacity**: Lighter than default — 0.70/0.55/0.25 layers.
