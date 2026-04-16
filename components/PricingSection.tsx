@@ -127,18 +127,11 @@ export default function PricingSection() {
           <div className="grid sm:grid-cols-2 gap-4 max-w-2xl mx-auto">
             {/* Bank transfer */}
             <div className="bg-inn-light-grey rounded-2xl p-6 border border-slate-100">
-              <div className="flex items-center gap-3 mb-4">
+              <div className="flex items-center gap-3">
                 <div className="w-9 h-9 rounded-xl bg-inn-teal/10 flex items-center justify-center shrink-0">
                   <Building2 className="w-4 h-4 text-inn-teal" />
                 </div>
-                <div>
-                  <div className="font-bold text-inn-dark text-sm">{p.bank.title}</div>
-                  <div className="text-xs text-slate-400">{p.bank.name}</div>
-                </div>
-              </div>
-              <div className="space-y-1.5">
-                <p className="text-xs font-mono text-slate-700 bg-white rounded-lg px-3 py-2 border border-slate-100 break-all">{p.bank.iban}</p>
-                <p className="text-xs text-slate-500 px-1">{p.bank.beneficiary}</p>
+                <div className="font-bold text-inn-dark text-sm">{p.bank.title}</div>
               </div>
             </div>
             {/* Card */}

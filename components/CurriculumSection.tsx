@@ -3,12 +3,12 @@
 import { useState } from "react";
 import { useLang } from "@/contexts/LanguageContext";
 import { courseData, categoryColors } from "@/lib/translations";
-import { BookOpen, User } from "lucide-react";
+import { BookOpen } from "lucide-react";
 
 const categoryOrder = ["MANAGEMENT", "HR", "MARKETING", "SALES", "F&B", "FRONT OFFICE", "HOUSEKEEPING"];
 
 export default function CurriculumSection() {
-  const { t, lang } = useLang();
+  const { t } = useLang();
   const c = t.curriculum;
   const [activeCategory, setActiveCategory] = useState<string>("ALL");
 
@@ -62,11 +62,8 @@ export default function CurriculumSection() {
             <div className="col-span-3 text-xs font-semibold text-white/50 tracking-wider hidden sm:block">
               {c.tag}
             </div>
-            <div className="col-span-9 sm:col-span-5 text-xs font-semibold text-white/50 tracking-wider">
+            <div className="col-span-9 sm:col-span-8 text-xs font-semibold text-white/50 tracking-wider">
               {c.course}
-            </div>
-            <div className="col-span-2 hidden lg:block text-xs font-semibold text-white/50 tracking-wider">
-              {c.instructor}
             </div>
           </div>
 
@@ -91,27 +88,12 @@ export default function CurriculumSection() {
                       course.category}
                   </span>
                 </div>
-                <div className="col-span-9 sm:col-span-5">
+                <div className="col-span-9 sm:col-span-8">
                   <div className="flex items-start gap-2">
                     <BookOpen className="w-4 h-4 text-inn-teal/40 mt-0.5 shrink-0 group-hover:text-inn-teal transition-colors" />
                     <span className="text-sm font-medium text-slate-700 group-hover:text-inn-teal transition-colors leading-snug">
                       {c.courseTitles[course.id - 1]}
                     </span>
-                  </div>
-                </div>
-                <div className="col-span-2 hidden lg:flex items-center gap-2">
-                  <div className="w-6 h-6 rounded-full bg-inn-teal/10 flex items-center justify-center shrink-0">
-                    <User className="w-3 h-3 text-inn-teal" />
-                  </div>
-                  <div>
-                    <span className="text-xs text-slate-500 font-medium">
-                      {lang === "gr" ? course.instructor : course.instructorLatin}
-                    </span>
-                    {course.guest && (
-                      <div className="text-[10px] text-inn-teal/70 font-medium">
-                        guest: {lang === "gr" ? course.guest : course.guestLatin}
-                      </div>
-                    )}
                   </div>
                 </div>
               </div>

@@ -58,7 +58,7 @@ const translations = {
             acta: "Πιστοποίηση IST College",
             actaSub: "Αναγνωρισμένη Πιστοποίηση",
             paris: "Certificat Paris Education",
-            parisSub: "Institut Paris Education",
+            parisSub: "School of Hospitality",
             graduation: "Paris Education Graduation Ceremony",
             graduationSub: "Τελετή Αποφοίτησης στο Παρίσι"
         },
@@ -553,7 +553,7 @@ const translations = {
             acta: "IST College Certification",
             actaSub: "Recognized Certification",
             paris: "Paris Education Certificat",
-            parisSub: "Institut Paris Education",
+            parisSub: "School of Hospitality",
             graduation: "Paris Education Graduation Ceremony",
             graduationSub: "Graduation Ceremony in Paris"
         },
@@ -1048,7 +1048,7 @@ const translations = {
             acta: "Certification IST College",
             actaSub: "Certification Reconnue",
             paris: "Certificat Paris Education",
-            parisSub: "Institut Paris Education",
+            parisSub: "School of Hospitality",
             graduation: "Cérémonie de Remise des Diplômes Paris Education",
             graduationSub: "Cérémonie de Remise des Diplômes à Paris"
         },
@@ -1810,6 +1810,14 @@ const professorsData = [
         category: "HOUSEKEEPING",
         linkedin: "https://www.linkedin.com/in/giorgos-kalogeropoulos-96074647/",
         image: "/professors/giorgos_kalogeropoulos.jpeg"
+    },
+    {
+        name: "Γιώργος Μωραϊτης",
+        nameLatin: "Giorgos Moraitis",
+        category: "MANAGEMENT",
+        linkedin: "https://www.linkedin.com/in/dimitris-moraitis-3657a415/",
+        image: "/professors/dimitris_moraitis.jpeg",
+        guestSpeaker: true
     }
 ];
 const hotelPartners = [
@@ -1976,16 +1984,16 @@ function CookieBanner() {
     }
     if (!visible) return null;
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-        className: "fixed bottom-0 left-0 right-0 z-50 p-4 sm:p-6",
+        className: "fixed bottom-0 left-0 right-0 z-50 p-2 sm:p-6",
         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-            className: "max-w-4xl mx-auto bg-inn-dark text-white rounded-2xl shadow-2xl border border-white/10 p-5 sm:p-6",
+            className: "max-w-4xl mx-auto bg-inn-dark text-white rounded-xl sm:rounded-2xl shadow-2xl border border-white/10 p-3 sm:p-6",
             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                className: "flex items-start gap-4",
+                className: "flex items-start gap-3 sm:gap-4",
                 children: [
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                        className: "w-10 h-10 rounded-xl bg-inn-teal/20 flex items-center justify-center shrink-0",
+                        className: "w-7 h-7 sm:w-10 sm:h-10 rounded-lg sm:rounded-xl bg-inn-teal/20 flex items-center justify-center shrink-0",
                         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$cookie$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Cookie$3e$__["Cookie"], {
-                            className: "w-5 h-5 text-inn-teal"
+                            className: "w-4 h-4 sm:w-5 sm:h-5 text-inn-teal"
                         }, void 0, false, {
                             fileName: "[project]/components/CookieBanner.tsx",
                             lineNumber: 37,
@@ -2000,7 +2008,7 @@ function CookieBanner() {
                         className: "flex-1 min-w-0",
                         children: [
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                className: "text-sm text-white/80 leading-relaxed mb-4",
+                                className: "text-xs sm:text-sm text-white/80 leading-relaxed mb-2 sm:mb-4",
                                 children: [
                                     cb.message,
                                     " ",
@@ -2020,11 +2028,11 @@ function CookieBanner() {
                                 columnNumber: 13
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                className: "flex flex-wrap items-center gap-3",
+                                className: "flex flex-wrap items-center gap-2 sm:gap-3",
                                 children: [
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
                                         onClick: accept,
-                                        className: "px-5 py-2 bg-inn-teal hover:bg-inn-teal-dark text-white text-sm font-bold rounded-xl transition-all",
+                                        className: "px-3 py-1.5 sm:px-5 sm:py-2 bg-inn-teal hover:bg-inn-teal-dark text-white text-xs sm:text-sm font-bold rounded-lg sm:rounded-xl transition-all",
                                         children: cb.accept
                                     }, void 0, false, {
                                         fileName: "[project]/components/CookieBanner.tsx",
@@ -2033,7 +2041,7 @@ function CookieBanner() {
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
                                         onClick: decline,
-                                        className: "px-5 py-2 bg-white/10 hover:bg-white/20 text-white text-sm font-medium rounded-xl transition-all",
+                                        className: "px-3 py-1.5 sm:px-5 sm:py-2 bg-white/10 hover:bg-white/20 text-white text-xs sm:text-sm font-medium rounded-lg sm:rounded-xl transition-all",
                                         children: cb.decline
                                     }, void 0, false, {
                                         fileName: "[project]/components/CookieBanner.tsx",

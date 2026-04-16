@@ -43,7 +43,7 @@ export const translations = {
       acta: "Πιστοποίηση IST College",
       actaSub: "Αναγνωρισμένη Πιστοποίηση",
       paris: "Certificat Paris Education",
-      parisSub: "Institut Paris Education",
+      parisSub: "School of Hospitality",
       graduation: "Paris Education Graduation Ceremony",
       graduationSub: "Τελετή Αποφοίτησης στο Παρίσι",
     },
@@ -549,7 +549,7 @@ export const translations = {
       acta: "IST College Certification",
       actaSub: "Recognized Certification",
       paris: "Paris Education Certificat",
-      parisSub: "Institut Paris Education",
+      parisSub: "School of Hospitality",
       graduation: "Paris Education Graduation Ceremony",
       graduationSub: "Graduation Ceremony in Paris",
     },
@@ -1052,7 +1052,7 @@ export const translations = {
       acta: "Certification IST College",
       actaSub: "Certification Reconnue",
       paris: "Certificat Paris Education",
-      parisSub: "Institut Paris Education",
+      parisSub: "School of Hospitality",
       graduation: "Cérémonie de Remise des Diplômes Paris Education",
       graduationSub: "Cérémonie de Remise des Diplômes à Paris",
     },
@@ -1563,6 +1563,7 @@ export const professorsData = [
   { name: "Φανή Πασπαράκη", nameLatin: "Fani Pasparaki", category: "FRONT OFFICE", linkedin: "https://www.linkedin.com/in/fani-pasparaki-61004974/", image: "/professors/fani_pasparaki.jpeg" },
   { name: "Κωνσταντίνος Σεργόπουλος", nameLatin: "Konstantinos Sergopoulos", category: "FRONT OFFICE", linkedin: "https://tourism.uniwa.gr/profile/sergopoulos-konstantinos/", image: "/professors/konstantinos_sergopoulos.jpg", guestSpeaker: true },
   { name: "Γιώργος Καλογερόπουλος", nameLatin: "Giorgos Kalogeropoulos", category: "HOUSEKEEPING", linkedin: "https://www.linkedin.com/in/giorgos-kalogeropoulos-96074647/", image: "/professors/giorgos_kalogeropoulos.jpeg" },
+  { name: "Γιώργος Μωραϊτης", nameLatin: "Giorgos Moraitis", category: "MANAGEMENT", linkedin: "https://www.linkedin.com/in/dimitris-moraitis-3657a415/", image: "/professors/dimitris_moraitis.jpeg", guestSpeaker: true },
 ];
 
 export const hotelPartners = [

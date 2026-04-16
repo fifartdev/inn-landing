@@ -1632,7 +1632,6 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist
 var __TURBOPACK__imported__module__$5b$project$5d2f$contexts$2f$LanguageContext$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/contexts/LanguageContext.tsx [app-ssr] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$lib$2f$translations$2e$ts__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/lib/translations.ts [app-ssr] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$book$2d$open$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__BookOpen$3e$__ = __turbopack_context__.i("[project]/node_modules/lucide-react/dist/esm/icons/book-open.js [app-ssr] (ecmascript) <export default as BookOpen>");
-var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$user$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__User$3e$__ = __turbopack_context__.i("[project]/node_modules/lucide-react/dist/esm/icons/user.js [app-ssr] (ecmascript) <export default as User>");
 "use client";
 ;
 ;
@@ -1649,7 +1648,7 @@ const categoryOrder = [
     "HOUSEKEEPING"
 ];
 function CurriculumSection() {
-    const { t, lang } = (0, __TURBOPACK__imported__module__$5b$project$5d2f$contexts$2f$LanguageContext$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useLang"])();
+    const { t } = (0, __TURBOPACK__imported__module__$5b$project$5d2f$contexts$2f$LanguageContext$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useLang"])();
     const c = t.curriculum;
     const [activeCategory, setActiveCategory] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useState"])("ALL");
     const categories = [
@@ -1735,19 +1734,11 @@ function CurriculumSection() {
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                    className: "col-span-9 sm:col-span-5 text-xs font-semibold text-white/50 tracking-wider",
+                                    className: "col-span-9 sm:col-span-8 text-xs font-semibold text-white/50 tracking-wider",
                                     children: c.course
                                 }, void 0, false, {
                                     fileName: "[project]/components/CurriculumSection.tsx",
                                     lineNumber: 65,
-                                    columnNumber: 13
-                                }, this),
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                    className: "col-span-2 hidden lg:block text-xs font-semibold text-white/50 tracking-wider",
-                                    children: c.instructor
-                                }, void 0, false, {
-                                    fileName: "[project]/components/CurriculumSection.tsx",
-                                    lineNumber: 68,
                                     columnNumber: 13
                                 }, this)
                             ]
@@ -1766,7 +1757,7 @@ function CurriculumSection() {
                                             children: course.id
                                         }, void 0, false, {
                                             fileName: "[project]/components/CurriculumSection.tsx",
-                                            lineNumber: 80,
+                                            lineNumber: 77,
                                             columnNumber: 17
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1776,16 +1767,16 @@ function CurriculumSection() {
                                                 children: c.categories[course.category] || course.category
                                             }, void 0, false, {
                                                 fileName: "[project]/components/CurriculumSection.tsx",
-                                                lineNumber: 84,
+                                                lineNumber: 81,
                                                 columnNumber: 19
                                             }, this)
                                         }, void 0, false, {
                                             fileName: "[project]/components/CurriculumSection.tsx",
-                                            lineNumber: 83,
+                                            lineNumber: 80,
                                             columnNumber: 17
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                            className: "col-span-9 sm:col-span-5",
+                                            className: "col-span-9 sm:col-span-8",
                                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                                 className: "flex items-start gap-2",
                                                 children: [
@@ -1793,7 +1784,7 @@ function CurriculumSection() {
                                                         className: "w-4 h-4 text-inn-teal/40 mt-0.5 shrink-0 group-hover:text-inn-teal transition-colors"
                                                     }, void 0, false, {
                                                         fileName: "[project]/components/CurriculumSection.tsx",
-                                                        lineNumber: 96,
+                                                        lineNumber: 93,
                                                         columnNumber: 21
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -1801,79 +1792,29 @@ function CurriculumSection() {
                                                         children: c.courseTitles[course.id - 1]
                                                     }, void 0, false, {
                                                         fileName: "[project]/components/CurriculumSection.tsx",
-                                                        lineNumber: 97,
+                                                        lineNumber: 94,
                                                         columnNumber: 21
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/components/CurriculumSection.tsx",
-                                                lineNumber: 95,
+                                                lineNumber: 92,
                                                 columnNumber: 19
                                             }, this)
                                         }, void 0, false, {
                                             fileName: "[project]/components/CurriculumSection.tsx",
-                                            lineNumber: 94,
-                                            columnNumber: 17
-                                        }, this),
-                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                            className: "col-span-2 hidden lg:flex items-center gap-2",
-                                            children: [
-                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                    className: "w-6 h-6 rounded-full bg-inn-teal/10 flex items-center justify-center shrink-0",
-                                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$user$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__User$3e$__["User"], {
-                                                        className: "w-3 h-3 text-inn-teal"
-                                                    }, void 0, false, {
-                                                        fileName: "[project]/components/CurriculumSection.tsx",
-                                                        lineNumber: 104,
-                                                        columnNumber: 21
-                                                    }, this)
-                                                }, void 0, false, {
-                                                    fileName: "[project]/components/CurriculumSection.tsx",
-                                                    lineNumber: 103,
-                                                    columnNumber: 19
-                                                }, this),
-                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                    children: [
-                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                                            className: "text-xs text-slate-500 font-medium",
-                                                            children: lang === "gr" ? course.instructor : course.instructorLatin
-                                                        }, void 0, false, {
-                                                            fileName: "[project]/components/CurriculumSection.tsx",
-                                                            lineNumber: 107,
-                                                            columnNumber: 21
-                                                        }, this),
-                                                        course.guest && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                            className: "text-[10px] text-inn-teal/70 font-medium",
-                                                            children: [
-                                                                "guest: ",
-                                                                lang === "gr" ? course.guest : course.guestLatin
-                                                            ]
-                                                        }, void 0, true, {
-                                                            fileName: "[project]/components/CurriculumSection.tsx",
-                                                            lineNumber: 111,
-                                                            columnNumber: 23
-                                                        }, this)
-                                                    ]
-                                                }, void 0, true, {
-                                                    fileName: "[project]/components/CurriculumSection.tsx",
-                                                    lineNumber: 106,
-                                                    columnNumber: 19
-                                                }, this)
-                                            ]
-                                        }, void 0, true, {
-                                            fileName: "[project]/components/CurriculumSection.tsx",
-                                            lineNumber: 102,
+                                            lineNumber: 91,
                                             columnNumber: 17
                                         }, this)
                                     ]
                                 }, course.id, true, {
                                     fileName: "[project]/components/CurriculumSection.tsx",
-                                    lineNumber: 76,
+                                    lineNumber: 73,
                                     columnNumber: 15
                                 }, this))
                         }, void 0, false, {
                             fileName: "[project]/components/CurriculumSection.tsx",
-                            lineNumber: 74,
+                            lineNumber: 71,
                             columnNumber: 11
                         }, this)
                     ]
@@ -1893,12 +1834,12 @@ function CurriculumSection() {
                         ]
                     }, void 0, true, {
                         fileName: "[project]/components/CurriculumSection.tsx",
-                        lineNumber: 124,
+                        lineNumber: 106,
                         columnNumber: 11
                     }, this)
                 }, void 0, false, {
                     fileName: "[project]/components/CurriculumSection.tsx",
-                    lineNumber: 123,
+                    lineNumber: 105,
                     columnNumber: 9
                 }, this)
             ]
@@ -2612,81 +2553,38 @@ function PricingSection() {
                             children: [
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                     className: "bg-inn-light-grey rounded-2xl p-6 border border-slate-100",
-                                    children: [
-                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                            className: "flex items-center gap-3 mb-4",
-                                            children: [
-                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                    className: "w-9 h-9 rounded-xl bg-inn-teal/10 flex items-center justify-center shrink-0",
-                                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$building$2d$2$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Building2$3e$__["Building2"], {
-                                                        className: "w-4 h-4 text-inn-teal"
-                                                    }, void 0, false, {
-                                                        fileName: "[project]/components/PricingSection.tsx",
-                                                        lineNumber: 132,
-                                                        columnNumber: 19
-                                                    }, this)
+                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                        className: "flex items-center gap-3",
+                                        children: [
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                className: "w-9 h-9 rounded-xl bg-inn-teal/10 flex items-center justify-center shrink-0",
+                                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$building$2d$2$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Building2$3e$__["Building2"], {
+                                                    className: "w-4 h-4 text-inn-teal"
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/PricingSection.tsx",
-                                                    lineNumber: 131,
-                                                    columnNumber: 17
-                                                }, this),
-                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                    children: [
-                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                            className: "font-bold text-inn-dark text-sm",
-                                                            children: p.bank.title
-                                                        }, void 0, false, {
-                                                            fileName: "[project]/components/PricingSection.tsx",
-                                                            lineNumber: 135,
-                                                            columnNumber: 19
-                                                        }, this),
-                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                            className: "text-xs text-slate-400",
-                                                            children: p.bank.name
-                                                        }, void 0, false, {
-                                                            fileName: "[project]/components/PricingSection.tsx",
-                                                            lineNumber: 136,
-                                                            columnNumber: 19
-                                                        }, this)
-                                                    ]
-                                                }, void 0, true, {
-                                                    fileName: "[project]/components/PricingSection.tsx",
-                                                    lineNumber: 134,
-                                                    columnNumber: 17
+                                                    lineNumber: 132,
+                                                    columnNumber: 19
                                                 }, this)
-                                            ]
-                                        }, void 0, true, {
-                                            fileName: "[project]/components/PricingSection.tsx",
-                                            lineNumber: 130,
-                                            columnNumber: 15
-                                        }, this),
-                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                            className: "space-y-1.5",
-                                            children: [
-                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                                    className: "text-xs font-mono text-slate-700 bg-white rounded-lg px-3 py-2 border border-slate-100 break-all",
-                                                    children: p.bank.iban
-                                                }, void 0, false, {
-                                                    fileName: "[project]/components/PricingSection.tsx",
-                                                    lineNumber: 140,
-                                                    columnNumber: 17
-                                                }, this),
-                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                                    className: "text-xs text-slate-500 px-1",
-                                                    children: p.bank.beneficiary
-                                                }, void 0, false, {
-                                                    fileName: "[project]/components/PricingSection.tsx",
-                                                    lineNumber: 141,
-                                                    columnNumber: 17
-                                                }, this)
-                                            ]
-                                        }, void 0, true, {
-                                            fileName: "[project]/components/PricingSection.tsx",
-                                            lineNumber: 139,
-                                            columnNumber: 15
-                                        }, this)
-                                    ]
-                                }, void 0, true, {
+                                            }, void 0, false, {
+                                                fileName: "[project]/components/PricingSection.tsx",
+                                                lineNumber: 131,
+                                                columnNumber: 17
+                                            }, this),
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                className: "font-bold text-inn-dark text-sm",
+                                                children: p.bank.title
+                                            }, void 0, false, {
+                                                fileName: "[project]/components/PricingSection.tsx",
+                                                lineNumber: 134,
+                                                columnNumber: 17
+                                            }, this)
+                                        ]
+                                    }, void 0, true, {
+                                        fileName: "[project]/components/PricingSection.tsx",
+                                        lineNumber: 130,
+                                        columnNumber: 15
+                                    }, this)
+                                }, void 0, false, {
                                     fileName: "[project]/components/PricingSection.tsx",
                                     lineNumber: 129,
                                     columnNumber: 13
@@ -2700,12 +2598,12 @@ function PricingSection() {
                                                 className: "w-4 h-4 text-inn-orange"
                                             }, void 0, false, {
                                                 fileName: "[project]/components/PricingSection.tsx",
-                                                lineNumber: 147,
+                                                lineNumber: 140,
                                                 columnNumber: 17
                                             }, this)
                                         }, void 0, false, {
                                             fileName: "[project]/components/PricingSection.tsx",
-                                            lineNumber: 146,
+                                            lineNumber: 139,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2713,13 +2611,13 @@ function PricingSection() {
                                             children: p.card
                                         }, void 0, false, {
                                             fileName: "[project]/components/PricingSection.tsx",
-                                            lineNumber: 149,
+                                            lineNumber: 142,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/components/PricingSection.tsx",
-                                    lineNumber: 145,
+                                    lineNumber: 138,
                                     columnNumber: 13
                                 }, this)
                             ]
@@ -3277,15 +3175,32 @@ function ContactForm({ variant = "sticky" }) {
         phone: "",
         email: ""
     });
+    const [honeypot, setHoneypot] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useState"])("");
     const [submitted, setSubmitted] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useState"])(false);
     const [loading, setLoading] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useState"])(false);
+    const [error, setError] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useState"])(false);
     const handleSubmit = async (e)=>{
         e.preventDefault();
         setLoading(true);
-        // Simulate submission
-        await new Promise((r)=>setTimeout(r, 1200));
-        setLoading(false);
-        setSubmitted(true);
+        setError(false);
+        try {
+            const res = await fetch("/api/apply", {
+                method: "POST",
+                headers: {
+                    "Content-Type": "application/json"
+                },
+                body: JSON.stringify({
+                    ...formData,
+                    honeypot
+                })
+            });
+            if (!res.ok) throw new Error();
+            setSubmitted(true);
+        } catch  {
+            setError(true);
+        } finally{
+            setLoading(false);
+        }
     };
     const isSection = variant === "section";
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -3299,7 +3214,7 @@ function ContactForm({ variant = "sticky" }) {
                         children: f.title
                     }, void 0, false, {
                         fileName: "[project]/components/ContactForm.tsx",
-                        lineNumber: 34,
+                        lineNumber: 48,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -3307,7 +3222,7 @@ function ContactForm({ variant = "sticky" }) {
                         children: f.subtitle
                     }, void 0, false, {
                         fileName: "[project]/components/ContactForm.tsx",
-                        lineNumber: 35,
+                        lineNumber: 49,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -3320,7 +3235,7 @@ function ContactForm({ variant = "sticky" }) {
                                         className: "w-3.5 h-3.5 text-inn-orange"
                                     }, void 0, false, {
                                         fileName: "[project]/components/ContactForm.tsx",
-                                        lineNumber: 40,
+                                        lineNumber: 54,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -3328,13 +3243,13 @@ function ContactForm({ variant = "sticky" }) {
                                         children: f.start
                                     }, void 0, false, {
                                         fileName: "[project]/components/ContactForm.tsx",
-                                        lineNumber: 41,
+                                        lineNumber: 55,
                                         columnNumber: 13
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/components/ContactForm.tsx",
-                                lineNumber: 39,
+                                lineNumber: 53,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -3344,7 +3259,7 @@ function ContactForm({ variant = "sticky" }) {
                                         className: "w-3.5 h-3.5 text-inn-orange"
                                     }, void 0, false, {
                                         fileName: "[project]/components/ContactForm.tsx",
-                                        lineNumber: 44,
+                                        lineNumber: 58,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -3352,25 +3267,25 @@ function ContactForm({ variant = "sticky" }) {
                                         children: f.seats
                                     }, void 0, false, {
                                         fileName: "[project]/components/ContactForm.tsx",
-                                        lineNumber: 45,
+                                        lineNumber: 59,
                                         columnNumber: 13
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/components/ContactForm.tsx",
-                                lineNumber: 43,
+                                lineNumber: 57,
                                 columnNumber: 11
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/components/ContactForm.tsx",
-                        lineNumber: 38,
+                        lineNumber: 52,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/components/ContactForm.tsx",
-                lineNumber: 33,
+                lineNumber: 47,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -3384,12 +3299,12 @@ function ContactForm({ variant = "sticky" }) {
                                 className: "w-8 h-8 text-emerald-500"
                             }, void 0, false, {
                                 fileName: "[project]/components/ContactForm.tsx",
-                                lineNumber: 55,
+                                lineNumber: 69,
                                 columnNumber: 15
                             }, this)
                         }, void 0, false, {
                             fileName: "[project]/components/ContactForm.tsx",
-                            lineNumber: 54,
+                            lineNumber: 68,
                             columnNumber: 13
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -3397,38 +3312,63 @@ function ContactForm({ variant = "sticky" }) {
                             children: f.success
                         }, void 0, false, {
                             fileName: "[project]/components/ContactForm.tsx",
-                            lineNumber: 57,
+                            lineNumber: 71,
                             columnNumber: 13
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
-                            onClick: ()=>setSubmitted(false),
+                            onClick: ()=>{
+                                setSubmitted(false);
+                                setFormData({
+                                    name: "",
+                                    phone: "",
+                                    email: ""
+                                });
+                            },
                             className: "text-inn-teal text-sm font-medium hover:underline mt-2",
                             children: "Νέα αίτηση"
                         }, void 0, false, {
                             fileName: "[project]/components/ContactForm.tsx",
-                            lineNumber: 60,
+                            lineNumber: 74,
                             columnNumber: 13
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/components/ContactForm.tsx",
-                    lineNumber: 53,
+                    lineNumber: 67,
                     columnNumber: 11
                 }, this) : /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("form", {
                     onSubmit: handleSubmit,
                     className: "space-y-4",
                     children: [
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("input", {
+                            type: "text",
+                            name: "website",
+                            value: honeypot,
+                            onChange: (e)=>setHoneypot(e.target.value),
+                            tabIndex: -1,
+                            "aria-hidden": "true",
+                            style: {
+                                position: "absolute",
+                                left: "-9999px",
+                                opacity: 0,
+                                height: 0
+                            }
+                        }, void 0, false, {
+                            fileName: "[project]/components/ContactForm.tsx",
+                            lineNumber: 84,
+                            columnNumber: 13
+                        }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                             children: [
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("label", {
-                                    className: "block text-xs font-semibold text-slate-500 uppercase tracking-wide mb-1.5",
+                                    className: "block text-xs font-semibold text-slate-500 mb-1.5",
                                     children: [
                                         f.name,
                                         " *"
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/components/ContactForm.tsx",
-                                    lineNumber: 70,
+                                    lineNumber: 95,
                                     columnNumber: 15
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("input", {
@@ -3443,26 +3383,26 @@ function ContactForm({ variant = "sticky" }) {
                                     className: "w-full px-4 py-3 bg-inn-light-grey border border-slate-200 rounded-xl text-sm text-slate-700 placeholder:text-slate-400 focus:border-inn-teal focus:bg-white transition-all"
                                 }, void 0, false, {
                                     fileName: "[project]/components/ContactForm.tsx",
-                                    lineNumber: 73,
+                                    lineNumber: 98,
                                     columnNumber: 15
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/components/ContactForm.tsx",
-                            lineNumber: 69,
+                            lineNumber: 94,
                             columnNumber: 13
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                             children: [
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("label", {
-                                    className: "block text-xs font-semibold text-slate-500 uppercase tracking-wide mb-1.5",
+                                    className: "block text-xs font-semibold text-slate-500 mb-1.5",
                                     children: [
                                         f.phone,
                                         " *"
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/components/ContactForm.tsx",
-                                    lineNumber: 84,
+                                    lineNumber: 109,
                                     columnNumber: 15
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("input", {
@@ -3477,26 +3417,26 @@ function ContactForm({ variant = "sticky" }) {
                                     className: "w-full px-4 py-3 bg-inn-light-grey border border-slate-200 rounded-xl text-sm text-slate-700 placeholder:text-slate-400 focus:border-inn-teal focus:bg-white transition-all"
                                 }, void 0, false, {
                                     fileName: "[project]/components/ContactForm.tsx",
-                                    lineNumber: 87,
+                                    lineNumber: 112,
                                     columnNumber: 15
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/components/ContactForm.tsx",
-                            lineNumber: 83,
+                            lineNumber: 108,
                             columnNumber: 13
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                             children: [
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("label", {
-                                    className: "block text-xs font-semibold text-slate-500 uppercase tracking-wide mb-1.5",
+                                    className: "block text-xs font-semibold text-slate-500 mb-1.5",
                                     children: [
                                         f.email,
                                         " *"
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/components/ContactForm.tsx",
-                                    lineNumber: 98,
+                                    lineNumber: 123,
                                     columnNumber: 15
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("input", {
@@ -3511,14 +3451,22 @@ function ContactForm({ variant = "sticky" }) {
                                     className: "w-full px-4 py-3 bg-inn-light-grey border border-slate-200 rounded-xl text-sm text-slate-700 placeholder:text-slate-400 focus:border-inn-teal focus:bg-white transition-all"
                                 }, void 0, false, {
                                     fileName: "[project]/components/ContactForm.tsx",
-                                    lineNumber: 101,
+                                    lineNumber: 126,
                                     columnNumber: 15
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/components/ContactForm.tsx",
-                            lineNumber: 97,
+                            lineNumber: 122,
                             columnNumber: 13
+                        }, this),
+                        error && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                            className: "text-xs text-red-500 text-center",
+                            children: "Κάτι πήγε στραβά. Δοκίμασε ξανά ή επικοινώνησε μαζί μας."
+                        }, void 0, false, {
+                            fileName: "[project]/components/ContactForm.tsx",
+                            lineNumber: 137,
+                            columnNumber: 15
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
                             type: "submit",
@@ -3530,7 +3478,7 @@ function ContactForm({ variant = "sticky" }) {
                                         className: "w-4 h-4 border-2 border-white/30 border-t-white rounded-full animate-spin"
                                     }, void 0, false, {
                                         fileName: "[project]/components/ContactForm.tsx",
-                                        lineNumber: 118,
+                                        lineNumber: 149,
                                         columnNumber: 19
                                     }, this),
                                     f.submitting
@@ -3541,7 +3489,7 @@ function ContactForm({ variant = "sticky" }) {
                                         className: "w-4 h-4"
                                     }, void 0, false, {
                                         fileName: "[project]/components/ContactForm.tsx",
-                                        lineNumber: 123,
+                                        lineNumber: 154,
                                         columnNumber: 19
                                     }, this),
                                     f.submit
@@ -3549,7 +3497,7 @@ function ContactForm({ variant = "sticky" }) {
                             }, void 0, true)
                         }, void 0, false, {
                             fileName: "[project]/components/ContactForm.tsx",
-                            lineNumber: 111,
+                            lineNumber: 142,
                             columnNumber: 13
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -3559,7 +3507,7 @@ function ContactForm({ variant = "sticky" }) {
                                     className: "w-3.5 h-3.5 text-slate-300 shrink-0 mt-0.5"
                                 }, void 0, false, {
                                     fileName: "[project]/components/ContactForm.tsx",
-                                    lineNumber: 130,
+                                    lineNumber: 161,
                                     columnNumber: 15
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -3567,30 +3515,30 @@ function ContactForm({ variant = "sticky" }) {
                                     children: f.privacy
                                 }, void 0, false, {
                                     fileName: "[project]/components/ContactForm.tsx",
-                                    lineNumber: 131,
+                                    lineNumber: 162,
                                     columnNumber: 15
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/components/ContactForm.tsx",
-                            lineNumber: 129,
+                            lineNumber: 160,
                             columnNumber: 13
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/components/ContactForm.tsx",
-                    lineNumber: 68,
+                    lineNumber: 82,
                     columnNumber: 11
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/components/ContactForm.tsx",
-                lineNumber: 51,
+                lineNumber: 65,
                 columnNumber: 7
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/components/ContactForm.tsx",
-        lineNumber: 27,
+        lineNumber: 41,
         columnNumber: 5
     }, this);
 }
