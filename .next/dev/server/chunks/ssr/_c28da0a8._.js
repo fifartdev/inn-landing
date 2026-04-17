@@ -223,13 +223,30 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$components$2f$Analytics$2e$t
 ;
 ;
 const metadata = {
+    metadataBase: new URL("https://innacademy.gr"),
     title: "Inn Academy | Diploma in Hotel Management — NextGen Hospitality Leaders",
     description: "Πρόγραμμα Εξειδίκευσης στη Διοίκηση Ξενοδοχειακών Επιχειρήσεων. Online εκπαίδευση, masterclasses σε 5★ ξενοδοχεία, πιστοποίηση ACTA & Paris Education. Innjobs.",
-    keywords: "hotel management, ξενοδοχειακή διοίκηση, Inn Academy, Innjobs, ACTA, Paris Education, diploma hospitality",
+    keywords: "hotel management, ξενοδοχειακή διοίκηση, Inn Academy, Innjobs, ACTA, Paris Education, diploma hospitality, σπουδές διοίκησης ξενοδοχείων, hotel management diploma greece, εκπαίδευση στελεχών τουρισμού, inn academy innjobs, επαγγελματική εξειδίκευση, hospitality, εκπαίδευση hospitality",
     openGraph: {
         title: "Inn Academy | Diploma in Hotel Management",
         description: "Εξέλιξε την καριέρα σου σε θέση διοίκησης στον ξενοδοχειακό κλάδο. Online + Masterclasses + Career Day.",
-        type: "website"
+        type: "website",
+        images: [
+            {
+                url: "/hero.jpg",
+                width: 1200,
+                height: 630,
+                alt: "Inn Academy — Diploma in Hotel Management"
+            }
+        ]
+    },
+    twitter: {
+        card: "summary_large_image",
+        title: "Inn Academy | Diploma in Hotel Management",
+        description: "Εξέλιξε την καριέρα σου σε θέση διοίκησης στον ξενοδοχειακό κλάδο. Online + Masterclasses + Career Day.",
+        images: [
+            "/hero.jpg"
+        ]
     }
 };
 function RootLayout({ children }) {
@@ -239,7 +256,7 @@ function RootLayout({ children }) {
             children: [
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$Analytics$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
                     fileName: "[project]/app/layout.tsx",
-                    lineNumber: 27,
+                    lineNumber: 42,
                     columnNumber: 9
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$contexts$2f$LanguageContext$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["LanguageProvider"], {
@@ -247,24 +264,24 @@ function RootLayout({ children }) {
                         children,
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$CookieBanner$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
                             fileName: "[project]/app/layout.tsx",
-                            lineNumber: 30,
+                            lineNumber: 45,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/app/layout.tsx",
-                    lineNumber: 28,
+                    lineNumber: 43,
                     columnNumber: 9
                 }, this)
             ]
         }, void 0, true, {
             fileName: "[project]/app/layout.tsx",
-            lineNumber: 26,
+            lineNumber: 41,
             columnNumber: 7
         }, this)
     }, void 0, false, {
         fileName: "[project]/app/layout.tsx",
-        lineNumber: 25,
+        lineNumber: 40,
         columnNumber: 5
     }, this);
 }
