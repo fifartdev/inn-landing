@@ -3313,7 +3313,7 @@ var _s = __turbopack_context__.k.signature();
 ;
 function ContactForm({ variant = "sticky" }) {
     _s();
-    const { t } = (0, __TURBOPACK__imported__module__$5b$project$5d2f$contexts$2f$LanguageContext$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useLang"])();
+    const { t, lang } = (0, __TURBOPACK__imported__module__$5b$project$5d2f$contexts$2f$LanguageContext$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useLang"])();
     const f = t.form;
     const [formData, setFormData] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"])({
         name: "",
@@ -3336,7 +3336,8 @@ function ContactForm({ variant = "sticky" }) {
                 },
                 body: JSON.stringify({
                     ...formData,
-                    honeypot
+                    honeypot,
+                    lang
                 })
             });
             if (!res.ok) throw new Error();
@@ -3687,7 +3688,7 @@ function ContactForm({ variant = "sticky" }) {
         columnNumber: 5
     }, this);
 }
-_s(ContactForm, "nIf4Ue+0O9+pnKhpsoE103tcR1k=", false, function() {
+_s(ContactForm, "dS6FNky3pLecnAsPWwgGe2sogS0=", false, function() {
     return [
         __TURBOPACK__imported__module__$5b$project$5d2f$contexts$2f$LanguageContext$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useLang"]
     ];

@@ -229,7 +229,7 @@ const metadata = {
     keywords: "hotel management, ξενοδοχειακή διοίκηση, Inn Academy, Innjobs, ACTA, Paris Education, diploma hospitality, σπουδές διοίκησης ξενοδοχείων, hotel management diploma greece, εκπαίδευση στελεχών τουρισμού, inn academy innjobs, επαγγελματική εξειδίκευση, hospitality, εκπαίδευση hospitality",
     openGraph: {
         title: "Inn Academy | Diploma in Hotel Management",
-        description: "Εξέλιξε την καριέρα σου σε θέση διοίκησης στον ξενοδοχειακό κλάδο. Online + Masterclasses + Career Day.",
+        description: "Εξέλιξε την καριέρα σου σε θέση διοίκησης στον ξενοδοχειακό κλάδο. Online + Masterclasses.",
         type: "website",
         images: [
             {
@@ -243,7 +243,7 @@ const metadata = {
     twitter: {
         card: "summary_large_image",
         title: "Inn Academy | Diploma in Hotel Management",
-        description: "Εξέλιξε την καριέρα σου σε θέση διοίκησης στον ξενοδοχειακό κλάδο. Online + Masterclasses + Career Day.",
+        description: "Εξέλιξε την καριέρα σου σε θέση διοίκησης στον ξενοδοχειακό κλάδο. Online + Masterclasses.",
         images: [
             "/hero.jpg"
         ]

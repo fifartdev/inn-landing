@@ -10,9 +10,18 @@ export const metadata: Metadata = {
   description:
     "Πρόγραμμα Εξειδίκευσης στη Διοίκηση Ξενοδοχειακών Επιχειρήσεων. Online εκπαίδευση, masterclasses σε 5★ ξενοδοχεία, πιστοποίηση ACTA & Paris Education. Innjobs.",
   keywords: "hotel management, ξενοδοχειακή διοίκηση, Inn Academy, Innjobs, ACTA, Paris Education, diploma hospitality, σπουδές διοίκησης ξενοδοχείων, hotel management diploma greece, εκπαίδευση στελεχών τουρισμού, inn academy innjobs, επαγγελματική εξειδίκευση, hospitality, εκπαίδευση hospitality",
+  alternates: {
+    canonical: "https://innacademy.gr",
+    languages: {
+      "el": "https://innacademy.gr",
+      "en": "https://innacademy.gr",
+      "fr": "https://innacademy.gr",
+      "x-default": "https://innacademy.gr",
+    },
+  },
   openGraph: {
     title: "Inn Academy | Diploma in Hotel Management",
-    description: "Εξέλιξε την καριέρα σου σε θέση διοίκησης στον ξενοδοχειακό κλάδο. Online + Masterclasses + Career Day.",
+    description: "Εξέλιξε την καριέρα σου σε θέση διοίκησης στον ξενοδοχειακό κλάδο. Online + Masterclasses.",
     type: "website",
     images: [
       {
@@ -26,7 +35,7 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     title: "Inn Academy | Diploma in Hotel Management",
-    description: "Εξέλιξε την καριέρα σου σε θέση διοίκησης στον ξενοδοχειακό κλάδο. Online + Masterclasses + Career Day.",
+    description: "Εξέλιξε την καριέρα σου σε θέση διοίκησης στον ξενοδοχειακό κλάδο. Online + Masterclasses.",
     images: ["/hero.jpg"],
   },
 };

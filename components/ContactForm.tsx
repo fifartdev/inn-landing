@@ -5,7 +5,7 @@ import { useLang } from "@/contexts/LanguageContext";
 import { Send, Calendar, Users, Shield, CheckCircle } from "lucide-react";
 
 export default function ContactForm({ variant = "sticky" }: { variant?: "sticky" | "section" }) {
-  const { t } = useLang();
+  const { t, lang } = useLang();
   const f = t.form;
 
   const [formData, setFormData] = useState({ name: "", phone: "", email: "" });
@@ -23,7 +23,7 @@ export default function ContactForm({ variant = "sticky" }: { variant?: "sticky"
       const res = await fetch("/api/apply", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ ...formData, honeypot }),
+        body: JSON.stringify({ ...formData, honeypot, lang }),
       });
 
       if (!res.ok) throw new Error();

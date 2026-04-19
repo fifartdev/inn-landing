@@ -35,13 +35,14 @@ const translations = {
             sponsors: "Χορηγοί",
             apply: "Αίτηση Εγγραφής",
             countries: "Ευκαιρίες Εργασίας",
-            france: "Εκπαιδευτική Εκδρομή"
+            france: "Εκπαιδευτική Εκδρομή",
+            guests: "Επίτιμοι Προσκεκλημένοι"
         },
         hero: {
             badge: "Πιστοποιημένο Εκπαιδευτικό Πρόγραμμα",
             title: "Diploma in Hotel Management",
             subtitle: "NextGen Hospitality Leaders",
-            description: "Εξελίξου σε διοικητική θέση στον ξενοδοχειακό κλάδο με online εκπαίδευση, βιωματικά masterclasses σε 5★ ξενοδοχεία και άμεση διασύνδεση με τα κορυφαία ξενοδοχειακά brands της χώρας.",
+            description: "Εξέλιξε την καριέρα σου σε θέση διοίκησης στον ξενοδοχειακό κλάδο με online εκπαίδευση, βιωματικά masterclasses σε 5★ ξενοδοχεία και άμεση διασύνδεση με τα κορυφαία ξενοδοχειακά brands της χώρας.",
             stat1: "5 Μήνες",
             stat1sub: "Διάρκεια Προγράμματος",
             stat2: "23+",
@@ -63,7 +64,7 @@ const translations = {
             acta: "Πιστοποίηση IST College",
             actaSub: "Αναγνωρισμένη Πιστοποίηση",
             paris: "Certificat Paris Education",
-            parisSub: "Institut Paris Education",
+            parisSub: "School of Hospitality",
             graduation: "Paris Education Graduation Ceremony",
             graduationSub: "Τελετή Αποφοίτησης στο Παρίσι"
         },
@@ -111,8 +112,8 @@ const translations = {
                 },
                 {
                     icon: "Plane",
-                    title: "Εκπαιδευτική Εκδρομή Γαλλία",
-                    desc: "4 ημέρες Παρίσι & Καμπανία. Σεμινάρια, Masterclass στο Paris.Education College & αμπελώνες."
+                    title: "Εκπαιδευτική Εκδρομή στη Γαλλία",
+                    desc: "4 ημέρες σε Παρίσι & Καμπανία. Σεμινάρια, Masterclasses στο Paris.Education, School of Hospitality & επίσκεψη σε αμπελώνες."
                 },
                 {
                     icon: "Briefcase",
@@ -207,18 +208,18 @@ const translations = {
         france: {
             tag: "Προαιρετική",
             title: "Εκπαιδευτική Εκδρομή στη Γαλλία",
-            subtitle: "4 ημέρες στο Παρίσι & την Καμπανία — εκπαίδευση, πολιτισμός, οινολογία",
+            subtitle: "4 ημέρες σε Παρίσι & Καμπανία — εκπαίδευση, πολιτισμός & Champagne experience",
             badge: "Με επιπλέον κόστος",
-            days: "4 ημέρες εκπαίδευση",
+            days: "4ήμερη εκπαιδευτική εκδρομή",
             items: [
-                "2 ημέρες σεμινάρια στη La Défense από Γάλλους εκπαιδευτικούς τουρισμού",
-                "Masterclass στο Paris.Education College",
-                "Εκπαιδευτική επίσκεψη σε αμπελώνα στην Καμπανία",
+                "2 ημέρες σεμιναρίων στη La Défense από Γάλλους εκπαιδευτές του τουρισμού",
+                "Masterclass στο Paris Education, School of Hospitality",
+                "Εκπαιδευτική επίσκεψη στην περιοχή της Καμπανίας με έμφαση στην παραγωγή Champagne",
                 "Ξενάγηση σε αμπελώνες — Ernest Berat Champagne",
-                "Συμμετοχή στην τελετή αποφοίτησης Paris Education"
+                "Συμμετοχή στην τελετή αποφοίτησης του Paris Education, School of Hospitality"
             ],
-            graduation: "Τελετή Αποφοίτησης Paris Education",
-            graduationDesc: "Οι απόφοιτοι προσκαλούνται στην επίσημη Graduation Ceremony του Paris Education Institute — μια μοναδική εμπειρία που σφραγίζει την επαγγελματική σου πορεία."
+            graduation: "Τελετή Αποφοίτησης Paris Education, School of Hospitality",
+            graduationDesc: "Οι απόφοιτοι προσκαλούνται στην επίσημη Graduation Ceremony του Paris Education, School of Hospitality — μια μοναδική εμπειρία που σφραγίζει την επαγγελματική σου πορεία."
         },
         gallery: {
             tag: "Φωτογραφικό Αρχείο",
@@ -229,6 +230,8 @@ const translations = {
             tag: "Καθηγητές",
             title: "Εισηγητές Προγράμματος",
             subtitle: "Ενεργοί επαγγελματίες του ξενοδοχειακού κλάδου με εκτεταμένη πείρα",
+            guestTitle: "Επίτιμοι Προσκεκλημένοι / Guest",
+            guestPageTitle: "Επίτιμοι Προσκεκλημένοι",
             professorSubjects: [
                 "Στρατηγική Διοίκηση / Επιχειρηματικότητα",
                 "Mentoring & Coaching / Διοίκηση Ξενοδοχειακών Μονάδων",
@@ -240,12 +243,12 @@ const translations = {
                 "Τουριστική Νομοθεσία & Εργατικό Δίκαιο",
                 "Ψυχολογία πάνω στο HR",
                 "Μάρκετινγκ & Digital Marketing Ξενοδοχείων",
-                "Πωλήσεις & Revenue Management",
-                "Βασικές Αρχές Μαγειρικής Τέχνης & Κουζίνας",
+                "Μάρκετινγκ, Πωλήσεις & Revenue Management",
+                "Μαγειρική & Υγιεινή Τροφίμων",
                 "Υγιεινή & Ασφάλεια Τροφίμων (HACCP & ISO Standards)",
                 "Εστιατορική Τεχνική & Service Management",
                 "Οινολογία & Τέχνη του Sommelier",
-                "Διοίκηση Front Office & Guest Relations",
+                "Front Office & Ψηφιακά Συστήματα Ξενοδοχείων",
                 "Ψηφιακά Συστήματα Ξενοδοχείων (PMS, Channel Managers, CRM)",
                 "Διοίκηση Housekeeping & Οργανωτικές Διεργασίες"
             ]
@@ -426,39 +429,35 @@ const translations = {
             sections: [
                 {
                     heading: "1. Υπεύθυνος Επεξεργασίας",
-                    body: "Υπεύθυνος επεξεργασίας των προσωπικών σας δεδομένων είναι η Inn Academy (εκπαιδευτικός βραχίονας της Innjobs), με έδρα στην Πανεπιστημίου 63, 10564, Αθήνα. Για κάθε ερώτηση σχετικά με τα προσωπικά σας δεδομένα, μπορείτε να επικοινωνήσετε μαζί μας στο academy@innjobs.net."
+                    body: "Υπεύθυνος επεξεργασίας των προσωπικών σας δεδομένων είναι η Inn Academy και η Innjobs, με έδρα στην Πανεπιστημίου 63, 10564, Αθήνα. Για κάθε ερώτηση σχετικά με τα προσωπικά σας δεδομένα, μπορείτε να επικοινωνήσετε μαζί μας στο email info@innacademy.gr ή τηλεφωνικώς στο 2102204187."
                 },
                 {
-                    heading: "2. Ποια Δεδομένα Συλλέγουμε",
-                    body: "Συλλέγουμε τα δεδομένα που υποβάλλετε μέσω της φόρμας αίτησης: ονοματεπώνυμο, αριθμό τηλεφώνου και διεύθυνση email. Δεν συλλέγουμε δεδομένα πληρωμής μέσω της ιστοσελίδας."
+                    heading: "2. Δήλωση Προστασίας Προσωπικών Δεδομένων",
+                    body: "Η InnAcademy προσφέρει προγράμματα κατάρτισης, επιμόρφωσης και ανάπτυξης δεξιοτήτων, τόσο δια ζώσης όσο και εξ αποστάσεως στον τομέα των ξενοδοχειακών επιχειρήσεων. Στο πλαίσιο της λειτουργίας της και σύμφωνα με τον Γενικό Κανονισμό Προστασίας Δεδομένων (GDPR) και την ισχύουσα νομοθεσία, η InnAcademy συλλέγει και επεξεργάζεται, ως Υπεύθυνος Επεξεργασίας, προσωπικά δεδομένα που της παρέχονται από ενδιαφερόμενους, εκπαιδευόμενους, συνεργάτες και αποφοίτους.\n\nΗ InnAcademy δίνει ιδιαίτερη σημασία στην προστασία των προσωπικών σας δεδομένων και μέσω της παρούσας Δήλωσης επιθυμεί να σας ενημερώσει για τον τρόπο με τον οποίο τα διαχειρίζεται."
                 },
                 {
-                    heading: "3. Σκοπός Επεξεργασίας",
-                    body: "Τα δεδομένα σας χρησιμοποιούνται αποκλειστικά για την επικοινωνία μαζί σας σχετικά με το εκπαιδευτικό πρόγραμμα Inn Academy, την αξιολόγηση της αίτησής σας και την παροχή πληροφοριών για το πρόγραμμα."
+                    heading: "3. Ποια Προσωπικά Δεδομένα Συλλέγουμε",
+                    body: "Τα προσωπικά δεδομένα περιλαμβάνουν κάθε πληροφορία που αφορά ένα ταυτοποιημένο ή ταυτοποιήσιμο φυσικό πρόσωπο.\n\nΗ InnAcademy συλλέγει δεδομένα που παρέχετε εσείς κατά την εγγραφή σας ή την εκδήλωση ενδιαφέροντος για κάποιο πρόγραμμα ή υπηρεσία. Ενδεικτικά, αυτά περιλαμβάνουν: στοιχεία ταυτοποίησης (ονοματεπώνυμο, ημερομηνία γέννησης, στοιχεία ταυτότητας ή διαβατηρίου), στοιχεία επικοινωνίας (τηλέφωνο, email, διεύθυνση κατοικίας), δημογραφικά στοιχεία (π.χ. εθνικότητα), στοιχεία εκπαίδευσης και επαγγελματικής εμπειρίας, οικονομικά στοιχεία (όπου απαιτείται για τιμολόγηση), πληροφορίες που σχετίζονται με τη συμμετοχή σας σε προγράμματα ή δράσεις.\n\nΣε ορισμένες περιπτώσεις, ενδέχεται να συλλέγονται δεδομένα και από τρίτους φορείς, όπως συνεργαζόμενοι οργανισμοί ή εκπαιδευτικά ιδρύματα.\n\nΕπιπλέον, η InnAcademy χρησιμοποιεί cookies για τη βελτίωση της εμπειρίας περιήγησης και την ανάλυση της επισκεψιμότητας της ιστοσελίδας.\n\nΗ παροχή των δεδομένων σας είναι προαιρετική, ωστόσο η μη παροχή τους ενδέχεται να καταστήσει αδύνατη τη συμμετοχή σας σε υπηρεσίες ή προγράμματα."
                 },
                 {
-                    heading: "4. Νομική Βάση Επεξεργασίας",
-                    body: "Η επεξεργασία βασίζεται στη συγκατάθεσή σας (άρθρο 6 παρ. 1 στοιχ. α ΓΚΠΔ), η οποία δίνεται κατά την υποβολή της φόρμας επικοινωνίας. Έχετε το δικαίωμα να ανακαλέσετε τη συγκατάθεσή σας ανά πάσα στιγμή."
+                    heading: "4. Σκοποί Επεξεργασίας των Δεδομένων",
+                    body: "Η InnAcademy επεξεργάζεται τα προσωπικά σας δεδομένα μόνο όταν είναι απαραίτητο και αποκλειστικά για συγκεκριμένους σκοπούς, όπως: η διαχείριση αιτήσεων και εγγραφών, η παροχή εκπαιδευτικών υπηρεσιών, η συμμόρφωση με νομικές υποχρεώσεις, η επικοινωνία μαζί σας σχετικά με προγράμματα και δραστηριότητες της Inn Academy και της Innjobs, η συμμετοχή σε εξετάσεις, αξιολογήσεις ή πιστοποιήσεις, η βελτίωση των υπηρεσιών μας.\n\nΗ επεξεργασία βασίζεται στη συγκατάθεσή σας (άρθρο 6 παρ. 1 στοιχ. α ΓΚΠΔ), η οποία δίνεται κατά την υποβολή της φόρμας επικοινωνίας. Έχετε το δικαίωμα να ανακαλέσετε τη συγκατάθεσή σας ανά πάσα στιγμή."
                 },
                 {
-                    heading: "5. Διαβίβαση Δεδομένων",
-                    body: "Τα δεδομένα σας δεν διαβιβάζονται σε τρίτους, εκτός αν απαιτείται από τον νόμο. Δεν πραγματοποιείται διαβίβαση εκτός Ευρωπαϊκής Ένωσης."
+                    heading: "5. Διαβίβαση Δεδομένων σε Τρίτους",
+                    body: "Η InnAcademy δεν κοινοποιεί τα προσωπικά σας δεδομένα σε τρίτους, εκτός εάν αυτό είναι απαραίτητο για την παροχή των υπηρεσιών ή επιβάλλεται από τη νομοθεσία.\n\nΠιθανοί αποδέκτες περιλαμβάνουν: συνεργαζόμενους εκπαιδευτικούς οργανισμούς, φορείς πιστοποίησης, δημόσιες αρχές, όπου απαιτείται, συνεργάτες/παρόχους υπηρεσιών που ενεργούν για λογαριασμό της InnAcademy.\n\nΌλοι οι συνεργάτες δεσμεύονται για την προστασία των δεδομένων σας."
                 },
                 {
-                    heading: "6. Χρόνος Διατήρησης",
-                    body: "Διατηρούμε τα δεδομένα σας για όσο χρόνο είναι απαραίτητος για τον σκοπό επεξεργασίας ή έως ότου ζητήσετε τη διαγραφή τους."
+                    heading: "6. Χρόνος Διατήρησης Δεδομένων",
+                    body: "Τα προσωπικά σας δεδομένα διατηρούνται μόνο για όσο διάστημα είναι απαραίτητο για τους σκοπούς επεξεργασίας ή σύμφωνα με τη νομοθεσία.\n\nΜετά το πέρας της περιόδου αυτής, τα δεδομένα διαγράφονται ή ανωνυμοποιούνται με ασφαλή τρόπο."
                 },
                 {
                     heading: "7. Τα Δικαιώματά σας",
-                    body: "Σύμφωνα με τον ΓΚΠΔ έχετε δικαίωμα πρόσβασης, διόρθωσης, διαγραφής, περιορισμού της επεξεργασίας, φορητότητας δεδομένων και εναντίωσης. Για την άσκηση των δικαιωμάτων σας επικοινωνήστε μαζί μας στο academy@innjobs.net."
+                    body: "Σύμφωνα με τον ΓΚΠΔ έχετε το δικαίωμα: πρόσβασης στα δεδομένα σας, διόρθωσης ανακριβών στοιχείων, διαγραφής των δεδομένων σας, περιορισμού της επεξεργασίας, εναντίωσης στην επεξεργασία, φορητότητας των δεδομένων, ανάκλησης συγκατάθεσης οποτεδήποτε.\n\nΓια την άσκηση των δικαιωμάτων σας, μπορείτε να επικοινωνήσετε με την InnAcademy μέσω email: info@innacademy.gr ή τηλεφώνου: +30 2102204187.\n\nΕπίσης, έχετε δικαίωμα προσφυγής στην Αρχή Προστασίας Δεδομένων Προσωπικού Χαρακτήρα (www.dpa.gr)."
                 },
                 {
-                    heading: "8. Cookies",
-                    body: "Η ιστοσελίδα μπορεί να χρησιμοποιεί τεχνικά cookies για τη σωστή λειτουργία της. Δεν χρησιμοποιούμε cookies παρακολούθησης ή διαφήμισης."
-                },
-                {
-                    heading: "9. Αρχή Προστασίας Δεδομένων",
-                    body: "Έχετε το δικαίωμα να υποβάλετε καταγγελία στην Αρχή Προστασίας Δεδομένων Προσωπικού Χαρακτήρα (www.dpa.gr), εάν θεωρείτε ότι η επεξεργασία των δεδομένων σας παραβιάζει τον ΓΚΠΔ."
+                    heading: "8. Τροποποιήσεις της Παρούσας Δήλωσης",
+                    body: "Η InnAcademy διατηρεί το δικαίωμα να τροποποιεί την παρούσα Δήλωση οποτεδήποτε. Οι αλλαγές τίθενται σε ισχύ από τη στιγμή της δημοσίευσής τους στην ιστοσελίδα."
                 }
             ]
         },
@@ -468,43 +467,51 @@ const translations = {
             sections: [
                 {
                     heading: "1. Αποδοχή Όρων",
-                    body: "Η χρήση της παρούσας ιστοσελίδας συνεπάγεται την ανεπιφύλακτη αποδοχή των παρόντων Όρων Χρήσης. Εάν δεν συμφωνείτε με τους όρους αυτούς, παρακαλούμε να μην χρησιμοποιείτε την ιστοσελίδα."
+                    body: "Η πρόσβαση και χρήση της παρούσας ιστοσελίδας συνεπάγεται την πλήρη, ανεπιφύλακτη και ρητή αποδοχή των παρόντων Όρων Χρήσης. Σε περίπτωση που ο χρήστης δεν συμφωνεί με το σύνολο ή μέρος αυτών, οφείλει να απέχει από τη χρήση της ιστοσελίδας."
                 },
                 {
-                    heading: "2. Πληροφορίες για την Inn Academy",
-                    body: "Η Inn Academy αποτελεί τον εκπαιδευτικό βραχίονα της Innjobs και λειτουργεί ως φορέας παροχής εκπαιδευτικών υπηρεσιών στον τομέα της φιλοξενίας. Έδρα: Πανεπιστημίου 63, 10564, Αθήνα. Email: academy@innjobs.net. Τηλ: 210 2204187."
+                    heading: "2. Στοιχεία Παρόχου",
+                    body: "Η InnAcademy, εκπαιδευτικός βραχίονας της Innjobs, παρέχει υπηρεσίες επαγγελματικής εκπαίδευσης και κατάρτισης, ιδίως στον τομέα της φιλοξενίας.\n\nΈδρα: Πανεπιστημίου 63, 10564, Αθήνα\nEmail: info@innacademy.gr\nΤηλέφωνο: 210 2204187\n\nΗ InnAcademy διατηρεί το δικαίωμα να τροποποιεί τα στοιχεία επικοινωνίας της χωρίς προηγούμενη ειδοποίηση."
                 },
                 {
-                    heading: "3. Εκπαιδευτικές Υπηρεσίες",
-                    body: "Το πρόγραμμα «Diploma in Hotel Management» προσφέρεται υπό τους όρους που περιγράφονται στην ιστοσελίδα. Η Inn Academy διατηρεί το δικαίωμα να τροποποιεί το περιεχόμενο, το κόστος ή τη δομή του προγράμματος χωρίς προηγούμενη ειδοποίηση, εκτός αν ορίζεται διαφορετικά σε ισχύουσα σύμβαση."
+                    heading: "3. Αντικείμενο και Χρήση της Ιστοσελίδας",
+                    body: "Η ιστοσελίδα παρέχει πληροφορίες σχετικά με τα εκπαιδευτικά προγράμματα, τις υπηρεσίες και τις δράσεις της InnAcademy.\n\nΟ χρήστης υποχρεούται να χρησιμοποιεί την ιστοσελίδα σύμφωνα με την ισχύουσα ελληνική και ευρωπαϊκή νομοθεσία, τα χρηστά ήθη και τους παρόντες όρους. Ειδικότερα, απαγορεύεται: η χρήση της ιστοσελίδας για παράνομους ή καταχρηστικούς σκοπούς, η παρεμπόδιση της ομαλής λειτουργίας της, η εισαγωγή κακόβουλου λογισμικού ή επιβλαβών δεδομένων, η μη εξουσιοδοτημένη συλλογή ή επεξεργασία δεδομένων άλλων χρηστών."
                 },
                 {
-                    heading: "4. Αίτηση Συμμετοχής",
-                    body: "Η υποβολή αίτησης μέσω της ιστοσελίδας δεν συνιστά εγγύηση αποδοχής. Η Inn Academy αξιολογεί κάθε αίτηση και επικοινωνεί με τον υποψήφιο για την έκβασή της. Η εγγραφή οριστικοποιείται με την καταβολή της πρώτης δόσης."
+                    heading: "4. Εκπαιδευτικές Υπηρεσίες",
+                    body: "Τα προσφερόμενα προγράμματα (ενδεικτικά το «Diploma in Hotel Management») παρέχονται σύμφωνα με τους ειδικούς όρους που περιγράφονται στην ιστοσελίδα ή/και σε σχετικές συμβάσεις που θα λάβουν οι υποψήφιοι κατά την εκδήλωση ενδιαφέροντος.\n\nΗ InnAcademy διατηρεί το δικαίωμα, κατά την απόλυτη διακριτική της ευχέρεια, να τροποποιεί ή να αναπροσαρμόζει το περιεχόμενο, τη διάρκεια, τη δομή, τα δίδακτρα και τα χαρακτηριστικά των προγραμμάτων, εκτός εάν άλλως ορίζεται σε δεσμευτική σύμβαση με τον εκάστοτε εκπαιδευόμενο."
                 },
                 {
-                    heading: "5. Οικονομικοί Όροι",
-                    body: "Τα δίδακτρα, το πρόγραμμα δόσεων και οι τρόποι πληρωμής αναφέρονται αναλυτικά στην ενότητα «Κόστος» της ιστοσελίδας. Σε περίπτωση ακύρωσης πριν την έναρξη ισχύουν οι όροι επιστροφής που καθορίζονται από τη γραμματεία. Μετά την έναρξη των μαθημάτων δεν προβλέπεται επιστροφή διδάκτρων."
+                    heading: "5. Διαδικασία Αίτησης και Εγγραφής",
+                    body: "Η υποβολή αίτησης συμμετοχής μέσω της ιστοσελίδας δεν δημιουργεί υποχρέωση αποδοχής εκ μέρους της InnAcademy. Η InnAcademy διατηρεί το δικαίωμα αξιολόγησης των αιτήσεων βάσει εσωτερικών κριτηρίων και επικοινωνεί με τους υποψηφίους για την έκβαση της διαδικασίας.\n\nΗ εγγραφή σε πρόγραμμα θεωρείται ολοκληρωμένη μόνο κατόπιν αίτησης και καταβολής της προβλεπόμενης οικονομικής συμμετοχής ή της πρώτης δόσης."
                 },
                 {
-                    heading: "6. Πνευματική Ιδιοκτησία",
-                    body: "Όλο το περιεχόμενο της ιστοσελίδας (κείμενα, εικόνες, λογότυπα, εκπαιδευτικό υλικό) αποτελεί πνευματική ιδιοκτησία της Inn Academy ή των δικαιούχων τρίτων και προστατεύεται από την ισχύουσα νομοθεσία. Απαγορεύεται η αναπαραγωγή ή χρήση χωρίς γραπτή άδεια."
+                    heading: "6. Οικονομικοί Όροι και Πολιτική Ακυρώσεων",
+                    body: "Τα δίδακτρα, οι όροι πληρωμής και το χρονοδιάγραμμα καταβολών καθορίζονται στην ιστοσελίδα ή/και σε σχετική συμφωνία.\n\nΣε περίπτωση ακύρωσης συμμετοχής πριν την έναρξη του προγράμματος, εφαρμόζονται οι εκάστοτε ισχύοντες όροι επιστροφής διδάκτρων, όπως αυτοί γνωστοποιούνται από τη γραμματεία.\n\nΜετά την έναρξη των μαθημάτων, δεν προβλέπεται επιστροφή καταβληθέντων ποσών, εκτός αν ορίζεται διαφορετικά από υποχρεωτικές διατάξεις νόμου."
                 },
                 {
-                    heading: "7. Περιορισμός Ευθύνης",
-                    body: "Η Inn Academy καταβάλλει κάθε δυνατή προσπάθεια για την ακρίβεια των πληροφοριών της ιστοσελίδας, δεν ευθύνεται όμως για τυχόν λάθη, παραλείψεις ή τεχνικά προβλήματα. Η χρήση της ιστοσελίδας γίνεται με αποκλειστική ευθύνη του χρήστη."
+                    heading: "7. Πνευματική και Βιομηχανική Ιδιοκτησία",
+                    body: "Το σύνολο του περιεχομένου της ιστοσελίδας, συμπεριλαμβανομένων ενδεικτικά κειμένων, σημάτων, λογοτύπων, εικόνων, γραφικών και εκπαιδευτικού υλικού, αποτελεί αντικείμενο πνευματικής ή/και βιομηχανικής ιδιοκτησίας της InnAcademy και της Innjobs ή τρίτων συνεργατών και προστατεύεται από την ισχύουσα νομοθεσία.\n\nΑπαγορεύεται αυστηρά η αναπαραγωγή, αναδημοσίευση, διανομή, τροποποίηση ή καθ' οιονδήποτε τρόπο εκμετάλλευση του περιεχομένου χωρίς προηγούμενη έγγραφη άδεια."
                 },
                 {
-                    heading: "8. Σύνδεσμοι προς Τρίτους",
-                    body: "Η ιστοσελίδα μπορεί να περιέχει συνδέσμους προς εξωτερικές ιστοσελίδες (π.χ. LinkedIn, Innjobs). Η Inn Academy δεν ευθύνεται για το περιεχόμενο ή τις πρακτικές απορρήτου τρίτων."
+                    heading: "8. Περιορισμός Ευθύνης",
+                    body: "Η InnAcademy καταβάλλει κάθε εύλογη προσπάθεια για την ακρίβεια, πληρότητα και επικαιροποίηση των πληροφοριών της ιστοσελίδας. Ωστόσο, δεν παρέχει καμία ρητή ή σιωπηρή εγγύηση ως προς την ορθότητα, παραλείψεις ή τεχνικά προβλήματα. Η InnAcademy δεν ευθύνεται για οποιαδήποτε άμεση ή έμμεση ζημία, θετική ή αποθετική, που ενδέχεται να προκύψει από: τη χρήση ή αδυναμία χρήσης της ιστοσελίδας, τυχόν σφάλματα ή παραλείψεις, τεχνικά προβλήματα ή διακοπές λειτουργίας, πράξεις ή παραλείψεις τρίτων. Η χρήση της ιστοσελίδας γίνεται αποκλειστικά με ευθύνη του χρήστη."
                 },
                 {
-                    heading: "9. Εφαρμοστέο Δίκαιο",
-                    body: "Οι παρόντες Όροι διέπονται από το ελληνικό δίκαιο. Για οποιαδήποτε διαφορά αρμόδια είναι τα Δικαστήρια των Αθηνών."
+                    heading: "9. Σύνδεσμοι προς Τρίτους Ιστότοπους",
+                    body: "Η ιστοσελίδα ενδέχεται να περιλαμβάνει συνδέσμους προς ιστοσελίδες τρίτων (ενδεικτικά: LinkedIn, Innjobs). Η InnAcademy δεν ελέγχει και δεν φέρει ευθύνη για το περιεχόμενο, τη διαθεσιμότητα ή τις πολιτικές προστασίας δεδομένων των εν λόγω ιστοσελίδων."
                 },
                 {
-                    heading: "10. Τροποποιήσεις",
-                    body: "Η Inn Academy διατηρεί το δικαίωμα να τροποποιεί τους παρόντες Όρους ανά πάσα στιγμή. Οι αλλαγές τίθενται σε ισχύ από τη δημοσίευσή τους στην ιστοσελίδα."
+                    heading: "10. Προστασία Προσωπικών Δεδομένων",
+                    body: "Η επεξεργασία των προσωπικών δεδομένων των χρηστών διέπεται από την Πολιτική Προστασίας Προσωπικών Δεδομένων της InnAcademy, η οποία αποτελεί αναπόσπαστο μέρος των παρόντων Όρων."
+                },
+                {
+                    heading: "11. Τροποποιήσεις Όρων",
+                    body: "Η InnAcademy διατηρεί το δικαίωμα να τροποποιεί, ανανεώνει ή καταργεί, εν όλω ή εν μέρει, τους παρόντες Όρους Χρήσης οποτεδήποτε, κατά την απόλυτη διακριτική της ευχέρεια.\n\nΟι εκάστοτε τροποποιήσεις τίθενται σε ισχύ από τη δημοσίευσή τους στην ιστοσελίδα."
+                },
+                {
+                    heading: "12. Εφαρμοστέο Δίκαιο και Δικαιοδοσία",
+                    body: "Οι παρόντες Όροι διέπονται από το Ελληνικό Δίκαιο και το δίκαιο της Ευρωπαϊκής Ένωσης.\n\nΓια κάθε διαφορά που ενδέχεται να προκύψει από την εφαρμογή ή ερμηνεία των παρόντων, αρμόδια ορίζονται αποκλειστικά τα Δικαστήρια Αθηνών."
                 }
             ]
         },
@@ -527,13 +534,14 @@ const translations = {
             sponsors: "Sponsors",
             apply: "Apply Now",
             countries: "Work Opportunities",
-            france: "France Trip"
+            france: "France Trip",
+            guests: "Honorary Guests"
         },
         hero: {
             badge: "Certified Educational Program",
             title: "Diploma in Hotel Management",
             subtitle: "NextGen Hospitality Leaders",
-            description: "Advance to management positions in the hospitality industry with online education, hands-on masterclasses at 5★ hotels and direct connection to Greece's top hotel brands.",
+            description: "Advance your career to a management position in the hospitality industry with online education, hands-on masterclasses at 5★ hotels and direct connection to Greece's top hotel brands.",
             stat1: "5 Months",
             stat1sub: "Program Duration",
             stat2: "23+",
@@ -555,7 +563,7 @@ const translations = {
             acta: "IST College Certification",
             actaSub: "Recognized Certification",
             paris: "Paris Education Certificat",
-            parisSub: "Institut Paris Education",
+            parisSub: "School of Hospitality",
             graduation: "Paris Education Graduation Ceremony",
             graduationSub: "Graduation Ceremony in Paris"
         },
@@ -604,7 +612,7 @@ const translations = {
                 {
                     icon: "Plane",
                     title: "France Educational Trip",
-                    desc: "4 days in Paris & Champagne. Seminars, Masterclass at Paris.Education College & vineyards."
+                    desc: "4 days in Paris & Champagne. Seminars, Masterclasses at Paris.Education, School of Hospitality & vineyard visits."
                 },
                 {
                     icon: "Briefcase",
@@ -699,18 +707,18 @@ const translations = {
         france: {
             tag: "Optional",
             title: "Educational Trip to France",
-            subtitle: "4 days in Paris & Champagne — education, culture, oenology",
+            subtitle: "4 days in Paris & Champagne — education, culture & Champagne experience",
             badge: "Additional cost",
-            days: "4 days education",
+            days: "4-day educational trip",
             items: [
                 "2 days of seminars at La Défense by French tourism educators",
-                "Masterclass at Paris.Education College",
-                "Educational visit to a vineyard in Champagne",
+                "Masterclass at Paris Education, School of Hospitality",
+                "Educational visit to the Champagne region with a focus on Champagne production",
                 "Vineyard tour — Ernest Berat Champagne",
-                "Participation in Paris Education Graduation Ceremony"
+                "Participation in the Paris Education, School of Hospitality Graduation Ceremony"
             ],
-            graduation: "Paris Education Graduation Ceremony",
-            graduationDesc: "Graduates are invited to the official Paris Education Institute Graduation Ceremony — a unique experience that marks your professional journey."
+            graduation: "Paris Education, School of Hospitality Graduation Ceremony",
+            graduationDesc: "Graduates are invited to the official Graduation Ceremony of Paris Education, School of Hospitality — a unique experience that marks your professional journey."
         },
         gallery: {
             tag: "Photo Archive",
@@ -721,6 +729,8 @@ const translations = {
             tag: "Faculty",
             title: "Program Instructors",
             subtitle: "Active hospitality professionals with extensive field experience",
+            guestTitle: "Honorary Guests / Guest",
+            guestPageTitle: "Honorary Guests",
             professorSubjects: [
                 "Strategic Management / Entrepreneurship",
                 "Mentoring & Coaching / Hotel Unit Management",
@@ -732,12 +742,12 @@ const translations = {
                 "Tourism Legislation & Labor Law",
                 "Psychology in HR",
                 "Marketing & Digital Marketing for Hotels",
-                "Sales & Revenue Management",
-                "Basic Principles of Culinary Arts & Cooking",
+                "Marketing, Sales & Revenue Management",
+                "Culinary Arts & Food Hygiene",
                 "Food Hygiene & Safety (HACCP & ISO Standards)",
                 "Restaurant Technique & Service Management",
                 "Oenology & The Art of Sommelier",
-                "Front Office Management & Guest Relations",
+                "Front Office & Hotel Digital Systems",
                 "Hotel Digital Systems (PMS, Channel Managers, CRM)",
                 "Housekeeping Management & Organizational Processes"
             ]
@@ -918,85 +928,89 @@ const translations = {
             sections: [
                 {
                     heading: "1. Data Controller",
-                    body: "The data controller for your personal data is Inn Academy (educational arm of Innjobs), headquartered at 63 Panepistimiou St., 10564, Athens. For any questions regarding your personal data, please contact us at academy@innjobs.net."
+                    body: "The data controllers for your personal data are Inn Academy and Innjobs, headquartered at 63 Panepistimiou St., 10564, Athens. For any questions regarding your personal data, please contact us at info@innacademy.gr or by phone at 2102204187."
                 },
                 {
-                    heading: "2. Data We Collect",
-                    body: "We collect the data you submit through the application form: full name, phone number, and email address. We do not collect payment data through the website."
+                    heading: "2. Privacy Statement",
+                    body: "InnAcademy offers training, upskilling and professional development programmes, both in-person and online, in the hotel and hospitality sector. In the course of its operations and in accordance with the General Data Protection Regulation (GDPR) and applicable legislation, InnAcademy collects and processes, as Data Controller, personal data provided by prospective students, enrolled students, partners and alumni.\n\nInnAcademy attaches great importance to the protection of your personal data and through this Statement wishes to inform you of the way in which it manages your data."
                 },
                 {
-                    heading: "3. Purpose of Processing",
-                    body: "Your data is used exclusively to contact you about the Inn Academy educational program, to evaluate your application, and to provide information about the program."
+                    heading: "3. Personal Data We Collect",
+                    body: "Personal data means any information relating to an identified or identifiable natural person.\n\nInnAcademy collects data that you provide upon registration or when expressing interest in a programme or service. This includes, for example: identification details (full name, date of birth, ID or passport details); contact details (phone number, email, home address); demographic information (e.g. nationality); educational background and professional experience; financial details (where required for invoicing); information relating to your participation in programmes or activities.\n\nIn certain cases, data may also be collected from third-party sources, such as partner organisations or educational institutions.\n\nIn addition, InnAcademy uses cookies to improve the browsing experience and analyse website traffic.\n\nProviding your data is optional; however, failure to do so may make it impossible for you to participate in certain services or programmes."
                 },
                 {
-                    heading: "4. Legal Basis for Processing",
-                    body: "Processing is based on your consent (Article 6(1)(a) GDPR), given when you submit the contact form. You have the right to withdraw your consent at any time."
+                    heading: "4. Purposes of Processing",
+                    body: "InnAcademy processes your personal data only when necessary and exclusively for specific purposes, such as: managing applications and enrolments; providing educational services; complying with legal obligations; communicating with you about InnAcademy and Innjobs programmes and activities; facilitating examinations, assessments or certifications; improving our services.\n\nProcessing is based on your consent (Article 6(1)(a) GDPR), given when you submit the contact form. You have the right to withdraw your consent at any time."
                 },
                 {
-                    heading: "5. Data Transfers",
-                    body: "Your data is not transferred to third parties unless required by law. No transfers outside the European Union take place."
+                    heading: "5. Data Transfers to Third Parties",
+                    body: "InnAcademy does not disclose your personal data to third parties, unless this is necessary for the provision of services or required by law.\n\nPossible recipients include: partner educational organisations; certification bodies; public authorities, where required; partners/service providers acting on behalf of InnAcademy.\n\nAll partners are bound to protect your data."
                 },
                 {
-                    heading: "6. Retention Period",
-                    body: "We retain your data for as long as necessary for the processing purpose or until you request its deletion."
+                    heading: "6. Data Retention Period",
+                    body: "Your personal data is retained only for as long as necessary for the processing purposes or as required by law.\n\nUpon expiry of this period, data is deleted or anonymised in a secure manner."
                 },
                 {
                     heading: "7. Your Rights",
-                    body: "Under the GDPR you have the right of access, rectification, erasure, restriction of processing, data portability and objection. To exercise your rights, contact us at academy@innjobs.net."
+                    body: "Under the GDPR you have the right to: access your data; rectification of inaccurate information; erasure of your data; restriction of processing; objection to processing; data portability; withdrawal of consent at any time.\n\nTo exercise your rights, you may contact InnAcademy by email: info@innacademy.gr or by phone: +30 2102204187.\n\nYou also have the right to lodge a complaint with the Hellenic Data Protection Authority (www.dpa.gr)."
                 },
                 {
-                    heading: "8. Cookies",
-                    body: "The website may use technical cookies for its proper operation. We do not use tracking or advertising cookies."
-                },
-                {
-                    heading: "9. Data Protection Authority",
-                    body: "You have the right to lodge a complaint with the Hellenic Data Protection Authority (www.dpa.gr) if you believe that the processing of your data violates the GDPR."
+                    heading: "8. Amendments to this Statement",
+                    body: "InnAcademy reserves the right to amend this Statement at any time. Changes take effect upon their publication on the website."
                 }
             ]
         },
         terms: {
-            title: "Terms & Conditions",
+            title: "Terms of Use",
             lastUpdated: "Last updated: March 2026",
             sections: [
                 {
                     heading: "1. Acceptance of Terms",
-                    body: "Using this website constitutes unconditional acceptance of these Terms & Conditions. If you do not agree with these terms, please do not use the website."
+                    body: "Access to and use of this website constitutes full, unconditional and express acceptance of these Terms of Use. If the user does not agree with all or part of these Terms, they must refrain from using the website."
                 },
                 {
-                    heading: "2. About Inn Academy",
-                    body: "Inn Academy is the educational arm of Innjobs and operates as a provider of educational services in the hospitality sector. Address: 63 Panepistimiou St., 10564, Athens. Email: academy@innjobs.net. Tel: 210 2204187."
+                    heading: "2. Provider Information",
+                    body: "InnAcademy, the educational arm of Innjobs, provides professional education and training services, particularly in the hospitality sector.\n\nAddress: 63 Panepistimiou St., 10564, Athens\nEmail: info@innacademy.gr\nPhone: 210 2204187\n\nInnAcademy reserves the right to modify its contact details without prior notice."
                 },
                 {
-                    heading: "3. Educational Services",
-                    body: "The 'Diploma in Hotel Management' program is offered under the terms described on the website. Inn Academy reserves the right to modify the content, cost or structure of the program without prior notice, unless otherwise specified in an applicable contract."
+                    heading: "3. Purpose and Use of the Website",
+                    body: "The website provides information about InnAcademy's educational programmes, services and activities.\n\nThe user is required to use the website in accordance with applicable Greek and European legislation, public morals and these Terms. In particular, the following are prohibited: use of the website for illegal or abusive purposes; interference with its normal operation; introduction of malicious software or harmful data; unauthorised collection or processing of other users' data."
                 },
                 {
-                    heading: "4. Application",
-                    body: "Submitting an application via the website does not constitute a guarantee of acceptance. Inn Academy evaluates each application and contacts the candidate with the outcome. Registration is finalised upon payment of the first installment."
+                    heading: "4. Educational Services",
+                    body: "The programmes offered (notably the 'Diploma in Hotel Management') are provided in accordance with the specific terms described on the website and/or in related agreements provided to applicants upon expression of interest.\n\nInnAcademy reserves the right, at its absolute discretion, to modify or adjust the content, duration, structure, tuition fees and features of the programmes, unless otherwise stipulated in a binding agreement with the respective student."
                 },
                 {
-                    heading: "5. Financial Terms",
-                    body: "Tuition fees, the installment schedule and payment methods are detailed in the 'Pricing' section of the website. Cancellation before the start date is subject to the refund terms set by the secretariat. After classes begin, no tuition refund is available."
+                    heading: "5. Application and Enrolment Process",
+                    body: "Submitting an application via the website does not create an obligation on InnAcademy to accept it. InnAcademy reserves the right to evaluate applications based on internal criteria and communicates with applicants regarding the outcome of the process.\n\nEnrolment in a programme is considered complete only upon submission of an application and payment of the required financial contribution or the first instalment."
                 },
                 {
-                    heading: "6. Intellectual Property",
-                    body: "All content on the website (texts, images, logos, educational materials) is the intellectual property of Inn Academy or third-party rights holders and is protected by applicable law. Reproduction or use without written permission is prohibited."
+                    heading: "6. Financial Terms and Cancellation Policy",
+                    body: "Tuition fees, payment terms and the payment schedule are set out on the website and/or in a relevant agreement.\n\nIn the event of cancellation before the programme begins, the applicable refund terms, as communicated by the secretariat, shall apply.\n\nAfter classes have commenced, no refund of amounts paid is available, unless otherwise required by mandatory provisions of law."
                 },
                 {
-                    heading: "7. Limitation of Liability",
-                    body: "Inn Academy makes every effort to ensure the accuracy of website information but is not liable for errors, omissions or technical issues. Use of the website is at the user's own risk."
+                    heading: "7. Intellectual and Industrial Property",
+                    body: "All content on the website, including but not limited to texts, trademarks, logos, images, graphics and educational materials, constitutes intellectual and/or industrial property of InnAcademy and Innjobs or third-party collaborators and is protected by applicable law.\n\nReproduction, republication, distribution, modification or exploitation of the content in any manner without prior written permission is strictly prohibited."
                 },
                 {
-                    heading: "8. Third-Party Links",
-                    body: "The website may contain links to external websites (e.g. LinkedIn, Innjobs). Inn Academy is not responsible for the content or privacy practices of third parties."
+                    heading: "8. Limitation of Liability",
+                    body: "InnAcademy makes every reasonable effort to ensure the accuracy, completeness and currency of the information on the website. However, it provides no express or implied warranty as to accuracy, omissions or technical issues. InnAcademy is not liable for any direct or indirect damage that may arise from: use of or inability to use the website; any errors or omissions; technical problems or service interruptions; acts or omissions of third parties. Use of the website is solely at the user's own risk."
                 },
                 {
-                    heading: "9. Governing Law",
-                    body: "These Terms are governed by Greek law. The courts of Athens have jurisdiction for any dispute."
+                    heading: "9. Links to Third-Party Websites",
+                    body: "The website may contain links to third-party websites (e.g. LinkedIn, Innjobs). InnAcademy does not control and bears no responsibility for the content, availability or data protection policies of those websites."
                 },
                 {
-                    heading: "10. Amendments",
-                    body: "Inn Academy reserves the right to amend these Terms at any time. Changes take effect upon publication on the website."
+                    heading: "10. Protection of Personal Data",
+                    body: "The processing of users' personal data is governed by InnAcademy's Privacy Policy, which forms an integral part of these Terms."
+                },
+                {
+                    heading: "11. Amendments to Terms",
+                    body: "InnAcademy reserves the right to modify, update or revoke, in whole or in part, these Terms of Use at any time, at its absolute discretion.\n\nAny amendments take effect upon their publication on the website."
+                },
+                {
+                    heading: "12. Governing Law and Jurisdiction",
+                    body: "These Terms are governed by Greek Law and the law of the European Union.\n\nFor any dispute that may arise from the application or interpretation of these Terms, the Courts of Athens shall have exclusive jurisdiction."
                 }
             ]
         },
@@ -1019,13 +1033,14 @@ const translations = {
             sponsors: "Sponsors",
             apply: "Postuler",
             countries: "Opportunités d'Emploi",
-            france: "Voyage en France"
+            france: "Voyage en France",
+            guests: "Invités d'Honneur"
         },
         hero: {
             badge: "Programme Éducatif Certifié",
             title: "Diploma in Hotel Management",
             subtitle: "NextGen Hospitality Leaders",
-            description: "Évoluez vers des postes de direction dans l'industrie hôtelière grâce à une formation en ligne, des masterclasses dans des hôtels 5★ et une connexion directe avec les meilleures marques hôtelières.",
+            description: "Faites progresser votre carrière vers un poste de direction dans l'industrie hôtelière grâce à une formation en ligne, des masterclasses dans des hôtels 5★ et une connexion directe avec les meilleures marques hôtelières.",
             stat1: "5 Mois",
             stat1sub: "Durée du Programme",
             stat2: "23+",
@@ -1047,7 +1062,7 @@ const translations = {
             acta: "Certification IST College",
             actaSub: "Certification Reconnue",
             paris: "Certificat Paris Education",
-            parisSub: "Institut Paris Education",
+            parisSub: "School of Hospitality",
             graduation: "Cérémonie de Remise des Diplômes Paris Education",
             graduationSub: "Cérémonie de Remise des Diplômes à Paris"
         },
@@ -1096,7 +1111,7 @@ const translations = {
                 {
                     icon: "Plane",
                     title: "Voyage Éducatif en France",
-                    desc: "4 jours à Paris & en Champagne. Séminaires, Masterclass au Paris.Education College & vignobles."
+                    desc: "4 jours à Paris & en Champagne. Séminaires, Masterclasses au Paris.Education, School of Hospitality & visites de vignobles."
                 },
                 {
                     icon: "Briefcase",
@@ -1191,18 +1206,18 @@ const translations = {
         france: {
             tag: "Optionnel",
             title: "Voyage Éducatif en France",
-            subtitle: "4 jours à Paris & en Champagne — éducation, culture, œnologie",
+            subtitle: "4 jours à Paris & en Champagne — éducation, culture & Champagne experience",
             badge: "Coût supplémentaire",
-            days: "4 jours éducation",
+            days: "Excursion éducative de 4 jours",
             items: [
                 "2 jours de séminaires à La Défense par des formateurs français du tourisme",
-                "Masterclass au Paris.Education College",
-                "Visite éducative d'un vignoble en Champagne",
+                "Masterclass au Paris Education, School of Hospitality",
+                "Visite éducative dans la région Champagne avec focus sur la production de Champagne",
                 "Visite de vignobles — Ernest Berat Champagne",
-                "Participation à la Cérémonie de Remise des Diplômes Paris Education"
+                "Participation à la cérémonie de remise des diplômes du Paris Education, School of Hospitality"
             ],
-            graduation: "Cérémonie de Remise des Diplômes Paris Education",
-            graduationDesc: "Les diplômés sont invités à la cérémonie officielle de remise des diplômes du Paris Education Institute — une expérience unique qui marque votre parcours professionnel."
+            graduation: "Cérémonie de Remise des Diplômes Paris Education, School of Hospitality",
+            graduationDesc: "Les diplômés sont invités à la cérémonie officielle de remise des diplômes du Paris Education, School of Hospitality — une expérience unique qui marque votre parcours professionnel."
         },
         gallery: {
             tag: "Archives Photo",
@@ -1213,6 +1228,8 @@ const translations = {
             tag: "Corps Professoral",
             title: "Instructeurs du Programme",
             subtitle: "Professionnels actifs de l'hôtellerie avec une vaste expérience sur le terrain",
+            guestTitle: "Invités d'Honneur / Guest",
+            guestPageTitle: "Invités d'Honneur",
             professorSubjects: [
                 "Management Stratégique / Entrepreneuriat",
                 "Mentoring & Coaching / Gestion des Unités Hôtelières",
@@ -1224,12 +1241,12 @@ const translations = {
                 "Législation Touristique & Droit du Travail",
                 "Psychologie en RH",
                 "Marketing & Digital Marketing pour les Hôtels",
-                "Ventes & Revenue Management",
-                "Principes de Base des Arts Culinaires & Cuisine",
+                "Marketing, Ventes & Revenue Management",
+                "Arts Culinaires & Hygiène Alimentaire",
                 "Hygiène & Sécurité Alimentaire (HACCP & Normes ISO)",
                 "Technique de Restauration & Service Management",
                 "Œnologie & L'Art du Sommelier",
-                "Gestion du Front Office & Relations Clients",
+                "Front Office & Systèmes Numériques Hôteliers",
                 "Systèmes Numériques Hôteliers (PMS, Channel Managers, CRM)",
                 "Gestion du Housekeeping & Processus Organisationnels"
             ]
@@ -1410,85 +1427,89 @@ const translations = {
             sections: [
                 {
                     heading: "1. Responsable du Traitement",
-                    body: "Le responsable du traitement de vos données personnelles est Inn Academy (bras éducatif d'Innjobs), dont le siège est au 63 rue Panepistimiou, 10564, Athènes. Pour toute question concernant vos données personnelles, contactez-nous à academy@innjobs.net."
+                    body: "Les responsables du traitement de vos données personnelles sont Inn Academy et Innjobs, dont le siège est au 63 rue Panepistimiou, 10564, Athènes. Pour toute question concernant vos données personnelles, contactez-nous à info@innacademy.gr ou par téléphone au 2102204187."
                 },
                 {
-                    heading: "2. Données Collectées",
-                    body: "Nous collectons les données que vous soumettez via le formulaire de candidature: nom complet, numéro de téléphone et adresse email. Nous ne collectons pas de données de paiement via le site web."
+                    heading: "2. Déclaration de Protection des Données",
+                    body: "InnAcademy propose des programmes de formation, de perfectionnement et de développement des compétences, aussi bien en présentiel qu'à distance, dans le secteur hôtelier. Dans le cadre de ses activités et conformément au Règlement Général sur la Protection des Données (RGPD) et à la législation applicable, InnAcademy collecte et traite, en tant que Responsable du Traitement, des données personnelles fournies par des personnes intéressées, des étudiants inscrits, des partenaires et des diplômés.\n\nInnAcademy accorde une importance particulière à la protection de vos données personnelles et souhaite, à travers cette Déclaration, vous informer de la manière dont elle les gère."
                 },
                 {
-                    heading: "3. Finalité du Traitement",
-                    body: "Vos données sont utilisées exclusivement pour vous contacter au sujet du programme éducatif Inn Academy, pour évaluer votre candidature et pour vous fournir des informations sur le programme."
+                    heading: "3. Données Personnelles Collectées",
+                    body: "Les données personnelles désignent toute information relative à une personne physique identifiée ou identifiable.\n\nInnAcademy collecte les données que vous fournissez lors de votre inscription ou de votre manifestation d'intérêt pour un programme ou service. Celles-ci comprennent notamment : données d'identification (nom complet, date de naissance, données de carte d'identité ou passeport) ; coordonnées (téléphone, email, adresse du domicile) ; données démographiques (ex. nationalité) ; antécédents éducatifs et expérience professionnelle ; données financières (si nécessaire pour la facturation) ; informations relatives à votre participation à des programmes ou activités.\n\nDans certains cas, des données peuvent également être collectées auprès de tiers, tels que des organisations partenaires ou des établissements d'enseignement.\n\nEn outre, InnAcademy utilise des cookies pour améliorer l'expérience de navigation et analyser le trafic du site.\n\nLa fourniture de vos données est facultative ; toutefois, leur non-fourniture peut rendre impossible votre participation à certains services ou programmes."
                 },
                 {
-                    heading: "4. Base Juridique du Traitement",
-                    body: "Le traitement est fondé sur votre consentement (article 6(1)(a) RGPD), donné lors de la soumission du formulaire de contact. Vous avez le droit de retirer votre consentement à tout moment."
+                    heading: "4. Finalités du Traitement",
+                    body: "InnAcademy traite vos données personnelles uniquement lorsque cela est nécessaire et exclusivement à des fins spécifiques, telles que : la gestion des candidatures et des inscriptions ; la fourniture de services éducatifs ; le respect des obligations légales ; la communication avec vous au sujet des programmes et activités d'InnAcademy et d'Innjobs ; la participation à des examens, évaluations ou certifications ; l'amélioration de nos services.\n\nLe traitement est fondé sur votre consentement (article 6(1)(a) RGPD), donné lors de la soumission du formulaire de contact. Vous avez le droit de retirer votre consentement à tout moment."
                 },
                 {
-                    heading: "5. Transferts de Données",
-                    body: "Vos données ne sont pas transférées à des tiers, sauf si la loi l'exige. Aucun transfert en dehors de l'Union Européenne n'est effectué."
+                    heading: "5. Transferts de Données à des Tiers",
+                    body: "InnAcademy ne divulgue pas vos données personnelles à des tiers, sauf si cela est nécessaire à la prestation des services ou imposé par la loi.\n\nLes destinataires potentiels incluent : des organisations éducatives partenaires ; des organismes de certification ; des autorités publiques, le cas échéant ; des partenaires/prestataires de services agissant pour le compte d'InnAcademy.\n\nTous les partenaires sont tenus de protéger vos données."
                 },
                 {
-                    heading: "6. Durée de Conservation",
-                    body: "Nous conservons vos données aussi longtemps que nécessaire aux fins du traitement ou jusqu'à ce que vous en demandiez la suppression."
+                    heading: "6. Durée de Conservation des Données",
+                    body: "Vos données personnelles sont conservées uniquement aussi longtemps que nécessaire aux fins du traitement ou conformément à la législation.\n\nAu terme de cette période, les données sont supprimées ou anonymisées de manière sécurisée."
                 },
                 {
                     heading: "7. Vos Droits",
-                    body: "En vertu du RGPD, vous disposez d'un droit d'accès, de rectification, d'effacement, de limitation du traitement, de portabilité des données et d'opposition. Pour exercer vos droits, contactez-nous à academy@innjobs.net."
+                    body: "En vertu du RGPD, vous disposez du droit : d'accès à vos données ; de rectification des informations inexactes ; d'effacement de vos données ; de limitation du traitement ; d'opposition au traitement ; de portabilité des données ; de retrait du consentement à tout moment.\n\nPour exercer vos droits, vous pouvez contacter InnAcademy par email : info@innacademy.gr ou par téléphone : +30 2102204187.\n\nVous avez également le droit de déposer une plainte auprès de l'Autorité Hellénique de Protection des Données (www.dpa.gr)."
                 },
                 {
-                    heading: "8. Cookies",
-                    body: "Le site web peut utiliser des cookies techniques pour son bon fonctionnement. Nous n'utilisons pas de cookies de suivi ou de publicité."
-                },
-                {
-                    heading: "9. Autorité de Protection des Données",
-                    body: "Vous avez le droit de déposer une plainte auprès de l'Autorité Hellénique de Protection des Données (www.dpa.gr) si vous estimez que le traitement de vos données viole le RGPD."
+                    heading: "8. Modifications de la Présente Déclaration",
+                    body: "InnAcademy se réserve le droit de modifier la présente Déclaration à tout moment. Les modifications prennent effet dès leur publication sur le site."
                 }
             ]
         },
         terms: {
-            title: "Conditions Générales d'Utilisation",
+            title: "Conditions d'Utilisation",
             lastUpdated: "Dernière mise à jour: Mars 2026",
             sections: [
                 {
                     heading: "1. Acceptation des Conditions",
-                    body: "L'utilisation de ce site web implique l'acceptation sans réserve des présentes Conditions Générales d'Utilisation. Si vous n'acceptez pas ces conditions, veuillez ne pas utiliser le site."
+                    body: "L'accès et l'utilisation du présent site web impliquent l'acceptation pleine, inconditionnelle et expresse des présentes Conditions d'Utilisation. Si l'utilisateur n'accepte pas tout ou partie de ces Conditions, il doit s'abstenir d'utiliser le site."
                 },
                 {
-                    heading: "2. À Propos de l'Inn Academy",
-                    body: "Inn Academy est le bras éducatif d'Innjobs et opère en tant que prestataire de services éducatifs dans le secteur de l'hôtellerie. Adresse: 63 rue Panepistimiou, 10564, Athènes. Email: academy@innjobs.net. Tél: 210 2204187."
+                    heading: "2. Informations sur le Prestataire",
+                    body: "InnAcademy, bras éducatif d'Innjobs, fournit des services de formation et d'éducation professionnelle, notamment dans le secteur de l'hôtellerie.\n\nAdresse : 63 rue Panepistimiou, 10564, Athènes\nEmail : info@innacademy.gr\nTéléphone : 210 2204187\n\nInnAcademy se réserve le droit de modifier ses coordonnées sans préavis."
                 },
                 {
-                    heading: "3. Services Éducatifs",
-                    body: "Le programme «Diploma in Hotel Management» est proposé selon les conditions décrites sur le site. Inn Academy se réserve le droit de modifier le contenu, le coût ou la structure du programme sans préavis, sauf disposition contraire dans un contrat applicable."
+                    heading: "3. Objet et Utilisation du Site",
+                    body: "Le site fournit des informations sur les programmes éducatifs, les services et les activités d'InnAcademy.\n\nL'utilisateur est tenu d'utiliser le site conformément à la législation grecque et européenne en vigueur, aux bonnes mœurs et aux présentes Conditions. En particulier, sont interdits : l'utilisation du site à des fins illégales ou abusives ; toute entrave à son fonctionnement normal ; l'introduction de logiciels malveillants ou de données nuisibles ; la collecte ou le traitement non autorisés des données d'autres utilisateurs."
                 },
                 {
-                    heading: "4. Candidature",
-                    body: "La soumission d'une candidature via le site ne constitue pas une garantie d'acceptation. Inn Academy évalue chaque candidature et contacte le candidat pour lui communiquer la décision. L'inscription est finalisée lors du paiement du premier versement."
+                    heading: "4. Services Éducatifs",
+                    body: "Les programmes proposés (notamment le «Diploma in Hotel Management») sont fournis conformément aux conditions spécifiques décrites sur le site et/ou dans les contrats remis aux candidats lors de leur manifestation d'intérêt.\n\nInnAcademy se réserve le droit, à sa seule discrétion, de modifier ou d'adapter le contenu, la durée, la structure, les frais de scolarité et les caractéristiques des programmes, sauf disposition contraire dans un contrat contraignant avec l'étudiant concerné."
                 },
                 {
-                    heading: "5. Conditions Financières",
-                    body: "Les frais de scolarité, le calendrier des versements et les modalités de paiement sont détaillés dans la section «Tarifs» du site. L'annulation avant la date de début est soumise aux conditions de remboursement définies par le secrétariat. Après le début des cours, aucun remboursement n'est prévu."
+                    heading: "5. Processus de Candidature et d'Inscription",
+                    body: "La soumission d'une candidature via le site ne crée aucune obligation d'acceptation de la part d'InnAcademy. InnAcademy se réserve le droit d'évaluer les candidatures selon des critères internes et informe les candidats du résultat de la procédure.\n\nL'inscription à un programme est considérée comme finalisée uniquement après soumission d'une candidature et paiement de la contribution financière prévue ou du premier versement."
                 },
                 {
-                    heading: "6. Propriété Intellectuelle",
-                    body: "Tout le contenu du site (textes, images, logos, matériel pédagogique) est la propriété intellectuelle de l'Inn Academy ou de tiers titulaires de droits et est protégé par la législation applicable. La reproduction ou l'utilisation sans autorisation écrite est interdite."
+                    heading: "6. Conditions Financières et Politique d'Annulation",
+                    body: "Les frais de scolarité, les conditions de paiement et le calendrier des versements sont définis sur le site et/ou dans un accord pertinent.\n\nEn cas d'annulation avant le début du programme, les conditions de remboursement en vigueur, telles que communiquées par le secrétariat, s'appliquent.\n\nAprès le début des cours, aucun remboursement des sommes versées n'est prévu, sauf disposition contraire imposée par des dispositions légales obligatoires."
                 },
                 {
-                    heading: "7. Limitation de Responsabilité",
-                    body: "Inn Academy s'efforce d'assurer l'exactitude des informations du site mais n'est pas responsable des erreurs, omissions ou problèmes techniques. L'utilisation du site se fait aux risques et périls de l'utilisateur."
+                    heading: "7. Propriété Intellectuelle et Industrielle",
+                    body: "L'ensemble du contenu du site, y compris notamment les textes, marques, logos, images, graphiques et matériaux pédagogiques, constitue la propriété intellectuelle et/ou industrielle d'InnAcademy et d'Innjobs ou de collaborateurs tiers et est protégé par la législation applicable.\n\nToute reproduction, republication, distribution, modification ou exploitation du contenu de quelque manière que ce soit sans autorisation écrite préalable est strictement interdite."
                 },
                 {
-                    heading: "8. Liens vers des Tiers",
-                    body: "Le site peut contenir des liens vers des sites externes (ex. LinkedIn, Innjobs). Inn Academy n'est pas responsable du contenu ou des pratiques de confidentialité des tiers."
+                    heading: "8. Limitation de Responsabilité",
+                    body: "InnAcademy déploie tous les efforts raisonnables pour assurer l'exactitude, l'exhaustivité et la mise à jour des informations du site. Toutefois, elle ne fournit aucune garantie expresse ou implicite quant à l'exactitude, les omissions ou les problèmes techniques. InnAcademy n'est pas responsable de tout dommage direct ou indirect pouvant résulter de : l'utilisation ou l'impossibilité d'utiliser le site ; toute erreur ou omission ; des problèmes techniques ou des interruptions de service ; des actes ou omissions de tiers. L'utilisation du site se fait à la seule responsabilité de l'utilisateur."
                 },
                 {
-                    heading: "9. Droit Applicable",
-                    body: "Les présentes Conditions sont régies par le droit grec. Les tribunaux d'Athènes sont compétents pour tout litige."
+                    heading: "9. Liens vers des Sites Tiers",
+                    body: "Le site peut contenir des liens vers des sites de tiers (ex. LinkedIn, Innjobs). InnAcademy ne contrôle pas et n'assume aucune responsabilité quant au contenu, à la disponibilité ou aux politiques de protection des données de ces sites."
                 },
                 {
-                    heading: "10. Modifications",
-                    body: "Inn Academy se réserve le droit de modifier les présentes Conditions à tout moment. Les modifications prennent effet dès leur publication sur le site."
+                    heading: "10. Protection des Données Personnelles",
+                    body: "Le traitement des données personnelles des utilisateurs est régi par la Politique de Confidentialité d'InnAcademy, qui fait partie intégrante des présentes Conditions."
+                },
+                {
+                    heading: "11. Modifications des Conditions",
+                    body: "InnAcademy se réserve le droit de modifier, mettre à jour ou révoquer, en tout ou en partie, les présentes Conditions d'Utilisation à tout moment, à sa seule discrétion.\n\nToute modification prend effet dès sa publication sur le site."
+                },
+                {
+                    heading: "12. Droit Applicable et Juridiction",
+                    body: "Les présentes Conditions sont régies par le droit grec et le droit de l'Union européenne.\n\nPour tout litige pouvant découler de l'application ou de l'interprétation des présentes, les Tribunaux d'Athènes seront exclusivement compétents."
                 }
             ]
         },
@@ -1589,15 +1610,19 @@ const courseData = [
         id: 13,
         category: "MARKETING",
         title: "Μάρκετινγκ Ξενοδοχειακών & Τουριστικών Υπηρεσιών",
-        instructor: "Αντώνης Γιαννόπουλος",
-        instructorLatin: "Antonis Giannopoulos"
+        instructor: "Μάριος Ανδρακάκης",
+        instructorLatin: "Marios Andrakakis",
+        guest: "Αντώνης Γιαννόπουλος",
+        guestLatin: "Antonis Giannopoulos"
     },
     {
         id: 14,
         category: "MARKETING",
         title: "Digital Marketing στον Τουρισμό & Ξενοδοχεία",
-        instructor: "Αντώνης Γιαννόπουλος",
-        instructorLatin: "Antonis Giannopoulos"
+        instructor: "Μάριος Ανδρακάκης",
+        instructorLatin: "Marios Andrakakis",
+        guest: "Αντώνης Γιαννόπουλος",
+        guestLatin: "Antonis Giannopoulos"
     },
     {
         id: 15,
@@ -1624,8 +1649,10 @@ const courseData = [
         id: 18,
         category: "F&B",
         title: "Υγιεινή & Ασφάλεια Τροφίμων (HACCP & ISO Standards)",
-        instructor: "Κωνσταντίνος Ντελέζος",
-        instructorLatin: "Konstantinos Ntelezos"
+        instructor: "Σταμάτης Λουμουσιώτης",
+        instructorLatin: "Stamatis Loumousiotis",
+        guest: "Κωνσταντίνος Ντελέζος",
+        guestLatin: "Konstantinos Ntelezos"
     },
     {
         id: 19,
@@ -1659,8 +1686,10 @@ const courseData = [
         id: 23,
         category: "FRONT OFFICE",
         title: "Ψηφιακά Συστήματα Ξενοδοχείων (PMS, Channel Managers, CRM)",
-        instructor: "Κωνσταντίνος Σεργόπουλος",
-        instructorLatin: "Konstantinos Sergopoulos"
+        instructor: "Φανή Πασπαράκη",
+        instructorLatin: "Fani Pasparaki",
+        guest: "Κωνσταντίνος Σεργόπουλος",
+        guestLatin: "Konstantinos Sergopoulos"
     },
     {
         id: 24,
@@ -1739,7 +1768,8 @@ const professorsData = [
         nameLatin: "Antonis Giannopoulos",
         category: "MARKETING",
         linkedin: "https://www.linkedin.com/in/antoniosgiannopoulos/",
-        image: "/professors/antonis_giannopoulos.jpeg"
+        image: "/professors/antonis_giannopoulos.jpeg",
+        guestSpeaker: true
     },
     {
         name: "Μάριος Ανδρακάκης",
@@ -1760,7 +1790,8 @@ const professorsData = [
         nameLatin: "Konstantinos Ntelezos",
         category: "F&B",
         linkedin: "https://shorturl.at/di7Sh",
-        image: "/professors/konstantinos_ntelezos.jpg"
+        image: "/professors/konstantinos_ntelezos.jpg",
+        guestSpeaker: true
     },
     {
         name: "Φυλάκτου Γεωργία",
@@ -1788,7 +1819,8 @@ const professorsData = [
         nameLatin: "Konstantinos Sergopoulos",
         category: "FRONT OFFICE",
         linkedin: "https://tourism.uniwa.gr/profile/sergopoulos-konstantinos/",
-        image: "/professors/konstantinos_sergopoulos.jpg"
+        image: "/professors/konstantinos_sergopoulos.jpg",
+        guestSpeaker: true
     },
     {
         name: "Γιώργος Καλογερόπουλος",
@@ -1796,44 +1828,53 @@ const professorsData = [
         category: "HOUSEKEEPING",
         linkedin: "https://www.linkedin.com/in/giorgos-kalogeropoulos-96074647/",
         image: "/professors/giorgos_kalogeropoulos.jpeg"
+    },
+    {
+        name: "Γιώργος Μωραϊτης",
+        nameLatin: "Giorgos Moraitis",
+        category: "MANAGEMENT",
+        linkedin: "https://www.linkedin.com/in/dimitris-moraitis-3657a415/",
+        image: "/professors/dimitris_moraitis.jpeg",
+        guestSpeaker: true
     }
 ];
 const hotelPartners = [
-    "Grand Hyatt Athens",
-    "Intercontinental Crete",
-    "Hydra Beach Resort",
+    "Academias Hotel, Autograph Collection",
+    "Aluma Hotels & Resorts",
+    "Amanzoe",
+    "Aquila Hotels & Resorts",
+    "Atlantica Hotels & Resorts",
+    "Bluegr Hotels & Resorts",
     "Brown Hotels",
-    "NUMO Hotels",
-    "ZEUS International",
+    "Canaves Collection",
+    "Club Med",
+    "Conrad Athens The Ilisian",
+    "Cook's Club Corfu",
+    "Domes Resorts",
+    "Eden Roc Resort",
     "Electra Hotels & Resorts",
-    "AmanZoe",
-    "Koullias",
-    "Fzeen",
-    "Novotel",
-    "Marbella",
-    "Aluma",
+    "Ella Resorts",
+    "Empiria Group",
     "Estia Hospitality",
-    "Eden Roc Rhodes",
-    "Domes",
-    "Xenos",
-    "Bluegr",
-    "Fodele",
-    "Ella",
-    "Empiria",
-    "Canaves Oia",
+    "Fodele Beach & Waterpark Resort",
+    "FZeen Retreats",
+    "Giannoulis Hotels & Resorts",
+    "Grand Hyatt Athens",
+    "Hapimag Resort Damnoni",
+    "Hydra Beach Resort",
+    "InterContinenctal Crete",
+    "Koullias Hotels Group",
+    "Mareblue Beach Resort",
+    "Mar-Bella Collection",
+    "MGallery Collection - Athens Capital Hotel",
+    "Neilson Holidays",
     "NJV Athens Plaza",
-    "Mgallery",
-    "The Illisian Conrad",
-    "Cooks",
-    "Mareblue",
-    "Aquila",
-    "Academia",
-    "Neilson",
-    "Hapimag Damnoni",
-    "Atlantica",
-    "Voulgaris",
-    "Giannoulis",
-    "Club Med"
+    "Novotel Athens",
+    "NUMO Hotels",
+    "The Syntopia Hotel",
+    "Voulgaris Hospitality Group",
+    "Xenos Group Hotels",
+    "ZEUS Hotels & Resorts"
 ];
 const organizations = [
     "Ένωση Ξενοδόχων Κέρκυρας",
@@ -1941,16 +1982,16 @@ function CookieBanner() {
     }
     if (!visible) return null;
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-        className: "fixed bottom-0 left-0 right-0 z-50 p-4 sm:p-6",
+        className: "fixed bottom-0 left-0 right-0 z-50 p-2 sm:p-6",
         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-            className: "max-w-4xl mx-auto bg-inn-dark text-white rounded-2xl shadow-2xl border border-white/10 p-5 sm:p-6",
+            className: "max-w-4xl mx-auto bg-inn-dark text-white rounded-xl sm:rounded-2xl shadow-2xl border border-white/10 p-3 sm:p-6",
             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                className: "flex items-start gap-4",
+                className: "flex items-start gap-3 sm:gap-4",
                 children: [
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                        className: "w-10 h-10 rounded-xl bg-inn-teal/20 flex items-center justify-center shrink-0",
+                        className: "w-7 h-7 sm:w-10 sm:h-10 rounded-lg sm:rounded-xl bg-inn-teal/20 flex items-center justify-center shrink-0",
                         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$cookie$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Cookie$3e$__["Cookie"], {
-                            className: "w-5 h-5 text-inn-teal"
+                            className: "w-4 h-4 sm:w-5 sm:h-5 text-inn-teal"
                         }, void 0, false, {
                             fileName: "[project]/components/CookieBanner.tsx",
                             lineNumber: 37,
@@ -1965,7 +2006,7 @@ function CookieBanner() {
                         className: "flex-1 min-w-0",
                         children: [
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                className: "text-sm text-white/80 leading-relaxed mb-4",
+                                className: "text-xs sm:text-sm text-white/80 leading-relaxed mb-2 sm:mb-4",
                                 children: [
                                     cb.message,
                                     " ",
@@ -1985,11 +2026,11 @@ function CookieBanner() {
                                 columnNumber: 13
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                className: "flex flex-wrap items-center gap-3",
+                                className: "flex flex-wrap items-center gap-2 sm:gap-3",
                                 children: [
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
                                         onClick: accept,
-                                        className: "px-5 py-2 bg-inn-teal hover:bg-inn-teal-dark text-white text-sm font-bold rounded-xl transition-all",
+                                        className: "px-3 py-1.5 sm:px-5 sm:py-2 bg-inn-teal hover:bg-inn-teal-dark text-white text-xs sm:text-sm font-bold rounded-lg sm:rounded-xl transition-all",
                                         children: cb.accept
                                     }, void 0, false, {
                                         fileName: "[project]/components/CookieBanner.tsx",
@@ -1998,7 +2039,7 @@ function CookieBanner() {
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
                                         onClick: decline,
-                                        className: "px-5 py-2 bg-white/10 hover:bg-white/20 text-white text-sm font-medium rounded-xl transition-all",
+                                        className: "px-3 py-1.5 sm:px-5 sm:py-2 bg-white/10 hover:bg-white/20 text-white text-xs sm:text-sm font-medium rounded-lg sm:rounded-xl transition-all",
                                         children: cb.decline
                                     }, void 0, false, {
                                         fileName: "[project]/components/CookieBanner.tsx",
