@@ -105,6 +105,9 @@ Handled by [app/api/apply/route.ts](app/api/apply/route.ts) via Resend.
 - **To**: `info@innacademy.gr` (internal notification) + the applicant's email (confirmation)
 - **API key**: `RESEND_API_KEY` env var (never `NEXT_PUBLIC_*`)
 - **Language-aware confirmation**: ContactForm sends the active `lang` (`gr`/`en`/`fr`) in the POST body. The API route picks the matching template from `confirmationCopy` (defaults to Greek if missing).
+- **URL tracking params**: ContactForm reads all query-string params from the URL on mount (e.g. `?utm_source=google&gclid=...`) and sends them as `trackingParams` in the POST body. The API includes them as extra rows in the internal notification email.
+- **Spam protection**: ContactForm includes a honeypot field (`name="website"`, off-screen). If it is filled the API silently returns `{ ok: true }` without sending any email.
+- **Meta Lead event**: On successful submission ContactForm fires `fbq('track', 'Lead')` if the Meta Pixel is loaded.
 
 ### SEO
 
@@ -112,6 +115,23 @@ Handled by [app/api/apply/route.ts](app/api/apply/route.ts) via Resend.
 - **robots.txt**: [public/robots.txt](public/robots.txt) — allows all crawlers including AI bots (GPTBot, ClaudeBot, PerplexityBot, etc.). Disallows `/api/`.
 - **Per-page metadata**: each route folder has its own `layout.tsx` (server component) that exports `metadata` with a unique Greek title, description, OG tags, and `hreflang` alternates for `el`/`en`/`fr`/`x-default`. The root [app/layout.tsx](app/layout.tsx) holds homepage metadata and also declares `hreflang`.
 - **Metadata language**: metadata is in Greek (default language). `hreflang` signals to Google that the same URL serves all three languages. To serve language-specific metadata per language, locale-based routing (`/el/`, `/en/`, `/fr/`) would be required — a larger architectural change not currently in scope.
+
+### Social Media
+
+Facebook, Instagram, and LinkedIn icons are rendered inline (SVG, no external icon library) in two places:
+
+- **Footer** — bottom of the Contact column, always visible.
+- **Navbar** — inside the mobile drawer only (not shown on desktop).
+
+Links: `https://www.facebook.com/innacademygreece`, `https://www.instagram.com/innacademygreece`, `https://www.linkedin.com/company/inn-academy-greece`.
+
+### Footer Contact Details
+
+- Email: `info@innacademy.gr`
+- Landline: `210 2204187` (`tel:+302102204187`)
+- Mobile: `697 34 34 146` (`tel:+306973434146`)
+- Address: Πανεπιστημίου 63, 10564, Αθήνα
+- External link: `innjobs.net`
 
 ### Key UI Notes
 
@@ -121,3 +141,4 @@ Handled by [app/api/apply/route.ts](app/api/apply/route.ts) via Resend.
 - **CookieBanner**: Smaller on mobile (reduced padding, text-xs, smaller buttons); scales up on `sm:`.
 - **PricingSection bank deposit**: Shows title and icon only — bank name, IBAN and beneficiary fields are intentionally not displayed.
 - **CertificationsBar Paris Education**: `parisSub` is "School of Hospitality" across all languages.
+- **Navbar desktop vs mobile links**: Desktop nav omits `/guests`, `/countries`, `/france` — they appear only in the mobile drawer.
