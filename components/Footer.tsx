@@ -3,6 +3,26 @@
 import { useLang } from "@/contexts/LanguageContext";
 import { Mail, Phone, MapPin, ExternalLink } from "lucide-react";
 
+const FacebookIcon = () => (
+  <svg viewBox="0 0 24 24" className="w-4 h-4" fill="currentColor">
+    <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z" />
+  </svg>
+);
+const InstagramIcon = () => (
+  <svg viewBox="0 0 24 24" className="w-4 h-4" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+    <rect x="2" y="2" width="20" height="20" rx="5" ry="5" />
+    <circle cx="12" cy="12" r="4" />
+    <circle cx="17.5" cy="6.5" r="0.5" fill="currentColor" />
+  </svg>
+);
+const LinkedInIcon = () => (
+  <svg viewBox="0 0 24 24" className="w-4 h-4" fill="currentColor">
+    <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z" />
+    <rect x="2" y="9" width="4" height="12" />
+    <circle cx="4" cy="4" r="2" />
+  </svg>
+);
+
 export default function Footer() {
   const { t } = useLang();
   const f = t.footer;
@@ -160,6 +180,24 @@ export default function Footer() {
                 </a>
               </li>
             </ul>
+            <div className="flex items-center gap-3 mt-6 pt-5 border-t border-white/10">
+              {[
+                { href: "https://www.facebook.com/innacademygreece", Icon: FacebookIcon, label: "Facebook" },
+                { href: "https://www.instagram.com/innacademygreece", Icon: InstagramIcon, label: "Instagram" },
+                { href: "https://www.linkedin.com/company/inn-academy-greece", Icon: LinkedInIcon, label: "LinkedIn" },
+              ].map(({ href, Icon, label }) => (
+                <a
+                  key={label}
+                  href={href}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label={label}
+                  className="w-9 h-9 rounded-lg bg-white/5 hover:bg-inn-orange/20 text-white/50 hover:text-inn-orange flex items-center justify-center transition-colors"
+                >
+                  <Icon />
+                </a>
+              ))}
+            </div>
           </div>
         </div>
       </div>
