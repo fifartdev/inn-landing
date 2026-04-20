@@ -41,7 +41,14 @@ const confirmationCopy: Record<Lang, {
 
 export async function POST(req: NextRequest) {
   const body = await req.json();
-  const { name, phone, email, honeypot, lang } = body;
+  const { name, phone, email, honeypot, lang, trackingParams } = body;
+  const trackingRows = trackingParams && typeof trackingParams === "object"
+    ? Object.entries(trackingParams as Record<string, string>)
+        .map(([k, v]) => `<tr>
+          <td style="padding: 8px 0; color: #666;">${k}</td>
+          <td style="padding: 8px 0; font-weight: bold; color: #e8622a;">${v}</td>
+        </tr>`).join("")
+    : "";
   const copy = confirmationCopy[(lang as Lang) ?? "gr"] ?? confirmationCopy.gr;
 
   // Honeypot check — bots fill this, humans don't
@@ -77,6 +84,7 @@ export async function POST(req: NextRequest) {
                 <td style="padding: 8px 0; color: #666;">Email</td>
                 <td style="padding: 8px 0; font-weight: bold; color: #1e293b;">${email}</td>
               </tr>
+              ${trackingRows}
             </table>
             <hr style="border: none; border-top: 1px solid #e2e8f0; margin: 24px 0;" />
             <p style="color: #94a3b8; font-size: 12px;">

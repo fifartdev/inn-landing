@@ -1,6 +1,6 @@
 "use client";
 
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { useLang } from "@/contexts/LanguageContext";
 import { Send, Calendar, Users, Shield, CheckCircle } from "lucide-react";
 
@@ -13,6 +13,14 @@ export default function ContactForm({ variant = "sticky" }: { variant?: "sticky"
   const [submitted, setSubmitted] = useState(false);
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState(false);
+  const [trackingParams, setTrackingParams] = useState<Record<string, string>>({});
+
+  useEffect(() => {
+    const params = new URLSearchParams(window.location.search);
+    const entries: Record<string, string> = {};
+    params.forEach((value, key) => { entries[key] = value; });
+    if (Object.keys(entries).length > 0) setTrackingParams(entries);
+  }, []);
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
@@ -23,7 +31,7 @@ export default function ContactForm({ variant = "sticky" }: { variant?: "sticky"
       const res = await fetch("/api/apply", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ ...formData, honeypot, lang }),
+        body: JSON.stringify({ ...formData, honeypot, lang, trackingParams }),
       });
 
       if (!res.ok) throw new Error();
