@@ -28,6 +28,9 @@ export default function ContactForm({ variant = "sticky" }: { variant?: "sticky"
 
       if (!res.ok) throw new Error();
       setSubmitted(true);
+      if (typeof window !== "undefined" && (window as any).fbq) {
+        (window as any).fbq("track", "Lead");
+      }
     } catch {
       setError(true);
     } finally {
