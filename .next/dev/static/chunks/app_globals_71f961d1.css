@@ -1834,6 +1834,10 @@ input:focus, textarea:focus, select:focus {
   background-color: rgb(196 79 30 / var(--tw-bg-opacity, 1));
 }
 
+.hover\:bg-inn-orange\/20:hover {
+  background-color: #e8622a33;
+}
+
 .hover\:bg-inn-teal:hover {
   --tw-bg-opacity: 1;
   background-color: rgb(10 126 164 / var(--tw-bg-opacity, 1));

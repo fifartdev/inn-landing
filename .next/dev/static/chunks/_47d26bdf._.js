@@ -230,7 +230,6 @@ const translations = {
                 "Στρατηγική Διοίκηση / Επιχειρηματικότητα",
                 "Mentoring & Coaching / Διοίκηση Ξενοδοχειακών Μονάδων",
                 "Οικονομική Διαχείριση / Διαχείριση Κρίσεων",
-                "Διοίκηση Ποιότητας & Πρότυπα Πιστοποίησης",
                 "Βιωσιμότητα & Αειφόρος Ανάπτυξη",
                 "Διαχείριση Προμηθειών και Αγορών",
                 "Διοίκηση Ανθρώπινου Δυναμικού στον Τουρισμό",
@@ -733,7 +732,6 @@ const translations = {
                 "Strategic Management / Entrepreneurship",
                 "Mentoring & Coaching / Hotel Unit Management",
                 "Financial Management / Crisis Management",
-                "Quality Management & Certification Standards",
                 "Sustainability & Sustainable Development",
                 "Procurement & Purchasing Management",
                 "Human Resources Management in Tourism",
@@ -1236,7 +1234,6 @@ const translations = {
                 "Management Stratégique / Entrepreneuriat",
                 "Mentoring & Coaching / Gestion des Unités Hôtelières",
                 "Gestion Financière / Gestion de Crise",
-                "Management de la Qualité & Normes de Certification",
                 "Durabilité & Développement Durable",
                 "Gestion des Achats et des Approvisionnements",
                 "Gestion des Ressources Humaines dans le Tourisme",
@@ -1726,13 +1723,6 @@ const professorsData = [
         category: "MANAGEMENT",
         linkedin: "https://www.linkedin.com/in/argiris-daouliaris-88829226/",
         image: "/professors/argiris_daouliaris.jpeg"
-    },
-    {
-        name: "Ανθή Μανέτα",
-        nameLatin: "Anthi Maneta",
-        category: "MANAGEMENT",
-        linkedin: "https://www.linkedin.com/in/anthi-maneta/",
-        image: "/professors/anthi_maneta.jpeg"
     },
     {
         name: "Ιωάννα Ρώσση",
