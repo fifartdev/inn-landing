@@ -1,0 +1,16 @@
+{
+  "/_global-error/page": "/_global-error",
+  "/_not-found/page": "/_not-found",
+  "/api/apply/route": "/api/apply",
+  "/countries/page": "/countries",
+  "/faq/page": "/faq",
+  "/france/page": "/france",
+  "/gallery/page": "/gallery",
+  "/guests/page": "/guests",
+  "/page": "/",
+  "/privacy/page": "/privacy",
+  "/professors/page": "/professors",
+  "/sitemap.xml/route": "/sitemap.xml",
+  "/sponsors/page": "/sponsors",
+  "/terms/page": "/terms"
+}

@@ -1,0 +1,16 @@
+{
+  "/_global-error/page": "app/_global-error/page.js",
+  "/_not-found/page": "app/_not-found/page.js",
+  "/api/apply/route": "app/api/apply/route.js",
+  "/countries/page": "app/countries/page.js",
+  "/faq/page": "app/faq/page.js",
+  "/france/page": "app/france/page.js",
+  "/gallery/page": "app/gallery/page.js",
+  "/guests/page": "app/guests/page.js",
+  "/page": "app/page.js",
+  "/privacy/page": "app/privacy/page.js",
+  "/professors/page": "app/professors/page.js",
+  "/sitemap.xml/route": "app/sitemap.xml/route.js",
+  "/sponsors/page": "app/sponsors/page.js",
+  "/terms/page": "app/terms/page.js"
+}

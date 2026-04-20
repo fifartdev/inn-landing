@@ -1,2 +1,7 @@
-[00:00:00.738] Server  LOG     ✓ Ready in 484ms
-[00:06:36.878] Server  LOG     ✓ Compiled in 694ms
+[00:00:00.886] Server  LOG     ✓ Ready in 643ms
+[00:03:49.242] Server  WARN    ⚠ Fast Refresh had to perform a full reload when ./lib/translations.ts changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+[00:03:49.277] Server  LOG     ✓ Compiled in 46ms
+[00:03:57.971] Server  WARN    ⚠ Fast Refresh had to perform a full reload when ./lib/translations.ts changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+[00:03:58.061] Server  LOG     ✓ Compiled in 9ms
+[00:04:05.122] Server  WARN    ⚠ Fast Refresh had to perform a full reload when ./lib/translations.ts changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+[00:04:05.174] Server  LOG     ✓ Compiled in 8ms

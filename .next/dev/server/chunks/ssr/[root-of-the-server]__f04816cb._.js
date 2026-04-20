@@ -250,7 +250,9 @@ const translations = {
                 "Οινολογία & Τέχνη του Sommelier",
                 "Front Office & Ψηφιακά Συστήματα Ξενοδοχείων",
                 "Ψηφιακά Συστήματα Ξενοδοχείων (PMS, Channel Managers, CRM)",
-                "Διοίκηση Housekeeping & Οργανωτικές Διεργασίες"
+                "Διοίκηση Housekeeping & Οργανωτικές Διεργασίες",
+                "Στρατηγική Διοίκηση Ξενοδοχείων",
+                "Εστιατορική Τεχνική & Restaurant Management"
             ]
         },
         pricing: {
@@ -261,20 +263,21 @@ const translations = {
                 badge: "Early Bird",
                 title: "Πρώιμη Εγγραφή",
                 subtitle: "Εγγραφή έως 1 μήνα πριν την έναρξη",
-                price: "1.850€",
-                saving: "Εξοικονομείς 550€",
-                installment1: "925€ με την εγγραφή (50%)",
-                installment2: "925€ με την έναρξη (50%)",
+                price: "1.990€",
+                saving: "Εξοικονομείς 510€",
+                installment1: "597€ με την εγγραφή (30%)",
+                installment2: "597€ με την έναρξη (30%)",
+                installment3: "796€ μέχρι 2 μήνες μετά την έναρξη (40%)",
                 cta: "Εγγραφή Early Bird"
             },
             regular: {
                 badge: "Κανονική",
                 title: "Κανονική Εγγραφή",
                 subtitle: "Σε τρεις δόσεις",
-                price: "2.400€",
-                installment1: "720€ με την εγγραφή (30%)",
-                installment2: "480€ με την έναρξη (20%)",
-                installment3: "1.200€ έως 2 μήνες μετά την έναρξη (50%)",
+                price: "2.500€",
+                installment1: "500€ με την εγγραφή (20%)",
+                installment2: "1.000€ με την έναρξη (40%)",
+                installment3: "1.000€ μέχρι 2 μήνες μετά την έναρξη (40%)",
                 cta: "Κανονική Εγγραφή"
             },
             includes: "Περιλαμβάνει:",
@@ -288,6 +291,7 @@ const translations = {
                 "Συμμετοχή σε Career Day",
                 "Πρόσβαση σε αγγελίες μέσω Innjobs"
             ],
+            vatNote: "Οι αναγραφόμενες τιμές περιλαμβάνουν Φ.Π.Α.",
             franceExtra: "* Η εκπαιδευτική εκδρομή στη Γαλλία έχει επιπλέον κόστος",
             paymentTitle: "Τρόποι Πληρωμής",
             bank: {
@@ -317,7 +321,7 @@ const translations = {
                 },
                 {
                     q: "Ποιο είναι το κόστος συμμετοχής;",
-                    a: "Early Bird (εγγραφή έως 1 μήνα πριν): 1.850€ σε δύο δόσεις (50% + 50%). Κανονική εγγραφή: 2.400€ σε τρεις δόσεις (30% + 20% + 50%). Η εκδρομή στη Γαλλία έχει επιπλέον κόστος."
+                    a: "Early Bird (εγγραφή έως 1 μήνα πριν): 1.990€ σε τρεις δόσεις (30% + 30% + 40%). Κανονική εγγραφή: 2.500€ σε τρεις δόσεις (20% + 40% + 40%). Οι τιμές περιλαμβάνουν Φ.Π.Α. Η εκδρομή στη Γαλλία έχει επιπλέον κόστος."
                 },
                 {
                     q: "Τι πιστοποιήσεις λαμβάνω;",
@@ -749,7 +753,9 @@ const translations = {
                 "Oenology & The Art of Sommelier",
                 "Front Office & Hotel Digital Systems",
                 "Hotel Digital Systems (PMS, Channel Managers, CRM)",
-                "Housekeeping Management & Organizational Processes"
+                "Housekeeping Management & Organizational Processes",
+                "Hotel Management Strategy",
+                "Restaurant Technique & Restaurant Management"
             ]
         },
         pricing: {
@@ -760,20 +766,21 @@ const translations = {
                 badge: "Early Bird",
                 title: "Early Registration",
                 subtitle: "Register up to 1 month before start",
-                price: "€1,850",
-                saving: "Save €550",
-                installment1: "€925 on registration (50%)",
-                installment2: "€925 on start date (50%)",
+                price: "€1,990",
+                saving: "Save €510",
+                installment1: "€597 on registration (30%)",
+                installment2: "€597 on start date (30%)",
+                installment3: "€796 up to 2 months after start (40%)",
                 cta: "Early Bird Registration"
             },
             regular: {
                 badge: "Regular",
                 title: "Regular Registration",
                 subtitle: "In three installments",
-                price: "€2,400",
-                installment1: "€720 on registration (30%)",
-                installment2: "€480 on start date (20%)",
-                installment3: "€1,200 up to 2 months after start (50%)",
+                price: "€2,500",
+                installment1: "€500 on registration (20%)",
+                installment2: "€1,000 on start date (40%)",
+                installment3: "€1,000 up to 2 months after start (40%)",
                 cta: "Regular Registration"
             },
             includes: "Includes:",
@@ -787,6 +794,7 @@ const translations = {
                 "Career Day participation",
                 "Job listings access via Innjobs"
             ],
+            vatNote: "Prices listed include VAT.",
             franceExtra: "* The France educational trip has an additional cost",
             paymentTitle: "Payment Methods",
             bank: {
@@ -816,7 +824,7 @@ const translations = {
                 },
                 {
                     q: "What is the participation cost?",
-                    a: "Early Bird (registration up to 1 month before): €1,850 in two installments (50% + 50%). Regular registration: €2,400 in three installments (30% + 20% + 50%). The France trip has an additional cost."
+                    a: "Early Bird (registration up to 1 month before): €1,990 in three installments (30% + 30% + 40%). Regular registration: €2,500 in three installments (20% + 40% + 40%). Prices include VAT. The France trip has an additional cost."
                 },
                 {
                     q: "What certifications do I receive?",
@@ -1248,7 +1256,9 @@ const translations = {
                 "Œnologie & L'Art du Sommelier",
                 "Front Office & Systèmes Numériques Hôteliers",
                 "Systèmes Numériques Hôteliers (PMS, Channel Managers, CRM)",
-                "Gestion du Housekeeping & Processus Organisationnels"
+                "Gestion du Housekeeping & Processus Organisationnels",
+                "Management Stratégique Hôtelier",
+                "Technique de Restauration & Restaurant Management"
             ]
         },
         pricing: {
@@ -1259,20 +1269,21 @@ const translations = {
                 badge: "Early Bird",
                 title: "Inscription Anticipée",
                 subtitle: "Inscription jusqu'à 1 mois avant le début",
-                price: "1.850€",
-                saving: "Économisez 550€",
-                installment1: "925€ à l'inscription (50%)",
-                installment2: "925€ au début des cours (50%)",
+                price: "1.990€",
+                saving: "Économisez 510€",
+                installment1: "597€ à l'inscription (30%)",
+                installment2: "597€ au début des cours (30%)",
+                installment3: "796€ jusqu'à 2 mois après le début (40%)",
                 cta: "Inscription Early Bird"
             },
             regular: {
                 badge: "Régulier",
                 title: "Inscription Régulière",
                 subtitle: "En trois versements",
-                price: "2.400€",
-                installment1: "720€ à l'inscription (30%)",
-                installment2: "480€ au début des cours (20%)",
-                installment3: "1.200€ jusqu'à 2 mois après le début (50%)",
+                price: "2.500€",
+                installment1: "500€ à l'inscription (20%)",
+                installment2: "1.000€ au début des cours (40%)",
+                installment3: "1.000€ jusqu'à 2 mois après le début (40%)",
                 cta: "Inscription Régulière"
             },
             includes: "Comprend:",
@@ -1286,6 +1297,7 @@ const translations = {
                 "Participation à la Career Day",
                 "Accès aux offres d'emploi via Innjobs"
             ],
+            vatNote: "Les prix indiqués incluent la TVA.",
             franceExtra: "* Le voyage éducatif en France a un coût supplémentaire",
             paymentTitle: "Modes de Paiement",
             bank: {
@@ -1315,7 +1327,7 @@ const translations = {
                 },
                 {
                     q: "Quel est le coût de participation?",
-                    a: "Early Bird (inscription jusqu'à 1 mois avant): 1.850€ en deux versements (50% + 50%). Inscription régulière: 2.400€ en trois versements (30% + 20% + 50%). Le voyage en France a un coût supplémentaire."
+                    a: "Early Bird (inscription jusqu'à 1 mois avant): 1.990€ en trois versements (30% + 30% + 40%). Inscription régulière: 2.500€ en trois versements (20% + 40% + 40%). Les prix incluent la TVA. Le voyage en France a un coût supplémentaire."
                 },
                 {
                     q: "Quelles certifications est-ce que je reçois?",
@@ -1830,12 +1842,19 @@ const professorsData = [
         image: "/professors/giorgos_kalogeropoulos.jpeg"
     },
     {
-        name: "Γιώργος Μωραϊτης",
-        nameLatin: "Giorgos Moraitis",
+        name: "Δημήτρης Μωραϊτης",
+        nameLatin: "Dimitris Moraitis",
         category: "MANAGEMENT",
         linkedin: "https://www.linkedin.com/in/dimitris-moraitis-3657a415/",
         image: "/professors/dimitris_moraitis.jpeg",
         guestSpeaker: true
+    },
+    {
+        name: "Ιωάννα Σαραντοπούλου",
+        nameLatin: "Ioanna Sarantopoulou",
+        category: "F&B",
+        linkedin: "https://www.linkedin.com/in/joanna-sarantopoulou-phdc-4a840022/",
+        image: "/professors/ioanna_sarantopoulou.jpg"
     }
 ];
 const hotelPartners = [

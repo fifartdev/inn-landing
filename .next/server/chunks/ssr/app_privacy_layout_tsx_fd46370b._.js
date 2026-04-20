@@ -1,0 +1,3 @@
+module.exports=[13596,a=>{"use strict";var b=a.i(7997);function c({children:a}){return(0,b.jsx)(b.Fragment,{children:a})}a.s(["default",()=>c,"metadata",0,{title:"Πολιτική Απορρήτου | Inn Academy",description:"Πολιτική απορρήτου και προστασίας προσωπικών δεδομένων της ιστοσελίδας innacademy.gr.",alternates:{canonical:"https://innacademy.gr/privacy",languages:{el:"https://innacademy.gr/privacy",en:"https://innacademy.gr/privacy",fr:"https://innacademy.gr/privacy","x-default":"https://innacademy.gr/privacy"}},openGraph:{title:"Πολιτική Απορρήτου | Inn Academy",description:"Πολιτική απορρήτου και προστασίας προσωπικών δεδομένων της ιστοσελίδας innacademy.gr.",type:"website"}}])}];
+
+//# sourceMappingURL=app_privacy_layout_tsx_fd46370b._.js.map

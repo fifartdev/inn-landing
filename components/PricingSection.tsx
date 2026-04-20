@@ -55,6 +55,10 @@ export default function PricingSection() {
                   <span className="text-xs font-bold text-white/60 w-6 text-center">2</span>
                   <span className="text-sm text-white/90">{p.earlyBird.installment2}</span>
                 </div>
+                <div className="flex items-center gap-3 bg-white/10 rounded-xl p-3">
+                  <span className="text-xs font-bold text-white/60 w-6 text-center">3</span>
+                  <span className="text-sm text-white/90">{p.earlyBird.installment3}</span>
+                </div>
               </div>
 
               <a
@@ -115,7 +119,8 @@ export default function PricingSection() {
               ))}
             </ul>
 
-            <div className="mt-6 pt-5 border-t border-slate-200">
+            <div className="mt-6 pt-5 border-t border-slate-200 space-y-1">
+              <p className="text-xs text-slate-400 italic">{p.vatNote}</p>
               <p className="text-xs text-slate-400 italic">{p.franceExtra}</p>
             </div>
           </div>
