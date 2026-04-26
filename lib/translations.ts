@@ -403,6 +403,12 @@ export const translations = {
       start: "Έναρξη: 13 Νοε 2026",
       seats: "Περιορισμένες θέσεις",
     },
+    thankYou: {
+      title: "Η αίτησή σου ελήφθη!",
+      subtitle: "Σε ευχαριστούμε για το ενδιαφέρον σου για το Inn Academy.",
+      message: "Η ομάδα μας θα επικοινωνήσει μαζί σου σύντομα για τα επόμενα βήματα.",
+      back: "Επιστροφή στην αρχική",
+    },
     footer: {
       tagline: "Από τη γνώση στη θέση ευθύνης.",
       contact: "Επικοινωνία",
@@ -912,6 +918,12 @@ export const translations = {
       privacy: "Your details are protected in accordance with GDPR.",
       start: "Start: Nov 13, 2026",
       seats: "Limited seats",
+    },
+    thankYou: {
+      title: "Application Received!",
+      subtitle: "Thank you for your interest in Inn Academy.",
+      message: "Our team will contact you shortly with the next steps.",
+      back: "Back to Homepage",
     },
     footer: {
       tagline: "From knowledge to leadership.",
@@ -1425,6 +1437,12 @@ export const translations = {
       privacy: "Vos données sont protégées conformément au RGPD.",
       start: "Début: 13 Nov 2026",
       seats: "Places limitées",
+    },
+    thankYou: {
+      title: "Candidature Reçue !",
+      subtitle: "Merci pour votre intérêt pour Inn Academy.",
+      message: "Notre équipe vous contactera bientôt avec les prochaines étapes.",
+      back: "Retour à l'accueil",
     },
     footer: {
       tagline: "Du savoir au poste de responsabilité.",

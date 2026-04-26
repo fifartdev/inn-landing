@@ -1,18 +1,20 @@
 "use client";
 
 import { useState, useEffect } from "react";
+import { useRouter } from "next/navigation";
 import { useLang } from "@/contexts/LanguageContext";
-import { Send, Calendar, Users, Shield, CheckCircle } from "lucide-react";
+import { Send, Calendar, Users, Shield } from "lucide-react";
 
 export default function ContactForm({ variant = "sticky" }: { variant?: "sticky" | "section" }) {
   const { t, lang } = useLang();
   const f = t.form;
+  const router = useRouter();
 
   const [formData, setFormData] = useState({ name: "", phone: "", email: "" });
   const [honeypot, setHoneypot] = useState("");
-  const [submitted, setSubmitted] = useState(false);
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState(false);
+
   const [trackingParams, setTrackingParams] = useState<Record<string, string>>({});
 
   useEffect(() => {
@@ -35,10 +37,10 @@ export default function ContactForm({ variant = "sticky" }: { variant?: "sticky"
       });
 
       if (!res.ok) throw new Error();
-      setSubmitted(true);
       if (typeof window !== "undefined" && (window as any).fbq) {
         (window as any).fbq("track", "Lead");
       }
+      router.push("/thank-you");
     } catch {
       setError(true);
     } finally {
@@ -74,23 +76,7 @@ export default function ContactForm({ variant = "sticky" }: { variant?: "sticky"
 
       {/* Form body */}
       <div className="p-6">
-        {submitted ? (
-          <div className="text-center py-6">
-            <div className="w-16 h-16 bg-emerald-50 rounded-full flex items-center justify-center mx-auto mb-4">
-              <CheckCircle className="w-8 h-8 text-emerald-500" />
-            </div>
-            <p className="font-bold text-inn-dark text-base mb-2">
-              {f.success}
-            </p>
-            <button
-              onClick={() => { setSubmitted(false); setFormData({ name: "", phone: "", email: "" }); }}
-              className="text-inn-teal text-sm font-medium hover:underline mt-2"
-            >
-              Νέα αίτηση
-            </button>
-          </div>
-        ) : (
-          <form onSubmit={handleSubmit} className="space-y-4">
+        <form onSubmit={handleSubmit} className="space-y-4">
             {/* Honeypot — hidden from real users */}
             <input
               type="text"
@@ -173,7 +159,6 @@ export default function ContactForm({ variant = "sticky" }: { variant?: "sticky"
               <p className="text-xs text-slate-400">{f.privacy}</p>
             </div>
           </form>
-        )}
       </div>
     </div>
   );
