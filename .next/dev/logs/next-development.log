@@ -1,9 +1,2 @@
-[00:00:00.989] Server  LOG     ✓ Ready in 704ms
-[00:02:34.156] Server  WARN    ⚠ Fast Refresh had to perform a full reload when ./lib/translations.ts changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
-[00:02:34.169] Server  LOG     ✓ Compiled in 39ms
-[00:02:41.915] Server  WARN    ⚠ Fast Refresh had to perform a full reload when ./lib/translations.ts changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
-[00:02:41.975] Server  LOG     ✓ Compiled in 10ms
-[00:02:49.973] Server  WARN    ⚠ Fast Refresh had to perform a full reload when ./lib/translations.ts changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
-[00:02:50.025] Server  LOG     ✓ Compiled in 10ms
-[00:02:58.407] Server  WARN    ⚠ Fast Refresh had to perform a full reload when ./lib/translations.ts changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
-[00:02:58.453] Server  LOG     ✓ Compiled in 9ms
+[00:00:01.048] Server  LOG     ✓ Ready in 760ms
+[00:00:20.038] Browser WARN    Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
