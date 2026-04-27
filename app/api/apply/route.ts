@@ -145,6 +145,16 @@ export async function POST(req: NextRequest) {
       }),
     ]);
 
+    // Log to Google Sheet — fire and forget, never block the response
+    const sheetUrl = process.env.GOOGLE_SHEET_WEBHOOK_URL;
+    if (sheetUrl) {
+      fetch(sheetUrl, {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ name, phone, email, lang, trackingParams }),
+      }).catch(() => {});
+    }
+
     return NextResponse.json({ ok: true });
   } catch {
     return NextResponse.json({ error: "Failed to send" }, { status: 500 });
