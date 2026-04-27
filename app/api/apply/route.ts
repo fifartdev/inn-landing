@@ -148,7 +148,7 @@ export async function POST(req: NextRequest) {
     // Log to Airtable
     const airtableToken  = process.env.AIRTABLE_TOKEN;
     const airtableBaseId = process.env.AIRTABLE_BASE_ID;
-    console.log("[airtable] token set:", !!airtableToken, "base set:", !!airtableBaseId);
+    console.log("[airtable] token set:", !!airtableToken, "baseId:", airtableBaseId);
     if (airtableToken && airtableBaseId) {
       const tp = (trackingParams as Record<string, string>) ?? {};
       try {
