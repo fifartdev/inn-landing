@@ -148,11 +148,19 @@ export async function POST(req: NextRequest) {
     // Log to Google Sheet — fire and forget, never block the response
     const sheetUrl = process.env.GOOGLE_SHEET_WEBHOOK_URL;
     if (sheetUrl) {
-      fetch(sheetUrl, {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ name, phone, email, lang, trackingParams }),
-      }).catch(() => {});
+      const payload = JSON.stringify({ name, phone, email, lang, trackingParams });
+      fetch(sheetUrl, { method: "POST", headers: { "Content-Type": "application/json" }, body: payload, redirect: "manual" })
+        .then((res) => {
+          console.log("[sheet] status:", res.status, "location:", res.headers.get("location"));
+          const location = res.headers.get("location");
+          if (location) {
+            return fetch(location, { method: "POST", headers: { "Content-Type": "application/json" }, body: payload })
+              .then((r) => r.text().then((t) => console.log("[sheet] final status:", r.status, t)));
+          }
+        })
+        .catch((err) => console.error("[sheet] error:", err));
+    } else {
+      console.warn("[sheet] GOOGLE_SHEET_WEBHOOK_URL is not set");
     }
 
     return NextResponse.json({ ok: true });
