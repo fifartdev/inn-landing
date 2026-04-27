@@ -1,14 +1,12 @@
 "use client";
 
 import { useState, useEffect } from "react";
-import { useRouter } from "next/navigation";
 import { useLang } from "@/contexts/LanguageContext";
 import { Send, Calendar, Users, Shield } from "lucide-react";
 
 export default function ContactForm({ variant = "sticky" }: { variant?: "sticky" | "section" }) {
   const { t, lang } = useLang();
   const f = t.form;
-  const router = useRouter();
 
   const [formData, setFormData] = useState({ name: "", phone: "", email: "" });
   const [honeypot, setHoneypot] = useState("");
@@ -40,7 +38,7 @@ export default function ContactForm({ variant = "sticky" }: { variant?: "sticky"
       if (typeof window !== "undefined" && (window as any).fbq) {
         (window as any).fbq("track", "Lead");
       }
-      router.push("/thank-you");
+      window.location.href = "/thank-you";
     } catch {
       setError(true);
     } finally {

@@ -1,6 +1,5 @@
 "use client";
 
-import { useEffect } from "react";
 import Link from "next/link";
 import { CheckCircle } from "lucide-react";
 import { useLang } from "@/contexts/LanguageContext";
@@ -8,12 +7,6 @@ import { useLang } from "@/contexts/LanguageContext";
 export default function ThankYouPage() {
   const { t } = useLang();
   const ty = t.thankYou;
-
-  useEffect(() => {
-    if (typeof window !== "undefined" && (window as any).fbq) {
-      (window as any).fbq("track", "PageView");
-    }
-  }, []);
 
   return (
     <main className="min-h-screen bg-inn-light-grey flex items-center justify-center px-4">
