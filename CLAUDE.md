@@ -109,7 +109,7 @@ Handled by [app/api/apply/route.ts](app/api/apply/route.ts) via Resend.
 - **URL tracking params**: ContactForm reads all query-string params from the URL on mount (e.g. `?utm_source=google&gclid=...`) and sends them as `trackingParams` in the POST body. The API includes them as extra rows in the internal notification email.
 - **Spam protection**: ContactForm includes a honeypot field (`name="website"`, off-screen). If it is filled the API silently returns `{ ok: true }` without sending any email.
 - **Post-submission redirect**: On successful submission ContactForm fires `fbq('track', 'Lead')` then redirects to `/thank-you` via `window.location.href` (hard redirect, not SPA navigation). The `/thank-you` page is `noindex` and serves as the URL-based conversion signal for Meta, Google Ads, and TikTok. Translations live in `t.thankYou` (all three languages).
-- **Google Sheets logging**: After emails are sent the API fires a non-blocking `fetch` to `GOOGLE_SHEET_WEBHOOK_URL` (a Google Apps Script Web App) with `{ name, phone, email, lang, trackingParams }`. A sheet failure never blocks the form response. Leave the env var unset to disable.
+- **Airtable lead logging**: After emails are sent the API fires a non-blocking `fetch` to `https://api.airtable.com/v0/{AIRTABLE_BASE_ID}/Leads`. Columns: Name, Phone, Email, Language, UTM Source, UTM Medium, UTM Campaign, GCLID, Timestamp. A failure never blocks the form response. Requires `AIRTABLE_TOKEN` and `AIRTABLE_BASE_ID` env vars — leave unset to disable.
 
 ### SEO
 
