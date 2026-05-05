@@ -17,7 +17,9 @@ export const metadata: Metadata = {
     title: "Gallery | Inn Academy — Diploma in Hotel Management",
     description:
       "Φωτογραφίες από masterclasses, events και εκπαιδευτικές δραστηριότητες της Inn Academy.",
+    url: "https://www.innacademy.gr/gallery",
     type: "website",
+    images: [{ url: "/innacademyfeatured.jpg", width: 1080, height: 1080, alt: "Inn Academy — Diploma in Hotel Management" }],
   },
 };
 

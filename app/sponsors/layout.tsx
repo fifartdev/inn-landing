@@ -17,7 +17,9 @@ export const metadata: Metadata = {
     title: "Χορηγοί & Συνεργάτες | Inn Academy",
     description:
       "Οι εταιρείες και οργανισμοί που στηρίζουν το πρόγραμμα Diploma in Hotel Management της Inn Academy.",
+    url: "https://www.innacademy.gr/sponsors",
     type: "website",
+    images: [{ url: "/innacademyfeatured.jpg", width: 1080, height: 1080, alt: "Inn Academy — Diploma in Hotel Management" }],
   },
 };
 

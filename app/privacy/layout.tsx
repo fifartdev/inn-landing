@@ -17,7 +17,9 @@ export const metadata: Metadata = {
     title: "Πολιτική Απορρήτου | Inn Academy",
     description:
       "Πολιτική απορρήτου και προστασίας προσωπικών δεδομένων της ιστοσελίδας innacademy.gr.",
+    url: "https://www.innacademy.gr/privacy",
     type: "website",
+    images: [{ url: "/innacademyfeatured.jpg", width: 1080, height: 1080, alt: "Inn Academy — Diploma in Hotel Management" }],
   },
 };
 

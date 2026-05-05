@@ -20,6 +20,7 @@ export const metadata: Metadata = {
     },
   },
   openGraph: {
+    url: "https://www.innacademy.gr",
     title: "Inn Academy | Diploma in Hotel Management",
     description: "Εξέλιξε την καριέρα σου σε θέση διοίκησης στον ξενοδοχειακό κλάδο. Online + Masterclasses.",
     type: "website",

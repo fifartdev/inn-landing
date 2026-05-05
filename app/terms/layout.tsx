@@ -17,7 +17,9 @@ export const metadata: Metadata = {
     title: "Όροι Χρήσης | Inn Academy",
     description:
       "Όροι και προϋποθέσεις χρήσης της ιστοσελίδας και των υπηρεσιών της Inn Academy.",
+    url: "https://www.innacademy.gr/terms",
     type: "website",
+    images: [{ url: "/innacademyfeatured.jpg", width: 1080, height: 1080, alt: "Inn Academy — Diploma in Hotel Management" }],
   },
 };
 

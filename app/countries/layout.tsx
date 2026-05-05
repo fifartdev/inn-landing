@@ -17,7 +17,9 @@ export const metadata: Metadata = {
     title: "Χώρες Εργασίας | Inn Academy — Diploma in Hotel Management",
     description:
       "Οι απόφοιτοί μας εργάζονται σε ξενοδοχεία παγκοσμίως. Ανακάλυψε τις χώρες όπου η Inn Academy και η Innjobs ανοίγουν πόρτες για διεθνή καριέρα.",
+    url: "https://www.innacademy.gr/countries",
     type: "website",
+    images: [{ url: "/innacademyfeatured.jpg", width: 1080, height: 1080, alt: "Inn Academy — Diploma in Hotel Management" }],
   },
 };
 

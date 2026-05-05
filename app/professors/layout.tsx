@@ -17,7 +17,9 @@ export const metadata: Metadata = {
     title: "Καθηγητές | Inn Academy — Diploma in Hotel Management",
     description:
       "Γνωρίστε το διδακτικό μας team — επαγγελματίες και ακαδημαϊκοί με δεκαετίες εμπειρίας σε 5★ ξενοδοχεία και πολυεθνικές εταιρείες φιλοξενίας.",
+    url: "https://www.innacademy.gr/professors",
     type: "website",
+    images: [{ url: "/innacademyfeatured.jpg", width: 1080, height: 1080, alt: "Inn Academy — Diploma in Hotel Management" }],
   },
 };
 

@@ -17,7 +17,9 @@ export const metadata: Metadata = {
     title: "Guest Speakers | Inn Academy — Diploma in Hotel Management",
     description:
       "Κορυφαίοι επαγγελματίες του κλάδου μοιράζονται την εμπειρία τους με τους σπουδαστές μας. Masterclasses από C-level στελέχη ξενοδοχειακών ομίλων.",
+    url: "https://www.innacademy.gr/guests",
     type: "website",
+    images: [{ url: "/innacademyfeatured.jpg", width: 1080, height: 1080, alt: "Inn Academy — Diploma in Hotel Management" }],
   },
 };
 
