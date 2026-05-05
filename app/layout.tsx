@@ -27,8 +27,8 @@ export const metadata: Metadata = {
     images: [
       {
         url: "/innacademyfeatured.jpg",
-        width: 1080,
-        height: 1080,
+        width: 1200,
+        height: 627,
         alt: "Inn Academy — Diploma in Hotel Management",
       },
     ],

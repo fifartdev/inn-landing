@@ -19,7 +19,7 @@ export const metadata: Metadata = {
       "Απαντήσεις για το Diploma in Hotel Management: διάρκεια, κόστος, πιστοποιήσεις ACTA & Paris Education, masterclasses και επαγγελματικές προοπτικές.",
     url: "https://www.innacademy.gr/faq",
     type: "website",
-    images: [{ url: "/innacademyfeatured.jpg", width: 1080, height: 1080, alt: "Inn Academy — Diploma in Hotel Management" }],
+    images: [{ url: "/innacademyfeatured.jpg", width: 1200, height: 627, alt: "Inn Academy — Diploma in Hotel Management" }],
   },
 };
 

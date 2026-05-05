@@ -19,7 +19,7 @@ export const metadata: Metadata = {
       "Εκπαιδευτική επίσκεψη στα κορυφαία ξενοδοχεία και σχολές hospitality του Παρισιού — μια μοναδική εμπειρία για τους σπουδαστές της Inn Academy.",
     url: "https://www.innacademy.gr/france",
     type: "website",
-    images: [{ url: "/innacademyfeatured.jpg", width: 1080, height: 1080, alt: "Inn Academy — Diploma in Hotel Management" }],
+    images: [{ url: "/innacademyfeatured.jpg", width: 1200, height: 627, alt: "Inn Academy — Diploma in Hotel Management" }],
   },
 };
 

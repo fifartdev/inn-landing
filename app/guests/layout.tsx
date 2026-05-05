@@ -19,7 +19,7 @@ export const metadata: Metadata = {
       "Κορυφαίοι επαγγελματίες του κλάδου μοιράζονται την εμπειρία τους με τους σπουδαστές μας. Masterclasses από C-level στελέχη ξενοδοχειακών ομίλων.",
     url: "https://www.innacademy.gr/guests",
     type: "website",
-    images: [{ url: "/innacademyfeatured.jpg", width: 1080, height: 1080, alt: "Inn Academy — Diploma in Hotel Management" }],
+    images: [{ url: "/innacademyfeatured.jpg", width: 1200, height: 627, alt: "Inn Academy — Diploma in Hotel Management" }],
   },
 };
 
