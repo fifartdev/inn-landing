@@ -5,12 +5,12 @@ export const metadata: Metadata = {
   description:
     "Απαντήσεις για το Diploma in Hotel Management: διάρκεια, κόστος, πιστοποιήσεις ACTA & Paris Education, masterclasses και επαγγελματικές προοπτικές.",
   alternates: {
-    canonical: "https://innacademy.gr/faq",
+    canonical: "https://www.innacademy.gr/faq",
     languages: {
-      "el": "https://innacademy.gr/faq",
-      "en": "https://innacademy.gr/faq",
-      "fr": "https://innacademy.gr/faq",
-      "x-default": "https://innacademy.gr/faq",
+      "el": "https://www.innacademy.gr/faq",
+      "en": "https://www.innacademy.gr/faq",
+      "fr": "https://www.innacademy.gr/faq",
+      "x-default": "https://www.innacademy.gr/faq",
     },
   },
   openGraph: {

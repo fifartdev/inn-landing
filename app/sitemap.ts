@@ -1,6 +1,6 @@
 import { MetadataRoute } from "next";
 
-const BASE_URL = "https://innacademy.gr";
+const BASE_URL = "https://www.innacademy.gr";
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const routes = [

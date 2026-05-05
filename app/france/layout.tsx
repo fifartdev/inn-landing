@@ -5,12 +5,12 @@ export const metadata: Metadata = {
   description:
     "Εκπαιδευτική επίσκεψη στα κορυφαία ξενοδοχεία και σχολές hospitality του Παρισιού — μια μοναδική εμπειρία για τους σπουδαστές της Inn Academy.",
   alternates: {
-    canonical: "https://innacademy.gr/france",
+    canonical: "https://www.innacademy.gr/france",
     languages: {
-      "el": "https://innacademy.gr/france",
-      "en": "https://innacademy.gr/france",
-      "fr": "https://innacademy.gr/france",
-      "x-default": "https://innacademy.gr/france",
+      "el": "https://www.innacademy.gr/france",
+      "en": "https://www.innacademy.gr/france",
+      "fr": "https://www.innacademy.gr/france",
+      "x-default": "https://www.innacademy.gr/france",
     },
   },
   openGraph: {

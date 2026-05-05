@@ -5,12 +5,12 @@ export const metadata: Metadata = {
   description:
     "Κορυφαίοι επαγγελματίες του κλάδου μοιράζονται την εμπειρία τους με τους σπουδαστές μας. Masterclasses από C-level στελέχη ξενοδοχειακών ομίλων.",
   alternates: {
-    canonical: "https://innacademy.gr/guests",
+    canonical: "https://www.innacademy.gr/guests",
     languages: {
-      "el": "https://innacademy.gr/guests",
-      "en": "https://innacademy.gr/guests",
-      "fr": "https://innacademy.gr/guests",
-      "x-default": "https://innacademy.gr/guests",
+      "el": "https://www.innacademy.gr/guests",
+      "en": "https://www.innacademy.gr/guests",
+      "fr": "https://www.innacademy.gr/guests",
+      "x-default": "https://www.innacademy.gr/guests",
     },
   },
   openGraph: {

@@ -5,12 +5,12 @@ export const metadata: Metadata = {
   description:
     "Οι εταιρείες και οργανισμοί που στηρίζουν το πρόγραμμα Diploma in Hotel Management της Inn Academy.",
   alternates: {
-    canonical: "https://innacademy.gr/sponsors",
+    canonical: "https://www.innacademy.gr/sponsors",
     languages: {
-      "el": "https://innacademy.gr/sponsors",
-      "en": "https://innacademy.gr/sponsors",
-      "fr": "https://innacademy.gr/sponsors",
-      "x-default": "https://innacademy.gr/sponsors",
+      "el": "https://www.innacademy.gr/sponsors",
+      "en": "https://www.innacademy.gr/sponsors",
+      "fr": "https://www.innacademy.gr/sponsors",
+      "x-default": "https://www.innacademy.gr/sponsors",
     },
   },
   openGraph: {

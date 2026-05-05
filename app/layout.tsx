@@ -5,18 +5,18 @@ import CookieBanner from "@/components/CookieBanner";
 import Analytics from "@/components/Analytics";
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://innacademy.gr"),
+  metadataBase: new URL("https://www.innacademy.gr"),
   title: "Inn Academy | Diploma in Hotel Management — NextGen Hospitality Leaders",
   description:
     "Πρόγραμμα Εξειδίκευσης στη Διοίκηση Ξενοδοχειακών Επιχειρήσεων. Online εκπαίδευση, masterclasses σε 5★ ξενοδοχεία, πιστοποίηση ACTA & Paris Education. Innjobs.",
   keywords: "hotel management, ξενοδοχειακή διοίκηση, Inn Academy, Innjobs, ACTA, Paris Education, diploma hospitality, σπουδές διοίκησης ξενοδοχείων, hotel management diploma greece, εκπαίδευση στελεχών τουρισμού, inn academy innjobs, επαγγελματική εξειδίκευση, hospitality, εκπαίδευση hospitality",
   alternates: {
-    canonical: "https://innacademy.gr",
+    canonical: "https://www.innacademy.gr",
     languages: {
-      "el": "https://innacademy.gr",
-      "en": "https://innacademy.gr",
-      "fr": "https://innacademy.gr",
-      "x-default": "https://innacademy.gr",
+      "el": "https://www.innacademy.gr",
+      "en": "https://www.innacademy.gr",
+      "fr": "https://www.innacademy.gr",
+      "x-default": "https://www.innacademy.gr",
     },
   },
   openGraph: {

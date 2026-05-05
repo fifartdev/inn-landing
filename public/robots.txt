@@ -53,4 +53,4 @@ Allow: /
 User-agent: TelegramBot
 Allow: /
 
-Sitemap: https://innacademy.gr/sitemap.xml
+Sitemap: https://www.innacademy.gr/sitemap.xml

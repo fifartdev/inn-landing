@@ -5,12 +5,12 @@ export const metadata: Metadata = {
   description:
     "Όροι και προϋποθέσεις χρήσης της ιστοσελίδας και των υπηρεσιών της Inn Academy.",
   alternates: {
-    canonical: "https://innacademy.gr/terms",
+    canonical: "https://www.innacademy.gr/terms",
     languages: {
-      "el": "https://innacademy.gr/terms",
-      "en": "https://innacademy.gr/terms",
-      "fr": "https://innacademy.gr/terms",
-      "x-default": "https://innacademy.gr/terms",
+      "el": "https://www.innacademy.gr/terms",
+      "en": "https://www.innacademy.gr/terms",
+      "fr": "https://www.innacademy.gr/terms",
+      "x-default": "https://www.innacademy.gr/terms",
     },
   },
   openGraph: {

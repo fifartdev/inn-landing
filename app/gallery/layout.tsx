@@ -5,12 +5,12 @@ export const metadata: Metadata = {
   description:
     "Φωτογραφίες από masterclasses, events και εκπαιδευτικές δραστηριότητες της Inn Academy.",
   alternates: {
-    canonical: "https://innacademy.gr/gallery",
+    canonical: "https://www.innacademy.gr/gallery",
     languages: {
-      "el": "https://innacademy.gr/gallery",
-      "en": "https://innacademy.gr/gallery",
-      "fr": "https://innacademy.gr/gallery",
-      "x-default": "https://innacademy.gr/gallery",
+      "el": "https://www.innacademy.gr/gallery",
+      "en": "https://www.innacademy.gr/gallery",
+      "fr": "https://www.innacademy.gr/gallery",
+      "x-default": "https://www.innacademy.gr/gallery",
     },
   },
   openGraph: {

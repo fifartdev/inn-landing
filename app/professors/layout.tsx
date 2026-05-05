@@ -5,12 +5,12 @@ export const metadata: Metadata = {
   description:
     "Γνωρίστε το διδακτικό μας team — επαγγελματίες και ακαδημαϊκοί με δεκαετίες εμπειρίας σε 5★ ξενοδοχεία και πολυεθνικές εταιρείες φιλοξενίας.",
   alternates: {
-    canonical: "https://innacademy.gr/professors",
+    canonical: "https://www.innacademy.gr/professors",
     languages: {
-      "el": "https://innacademy.gr/professors",
-      "en": "https://innacademy.gr/professors",
-      "fr": "https://innacademy.gr/professors",
-      "x-default": "https://innacademy.gr/professors",
+      "el": "https://www.innacademy.gr/professors",
+      "en": "https://www.innacademy.gr/professors",
+      "fr": "https://www.innacademy.gr/professors",
+      "x-default": "https://www.innacademy.gr/professors",
     },
   },
   openGraph: {

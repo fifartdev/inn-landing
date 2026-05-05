@@ -5,12 +5,12 @@ export const metadata: Metadata = {
   description:
     "Πολιτική απορρήτου και προστασίας προσωπικών δεδομένων της ιστοσελίδας innacademy.gr.",
   alternates: {
-    canonical: "https://innacademy.gr/privacy",
+    canonical: "https://www.innacademy.gr/privacy",
     languages: {
-      "el": "https://innacademy.gr/privacy",
-      "en": "https://innacademy.gr/privacy",
-      "fr": "https://innacademy.gr/privacy",
-      "x-default": "https://innacademy.gr/privacy",
+      "el": "https://www.innacademy.gr/privacy",
+      "en": "https://www.innacademy.gr/privacy",
+      "fr": "https://www.innacademy.gr/privacy",
+      "x-default": "https://www.innacademy.gr/privacy",
     },
   },
   openGraph: {

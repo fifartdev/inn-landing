@@ -5,12 +5,12 @@ export const metadata: Metadata = {
   description:
     "Οι απόφοιτοί μας εργάζονται σε ξενοδοχεία παγκοσμίως. Ανακάλυψε τις χώρες όπου η Inn Academy και η Innjobs ανοίγουν πόρτες για διεθνή καριέρα.",
   alternates: {
-    canonical: "https://innacademy.gr/countries",
+    canonical: "https://www.innacademy.gr/countries",
     languages: {
-      "el": "https://innacademy.gr/countries",
-      "en": "https://innacademy.gr/countries",
-      "fr": "https://innacademy.gr/countries",
-      "x-default": "https://innacademy.gr/countries",
+      "el": "https://www.innacademy.gr/countries",
+      "en": "https://www.innacademy.gr/countries",
+      "fr": "https://www.innacademy.gr/countries",
+      "x-default": "https://www.innacademy.gr/countries",
     },
   },
   openGraph: {
