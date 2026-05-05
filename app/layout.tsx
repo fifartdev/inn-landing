@@ -25,9 +25,9 @@ export const metadata: Metadata = {
     type: "website",
     images: [
       {
-        url: "/hero.jpg",
-        width: 1200,
-        height: 630,
+        url: "/innacademyfeatured.jpg",
+        width: 1080,
+        height: 1080,
         alt: "Inn Academy — Diploma in Hotel Management",
       },
     ],
@@ -36,7 +36,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Inn Academy | Diploma in Hotel Management",
     description: "Εξέλιξε την καριέρα σου σε θέση διοίκησης στον ξενοδοχειακό κλάδο. Online + Masterclasses.",
-    images: ["/hero.jpg"],
+    images: ["/innacademyfeatured.jpg"],
   },
 };
 

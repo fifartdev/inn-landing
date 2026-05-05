@@ -34,4 +34,23 @@ Allow: /
 User-agent: Applebot
 Allow: /
 
+# Social media crawlers — allow link previews and image sharing
+User-agent: facebookexternalhit
+Allow: /
+
+User-agent: LinkedInBot
+Allow: /
+
+User-agent: Twitterbot
+Allow: /
+
+User-agent: WhatsApp
+Allow: /
+
+User-agent: Slackbot
+Allow: /
+
+User-agent: TelegramBot
+Allow: /
+
 Sitemap: https://innacademy.gr/sitemap.xml
