@@ -223,28 +223,29 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$components$2f$Analytics$2e$t
 ;
 ;
 const metadata = {
-    metadataBase: new URL("https://innacademy.gr"),
+    metadataBase: new URL("https://www.innacademy.gr"),
     title: "Inn Academy | Diploma in Hotel Management — NextGen Hospitality Leaders",
     description: "Πρόγραμμα Εξειδίκευσης στη Διοίκηση Ξενοδοχειακών Επιχειρήσεων. Online εκπαίδευση, masterclasses σε 5★ ξενοδοχεία, πιστοποίηση ACTA & Paris Education. Innjobs.",
     keywords: "hotel management, ξενοδοχειακή διοίκηση, Inn Academy, Innjobs, ACTA, Paris Education, diploma hospitality, σπουδές διοίκησης ξενοδοχείων, hotel management diploma greece, εκπαίδευση στελεχών τουρισμού, inn academy innjobs, επαγγελματική εξειδίκευση, hospitality, εκπαίδευση hospitality",
     alternates: {
-        canonical: "https://innacademy.gr",
+        canonical: "https://www.innacademy.gr",
         languages: {
-            "el": "https://innacademy.gr",
-            "en": "https://innacademy.gr",
-            "fr": "https://innacademy.gr",
-            "x-default": "https://innacademy.gr"
+            "el": "https://www.innacademy.gr",
+            "en": "https://www.innacademy.gr",
+            "fr": "https://www.innacademy.gr",
+            "x-default": "https://www.innacademy.gr"
         }
     },
     openGraph: {
+        url: "https://www.innacademy.gr",
         title: "Inn Academy | Diploma in Hotel Management",
         description: "Εξέλιξε την καριέρα σου σε θέση διοίκησης στον ξενοδοχειακό κλάδο. Online + Masterclasses.",
         type: "website",
         images: [
             {
-                url: "/hero.jpg",
+                url: "/innacademyfeatured.jpg",
                 width: 1200,
-                height: 630,
+                height: 627,
                 alt: "Inn Academy — Diploma in Hotel Management"
             }
         ]
@@ -254,7 +255,7 @@ const metadata = {
         title: "Inn Academy | Diploma in Hotel Management",
         description: "Εξέλιξε την καριέρα σου σε θέση διοίκησης στον ξενοδοχειακό κλάδο. Online + Masterclasses.",
         images: [
-            "/hero.jpg"
+            "/innacademyfeatured.jpg"
         ]
     }
 };
@@ -265,7 +266,7 @@ function RootLayout({ children }) {
             children: [
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$Analytics$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
                     fileName: "[project]/app/layout.tsx",
-                    lineNumber: 51,
+                    lineNumber: 52,
                     columnNumber: 9
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$contexts$2f$LanguageContext$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["LanguageProvider"], {
@@ -273,24 +274,24 @@ function RootLayout({ children }) {
                         children,
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$CookieBanner$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
                             fileName: "[project]/app/layout.tsx",
-                            lineNumber: 54,
+                            lineNumber: 55,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/app/layout.tsx",
-                    lineNumber: 52,
+                    lineNumber: 53,
                     columnNumber: 9
                 }, this)
             ]
         }, void 0, true, {
             fileName: "[project]/app/layout.tsx",
-            lineNumber: 50,
+            lineNumber: 51,
             columnNumber: 7
         }, this)
     }, void 0, false, {
         fileName: "[project]/app/layout.tsx",
-        lineNumber: 49,
+        lineNumber: 50,
         columnNumber: 5
     }, this);
 }

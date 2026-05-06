@@ -3625,7 +3625,6 @@ __turbopack_context__.s([
 ]);
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/compiled/react/jsx-dev-runtime.js [app-client] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/compiled/react/index.js [app-client] (ecmascript)");
-var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$navigation$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/navigation.js [app-client] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$contexts$2f$LanguageContext$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/contexts/LanguageContext.tsx [app-client] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$send$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Send$3e$__ = __turbopack_context__.i("[project]/node_modules/lucide-react/dist/esm/icons/send.js [app-client] (ecmascript) <export default as Send>");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$calendar$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Calendar$3e$__ = __turbopack_context__.i("[project]/node_modules/lucide-react/dist/esm/icons/calendar.js [app-client] (ecmascript) <export default as Calendar>");
@@ -3637,12 +3636,10 @@ var _s = __turbopack_context__.k.signature();
 ;
 ;
 ;
-;
 function ContactForm({ variant = "sticky" }) {
     _s();
     const { t, lang } = (0, __TURBOPACK__imported__module__$5b$project$5d2f$contexts$2f$LanguageContext$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useLang"])();
     const f = t.form;
-    const router = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$navigation$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useRouter"])();
     const [formData, setFormData] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"])({
         name: "",
         phone: "",
@@ -3685,7 +3682,7 @@ function ContactForm({ variant = "sticky" }) {
             if (("TURBOPACK compile-time value", "object") !== "undefined" && window.fbq) {
                 window.fbq("track", "Lead");
             }
-            router.push("/thank-you");
+            window.location.href = "/thank-you";
         } catch  {
             setError(true);
         } finally{
@@ -3704,7 +3701,7 @@ function ContactForm({ variant = "sticky" }) {
                         children: f.title
                     }, void 0, false, {
                         fileName: "[project]/components/ContactForm.tsx",
-                        lineNumber: 61,
+                        lineNumber: 59,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -3712,7 +3709,7 @@ function ContactForm({ variant = "sticky" }) {
                         children: f.subtitle
                     }, void 0, false, {
                         fileName: "[project]/components/ContactForm.tsx",
-                        lineNumber: 62,
+                        lineNumber: 60,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -3725,7 +3722,7 @@ function ContactForm({ variant = "sticky" }) {
                                         className: "w-3.5 h-3.5 text-inn-orange"
                                     }, void 0, false, {
                                         fileName: "[project]/components/ContactForm.tsx",
-                                        lineNumber: 67,
+                                        lineNumber: 65,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -3733,13 +3730,13 @@ function ContactForm({ variant = "sticky" }) {
                                         children: f.start
                                     }, void 0, false, {
                                         fileName: "[project]/components/ContactForm.tsx",
-                                        lineNumber: 68,
+                                        lineNumber: 66,
                                         columnNumber: 13
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/components/ContactForm.tsx",
-                                lineNumber: 66,
+                                lineNumber: 64,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -3749,7 +3746,7 @@ function ContactForm({ variant = "sticky" }) {
                                         className: "w-3.5 h-3.5 text-inn-orange"
                                     }, void 0, false, {
                                         fileName: "[project]/components/ContactForm.tsx",
-                                        lineNumber: 71,
+                                        lineNumber: 69,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -3757,25 +3754,25 @@ function ContactForm({ variant = "sticky" }) {
                                         children: f.seats
                                     }, void 0, false, {
                                         fileName: "[project]/components/ContactForm.tsx",
-                                        lineNumber: 72,
+                                        lineNumber: 70,
                                         columnNumber: 13
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/components/ContactForm.tsx",
-                                lineNumber: 70,
+                                lineNumber: 68,
                                 columnNumber: 11
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/components/ContactForm.tsx",
-                        lineNumber: 65,
+                        lineNumber: 63,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/components/ContactForm.tsx",
-                lineNumber: 60,
+                lineNumber: 58,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -3799,7 +3796,7 @@ function ContactForm({ variant = "sticky" }) {
                             }
                         }, void 0, false, {
                             fileName: "[project]/components/ContactForm.tsx",
-                            lineNumber: 81,
+                            lineNumber: 79,
                             columnNumber: 13
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -3812,7 +3809,7 @@ function ContactForm({ variant = "sticky" }) {
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/components/ContactForm.tsx",
-                                    lineNumber: 92,
+                                    lineNumber: 90,
                                     columnNumber: 15
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("input", {
@@ -3827,13 +3824,13 @@ function ContactForm({ variant = "sticky" }) {
                                     className: "w-full px-4 py-3 bg-inn-light-grey border border-slate-200 rounded-xl text-sm text-slate-700 placeholder:text-slate-400 focus:border-inn-teal focus:bg-white transition-all"
                                 }, void 0, false, {
                                     fileName: "[project]/components/ContactForm.tsx",
-                                    lineNumber: 95,
+                                    lineNumber: 93,
                                     columnNumber: 15
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/components/ContactForm.tsx",
-                            lineNumber: 91,
+                            lineNumber: 89,
                             columnNumber: 13
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -3846,7 +3843,7 @@ function ContactForm({ variant = "sticky" }) {
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/components/ContactForm.tsx",
-                                    lineNumber: 106,
+                                    lineNumber: 104,
                                     columnNumber: 15
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("input", {
@@ -3861,13 +3858,13 @@ function ContactForm({ variant = "sticky" }) {
                                     className: "w-full px-4 py-3 bg-inn-light-grey border border-slate-200 rounded-xl text-sm text-slate-700 placeholder:text-slate-400 focus:border-inn-teal focus:bg-white transition-all"
                                 }, void 0, false, {
                                     fileName: "[project]/components/ContactForm.tsx",
-                                    lineNumber: 109,
+                                    lineNumber: 107,
                                     columnNumber: 15
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/components/ContactForm.tsx",
-                            lineNumber: 105,
+                            lineNumber: 103,
                             columnNumber: 13
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -3880,7 +3877,7 @@ function ContactForm({ variant = "sticky" }) {
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/components/ContactForm.tsx",
-                                    lineNumber: 120,
+                                    lineNumber: 118,
                                     columnNumber: 15
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("input", {
@@ -3895,13 +3892,13 @@ function ContactForm({ variant = "sticky" }) {
                                     className: "w-full px-4 py-3 bg-inn-light-grey border border-slate-200 rounded-xl text-sm text-slate-700 placeholder:text-slate-400 focus:border-inn-teal focus:bg-white transition-all"
                                 }, void 0, false, {
                                     fileName: "[project]/components/ContactForm.tsx",
-                                    lineNumber: 123,
+                                    lineNumber: 121,
                                     columnNumber: 15
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/components/ContactForm.tsx",
-                            lineNumber: 119,
+                            lineNumber: 117,
                             columnNumber: 13
                         }, this),
                         error && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -3909,7 +3906,7 @@ function ContactForm({ variant = "sticky" }) {
                             children: "Κάτι πήγε στραβά. Δοκίμασε ξανά ή επικοινώνησε μαζί μας."
                         }, void 0, false, {
                             fileName: "[project]/components/ContactForm.tsx",
-                            lineNumber: 134,
+                            lineNumber: 132,
                             columnNumber: 15
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
@@ -3922,7 +3919,7 @@ function ContactForm({ variant = "sticky" }) {
                                         className: "w-4 h-4 border-2 border-white/30 border-t-white rounded-full animate-spin"
                                     }, void 0, false, {
                                         fileName: "[project]/components/ContactForm.tsx",
-                                        lineNumber: 146,
+                                        lineNumber: 144,
                                         columnNumber: 19
                                     }, this),
                                     f.submitting
@@ -3933,7 +3930,7 @@ function ContactForm({ variant = "sticky" }) {
                                         className: "w-4 h-4"
                                     }, void 0, false, {
                                         fileName: "[project]/components/ContactForm.tsx",
-                                        lineNumber: 151,
+                                        lineNumber: 149,
                                         columnNumber: 19
                                     }, this),
                                     f.submit
@@ -3941,7 +3938,7 @@ function ContactForm({ variant = "sticky" }) {
                             }, void 0, true)
                         }, void 0, false, {
                             fileName: "[project]/components/ContactForm.tsx",
-                            lineNumber: 139,
+                            lineNumber: 137,
                             columnNumber: 13
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -3951,7 +3948,7 @@ function ContactForm({ variant = "sticky" }) {
                                     className: "w-3.5 h-3.5 text-slate-300 shrink-0 mt-0.5"
                                 }, void 0, false, {
                                     fileName: "[project]/components/ContactForm.tsx",
-                                    lineNumber: 158,
+                                    lineNumber: 156,
                                     columnNumber: 15
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -3959,37 +3956,36 @@ function ContactForm({ variant = "sticky" }) {
                                     children: f.privacy
                                 }, void 0, false, {
                                     fileName: "[project]/components/ContactForm.tsx",
-                                    lineNumber: 159,
+                                    lineNumber: 157,
                                     columnNumber: 15
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/components/ContactForm.tsx",
-                            lineNumber: 157,
+                            lineNumber: 155,
                             columnNumber: 13
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/components/ContactForm.tsx",
-                    lineNumber: 79,
+                    lineNumber: 77,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/components/ContactForm.tsx",
-                lineNumber: 78,
+                lineNumber: 76,
                 columnNumber: 7
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/components/ContactForm.tsx",
-        lineNumber: 54,
+        lineNumber: 52,
         columnNumber: 5
     }, this);
 }
-_s(ContactForm, "V1Sv64ywfxZNbt17jTxYv63oz7s=", false, function() {
+_s(ContactForm, "A2K44FLM1w0NFJ92RkYZRl+viw4=", false, function() {
     return [
-        __TURBOPACK__imported__module__$5b$project$5d2f$contexts$2f$LanguageContext$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useLang"],
-        __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$navigation$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useRouter"]
+        __TURBOPACK__imported__module__$5b$project$5d2f$contexts$2f$LanguageContext$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useLang"]
     ];
 });
 _c = ContactForm;

@@ -249,8 +249,8 @@ export const translations = {
         subtitle: "Εγγραφή έως 1 μήνα πριν την έναρξη",
         price: "1.990€",
         saving: "Εξοικονομείς 510€",
-        installment1: "597€ με την εγγραφή (30%)",
-        installment2: "597€ με την έναρξη (30%)",
+        installment1: "398€ με την εγγραφή (20%)",
+        installment2: "796€ με την έναρξη (40%)",
         installment3: "796€ μέχρι 2 μήνες μετά την έναρξη (40%)",
         cta: "Εγγραφή Early Bird",
       },
@@ -305,7 +305,7 @@ export const translations = {
         },
         {
           q: "Ποιο είναι το κόστος συμμετοχής;",
-          a: "Early Bird (εγγραφή έως 1 μήνα πριν): 1.990€ σε τρεις δόσεις (30% + 30% + 40%). Κανονική εγγραφή: 2.500€ σε τρεις δόσεις (20% + 40% + 40%). Οι τιμές περιλαμβάνουν Φ.Π.Α. Η εκδρομή στη Γαλλία έχει επιπλέον κόστος.",
+          a: "Early Bird (εγγραφή έως 1 μήνα πριν): 1.990€ σε τρεις δόσεις (20% + 40% + 40%). Κανονική εγγραφή: 2.500€ σε τρεις δόσεις (20% + 40% + 40%). Οι τιμές περιλαμβάνουν Φ.Π.Α. Η εκδρομή στη Γαλλία έχει επιπλέον κόστος.",
         },
         {
           q: "Τι πιστοποιήσεις λαμβάνω;",
@@ -765,8 +765,8 @@ export const translations = {
         subtitle: "Register up to 1 month before start",
         price: "€1,990",
         saving: "Save €510",
-        installment1: "€597 on registration (30%)",
-        installment2: "€597 on start date (30%)",
+        installment1: "€398 on registration (20%)",
+        installment2: "€796 on start date (40%)",
         installment3: "€796 up to 2 months after start (40%)",
         cta: "Early Bird Registration",
       },
@@ -821,7 +821,7 @@ export const translations = {
         },
         {
           q: "What is the participation cost?",
-          a: "Early Bird (registration up to 1 month before): €1,990 in three installments (30% + 30% + 40%). Regular registration: €2,500 in three installments (20% + 40% + 40%). Prices include VAT. The France trip has an additional cost.",
+          a: "Early Bird (registration up to 1 month before): €1,990 in three installments (20% + 40% + 40%). Regular registration: €2,500 in three installments (20% + 40% + 40%). Prices include VAT. The France trip has an additional cost.",
         },
         {
           q: "What certifications do I receive?",
@@ -1282,8 +1282,8 @@ export const translations = {
         subtitle: "Inscription jusqu'à 1 mois avant le début",
         price: "1.990€",
         saving: "Économisez 510€",
-        installment1: "597€ à l'inscription (30%)",
-        installment2: "597€ au début des cours (30%)",
+        installment1: "398€ à l'inscription (20%)",
+        installment2: "796€ au début des cours (40%)",
         installment3: "796€ jusqu'à 2 mois après le début (40%)",
         cta: "Inscription Early Bird",
       },
@@ -1339,7 +1339,7 @@ export const translations = {
         },
         {
           q: "Quel est le coût de participation?",
-          a: "Early Bird (inscription jusqu'à 1 mois avant): 1.990€ en trois versements (30% + 30% + 40%). Inscription régulière: 2.500€ en trois versements (20% + 40% + 40%). Les prix incluent la TVA. Le voyage en France a un coût supplémentaire.",
+          a: "Early Bird (inscription jusqu'à 1 mois avant): 1.990€ en trois versements (20% + 40% + 40%). Inscription régulière: 2.500€ en trois versements (20% + 40% + 40%). Les prix incluent la TVA. Le voyage en France a un coût supplémentaire.",
         },
         {
           q: "Quelles certifications est-ce que je reçois?",
