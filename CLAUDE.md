@@ -35,6 +35,7 @@ Multi-page Next.js 15 site for InnAcademy (hospitality education). The homepage 
 | `/sponsors` | SponsorsSection |
 | `/privacy` | Privacy policy (content from `t.privacy` translations) |
 | `/terms` | Terms of use (content from `t.terms` translations) |
+| `/apply` | Standalone form-only page for marketing campaigns — `noindex`, no navbar/footer |
 | `/thank-you` | Post-submission confirmation page — `noindex`, used as conversion URL signal |
 
 When adding nav links or cross-links, always point to these routes — not hash anchors.
