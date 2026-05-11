@@ -607,6 +607,10 @@ img, video {
   min-height: 180px;
 }
 
+.min-h-\[calc\(100vh-80px\)\] {
+  min-height: calc(100vh - 80px);
+}
+
 .min-h-screen {
   min-height: 100vh;
 }
@@ -1271,11 +1275,6 @@ img, video {
   padding-bottom: .375rem;
 }
 
-.py-12 {
-  padding-top: 3rem;
-  padding-bottom: 3rem;
-}
-
 .py-16 {
   padding-top: 4rem;
   padding-bottom: 4rem;
@@ -1314,6 +1313,11 @@ img, video {
 .py-5 {
   padding-top: 1.25rem;
   padding-bottom: 1.25rem;
+}
+
+.py-8 {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
 }
 
 .pb-10 {
