@@ -145,38 +145,31 @@ export async function POST(req: NextRequest) {
       }),
     ]);
 
-    // Log to Airtable
+    // Log to Airtable — fire and forget, never block the response
     const airtableToken  = process.env.AIRTABLE_TOKEN;
     const airtableBaseId = process.env.AIRTABLE_BASE_ID;
-    console.log("[airtable] token set:", !!airtableToken, "baseId:", airtableBaseId);
     if (airtableToken && airtableBaseId) {
       const tp = (trackingParams as Record<string, string>) ?? {};
-      try {
-        const atRes = await fetch(`https://api.airtable.com/v0/${airtableBaseId}/Leads`, {
-          method: "POST",
-          headers: {
-            "Content-Type": "application/json",
-            "Authorization": `Bearer ${airtableToken}`,
+      fetch(`https://api.airtable.com/v0/${airtableBaseId}/Leads`, {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+          "Authorization": `Bearer ${airtableToken}`,
+        },
+        body: JSON.stringify({
+          fields: {
+            Name:           name,
+            Phone:          phone,
+            Email:          email,
+            Language:       lang ?? "gr",
+            "UTM Source":   tp.utm_source   ?? "",
+            "UTM Medium":   tp.utm_medium   ?? "",
+            "UTM Campaign": tp.utm_campaign ?? "",
+            GCLID:          tp.gclid        ?? "",
+            Timestamp:      new Date().toISOString(),
           },
-          body: JSON.stringify({
-            fields: {
-              Name:           name,
-              Phone:          phone,
-              Email:          email,
-              Language:       lang ?? "gr",
-              "UTM Source":   tp.utm_source   ?? "",
-              "UTM Medium":   tp.utm_medium   ?? "",
-              "UTM Campaign": tp.utm_campaign ?? "",
-              GCLID:          tp.gclid        ?? "",
-              Timestamp:      new Date().toISOString(),
-            },
-          }),
-        });
-        const atBody = await atRes.text();
-        console.log("[airtable] status:", atRes.status, "body:", atBody);
-      } catch (err) {
-        console.error("[airtable] error:", err);
-      }
+        }),
+      }).catch(() => {});
     }
 
     return NextResponse.json({ ok: true });
