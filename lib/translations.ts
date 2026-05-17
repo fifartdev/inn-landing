@@ -237,6 +237,7 @@ export const translations = {
         "Διοίκηση Housekeeping & Οργανωτικές Διεργασίες",
         "Στρατηγική Διοίκηση Ξενοδοχείων",
         "Εστιατορική Τεχνική & Restaurant Management",
+        "Εστιατορική Τεχνική & Service Management",
       ],
     },
     pricing: {
@@ -753,6 +754,7 @@ export const translations = {
         "Housekeeping Management & Organizational Processes",
         "Hotel Management Strategy",
         "Restaurant Technique & Restaurant Management",
+        "Restaurant Technique & Service Management",
       ],
     },
     pricing: {
@@ -1270,6 +1272,7 @@ export const translations = {
         "Gestion du Housekeeping & Processus Organisationnels",
         "Management Stratégique Hôtelier",
         "Technique de Restauration & Restaurant Management",
+        "Technique de Restauration & Service Management",
       ],
     },
     pricing: {
@@ -1603,6 +1606,7 @@ export const professorsData = [
   { name: "Γιώργος Καλογερόπουλος", nameLatin: "Giorgos Kalogeropoulos", category: "HOUSEKEEPING", linkedin: "https://www.linkedin.com/in/giorgos-kalogeropoulos-96074647/", image: "/professors/giorgos_kalogeropoulos.jpeg" },
   { name: "Δημήτρης Μωραϊτης", nameLatin: "Dimitris Moraitis", category: "MANAGEMENT", linkedin: "https://www.linkedin.com/in/dimitris-moraitis-3657a415/", image: "/professors/dimitris_moraitis.jpeg", guestSpeaker: true },
   { name: "Ιωάννα Σαραντοπούλου", nameLatin: "Ioanna Sarantopoulou", category: "F&B", linkedin: "https://www.linkedin.com/in/joanna-sarantopoulou-phdc-4a840022/", image: "/professors/ioanna_sarantopoulou.jpg" },
+  { name: "Αναστάσιος Πεδιαδίτης", nameLatin: "Anastasios Pediaditis", category: "F&B", linkedin: "https://www.linkedin.com/in/anastasios-pediaditis-a4909041/", image: "/professors/pediaditis_anastasios.png" },
 ];
 
 export const hotelPartners = [

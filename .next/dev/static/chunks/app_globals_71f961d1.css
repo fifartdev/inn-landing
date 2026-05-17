@@ -607,10 +607,6 @@ img, video {
   min-height: 180px;
 }
 
-.min-h-\[calc\(100vh-80px\)\] {
-  min-height: calc(100vh - 80px);
-}
-
 .min-h-screen {
   min-height: 100vh;
 }
