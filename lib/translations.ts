@@ -38,10 +38,8 @@ export const translations = {
     },
     certBar: {
       title: "Πιστοποιημένο από:",
-      kdvm: "ΚΔΒΜ",
-      kdvmSub: "Κέντρο Δια Βίου Μάθησης",
-      acta: "Πιστοποίηση IST College",
-      actaSub: "Αναγνωρισμένη Πιστοποίηση",
+      acta: "Πιστοποιητικό παρακολούθησης προγράμματος από το IST College",
+      actaSub: "Πιστοποιητικό παρακολούθησης προγράμματος από το IST College",
       paris: "Certificat Paris Education",
       parisSub: "School of Hospitality",
       graduation: "Paris Education Graduation Ceremony",
@@ -102,7 +100,7 @@ export const translations = {
         },
         {
           icon: "Award",
-          title: "Πιστοποίηση IST College & Paris Education",
+          title: "Πιστοποιητικό παρακολούθησης προγράμματος από το IST College & Paris Education",
           desc: "Πιστοποιημένο δίπλωμα με διεθνή αναγνώριση και τελετή αποφοίτησης.",
         },
         {
@@ -271,7 +269,7 @@ export const translations = {
         "Δια ζώσης masterclasses (3 Σαββατοκύριακα)",
         "Εκπαιδευτικό υλικό",
         "Πιστοποιητικό ολοκλήρωσης Inn Academy",
-        "Πιστοποίηση IST College",
+        "Πιστοποιητικό παρακολούθησης προγράμματος από το IST College",
         "Πιστοποιητικό Paris Education",
         "Συμμετοχή σε Career Day",
         "Πρόσβαση σε αγγελίες μέσω Innjobs",
@@ -310,7 +308,7 @@ export const translations = {
         },
         {
           q: "Τι πιστοποιήσεις λαμβάνω;",
-          a: "Βεβαίωση Εξειδίκευσης Inn Academy, Πιστοποίηση IST College, Πιστοποιητικό Paris Education (Certificat) και πρόσκληση στην Paris Education Graduation Ceremony.",
+          a: "Βεβαίωση Εξειδίκευσης Inn Academy, Πιστοποιητικό παρακολούθησης προγράμματος από το IST College, Πιστοποιητικό Paris Education (Certificat) και πρόσκληση στην Paris Education Graduation Ceremony.",
         },
         {
           q: "Υπάρχει σύνδεση με την αγορά εργασίας;",
@@ -558,10 +556,8 @@ export const translations = {
     },
     certBar: {
       title: "Certified by:",
-      kdvm: "CLL",
-      kdvmSub: "Centre for Lifelong Learning",
-      acta: "IST College Certification",
-      actaSub: "Recognized Certification",
+      acta: "Programme Attendance Certificate from IST College",
+      actaSub: "Programme Attendance Certificate from IST College",
       paris: "Paris Education Certificat",
       parisSub: "School of Hospitality",
       graduation: "Paris Education Graduation Ceremony",
@@ -788,7 +784,7 @@ export const translations = {
         "In-person masterclasses (3 weekends)",
         "Educational materials",
         "Inn Academy completion certificate",
-        "IST College Certification",
+        "Programme Attendance Certificate from IST College",
         "Paris Education Certificate",
         "Career Day participation",
         "Job listings access via Innjobs",
@@ -827,7 +823,7 @@ export const translations = {
         },
         {
           q: "What certifications do I receive?",
-          a: "Inn Academy Specialization Certificate, IST College Certification, Paris Education Certificate (Certificat) and invitation to the Paris Education Graduation Ceremony.",
+          a: "Inn Academy Specialization Certificate, Programme Attendance Certificate from IST College, Paris Education Certificate (Certificat) and invitation to the Paris Education Graduation Ceremony.",
         },
         {
           q: "Is there a connection to the job market?",
@@ -1075,10 +1071,8 @@ export const translations = {
     },
     certBar: {
       title: "Certifié par:",
-      kdvm: "CAP",
-      kdvmSub: "Centre d'Apprentissage Permanent",
-      acta: "Certification IST College",
-      actaSub: "Certification Reconnue",
+      acta: "Certificat de participation au programme de l'IST College",
+      actaSub: "Certificat de participation au programme de l'IST College",
       paris: "Certificat Paris Education",
       parisSub: "School of Hospitality",
       graduation: "Cérémonie de Remise des Diplômes Paris Education",
@@ -1138,7 +1132,7 @@ export const translations = {
         },
         {
           icon: "Award",
-          title: "Certification IST College & Paris Education",
+          title: "Certificat de participation au programme de l'IST College & Paris Education",
           desc: "Diplôme certifié avec reconnaissance internationale et cérémonie de remise.",
         },
         {
@@ -1306,7 +1300,7 @@ export const translations = {
         "Masterclasses en présentiel (3 week-ends)",
         "Matériel pédagogique",
         "Certificat de fin de formation Inn Academy",
-        "Certification IST College",
+        "Certificat de participation au programme de l'IST College",
         "Certificat Paris Education",
         "Participation à la Career Day",
         "Accès aux offres d'emploi via Innjobs",
@@ -1346,7 +1340,7 @@ export const translations = {
         },
         {
           q: "Quelles certifications est-ce que je reçois?",
-          a: "Certificat de spécialisation Inn Academy, Certification IST College, Certificat Paris Education et invitation à la Cérémonie de Remise des Diplômes.",
+          a: "Certificat de spécialisation Inn Academy, Certificat de participation au programme de l'IST College, Certificat Paris Education et invitation à la Cérémonie de Remise des Diplômes.",
         },
         {
           q: "Y a-t-il un lien avec le marché du travail?",

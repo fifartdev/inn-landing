@@ -1,18 +1,13 @@
 "use client";
 
 import { useLang } from "@/contexts/LanguageContext";
-import { Shield, Award, GraduationCap, CheckCircle } from "lucide-react";
+import { Shield, Award, GraduationCap } from "lucide-react";
 
 export default function CertificationsBar() {
   const { t } = useLang();
   const c = t.certBar;
 
   const items = [
-    {
-      icon: <CheckCircle className="w-5 h-5 text-inn-teal" />,
-      label: c.kdvm,
-      sub: c.kdvmSub,
-    },
     {
       icon: <Shield className="w-5 h-5 text-inn-teal" />,
       label: c.acta,
