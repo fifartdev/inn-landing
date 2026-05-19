@@ -1,35 +1,8 @@
-[00:00:01.290] Server  LOG     ✓ Ready in 966ms
-[00:00:19.806] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:01:56.927] Server  WARN    ⚠ Fast Refresh had to perform a full reload when ./lib/translations.ts changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
-[00:01:56.946] Server  LOG     ✓ Compiled in 47ms
-[00:01:57.918] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:02:01.541] Server  LOG     ✓ Compiled in 104ms
-[00:02:01.555] Server  WARN    ⚠ Fast Refresh had to perform a full reload when ./lib/translations.ts changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
-[00:02:02.181] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:02:05.608] Server  WARN    ⚠ Fast Refresh had to perform a full reload when ./lib/translations.ts changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
-[00:02:05.610] Server  LOG     ✓ Compiled in 35ms
-[00:02:06.310] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:02:11.548] Server  WARN    ⚠ Fast Refresh had to perform a full reload when ./lib/translations.ts changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
-[00:02:11.548] Server  LOG     ✓ Compiled in 38ms
-[00:02:12.201] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:02:16.528] Server  WARN    ⚠ Fast Refresh had to perform a full reload when ./lib/translations.ts changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
-[00:02:16.539] Server  LOG     ✓ Compiled in 125ms
-[00:02:17.404] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:02:20.280] Server  WARN    ⚠ Fast Refresh had to perform a full reload when ./lib/translations.ts changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
-[00:02:20.285] Server  LOG     ✓ Compiled in 25ms
-[00:02:21.023] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:02:24.404] Server  WARN    ⚠ Fast Refresh had to perform a full reload when ./lib/translations.ts changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
-[00:02:24.416] Server  LOG     ✓ Compiled in 45ms
-[00:02:25.210] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:02:28.705] Server  WARN    ⚠ Fast Refresh had to perform a full reload when ./lib/translations.ts changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
-[00:02:28.710] Server  LOG     ✓ Compiled in 46ms
-[00:02:29.474] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:02:32.896] Server  WARN    ⚠ Fast Refresh had to perform a full reload when ./lib/translations.ts changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
-[00:02:32.904] Server  LOG     ✓ Compiled in 47ms
-[00:02:33.628] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:02:36.628] Server  WARN    ⚠ Fast Refresh had to perform a full reload when ./lib/translations.ts changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
-[00:02:36.641] Server  LOG     ✓ Compiled in 24ms
-[00:02:37.063] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:02:41.456] Server  WARN    ⚠ Fast Refresh had to perform a full reload when ./lib/translations.ts changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
-[00:02:41.469] Server  LOG     ✓ Compiled in 26ms
-[00:02:42.114] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:02.939] Server  LOG     ✓ Ready in 2.4s
+[00:01:50.459] Server  LOG     ✓ Compiled in 95ms
+[00:01:50.462] Server  WARN    ⚠ Fast Refresh had to perform a full reload when ./lib/translations.ts changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+[00:01:54.492] Server  WARN    ⚠ Fast Refresh had to perform a full reload when ./lib/translations.ts changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+[00:01:54.506] Server  LOG     ✓ Compiled in 15ms
+[00:01:59.812] Server  LOG     ✓ Compiled in 36ms
+[00:01:59.821] Server  WARN    ⚠ Fast Refresh had to perform a full reload when ./lib/translations.ts changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+[00:02:05.808] Server  LOG     ✓ Compiled in 226ms

@@ -859,11 +859,6 @@ img, video {
   gap: 2rem;
 }
 
-.gap-x-8 {
-  -moz-column-gap: 2rem;
-  column-gap: 2rem;
-}
-
 .gap-y-3 {
   row-gap: .75rem;
 }
@@ -913,6 +908,10 @@ img, video {
 
 .whitespace-nowrap {
   white-space: nowrap;
+}
+
+.whitespace-pre-line {
+  white-space: pre-line;
 }
 
 .rounded-2xl {
@@ -2046,12 +2045,21 @@ input:focus, textarea:focus, select:focus {
     flex-direction: row;
   }
 
+  .sm\:flex-wrap {
+    flex-wrap: wrap;
+  }
+
   .sm\:gap-3 {
     gap: .75rem;
   }
 
   .sm\:gap-4 {
     gap: 1rem;
+  }
+
+  .sm\:gap-x-8 {
+    -moz-column-gap: 2rem;
+    column-gap: 2rem;
   }
 
   .sm\:rounded-2xl {
@@ -2084,6 +2092,10 @@ input:focus, textarea:focus, select:focus {
   .sm\:py-2 {
     padding-top: .5rem;
     padding-bottom: .5rem;
+  }
+
+  .sm\:text-left {
+    text-align: left;
   }
 
   .sm\:text-2xl {

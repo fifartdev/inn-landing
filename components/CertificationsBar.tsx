@@ -28,7 +28,7 @@ export default function CertificationsBar() {
   return (
     <div className="bg-white border-b border-slate-100 shadow-sm">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4">
-        <div className="flex flex-wrap items-center justify-center gap-x-8 gap-y-3">
+        <div className="flex flex-col sm:flex-row sm:flex-wrap items-center justify-center gap-y-3 sm:gap-x-8">
           <span className="text-xs font-semibold text-slate-400 hidden sm:block">
             {c.title}
           </span>
@@ -39,11 +39,11 @@ export default function CertificationsBar() {
               )}
               <div className="flex items-center gap-2">
                 {item.icon}
-                <div>
-                  <div className="text-xs font-bold text-slate-800 leading-tight">
+                <div className="text-center sm:text-left">
+                  <div className="text-xs font-bold text-slate-800 leading-tight whitespace-pre-line">
                     {item.label}
                   </div>
-                  <div className="text-[10px] text-slate-400 leading-tight">
+                  <div className="text-[10px] text-slate-400 leading-tight whitespace-pre-line">
                     {item.sub}
                   </div>
                 </div>

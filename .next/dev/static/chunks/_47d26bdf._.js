@@ -53,8 +53,8 @@ const translations = {
         },
         certBar: {
             title: "Πιστοποιημένο από:",
-            acta: "Πιστοποιητικό παρακολούθησης προγράμματος από το IST College",
-            actaSub: "Πιστοποιητικό παρακολούθησης προγράμματος από το IST College",
+            acta: "Πιστοποιητικό παρακολούθησης προγράμματος\nαπό το IST College",
+            actaSub: "Πιστοποιητικό παρακολούθησης προγράμματος\nαπό το IST College",
             paris: "Certificat Paris Education",
             parisSub: "School of Hospitality",
             graduation: "Paris Education Graduation Ceremony",
@@ -560,8 +560,8 @@ const translations = {
         },
         certBar: {
             title: "Certified by:",
-            acta: "Programme Attendance Certificate from IST College",
-            actaSub: "Programme Attendance Certificate from IST College",
+            acta: "Programme Attendance Certificate\nfrom IST College",
+            actaSub: "Programme Attendance Certificate\nfrom IST College",
             paris: "Paris Education Certificat",
             parisSub: "School of Hospitality",
             graduation: "Paris Education Graduation Ceremony",
@@ -1067,8 +1067,8 @@ const translations = {
         },
         certBar: {
             title: "Certifié par:",
-            acta: "Certificat de participation au programme de l'IST College",
-            actaSub: "Certificat de participation au programme de l'IST College",
+            acta: "Certificat de participation au programme\nde l'IST College",
+            actaSub: "Certificat de participation au programme\nde l'IST College",
             paris: "Certificat Paris Education",
             parisSub: "School of Hospitality",
             graduation: "Cérémonie de Remise des Diplômes Paris Education",
