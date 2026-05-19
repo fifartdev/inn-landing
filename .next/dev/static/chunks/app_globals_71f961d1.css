@@ -1061,10 +1061,6 @@ img, video {
   background-color: #e8622acc;
 }
 
-.bg-inn-orange\/90 {
-  background-color: #e8622ae6;
-}
-
 .bg-inn-teal {
   --tw-bg-opacity: 1;
   background-color: rgb(10 126 164 / var(--tw-bg-opacity, 1));
@@ -1182,10 +1178,6 @@ img, video {
 
 .to-transparent {
   --tw-gradient-to: transparent var(--tw-gradient-to-position);
-}
-
-.fill-current {
-  fill: currentColor;
 }
 
 .fill-inn-orange {

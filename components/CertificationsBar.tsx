@@ -11,7 +11,6 @@ export default function CertificationsBar() {
     {
       icon: <Shield className="w-5 h-5 text-inn-teal" />,
       label: c.acta,
-      sub: c.actaSub,
     },
     {
       icon: <Award className="w-5 h-5 text-inn-orange" />,

@@ -24,12 +24,6 @@ export default function Hero() {
 
       <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 w-full pt-24 pb-16">
         <div className="max-w-2xl">
-          {/* Badge */}
-          <div className="inline-flex items-center gap-2 px-4 py-2 bg-inn-orange/90 backdrop-blur-sm text-white rounded-full text-sm font-semibold mb-6 shadow-lg">
-            <Star className="w-3.5 h-3.5 fill-current" />
-            {h.badge}
-          </div>
-
           {/* Title */}
           <h1 className="text-4xl sm:text-5xl lg:text-6xl font-black text-white leading-[1.1] mb-3">
             {h.title}

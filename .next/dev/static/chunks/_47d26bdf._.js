@@ -39,7 +39,7 @@ const translations = {
             description: "Εξέλιξε την καριέρα σου σε θέση διοίκησης στον ξενοδοχειακό κλάδο με online εκπαίδευση, βιωματικά masterclasses σε 5★ ξενοδοχεία και άμεση διασύνδεση με τα κορυφαία ξενοδοχειακά brands της χώρας.",
             stat1: "5 Μήνες",
             stat1sub: "Διάρκεια Προγράμματος",
-            stat2: "23+",
+            stat2: "24+",
             stat2sub: "Μαθήματα",
             stat3: "20+",
             stat3sub: "Συνεργαζόμενα Brands",
@@ -132,7 +132,7 @@ const translations = {
         curriculum: {
             tag: "Αναλυτικό Πρόγραμμα",
             title: "Μαθήματα & Ενότητες",
-            subtitle: "23 εξειδικευμένα μαθήματα από κορυφαίους επαγγελματίες του κλάδου",
+            subtitle: "24 εξειδικευμένα μαθήματα από κορυφαίους επαγγελματίες του κλάδου",
             categories: {
                 MANAGEMENT: "Διοίκηση",
                 HR: "Ανθρώπινο Δυναμικό",
@@ -277,7 +277,6 @@ const translations = {
                 "Όλα τα online μαθήματα",
                 "Δια ζώσης masterclasses (3 Σαββατοκύριακα)",
                 "Εκπαιδευτικό υλικό",
-                "Πιστοποιητικό ολοκλήρωσης Inn Academy",
                 "Πιστοποιητικό παρακολούθησης προγράμματος από το IST College",
                 "Πιστοποιητικό Paris Education",
                 "Συμμετοχή σε Career Day",
@@ -546,7 +545,7 @@ const translations = {
             description: "Advance your career to a management position in the hospitality industry with online education, hands-on masterclasses at 5★ hotels and direct connection to Greece's top hotel brands.",
             stat1: "5 Months",
             stat1sub: "Program Duration",
-            stat2: "23+",
+            stat2: "24+",
             stat2sub: "Courses",
             stat3: "20+",
             stat3sub: "Partner Brands",
@@ -639,7 +638,7 @@ const translations = {
         curriculum: {
             tag: "Curriculum",
             title: "Courses & Modules",
-            subtitle: "23 specialized courses from leading hospitality professionals",
+            subtitle: "24 specialized courses from leading hospitality professionals",
             categories: {
                 MANAGEMENT: "Management",
                 HR: "Human Resources",
@@ -784,7 +783,6 @@ const translations = {
                 "All online courses",
                 "In-person masterclasses (3 weekends)",
                 "Educational materials",
-                "Inn Academy completion certificate",
                 "Programme Attendance Certificate from IST College",
                 "Paris Education Certificate",
                 "Career Day participation",
@@ -1053,7 +1051,7 @@ const translations = {
             description: "Faites progresser votre carrière vers un poste de direction dans l'industrie hôtelière grâce à une formation en ligne, des masterclasses dans des hôtels 5★ et une connexion directe avec les meilleures marques hôtelières.",
             stat1: "5 Mois",
             stat1sub: "Durée du Programme",
-            stat2: "23+",
+            stat2: "24+",
             stat2sub: "Cours",
             stat3: "20+",
             stat3sub: "Marques Partenaires",
@@ -1146,7 +1144,7 @@ const translations = {
         curriculum: {
             tag: "Programme des Cours",
             title: "Cours & Modules",
-            subtitle: "23 cours spécialisés dispensés par des professionnels hôteliers de premier plan",
+            subtitle: "24 cours spécialisés dispensés par des professionnels hôteliers de premier plan",
             categories: {
                 MANAGEMENT: "Management",
                 HR: "Ressources Humaines",
@@ -1291,7 +1289,6 @@ const translations = {
                 "Tous les cours en ligne",
                 "Masterclasses en présentiel (3 week-ends)",
                 "Matériel pédagogique",
-                "Certificat de fin de formation Inn Academy",
                 "Certificat de participation au programme de l'IST College",
                 "Certificat Paris Education",
                 "Participation à la Career Day",
