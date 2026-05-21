@@ -145,31 +145,39 @@ export async function POST(req: NextRequest) {
       }),
     ]);
 
-    // Log to Airtable — fire and forget, never block the response
+    // Log to Airtable — awaited so the serverless function doesn't terminate before the request completes
     const airtableToken  = process.env.AIRTABLE_TOKEN;
     const airtableBaseId = process.env.AIRTABLE_BASE_ID;
     if (airtableToken && airtableBaseId) {
       const tp = (trackingParams as Record<string, string>) ?? {};
-      fetch(`https://api.airtable.com/v0/${airtableBaseId}/Leads`, {
-        method: "POST",
-        headers: {
-          "Content-Type": "application/json",
-          "Authorization": `Bearer ${airtableToken}`,
-        },
-        body: JSON.stringify({
-          fields: {
-            Name:           name,
-            Phone:          phone,
-            Email:          email,
-            Language:       lang ?? "gr",
-            "UTM Source":   tp.utm_source   ?? "",
-            "UTM Medium":   tp.utm_medium   ?? "",
-            "UTM Campaign": tp.utm_campaign ?? "",
-            GCLID:          tp.gclid        ?? "",
-            Timestamp:      new Date().toISOString(),
+      try {
+        const atRes = await fetch(`https://api.airtable.com/v0/${airtableBaseId}/Leads`, {
+          method: "POST",
+          headers: {
+            "Content-Type": "application/json",
+            "Authorization": `Bearer ${airtableToken}`,
           },
-        }),
-      }).catch(() => {});
+          body: JSON.stringify({
+            fields: {
+              Name:           name,
+              Phone:          phone,
+              Email:          email,
+              Language:       lang ?? "gr",
+              "UTM Source":   tp.utm_source   ?? "",
+              "UTM Medium":   tp.utm_medium   ?? "",
+              "UTM Campaign": tp.utm_campaign ?? "",
+              GCLID:          tp.gclid        ?? "",
+              Timestamp:      new Date().toISOString(),
+            },
+          }),
+        });
+        if (!atRes.ok) {
+          const errBody = await atRes.text();
+          console.error(`[Airtable] ${atRes.status} ${atRes.statusText}:`, errBody);
+        }
+      } catch (err) {
+        console.error("[Airtable] fetch failed:", err);
+      }
     }
 
     return NextResponse.json({ ok: true });
