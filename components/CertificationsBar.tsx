@@ -9,13 +9,13 @@ export default function CertificationsBar() {
 
   const items = [
     {
-      icon: <Shield className="w-5 h-5 text-inn-teal" />,
-      label: c.acta,
-    },
-    {
       icon: <Award className="w-5 h-5 text-inn-orange" />,
       label: c.paris,
       sub: c.parisSub,
+    },
+    {
+      icon: <Shield className="w-5 h-5 text-inn-teal" />,
+      label: c.acta,
     },
     {
       icon: <GraduationCap className="w-5 h-5 text-inn-orange" />,

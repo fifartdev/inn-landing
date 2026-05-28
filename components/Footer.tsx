@@ -97,8 +97,8 @@ export default function Footer() {
             </h4>
             <div className="flex flex-col gap-4">
               {[
-                { src: "/accrediations/logo_ist.svg", alt: "IST College" },
                 { src: "/accrediations/Paris-Education.png", alt: "Paris Education" },
+                { src: "/accrediations/logo_ist.svg", alt: "IST College" },
               ].map((logo) => (
                 <div key={logo.alt} className="bg-white rounded-xl p-2 flex items-center justify-center w-28 h-14">
                   <img src={logo.src} alt={logo.alt} className="max-h-10 max-w-full object-contain" />

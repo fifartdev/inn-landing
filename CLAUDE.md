@@ -114,10 +114,22 @@ Handled by [app/api/apply/route.ts](app/api/apply/route.ts) via Resend.
 
 ### Pricing
 
-- **Early Bird**: 1,990€ in three installments — 20% (398€) on registration, 40% (796€) on start date, 40% (796€) up to 2 months after start.
-- **Regular**: 2,500€ in three installments — 20% (500€) on registration, 40% (1,000€) on start date, 40% (1,000€) up to 2 months after start.
+- **Early Bird**: 1,550€ in three installments — 20% (310€) on registration, 40% (620€) on start date, 40% (620€) up to 2 months after start.
+- **Regular**: 1,990€ in three installments — 20% (398€) on registration, 40% (796€) on start date, 40% (796€) up to 2 months after start.
 
 Installment strings live in `t.pricing.earlyBird.installment1/2/3` and `t.pricing.regular.installment1/2/3` in [lib/translations.ts](lib/translations.ts) (all three languages). The FAQ answer for pricing is also in translations and must be updated to match.
+
+### Pricing Includes List Order
+
+The `includesList` in all three languages follows this order:
+1. Online courses
+2. In-person masterclasses
+3. Educational materials
+4. Programme Attendance Certificate from Paris Education College School of Hospitality
+5. Programme Attendance Certificate from IST College
+6. Paris Education College Graduation Ceremony (Τελετή Αποφοίτησης στο Παρίσι)
+7. Career Day participation
+8. Job listings via Innjobs
 
 ### SEO
 
@@ -152,6 +164,6 @@ Links: `https://www.facebook.com/innacademygreece`, `https://www.instagram.com/i
 - **MasterclassVenues notes**: Two separate lines (`venueNote1`, `venueNote2`) in translations, rendered with orange `+` prefix.
 - **CookieBanner**: Smaller on mobile (reduced padding, text-xs, smaller buttons); scales up on `sm:`.
 - **PricingSection bank deposit**: Shows title and icon only — bank name, IBAN and beneficiary fields are intentionally not displayed.
-- **CertificationsBar Paris Education**: `parisSub` is "School of Hospitality" across all languages.
+- **CertificationsBar order**: Paris Education College → IST College → Graduation Ceremony. `paris` key is the full certificate text; `parisSub` is "School of Hospitality" across all languages.
 - **Navbar desktop vs mobile links**: Desktop nav omits `/guests`, `/countries`, `/france` — they appear only in the mobile drawer.
 - **Thank-you page**: `t.thankYou` holds translations in all three languages. No extra pixel calls needed — the hard redirect causes a full page reload so Analytics.tsx fires `PageView` with the correct `/thank-you` URL automatically.

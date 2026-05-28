@@ -59,11 +59,11 @@ const translations = {
         },
         certBar: {
             title: "Πιστοποιημένο από:",
+            paris: "Πιστοποιητικό παρακολούθησης προγράμματος\nαπό το Paris Education College",
+            parisSub: "School of Hospitality",
             acta: "Πιστοποιητικό παρακολούθησης προγράμματος\nαπό το IST College",
             actaSub: "Πιστοποιητικό παρακολούθησης προγράμματος\nαπό το IST College",
-            paris: "Certificat Paris Education",
-            parisSub: "School of Hospitality",
-            graduation: "Paris Education Graduation Ceremony",
+            graduation: "Paris Education College Graduation Ceremony",
             graduationSub: "Τελετή Αποφοίτησης στο Παρίσι"
         },
         about: {
@@ -120,8 +120,8 @@ const translations = {
                 },
                 {
                     icon: "Award",
-                    title: "Πιστοποιητικό παρακολούθησης προγράμματος από το IST College & Paris Education",
-                    desc: "Πιστοποιημένο δίπλωμα με διεθνή αναγνώριση και τελετή αποφοίτησης."
+                    title: "Πιστοποιητικό παρακολούθησης προγράμματος από το Paris Education College & το IST College",
+                    desc: "Δίπλωμα με διεθνή αναγνώριση και τελετή αποφοίτησης."
                 },
                 {
                     icon: "Globe",
@@ -261,30 +261,31 @@ const translations = {
                 badge: "Early Bird",
                 title: "Πρώιμη Εγγραφή",
                 subtitle: "Εγγραφή έως 1 μήνα πριν την έναρξη",
-                price: "1.990€",
-                saving: "Εξοικονομείς 510€",
-                installment1: "398€ με την εγγραφή (20%)",
-                installment2: "796€ με την έναρξη (40%)",
-                installment3: "796€ μέχρι 2 μήνες μετά την έναρξη (40%)",
+                price: "1.550€",
+                saving: "Εξοικονομείς 440€",
+                installment1: "310€ με την εγγραφή (20%)",
+                installment2: "620€ με την έναρξη (40%)",
+                installment3: "620€ μέχρι 2 μήνες μετά την έναρξη (40%)",
                 cta: "Εγγραφή Early Bird"
             },
             regular: {
                 badge: "Κανονική",
                 title: "Κανονική Εγγραφή",
                 subtitle: "Σε τρεις δόσεις",
-                price: "2.500€",
-                installment1: "500€ με την εγγραφή (20%)",
-                installment2: "1.000€ με την έναρξη (40%)",
-                installment3: "1.000€ μέχρι 2 μήνες μετά την έναρξη (40%)",
+                price: "1.990€",
+                installment1: "398€ με την εγγραφή (20%)",
+                installment2: "796€ με την έναρξη (40%)",
+                installment3: "796€ μέχρι 2 μήνες μετά την έναρξη (40%)",
                 cta: "Κανονική Εγγραφή"
             },
             includes: "Περιλαμβάνει:",
             includesList: [
-                "Όλα τα online μαθήματα",
+                "Όλα τα online μαθήματα (200 ώρες)",
                 "Δια ζώσης masterclasses (3 Σαββατοκύριακα)",
                 "Εκπαιδευτικό υλικό",
+                "Πιστοποιητικό παρακολούθησης προγράμματος από το Paris Education College School of Hospitality",
                 "Πιστοποιητικό παρακολούθησης προγράμματος από το IST College",
-                "Πιστοποιητικό Paris Education",
+                "Paris Education College Graduation Ceremony - Τελετή Αποφοίτησης στο Παρίσι",
                 "Συμμετοχή σε Career Day",
                 "Πρόσβαση σε αγγελίες μέσω Innjobs"
             ],
@@ -318,7 +319,7 @@ const translations = {
                 },
                 {
                     q: "Ποιο είναι το κόστος συμμετοχής;",
-                    a: "Early Bird (εγγραφή έως 1 μήνα πριν): 1.990€ σε τρεις δόσεις (20% + 40% + 40%). Κανονική εγγραφή: 2.500€ σε τρεις δόσεις (20% + 40% + 40%). Οι τιμές περιλαμβάνουν Φ.Π.Α. Η εκδρομή στη Γαλλία έχει επιπλέον κόστος."
+                    a: "Early Bird (εγγραφή έως 1 μήνα πριν): 1.550€ σε τρεις δόσεις (20% + 40% + 40%). Κανονική εγγραφή: 1.990€ σε τρεις δόσεις (20% + 40% + 40%). Οι τιμές περιλαμβάνουν Φ.Π.Α. Η εκδρομή στη Γαλλία έχει επιπλέον κόστος."
                 },
                 {
                     q: "Τι πιστοποιήσεις λαμβάνω;",
@@ -565,11 +566,11 @@ const translations = {
         },
         certBar: {
             title: "Certified by:",
+            paris: "Programme Attendance Certificate\nfrom Paris Education College",
+            parisSub: "School of Hospitality",
             acta: "Programme Attendance Certificate\nfrom IST College",
             actaSub: "Programme Attendance Certificate\nfrom IST College",
-            paris: "Paris Education Certificat",
-            parisSub: "School of Hospitality",
-            graduation: "Paris Education Graduation Ceremony",
+            graduation: "Paris Education College Graduation Ceremony",
             graduationSub: "Graduation Ceremony in Paris"
         },
         about: {
@@ -626,8 +627,8 @@ const translations = {
                 },
                 {
                     icon: "Award",
-                    title: "IST College & Paris Education Certification",
-                    desc: "Certified diploma with international recognition and graduation ceremony."
+                    title: "Paris Education College & IST College Programme Attendance Certificate",
+                    desc: "Diploma with international recognition and graduation ceremony."
                 },
                 {
                     icon: "Globe",
@@ -767,30 +768,31 @@ const translations = {
                 badge: "Early Bird",
                 title: "Early Registration",
                 subtitle: "Register up to 1 month before start",
-                price: "€1,990",
-                saving: "Save €510",
-                installment1: "€398 on registration (20%)",
-                installment2: "€796 on start date (40%)",
-                installment3: "€796 up to 2 months after start (40%)",
+                price: "€1,550",
+                saving: "Save €440",
+                installment1: "€310 on registration (20%)",
+                installment2: "€620 on start date (40%)",
+                installment3: "€620 up to 2 months after start (40%)",
                 cta: "Early Bird Registration"
             },
             regular: {
                 badge: "Regular",
                 title: "Regular Registration",
                 subtitle: "In three installments",
-                price: "€2,500",
-                installment1: "€500 on registration (20%)",
-                installment2: "€1,000 on start date (40%)",
-                installment3: "€1,000 up to 2 months after start (40%)",
+                price: "€1,990",
+                installment1: "€398 on registration (20%)",
+                installment2: "€796 on start date (40%)",
+                installment3: "€796 up to 2 months after start (40%)",
                 cta: "Regular Registration"
             },
             includes: "Includes:",
             includesList: [
-                "All online courses",
+                "All online courses (200 hours)",
                 "In-person masterclasses (3 weekends)",
                 "Educational materials",
+                "Programme Attendance Certificate from Paris Education College School of Hospitality",
                 "Programme Attendance Certificate from IST College",
-                "Paris Education Certificate",
+                "Paris Education College Graduation Ceremony - Graduation in Paris",
                 "Career Day participation",
                 "Job listings access via Innjobs"
             ],
@@ -824,7 +826,7 @@ const translations = {
                 },
                 {
                     q: "What is the participation cost?",
-                    a: "Early Bird (registration up to 1 month before): €1,990 in three installments (20% + 40% + 40%). Regular registration: €2,500 in three installments (20% + 40% + 40%). Prices include VAT. The France trip has an additional cost."
+                    a: "Early Bird (registration up to 1 month before): €1,550 in three installments (20% + 40% + 40%). Regular registration: €1,990 in three installments (20% + 40% + 40%). Prices include VAT. The France trip has an additional cost."
                 },
                 {
                     q: "What certifications do I receive?",
@@ -1071,11 +1073,11 @@ const translations = {
         },
         certBar: {
             title: "Certifié par:",
+            paris: "Certificat de participation au programme\ndu Paris Education College",
+            parisSub: "School of Hospitality",
             acta: "Certificat de participation au programme\nde l'IST College",
             actaSub: "Certificat de participation au programme\nde l'IST College",
-            paris: "Certificat Paris Education",
-            parisSub: "School of Hospitality",
-            graduation: "Cérémonie de Remise des Diplômes Paris Education",
+            graduation: "Paris Education College Graduation Ceremony",
             graduationSub: "Cérémonie de Remise des Diplômes à Paris"
         },
         about: {
@@ -1132,8 +1134,8 @@ const translations = {
                 },
                 {
                     icon: "Award",
-                    title: "Certificat de participation au programme de l'IST College & Paris Education",
-                    desc: "Diplôme certifié avec reconnaissance internationale et cérémonie de remise."
+                    title: "Certificat de participation au programme du Paris Education College & de l'IST College",
+                    desc: "Diplôme avec reconnaissance internationale et cérémonie de remise."
                 },
                 {
                     icon: "Globe",
@@ -1273,30 +1275,31 @@ const translations = {
                 badge: "Early Bird",
                 title: "Inscription Anticipée",
                 subtitle: "Inscription jusqu'à 1 mois avant le début",
-                price: "1.990€",
-                saving: "Économisez 510€",
-                installment1: "398€ à l'inscription (20%)",
-                installment2: "796€ au début des cours (40%)",
-                installment3: "796€ jusqu'à 2 mois après le début (40%)",
+                price: "1.550€",
+                saving: "Économisez 440€",
+                installment1: "310€ à l'inscription (20%)",
+                installment2: "620€ au début des cours (40%)",
+                installment3: "620€ jusqu'à 2 mois après le début (40%)",
                 cta: "Inscription Early Bird"
             },
             regular: {
                 badge: "Régulier",
                 title: "Inscription Régulière",
                 subtitle: "En trois versements",
-                price: "2.500€",
-                installment1: "500€ à l'inscription (20%)",
-                installment2: "1.000€ au début des cours (40%)",
-                installment3: "1.000€ jusqu'à 2 mois après le début (40%)",
+                price: "1.990€",
+                installment1: "398€ à l'inscription (20%)",
+                installment2: "796€ au début des cours (40%)",
+                installment3: "796€ jusqu'à 2 mois après le début (40%)",
                 cta: "Inscription Régulière"
             },
             includes: "Comprend:",
             includesList: [
-                "Tous les cours en ligne",
+                "Tous les cours en ligne (200 heures)",
                 "Masterclasses en présentiel (3 week-ends)",
                 "Matériel pédagogique",
+                "Certificat de participation au programme du Paris Education College School of Hospitality",
                 "Certificat de participation au programme de l'IST College",
-                "Certificat Paris Education",
+                "Paris Education College Graduation Ceremony - Cérémonie de Remise des Diplômes à Paris",
                 "Participation à la Career Day",
                 "Accès aux offres d'emploi via Innjobs"
             ],
@@ -1330,7 +1333,7 @@ const translations = {
                 },
                 {
                     q: "Quel est le coût de participation?",
-                    a: "Early Bird (inscription jusqu'à 1 mois avant): 1.990€ en trois versements (20% + 40% + 40%). Inscription régulière: 2.500€ en trois versements (20% + 40% + 40%). Les prix incluent la TVA. Le voyage en France a un coût supplémentaire."
+                    a: "Early Bird (inscription jusqu'à 1 mois avant): 1.550€ en trois versements (20% + 40% + 40%). Inscription régulière: 1.990€ en trois versements (20% + 40% + 40%). Les prix incluent la TVA. Le voyage en France a un coût supplémentaire."
                 },
                 {
                     q: "Quelles certifications est-ce que je reçois?",
