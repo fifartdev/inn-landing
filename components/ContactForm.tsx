@@ -4,7 +4,20 @@ import { useState, useEffect } from "react";
 import { useLang } from "@/contexts/LanguageContext";
 import { Send, Calendar, Users, Shield } from "lucide-react";
 
-export default function ContactForm({ variant = "sticky" }: { variant?: "sticky" | "section" }) {
+type HeaderOverrides = {
+  title?: string;
+  subtitle?: string;
+  start?: string;
+  seats?: string;
+};
+
+export default function ContactForm({
+  variant = "sticky",
+  headerOverrides,
+}: {
+  variant?: "sticky" | "section";
+  headerOverrides?: HeaderOverrides;
+}) {
   const { t, lang } = useLang();
   const f = t.form;
 
@@ -56,18 +69,18 @@ export default function ContactForm({ variant = "sticky" }: { variant?: "sticky"
     >
       {/* Header */}
       <div className="bg-gradient-to-br from-inn-teal to-inn-teal-dark p-6">
-        <h3 className="text-xl font-black text-white mb-1">{f.title}</h3>
-        <p className="text-white/75 text-sm">{f.subtitle}</p>
+        <h3 className="text-xl font-black text-white mb-1">{headerOverrides?.title ?? f.title}</h3>
+        <p className="text-white/75 text-sm">{headerOverrides?.subtitle ?? f.subtitle}</p>
 
         {/* Quick stats */}
         <div className="flex gap-4 mt-4">
           <div className="flex items-center gap-1.5">
             <Calendar className="w-3.5 h-3.5 text-inn-orange" />
-            <span className="text-xs text-white/80 font-medium">{f.start}</span>
+            <span className="text-xs text-white/80 font-medium">{headerOverrides?.start ?? f.start}</span>
           </div>
           <div className="flex items-center gap-1.5">
             <Users className="w-3.5 h-3.5 text-inn-orange" />
-            <span className="text-xs text-white/80 font-medium">{f.seats}</span>
+            <span className="text-xs text-white/80 font-medium">{headerOverrides?.seats ?? f.seats}</span>
           </div>
         </div>
       </div>

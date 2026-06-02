@@ -1,15 +1,1 @@
-[00:00:01.990] Server  LOG     ✓ Ready in 1699ms
-[00:02:08.946] Server  WARN    ⚠ Fast Refresh had to perform a full reload when ./lib/translations.ts changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
-[00:02:08.948] Server  LOG     ✓ Compiled in 123ms
-[00:02:15.790] Server  WARN    ⚠ Fast Refresh had to perform a full reload when ./lib/translations.ts changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
-[00:02:15.802] Server  LOG     ✓ Compiled in 24ms
-[00:02:22.292] Server  WARN    ⚠ Fast Refresh had to perform a full reload when ./lib/translations.ts changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
-[00:02:22.293] Server  LOG     ✓ Compiled in 19ms
-[00:02:30.561] Server  LOG     ✓ Compiled in 535ms
-[00:07:21.958] Server  LOG     ✓ Compiled in 233ms
-[00:07:26.707] Server  WARN    ⚠ Fast Refresh had to perform a full reload when ./lib/translations.ts changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
-[00:07:26.724] Server  LOG     ✓ Compiled in 21ms
-[00:07:31.045] Server  WARN    ⚠ Fast Refresh had to perform a full reload when ./lib/translations.ts changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
-[00:07:31.058] Server  LOG     ✓ Compiled in 25ms
-[00:07:36.143] Server  WARN    ⚠ Fast Refresh had to perform a full reload when ./lib/translations.ts changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
-[00:07:36.157] Server  LOG     ✓ Compiled in 35ms
+[00:00:00.691] Server  LOG     ✓ Ready in 450ms

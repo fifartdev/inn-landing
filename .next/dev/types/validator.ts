@@ -74,6 +74,15 @@ type RouteHandlerConfig<Route extends AppRouteHandlerRoutes = AppRouteHandlerRou
   type __Unused = __Check
 }
 
+// Validate ../../../app/fnb-program/page.tsx
+{
+  type __IsExpected<Specific extends AppPageConfig<"/fnb-program">> = Specific
+  const handler = {} as typeof import("../../../app/fnb-program/page.js")
+  type __Check = __IsExpected<typeof handler>
+  // @ts-ignore
+  type __Unused = __Check
+}
+
 // Validate ../../../app/france/page.tsx
 {
   type __IsExpected<Specific extends AppPageConfig<"/france">> = Specific
@@ -190,6 +199,15 @@ type RouteHandlerConfig<Route extends AppRouteHandlerRoutes = AppRouteHandlerRou
 {
   type __IsExpected<Specific extends LayoutConfig<"/faq">> = Specific
   const handler = {} as typeof import("../../../app/faq/layout.js")
+  type __Check = __IsExpected<typeof handler>
+  // @ts-ignore
+  type __Unused = __Check
+}
+
+// Validate ../../../app/fnb-program/layout.tsx
+{
+  type __IsExpected<Specific extends LayoutConfig<"/fnb-program">> = Specific
+  const handler = {} as typeof import("../../../app/fnb-program/layout.js")
   type __Check = __IsExpected<typeof handler>
   // @ts-ignore
   type __Unused = __Check

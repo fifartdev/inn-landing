@@ -31,7 +31,7 @@ const langLabels: Record<Lang, string> = { gr: "ΕΛ", en: "EN", fr: "FR" };
 export default function Navbar() {
   const { t, lang, setLang } = useLang();
   const pathname = usePathname();
-  const isHomepage = pathname === "/";
+  const isTransparentHeroPage = pathname === "/" || pathname === "/fnb-program";
   const [scrolled, setScrolled] = useState(false);
   const [mobileOpen, setMobileOpen] = useState(false);
   const [langOpen, setLangOpen] = useState(false);
@@ -42,9 +42,9 @@ export default function Navbar() {
     return () => window.removeEventListener("scroll", onScroll);
   }, []);
 
-  const isScrolledStyle = scrolled || !isHomepage;
+  const isScrolledStyle = scrolled || !isTransparentHeroPage;
 
-  const applyHref = isHomepage ? "#apply" : "/#apply";
+  const applyHref = pathname === "/" ? "#apply" : pathname === "/fnb-program" ? "#apply" : "/#apply";
 
   const desktopLinks = [
     { href: "/", label: t.nav.home },

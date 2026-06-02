@@ -37,6 +37,7 @@ Multi-page Next.js 15 site for InnAcademy (hospitality education). The homepage 
 | `/terms` | Terms of use (content from `t.terms` translations) |
 | `/apply` | Standalone form-only marketing landing page — full Navbar + Footer, `noindex`, destination URL for all paid ad campaigns |
 | `/thank-you` | Post-submission confirmation page — `noindex`, not in sitemap, used as URL-based conversion signal for ad platforms |
+| `/fnb-program` | Standalone landing page for the F&B Management Program — full Navbar + Footer, `noindex`, not linked from anywhere (direct-URL only). Own pricing (1,250€ EB / 1,550€ regular), curriculum, certification section, and ContactForm with F&B-specific header overrides via the `headerOverrides` prop. |
 
 When adding nav links or cross-links, always point to these routes — not hash anchors.
 

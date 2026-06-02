@@ -144,7 +144,7 @@ const langLabels = {
 function Navbar() {
     const { t, lang, setLang } = (0, __TURBOPACK__imported__module__$5b$project$5d2f$contexts$2f$LanguageContext$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useLang"])();
     const pathname = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$navigation$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["usePathname"])();
-    const isHomepage = pathname === "/";
+    const isTransparentHeroPage = pathname === "/" || pathname === "/fnb-program";
     const [scrolled, setScrolled] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useState"])(false);
     const [mobileOpen, setMobileOpen] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useState"])(false);
     const [langOpen, setLangOpen] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useState"])(false);
@@ -153,8 +153,8 @@ function Navbar() {
         window.addEventListener("scroll", onScroll);
         return ()=>window.removeEventListener("scroll", onScroll);
     }, []);
-    const isScrolledStyle = scrolled || !isHomepage;
-    const applyHref = isHomepage ? "#apply" : "/#apply";
+    const isScrolledStyle = scrolled || !isTransparentHeroPage;
+    const applyHref = pathname === "/" ? "#apply" : pathname === "/fnb-program" ? "#apply" : "/#apply";
     const desktopLinks = [
         {
             href: "/",
@@ -917,12 +917,12 @@ function Footer() {
                                     className: "flex flex-col gap-4",
                                     children: [
                                         {
-                                            src: "/accrediations/logo_ist.svg",
-                                            alt: "IST College"
-                                        },
-                                        {
                                             src: "/accrediations/Paris-Education.png",
                                             alt: "Paris Education"
+                                        },
+                                        {
+                                            src: "/accrediations/logo_ist.svg",
+                                            alt: "IST College"
                                         }
                                     ].map((logo)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                             className: "bg-white rounded-xl p-2 flex items-center justify-center w-28 h-14",
