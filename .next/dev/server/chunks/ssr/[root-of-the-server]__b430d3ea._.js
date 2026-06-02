@@ -1565,7 +1565,7 @@ function FnbProgramPage() {
                         src: "/fnb-hero.jpg",
                         alt: "F&B Management Program",
                         fill: true,
-                        className: "object-cover object-right",
+                        className: "object-cover object-[70%_center]",
                         priority: true
                     }, void 0, false, {
                         fileName: "[project]/app/fnb-program/page.tsx",
@@ -1582,7 +1582,7 @@ function FnbProgramPage() {
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                         className: "relative z-10 w-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16",
                         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                            className: "max-w-[52%] min-[400px]:max-w-[60%] lg:max-w-[55%]",
+                            className: "max-w-[68%] lg:max-w-[55%]",
                             children: [
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                     className: "inline-flex items-center gap-2 px-4 py-1.5 bg-inn-orange rounded-full text-white text-sm font-bold mb-6",

@@ -27,13 +27,13 @@ export default function FnbProgramPage() {
           src="/fnb-hero.jpg"
           alt="F&B Management Program"
           fill
-          className="object-cover object-right"
+          className="object-cover object-[70%_center]"
           priority
         />
         {/* Gradient: opaque left → transparent right so the face shows through */}
         <div className="absolute inset-0 bg-gradient-to-r from-inn-dark/95 via-inn-dark/75 to-inn-dark/20" />
         <div className="relative z-10 w-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
-          <div className="max-w-[52%] min-[400px]:max-w-[60%] lg:max-w-[55%]">
+          <div className="max-w-[68%] lg:max-w-[55%]">
           <div className="inline-flex items-center gap-2 px-4 py-1.5 bg-inn-orange rounded-full text-white text-sm font-bold mb-6">
             {f.badge}
           </div>
