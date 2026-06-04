@@ -189,13 +189,13 @@ export default function FnbProgramPage() {
               {/* Header — identical to MasterclassVenues */}
               <div className="text-center mb-14">
                 <div className="inline-flex items-center gap-2 px-4 py-1.5 bg-inn-orange/20 rounded-full text-inn-orange text-sm font-semibold mb-4">
-                  Masterclass Venues
+                  {f.masterclassTag}
                 </div>
                 <h2 className="text-3xl sm:text-4xl font-black text-white mb-3">
-                  Βιωματική Εκπαίδευση σε 5★ Ξενοδοχεία
+                  {f.masterclassTitle}
                 </h2>
                 <p className="text-slate-400 max-w-xl mx-auto text-base leading-relaxed">
-                  4 Masterclasses — Bar management, mixology και service excellence
+                  {f.masterclassSubtitle}
                 </p>
               </div>
 
@@ -205,7 +205,7 @@ export default function FnbProgramPage() {
                   <div className="relative h-72 overflow-hidden">
                     <img
                       src="/masterclasses/Aluma-Athens-Roof-Top.jpg"
-                      alt="Brown Athens"
+                      alt={f.venueName}
                       className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
                     />
                     <div className="absolute inset-0 bg-gradient-to-t from-inn-dark via-inn-dark/40 to-transparent" />
@@ -216,18 +216,16 @@ export default function FnbProgramPage() {
                     </div>
                     <div className="absolute top-4 left-4">
                       <span className="px-3 py-1.5 bg-inn-teal/90 backdrop-blur-sm text-white text-xs font-bold rounded-full">
-                        Bar & Restaurant Management
+                        {f.venueArea}
                       </span>
                     </div>
                     <div className="absolute bottom-0 left-0 right-0 p-6">
                       <div className="flex items-center gap-1.5 mb-2">
                         <MapPin className="w-4 h-4 text-inn-orange" />
-                        <span className="text-inn-orange text-xs font-semibold">Athens, Greece</span>
+                        <span className="text-inn-orange text-xs font-semibold">{f.venueLocation}</span>
                       </div>
-                      <h3 className="text-xl font-black text-white mb-2">Brown Athens</h3>
-                      <p className="text-white/70 text-sm leading-relaxed">
-                        Bar management, mixology και service excellence σε ένα από τα κορυφαία αστικά ξενοδοχεία.
-                      </p>
+                      <h3 className="text-xl font-black text-white mb-2">{f.venueName}</h3>
+                      <p className="text-white/70 text-sm leading-relaxed">{f.venueDesc}</p>
                     </div>
                   </div>
                 </div>
