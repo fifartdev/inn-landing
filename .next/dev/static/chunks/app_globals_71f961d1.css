@@ -555,6 +555,10 @@ img, video {
   height: 1.25rem;
 }
 
+.h-52 {
+  height: 13rem;
+}
+
 .h-6 {
   height: 1.5rem;
 }
@@ -697,10 +701,6 @@ img, video {
 
 .max-w-7xl {
   max-width: 80rem;
-}
-
-.max-w-\[55\%\] {
-  max-width: 55%;
 }
 
 .max-w-\[90vw\] {
@@ -1189,8 +1189,14 @@ img, video {
   --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
 }
 
-.from-inn-dark\/30 {
-  --tw-gradient-from: #0f172a4d var(--tw-gradient-from-position);
+.from-inn-dark\/40 {
+  --tw-gradient-from: #0f172a66 var(--tw-gradient-from-position);
+  --tw-gradient-to: #0f172a00 var(--tw-gradient-to-position);
+  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
+}
+
+.from-inn-dark\/80 {
+  --tw-gradient-from: #0f172acc var(--tw-gradient-from-position);
   --tw-gradient-to: #0f172a00 var(--tw-gradient-to-position);
   --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
 }
@@ -1219,12 +1225,6 @@ img, video {
   --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
 }
 
-.from-inn-dark\/40 {
-  --tw-gradient-from: #0f172a66 var(--tw-gradient-from-position);
-  --tw-gradient-to: #0f172a00 var(--tw-gradient-to-position);
-  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
-}
-
 .via-inn-dark\/40 {
   --tw-gradient-to: #0f172a00 var(--tw-gradient-to-position);
   --tw-gradient-stops: var(--tw-gradient-from), #0f172a66 var(--tw-gradient-via-position), var(--tw-gradient-to);
@@ -1244,8 +1244,8 @@ img, video {
   --tw-gradient-to: #0f172a1a var(--tw-gradient-to-position);
 }
 
-.to-inn-dark\/80 {
-  --tw-gradient-to: #0f172acc var(--tw-gradient-to-position);
+.to-inn-dark\/90 {
+  --tw-gradient-to: #0f172ae6 var(--tw-gradient-to-position);
 }
 
 .to-inn-teal-dark {
@@ -1258,10 +1258,6 @@ img, video {
 
 .to-transparent {
   --tw-gradient-to: transparent var(--tw-gradient-to-position);
-}
-
-.to-inn-dark\/90 {
-  --tw-gradient-to: #0f172ae6 var(--tw-gradient-to-position);
 }
 
 .fill-inn-orange {
@@ -1281,11 +1277,6 @@ img, video {
 .object-center {
   -o-object-position: center;
   object-position: center;
-}
-
-.object-right-top {
-  -o-object-position: right top;
-  object-position: right top;
 }
 
 .object-top {
@@ -1361,11 +1352,6 @@ img, video {
   padding-bottom: .375rem;
 }
 
-.py-10 {
-  padding-top: 2.5rem;
-  padding-bottom: 2.5rem;
-}
-
 .py-16 {
   padding-top: 4rem;
   padding-bottom: 4rem;
@@ -1437,10 +1423,6 @@ img, video {
 
 .pt-10 {
   padding-top: 2.5rem;
-}
-
-.pt-16 {
-  padding-top: 4rem;
 }
 
 .pt-2 {
@@ -2252,6 +2234,14 @@ input:focus, textarea:focus, select:focus {
     grid-column: span 1 / span 1;
   }
 
+  .lg\:col-span-2 {
+    grid-column: span 2 / span 2;
+  }
+
+  .lg\:col-span-3 {
+    grid-column: span 3 / span 3;
+  }
+
   .lg\:block {
     display: block;
   }
@@ -2274,6 +2264,10 @@ input:focus, textarea:focus, select:focus {
 
   .lg\:h-96 {
     height: 24rem;
+  }
+
+  .lg\:h-auto {
+    height: auto;
   }
 
   .lg\:max-w-\[55\%\] {

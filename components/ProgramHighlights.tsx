@@ -80,7 +80,7 @@ export default function ProgramHighlights() {
                 <h3 className="font-bold text-inn-dark mb-2 text-base group-hover:text-inn-teal transition-colors">
                   {h.title}
                 </h3>
-                <p className="text-sm text-slate-500 leading-relaxed">{h.desc}</p>
+                {h.desc && <p className="text-sm text-slate-500 leading-relaxed">{h.desc}</p>}
               </>
             );
             if (!href) return <div key={i} className={cardClass}>{inner}</div>;

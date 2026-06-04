@@ -105,17 +105,33 @@ export default function FnbProgramPage() {
             </div>
           </div>
 
-          {/* 4 Masterclasses */}
-          <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-4">
-            {f.masterclassList.map((mc: { title: string; desc: string }, i: number) => (
-              <div key={i} className="bg-white rounded-2xl p-5 border border-slate-100 shadow-sm">
-                <div className="w-8 h-8 rounded-lg bg-inn-orange/10 flex items-center justify-center mb-3">
-                  <span className="text-inn-orange font-black text-sm">{i + 1}</span>
-                </div>
-                <p className="font-bold text-inn-dark text-sm leading-snug mb-1">{mc.title}</p>
-                <p className="text-xs text-slate-500 leading-relaxed">{mc.desc}</p>
+          {/* Venue image + 4 Masterclasses */}
+          <div className="grid lg:grid-cols-5 gap-4">
+            {/* Browns venue photo */}
+            <div className="relative rounded-2xl overflow-hidden lg:col-span-2 h-52 lg:h-auto">
+              <img
+                src="/masterclasses/Aluma-Athens-Roof-Top.jpg"
+                alt="Brown Athens"
+                className="w-full h-full object-cover"
+              />
+              <div className="absolute inset-0 bg-gradient-to-t from-inn-dark/80 to-transparent" />
+              <div className="absolute bottom-0 left-0 right-0 p-4">
+                <p className="text-white font-black text-sm">Brown Athens</p>
+                <p className="text-white/70 text-xs">Bar & Restaurant Management</p>
               </div>
-            ))}
+            </div>
+            {/* 4 masterclass cards */}
+            <div className="lg:col-span-3 grid sm:grid-cols-2 gap-4">
+              {f.masterclassList.map((mc: { title: string; desc: string }, i: number) => (
+                <div key={i} className="bg-white rounded-2xl p-5 border border-slate-100 shadow-sm">
+                  <div className="w-8 h-8 rounded-lg bg-inn-orange/10 flex items-center justify-center mb-3">
+                    <span className="text-inn-orange font-black text-sm">{i + 1}</span>
+                  </div>
+                  <p className="font-bold text-inn-dark text-sm leading-snug mb-1">{mc.title}</p>
+                  <p className="text-xs text-slate-500 leading-relaxed">{mc.desc}</p>
+                </div>
+              ))}
+            </div>
           </div>
         </div>
       </section>

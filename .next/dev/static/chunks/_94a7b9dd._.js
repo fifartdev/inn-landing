@@ -847,14 +847,15 @@ function CertificationsBar() {
                 lineNumber: 17,
                 columnNumber: 13
             }, this),
-            label: c.acta
+            label: c.acta,
+            sub: c.actaSub
         },
         {
             icon: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$graduation$2d$cap$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__GraduationCap$3e$__["GraduationCap"], {
                 className: "w-5 h-5 text-inn-orange"
             }, void 0, false, {
                 fileName: "[project]/components/CertificationsBar.tsx",
-                lineNumber: 21,
+                lineNumber: 22,
                 columnNumber: 13
             }, this),
             label: c.graduation,
@@ -873,7 +874,7 @@ function CertificationsBar() {
                         children: c.title
                     }, void 0, false, {
                         fileName: "[project]/components/CertificationsBar.tsx",
-                        lineNumber: 31,
+                        lineNumber: 32,
                         columnNumber: 11
                     }, this),
                     items.map((item, i)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -883,7 +884,7 @@ function CertificationsBar() {
                                     className: "hidden sm:block w-px h-8 bg-slate-200"
                                 }, void 0, false, {
                                     fileName: "[project]/components/CertificationsBar.tsx",
-                                    lineNumber: 37,
+                                    lineNumber: 38,
                                     columnNumber: 17
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -898,7 +899,7 @@ function CertificationsBar() {
                                                     children: item.label
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/CertificationsBar.tsx",
-                                                    lineNumber: 42,
+                                                    lineNumber: 43,
                                                     columnNumber: 19
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -906,41 +907,41 @@ function CertificationsBar() {
                                                     children: item.sub
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/CertificationsBar.tsx",
-                                                    lineNumber: 45,
+                                                    lineNumber: 46,
                                                     columnNumber: 19
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/components/CertificationsBar.tsx",
-                                            lineNumber: 41,
+                                            lineNumber: 42,
                                             columnNumber: 17
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/components/CertificationsBar.tsx",
-                                    lineNumber: 39,
+                                    lineNumber: 40,
                                     columnNumber: 15
                                 }, this)
                             ]
                         }, i, true, {
                             fileName: "[project]/components/CertificationsBar.tsx",
-                            lineNumber: 35,
+                            lineNumber: 36,
                             columnNumber: 13
                         }, this))
                 ]
             }, void 0, true, {
                 fileName: "[project]/components/CertificationsBar.tsx",
-                lineNumber: 30,
+                lineNumber: 31,
                 columnNumber: 9
             }, this)
         }, void 0, false, {
             fileName: "[project]/components/CertificationsBar.tsx",
-            lineNumber: 29,
+            lineNumber: 30,
             columnNumber: 7
         }, this)
     }, void 0, false, {
         fileName: "[project]/components/CertificationsBar.tsx",
-        lineNumber: 28,
+        lineNumber: 29,
         columnNumber: 5
     }, this);
 }
@@ -1571,13 +1572,13 @@ function ProgramHighlights() {
                                     lineNumber: 80,
                                     columnNumber: 17
                                 }, this),
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                h.desc && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                     className: "text-sm text-slate-500 leading-relaxed",
                                     children: h.desc
                                 }, void 0, false, {
                                     fileName: "[project]/components/ProgramHighlights.tsx",
                                     lineNumber: 83,
-                                    columnNumber: 17
+                                    columnNumber: 28
                                 }, this)
                             ]
                         }, void 0, true);
@@ -2233,33 +2234,59 @@ function MasterclassVenues() {
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                     className: "mt-10 flex flex-col items-center gap-2",
                     children: [
-                        v.venueNote1,
-                        v.venueNote2
-                    ].map((note, i)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                            className: "text-slate-400 text-sm flex items-start gap-2",
+                        [
+                            v.venueNote1,
+                            v.venueNote2
+                        ].map((note, i)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                className: "text-slate-400 text-sm flex items-start gap-2",
+                                children: [
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                        className: "text-inn-orange font-bold",
+                                        children: "+"
+                                    }, void 0, false, {
+                                        fileName: "[project]/components/MasterclassVenues.tsx",
+                                        lineNumber: 82,
+                                        columnNumber: 15
+                                    }, this),
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                        children: note
+                                    }, void 0, false, {
+                                        fileName: "[project]/components/MasterclassVenues.tsx",
+                                        lineNumber: 83,
+                                        columnNumber: 15
+                                    }, this)
+                                ]
+                            }, i, true, {
+                                fileName: "[project]/components/MasterclassVenues.tsx",
+                                lineNumber: 81,
+                                columnNumber: 13
+                            }, this)),
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                            className: "text-slate-300 text-sm flex items-start gap-2 mt-1",
                             children: [
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                    className: "text-inn-orange font-bold",
-                                    children: "+"
+                                    className: "text-inn-teal font-bold",
+                                    children: "★"
                                 }, void 0, false, {
                                     fileName: "[project]/components/MasterclassVenues.tsx",
-                                    lineNumber: 82,
-                                    columnNumber: 15
+                                    lineNumber: 87,
+                                    columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                    children: note
+                                    children: v.venueNote3
                                 }, void 0, false, {
                                     fileName: "[project]/components/MasterclassVenues.tsx",
-                                    lineNumber: 83,
-                                    columnNumber: 15
+                                    lineNumber: 88,
+                                    columnNumber: 13
                                 }, this)
                             ]
-                        }, i, true, {
+                        }, void 0, true, {
                             fileName: "[project]/components/MasterclassVenues.tsx",
-                            lineNumber: 81,
-                            columnNumber: 13
-                        }, this))
-                }, void 0, false, {
+                            lineNumber: 86,
+                            columnNumber: 11
+                        }, this)
+                    ]
+                }, void 0, true, {
                     fileName: "[project]/components/MasterclassVenues.tsx",
                     lineNumber: 79,
                     columnNumber: 9

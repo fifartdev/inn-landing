@@ -40,9 +40,9 @@ export const translations = {
       title: "Πιστοποιημένο από:",
       paris: "Πιστοποιητικό παρακολούθησης προγράμματος",
       parisSub: "Paris Education School of Hospitality",
-      acta: "Πιστοποιητικό παρακολούθησης προγράμματος\nαπό το IST College",
-      actaSub: "Πιστοποιητικό παρακολούθησης προγράμματος\nαπό το IST College",
-      graduation: "Paris Education School of Hospitality Graduation Ceremony",
+      acta: "Πιστοποιητικό παρακολούθησης προγράμματος",
+      actaSub: "IST College",
+      graduation: "Graduation Ceremony",
       graduationSub: "Τελετή Αποφοίτησης στο Παρίσι",
     },
     about: {
@@ -101,7 +101,7 @@ export const translations = {
         {
           icon: "Award",
           title: "Πιστοποιητικό παρακολούθησης προγράμματος από τον γαλλικό εκπαιδευτικό όμιλο Paris Education School of Hospitality & το IST College",
-          desc: "Δίπλωμα με διεθνή αναγνώριση και τελετή αποφοίτησης.",
+          desc: "",
         },
         {
           icon: "Globe",
@@ -184,6 +184,7 @@ export const translations = {
       ],
       venueNote1: "Εκπαιδευτική επίσκεψη στη Nef-Nef (Λινά & Housekeeping)",
       venueNote2: "Εκπαιδευτική επίσκεψη Delifrance (Κουζίνα & Πρωινά)",
+      venueNote3: "Τα Masterclasses θα γίνονται Παρασκευή/Σάββατο (σύνολο 4 ημέρες)",
     },
     france: {
       tag: "Προαιρετική",
@@ -516,7 +517,7 @@ export const translations = {
       desc1: "Το νέο εξειδικευμένο πρόγραμμα στον τομέα του Food & Beverage Management έχει σχεδιαστεί για όσους επιδιώκουν να εξελιχθούν σε ένα διεθνές 5*, απαιτητικό και απόλυτα επαγγελματικό περιβάλλον στον χώρο της φιλοξενίας και των ξενοδοχείων.",
       desc2: "Απόκτησε ουσιαστική γνώση και πρακτική κατανόηση του F&B, μέσα από την καθοδήγηση και την εμπειρία καταξιωμένων επαγγελματιών της αγοράς.",
       totalHours: "Σύνολο: 80 ώρες",
-      onlineHours: "64 ώρες online εκπαίδευση μέσα από ειδική πλατφόρμα (3 φορές την εβδομάδα)",
+      onlineHours: "64 ώρες online εκπαίδευση μέσα από ειδική πλατφόρμα",
       inPersonHours: "16 ώρες πρακτική εκπαίδευση (4 Masterclasses στην Αθήνα)",
       startLabel: "Έναρξη",
       startVal: "20 Νοεμβρίου",
@@ -632,9 +633,9 @@ export const translations = {
       title: "Certified by:",
       paris: "Programme Attendance Certificate",
       parisSub: "School of Hospitality",
-      acta: "Programme Attendance Certificate\nfrom IST College",
-      actaSub: "Programme Attendance Certificate\nfrom IST College",
-      graduation: "Paris Education School of Hospitality Graduation Ceremony",
+      acta: "Programme Attendance Certificate",
+      actaSub: "IST College",
+      graduation: "Graduation Ceremony",
       graduationSub: "Graduation Ceremony in Paris",
     },
     about: {
@@ -692,7 +693,7 @@ export const translations = {
         {
           icon: "Award",
           title: "Paris Education School of Hospitality & IST College Programme Attendance Certificate",
-          desc: "Diploma with international recognition and graduation ceremony.",
+          desc: "",
         },
         {
           icon: "Globe",
@@ -774,6 +775,7 @@ export const translations = {
       ],
       venueNote1: "Educational visit to Nef-Nef (Linen & Housekeeping)",
       venueNote2: "Educational visit to Delifrance (Kitchen & Breakfasts)",
+      venueNote3: "Masterclasses take place on Friday/Saturday (4 days total)",
     },
     france: {
       tag: "Optional",
@@ -1221,9 +1223,9 @@ export const translations = {
       title: "Certifié par:",
       paris: "Certificat de participation au programme\nde Paris Education School of Hospitality",
       parisSub: "School of Hospitality",
-      acta: "Certificat de participation au programme\nde l'IST College",
-      actaSub: "Certificat de participation au programme\nde l'IST College",
-      graduation: "Paris Education School of Hospitality Graduation Ceremony",
+      acta: "Certificat de participation au programme",
+      actaSub: "IST College",
+      graduation: "Graduation Ceremony",
       graduationSub: "Cérémonie de Remise des Diplômes à Paris",
     },
     about: {
@@ -1281,7 +1283,7 @@ export const translations = {
         {
           icon: "Award",
           title: "Certificat de participation au programme de Paris Education School of Hospitality & de l'IST College",
-          desc: "Diplôme avec reconnaissance internationale et cérémonie de remise.",
+          desc: "",
         },
         {
           icon: "Globe",
@@ -1364,6 +1366,7 @@ export const translations = {
       ],
       venueNote1: "Visite éducative à Nef-Nef (Linge & Housekeeping)",
       venueNote2: "Visite éducative à Delifrance (Cuisine & Petits-déjeuners)",
+      venueNote3: "Les Masterclasses auront lieu Vendredi/Samedi (4 jours au total)",
     },
     france: {
       tag: "Optionnel",

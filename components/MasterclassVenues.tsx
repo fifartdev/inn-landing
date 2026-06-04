@@ -83,6 +83,10 @@ export default function MasterclassVenues() {
               <span>{note}</span>
             </p>
           ))}
+          <p className="text-slate-300 text-sm flex items-start gap-2 mt-1">
+            <span className="text-inn-teal font-bold">★</span>
+            <span>{v.venueNote3}</span>
+          </p>
         </div>
       </div>
     </section>
