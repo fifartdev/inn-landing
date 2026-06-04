@@ -302,7 +302,8 @@ export default function FnbProgramPage() {
                         </div>
                       ))}
                     </div>
-                    <a href="#apply" className="block text-center px-6 py-4 bg-white text-inn-teal font-black rounded-2xl hover:bg-inn-orange hover:text-white transition-all shadow-lg text-sm">{f.ebCta}</a>
+                    <a href="#apply-mobile" className="lg:hidden block text-center px-6 py-4 bg-white text-inn-teal font-black rounded-2xl hover:bg-inn-orange hover:text-white transition-all shadow-lg text-sm">{f.ebCta}</a>
+                    <a href="#apply" className="hidden lg:block text-center px-6 py-4 bg-white text-inn-teal font-black rounded-2xl hover:bg-inn-orange hover:text-white transition-all shadow-lg text-sm">{f.ebCta}</a>
                   </div>
                 </div>
 
@@ -322,7 +323,8 @@ export default function FnbProgramPage() {
                       </div>
                     ))}
                   </div>
-                  <a href="#apply" className="block text-center px-6 py-4 bg-inn-dark text-white font-black rounded-2xl hover:bg-inn-teal transition-all text-sm">{f.regCta}</a>
+                  <a href="#apply-mobile" className="lg:hidden block text-center px-6 py-4 bg-inn-dark text-white font-black rounded-2xl hover:bg-inn-teal transition-all text-sm">{f.regCta}</a>
+                  <a href="#apply" className="hidden lg:block text-center px-6 py-4 bg-inn-dark text-white font-black rounded-2xl hover:bg-inn-teal transition-all text-sm">{f.regCta}</a>
                 </div>
 
                 {/* Includes */}
