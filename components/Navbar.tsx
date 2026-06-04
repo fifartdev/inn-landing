@@ -60,7 +60,6 @@ export default function Navbar() {
   ];
 
   const mobileLinks = [
-    { href: "/", label: t.nav.home },
     { href: "/#curriculum", label: t.nav.curriculum },
     { href: "/professors", label: t.nav.professors },
     { href: "/guests", label: t.nav.guests },
