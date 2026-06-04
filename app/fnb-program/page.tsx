@@ -2,7 +2,7 @@
 
 import Image from "next/image";
 import { useState } from "react";
-import { CheckCircle, Clock, Monitor, MapPin, Award, Zap, Tag, Star, Calendar, Building2, BookOpen } from "lucide-react";
+import { CheckCircle, Clock, Monitor, MapPin, Award, Zap, Tag, Star, Calendar, Building2, BookOpen, CreditCard } from "lucide-react";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import ContactForm from "@/components/ContactForm";
@@ -40,8 +40,8 @@ export default function FnbProgramPage() {
   const highlights = [
     { icon: <Monitor className="w-6 h-6" />, color: "bg-inn-teal text-white", title: f.onlineHours, desc: "" },
     { icon: <Building2 className="w-6 h-6" />, color: "bg-inn-orange text-white", title: f.inPersonHours, desc: "Brown Athens — Bar & Restaurant Management" },
-    { icon: <Award className="w-6 h-6" />, color: "bg-purple-600 text-white", title: f.certBodies[0], desc: "" },
-    { icon: <Award className="w-6 h-6" />, color: "bg-emerald-600 text-white", title: f.certBodies[1], desc: "" },
+    { icon: <Award className="w-6 h-6" />, color: "bg-purple-600 text-white", title: `${f.certTitle} ${f.certBodies[0]}`, desc: "" },
+    { icon: <Award className="w-6 h-6" />, color: "bg-emerald-600 text-white", title: `${f.certTitle} ${f.certBodies[1]}`, desc: "" },
   ];
 
   return (
@@ -336,6 +336,25 @@ export default function FnbProgramPage() {
                   </ul>
                   <div className="mt-6 pt-5 border-t border-slate-200">
                     <p className="text-xs text-slate-400 italic">{f.vatNote}</p>
+                  </div>
+                </div>
+              </div>
+
+              {/* Payment methods */}
+              <div className="mt-12">
+                <h3 className="text-center text-base font-bold text-inn-dark mb-6">{t.pricing.paymentTitle}</h3>
+                <div className="grid sm:grid-cols-2 gap-4 max-w-2xl mx-auto">
+                  <div className="bg-inn-light-grey rounded-2xl p-6 border border-slate-100 flex items-center gap-3">
+                    <div className="w-9 h-9 rounded-xl bg-inn-teal/10 flex items-center justify-center shrink-0">
+                      <Building2 className="w-4 h-4 text-inn-teal" />
+                    </div>
+                    <div className="font-bold text-inn-dark text-sm">{t.pricing.bank.title}</div>
+                  </div>
+                  <div className="bg-inn-light-grey rounded-2xl p-6 border border-slate-100 flex items-center gap-3">
+                    <div className="w-9 h-9 rounded-xl bg-inn-orange/10 flex items-center justify-center shrink-0">
+                      <CreditCard className="w-4 h-4 text-inn-orange" />
+                    </div>
+                    <div className="font-bold text-inn-dark text-sm">{t.pricing.card}</div>
                   </div>
                 </div>
               </div>
