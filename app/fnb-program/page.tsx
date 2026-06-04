@@ -257,7 +257,7 @@ export default function FnbProgramPage() {
                 <h3 className="text-2xl font-black text-white mb-8">{f.certTitle}</h3>
                 <ul className="flex flex-col items-center gap-4">
                   {f.certBodies.map((body: string, i: number) => (
-                    <li key={i} className="flex items-center gap-3 bg-white/5 rounded-2xl px-6 py-4 border border-white/10 text-left whitespace-nowrap">
+                    <li key={i} className="flex items-center gap-3 bg-white/5 rounded-2xl px-6 py-4 border border-white/10 text-left w-full">
                       <CheckCircle className="w-5 h-5 text-inn-teal shrink-0" />
                       <span className="text-white/80 text-sm leading-relaxed">{body}</span>
                     </li>
