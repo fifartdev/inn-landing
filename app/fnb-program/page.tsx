@@ -110,12 +110,12 @@ export default function FnbProgramPage() {
               </div>
 
               {/* Highlights grid */}
-              <div className="grid sm:grid-cols-2 lg:grid-cols-2 gap-6">
+              <div className="grid sm:grid-cols-2 gap-6">
                 {highlights.map((h, i) => (
-                  <div key={i} className="bg-white rounded-2xl p-6 border border-slate-100 shadow-sm">
+                  <div key={i} className="bg-white rounded-2xl p-6 border border-slate-100 shadow-sm card-hover group">
                     <div className={`w-12 h-12 rounded-2xl flex items-center justify-center mb-4 ${h.color}`}>{h.icon}</div>
-                    <p className="font-bold text-inn-dark text-base leading-snug">{h.title}</p>
-                    {h.desc && <p className="text-sm text-slate-500 leading-relaxed mt-1">{h.desc}</p>}
+                    <h3 className="font-bold text-inn-dark mb-2 text-base group-hover:text-inn-teal transition-colors">{h.title}</h3>
+                    {h.desc && <p className="text-sm text-slate-500 leading-relaxed">{h.desc}</p>}
                   </div>
                 ))}
               </div>
