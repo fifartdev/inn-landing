@@ -39,7 +39,7 @@ export default function FnbProgramPage() {
 
   const highlights = [
     { icon: <Monitor className="w-6 h-6" />, color: "bg-inn-teal text-white", title: f.onlineHours, desc: "" },
-    { icon: <Building2 className="w-6 h-6" />, color: "bg-inn-orange text-white", title: f.inPersonHours, desc: "Brown Athens — Bar & Restaurant Management" },
+    { icon: <Building2 className="w-6 h-6" />, color: "bg-inn-orange text-white", title: <>{f.inPersonHours.split("(4")[0]}<span className="whitespace-nowrap">(4{f.inPersonHours.split("(4")[1]}</span></>, desc: "Brown Athens — Bar & Restaurant Management" },
     { icon: <Award className="w-6 h-6" />, color: "bg-purple-600 text-white", title: `${f.certTitle} ${f.certBodies[0]}`, desc: "" },
     { icon: <Award className="w-6 h-6" />, color: "bg-emerald-600 text-white", title: `${f.certTitle} ${f.certBodies[1]}`, desc: "" },
   ];
@@ -89,7 +89,11 @@ export default function FnbProgramPage() {
               <div className="text-center mb-16">
                 <div className="inline-flex items-center gap-2 px-4 py-1.5 bg-inn-teal/10 rounded-full text-inn-teal text-sm font-semibold mb-4">{f.programTag}</div>
                 <h2 className="text-3xl sm:text-4xl font-black text-inn-dark mb-3">{f.programTitle}</h2>
-                <p className="text-lg text-slate-500 max-w-xl mx-auto">{f.programSubtitle}</p>
+                <p className="text-lg text-slate-500 max-w-xl mx-auto">
+                  {f.programSubtitle.split("Food & Beverage").map((part, i, arr) => (
+                    <span key={i}>{part}{i < arr.length - 1 && <span className="whitespace-nowrap">Food & Beverage</span>}</span>
+                  ))}
+                </p>
               </div>
 
               {/* Key info banner */}
@@ -174,9 +178,6 @@ export default function FnbProgramPage() {
                 </div>
               </div>
 
-              <div className="text-center mt-6">
-                <span className="text-sm text-slate-400">{filtered.length} μαθήματα</span>
-              </div>
             </div>
           </section>
 

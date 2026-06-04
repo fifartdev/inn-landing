@@ -521,7 +521,7 @@ export const translations = {
       totalHours: "Σύνολο: 80 ώρες",
       programTag: "Το Πρόγραμμα",
       programTitle: "F&B Management Program",
-      programSubtitle: "Εξειδίκευση στον τομέα του Food & Beverage Management",
+      programSubtitle: "Εξειδίκευση στον τομέα του Food & Beverage Management",
       mode: "Τρόπος Διεξαγωγής",
       modeVal: "Online + Masterclasses",
       onlineHours: "64 ώρες online εκπαίδευση μέσα από ειδική πλατφόρμα",
