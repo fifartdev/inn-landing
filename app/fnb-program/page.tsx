@@ -71,7 +71,8 @@ export default function FnbProgramPage() {
                 <Award className="w-3.5 h-3.5" />{f.durationLabel}: {f.durationVal}
               </span>
             </div>
-            <a href="#apply" className="inline-flex items-center gap-2 px-8 py-4 bg-inn-orange hover:bg-inn-orange-dark text-white font-black rounded-2xl transition-all shadow-lg text-sm">{f.cta}</a>
+            <a href="#apply-mobile" className="lg:hidden inline-flex items-center gap-2 px-8 py-4 bg-inn-orange hover:bg-inn-orange-dark text-white font-black rounded-2xl transition-all shadow-lg text-sm">{f.cta}</a>
+            <a href="#apply" className="hidden lg:inline-flex items-center gap-2 px-8 py-4 bg-inn-orange hover:bg-inn-orange-dark text-white font-black rounded-2xl transition-all shadow-lg text-sm">{f.cta}</a>
           </div>
         </div>
       </section>
