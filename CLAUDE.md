@@ -37,7 +37,7 @@ Multi-page Next.js 15 site for InnAcademy (hospitality education). The homepage 
 | `/terms` | Terms of use (content from `t.terms` translations) |
 | `/apply` | Standalone form-only marketing landing page — full Navbar + Footer, `noindex`, destination URL for all paid ad campaigns |
 | `/thank-you` | Post-submission confirmation page — `noindex`, not in sitemap, used as URL-based conversion signal for ad platforms |
-| `/fnb-program` | Standalone landing page for the F&B Management Program — full Navbar + Footer, `noindex`, not linked from anywhere (direct-URL only). Own pricing (1,250€ EB / 1,550€ regular), curriculum, certification section, and ContactForm with F&B-specific header overrides via the `headerOverrides` prop. |
+| `/fnb-program` | Standalone landing page for the F&B Management Program — full Navbar + Footer, `noindex`, not linked from main site (direct-URL only). Own pricing (950€ EB / 1,250€ regular). Sections: Hero (two `<Image>` components — `hero-mobile.jpg` lg:hidden + `fnb-hero.jpg` hidden lg:block), two-column grid (same `lg:grid-cols-[1fr_360px]` pattern as homepage) containing: ProgramHighlights-style section, Curriculum table (filter tabs + numbered rows + category pills, same design as CurriculumSection), MasterclassVenues-style dark section (Brown Athens only), 3-column Pricing. ContactForm with F&B-specific `headerOverrides`. Sections inside the left column use `px-4 sm:px-6 lg:px-8` with NO `max-w-7xl mx-auto` — adding `mx-auto` inside a constrained grid column causes left-push appearance. |
 
 When adding nav links or cross-links, always point to these routes — not hash anchors.
 
@@ -126,9 +126,9 @@ The `includesList` in all three languages follows this order:
 1. Online courses
 2. In-person masterclasses
 3. Educational materials
-4. Programme Attendance Certificate from Paris Education College School of Hospitality
+4. Programme Attendance Certificate from Paris Education School of Hospitality - Higher Education Group
 5. Programme Attendance Certificate from IST College
-6. Paris Education College Graduation Ceremony (Τελετή Αποφοίτησης στο Παρίσι)
+6. Paris Education School of Hospitality Graduation Ceremony (Τελετή Αποφοίτησης στο Παρίσι)
 7. Career Day participation
 8. Job listings via Innjobs
 
@@ -158,13 +158,27 @@ Links: `https://www.facebook.com/innacademygreece`, `https://www.instagram.com/i
 - Address: Πανεπιστημίου 63, 10564, Αθήνα
 - External link: `innjobs.net`
 
+### Navbar — Program Dropdown
+
+The "Πρόγραμμα" item is a dropdown on desktop and a collapsible on mobile. Both sub-items link to:
+- **Diploma in Hotel Management** → `/` (homepage)
+- **F&B Management Program** → `/fnb-program`
+
+**Desktop**: `onMouseEnter`/`onMouseLeave` with a 120 ms close timeout (`programCloseTimer` ref) + `pt-2` transparent bridge on the dropdown container to prevent the gap between button and dropdown from triggering `onMouseLeave`. State: `programOpen`.
+
+**Mobile**: collapsible parent button with `ChevronDown` rotation. State: `programMobileOpen`. Sub-items have a left border (`border-l-2 border-slate-100`) and `ChevronRight` arrows.
+
+The Navbar is transparent on `/` and `/fnb-program` (`isTransparentHeroPage`), solid white on all other routes.
+
 ### Key UI Notes
 
 - **Hero overlay opacity**: Lighter than default — 0.70/0.55/0.25 layers.
 - **Hero stat boxes**: Hidden on mobile (`hidden sm:grid`).
-- **MasterclassVenues notes**: Two separate lines (`venueNote1`, `venueNote2`) in translations, rendered with orange `+` prefix.
+- **MasterclassVenues notes**: Three lines — `venueNote1`, `venueNote2` with orange `+` prefix; `venueNote3` (Fri/Sat schedule) with teal `★` prefix.
 - **CookieBanner**: Smaller on mobile (reduced padding, text-xs, smaller buttons); scales up on `sm:`.
 - **PricingSection bank deposit**: Shows title and icon only — bank name, IBAN and beneficiary fields are intentionally not displayed.
-- **CertificationsBar order**: Paris Education College → IST College → Graduation Ceremony. `paris` key is the full certificate text; `parisSub` is "School of Hospitality" across all languages.
+- **CertificationsBar order**: Paris Education School of Hospitality → IST College → Graduation Ceremony. `paris` key is the short certificate text; `parisSub` is "Paris Education School of Hospitality"; `acta` is short text; `actaSub` is "IST College".
 - **Navbar desktop vs mobile links**: Desktop nav omits `/guests`, `/countries`, `/france` — they appear only in the mobile drawer.
+- **ProgramHighlights**: Certification highlight card has empty `desc` — component renders `{h.desc && ...}` to avoid blank space.
+- **F&B Curriculum section**: uses `currAll` translation key for "All Courses" tab label. Course data is built inline from `f.managementCourses`, `f.hrCourses`, `f.fbCourses` arrays — not from `courseData`.
 - **Thank-you page**: `t.thankYou` holds translations in all three languages. No extra pixel calls needed — the hard redirect causes a full page reload so Analytics.tsx fires `PageView` with the correct `/thank-you` URL automatically.

@@ -1,10 +1,11 @@
 "use client";
 
-import { useState, useEffect } from "react";
+import { useState, useEffect, useRef } from "react";
+import React from "react";
 import { usePathname } from "next/navigation";
 import { useLang } from "@/contexts/LanguageContext";
 import { Lang } from "@/lib/translations";
-import { Menu, X, ChevronDown } from "lucide-react";
+import { Menu, X, ChevronDown, ChevronRight } from "lucide-react";
 
 const FacebookIcon = () => (
   <svg viewBox="0 0 24 24" className="w-4 h-4" fill="currentColor">
@@ -35,6 +36,9 @@ export default function Navbar() {
   const [scrolled, setScrolled] = useState(false);
   const [mobileOpen, setMobileOpen] = useState(false);
   const [langOpen, setLangOpen] = useState(false);
+  const [programOpen, setProgramOpen] = useState(false);
+  const [programMobileOpen, setProgramMobileOpen] = useState(false);
+  const programCloseTimer = React.useRef<ReturnType<typeof setTimeout> | null>(null);
 
   useEffect(() => {
     const onScroll = () => setScrolled(window.scrollY > 20);
@@ -47,8 +51,6 @@ export default function Navbar() {
   const applyHref = pathname === "/" ? "#apply" : pathname === "/fnb-program" ? "#apply" : "/#apply";
 
   const desktopLinks = [
-    { href: "/", label: t.nav.home },
-    { href: "/#program", label: t.nav.program },
     { href: "/#curriculum", label: t.nav.curriculum },
     { href: "/professors", label: t.nav.professors },
     { href: "/#pricing", label: t.nav.pricing },
@@ -59,7 +61,6 @@ export default function Navbar() {
 
   const mobileLinks = [
     { href: "/", label: t.nav.home },
-    { href: "/#program", label: t.nav.program },
     { href: "/#curriculum", label: t.nav.curriculum },
     { href: "/professors", label: t.nav.professors },
     { href: "/guests", label: t.nav.guests },
@@ -92,6 +93,56 @@ export default function Navbar() {
 
           {/* Desktop Nav */}
           <nav className="hidden lg:flex items-center gap-1">
+            {/* Home */}
+            <a
+              href="/"
+              className={`px-4 py-2 rounded-lg text-sm font-medium transition-all hover:bg-inn-teal/10 hover:text-inn-teal ${
+                isScrolledStyle ? "text-slate-600" : "text-white/90 hover:text-white hover:bg-white/10"
+              }`}
+            >
+              {t.nav.home}
+            </a>
+
+            {/* Program dropdown */}
+            <div
+              className="relative"
+              onMouseEnter={() => {
+                if (programCloseTimer.current) clearTimeout(programCloseTimer.current);
+                setProgramOpen(true);
+              }}
+              onMouseLeave={() => {
+                programCloseTimer.current = setTimeout(() => setProgramOpen(false), 120);
+              }}
+            >
+              <button
+                className={`flex items-center gap-1 px-4 py-2 rounded-lg text-sm font-medium transition-all hover:bg-inn-teal/10 hover:text-inn-teal ${
+                  isScrolledStyle ? "text-slate-600" : "text-white/90 hover:text-white hover:bg-white/10"
+                }`}
+              >
+                {t.nav.program}
+                <ChevronDown className="w-3.5 h-3.5" />
+              </button>
+              {programOpen && (
+                <div className="absolute top-full left-0 z-20 pt-2 w-44">
+                <div className="bg-white rounded-xl shadow-xl border border-slate-100 overflow-hidden">
+                  <a
+                    href="/"
+                    className="flex items-start gap-2 px-3 py-2 text-xs text-slate-700 hover:bg-inn-teal/5 hover:text-inn-teal transition-colors border-b border-slate-100"
+                  >
+                    <ChevronRight className="w-3.5 h-3.5 text-inn-orange shrink-0 mt-0.5" />
+                    <span>{t.nav.programDiploma}</span>
+                  </a>
+                  <a
+                    href="/fnb-program"
+                    className="flex items-start gap-2 px-3 py-2 text-xs text-slate-700 hover:bg-inn-teal/5 hover:text-inn-teal transition-colors"
+                  >
+                    <ChevronRight className="w-3.5 h-3.5 text-inn-orange shrink-0 mt-0.5" />
+                    <span>{t.nav.programFnb}</span>
+                  </a>
+                </div>
+                </div>
+              )}
+            </div>
             {desktopLinks.map((link) => (
               <a
                 key={link.href}
@@ -162,6 +213,47 @@ export default function Navbar() {
       {mobileOpen && (
         <div className="lg:hidden bg-white border-t border-slate-100 shadow-lg">
           <div className="max-w-7xl mx-auto px-4 py-4 space-y-1">
+            {/* Αρχική */}
+            <a
+              href="/"
+              onClick={() => setMobileOpen(false)}
+              className="block px-4 py-3 text-sm font-medium text-slate-700 rounded-lg hover:bg-inn-teal/5 hover:text-inn-teal transition-colors"
+            >
+              {t.nav.home}
+            </a>
+
+            {/* Πρόγραμμα collapsible */}
+            <div>
+              <button
+                onClick={() => setProgramMobileOpen(!programMobileOpen)}
+                className="w-full flex items-center justify-between px-4 py-3 text-sm font-medium text-slate-700 rounded-lg hover:bg-inn-teal/5 hover:text-inn-teal transition-colors"
+              >
+                {t.nav.program}
+                <ChevronDown className={`w-4 h-4 transition-transform ${programMobileOpen ? "rotate-180" : ""}`} />
+              </button>
+              {programMobileOpen && (
+                <div className="ml-4 mt-0.5 space-y-0.5 border-l-2 border-slate-100 pl-3">
+                  <a
+                    href="/"
+                    onClick={() => { setMobileOpen(false); setProgramMobileOpen(false); }}
+                    className="flex items-center gap-2 px-3 py-2 text-sm text-slate-600 rounded-lg hover:bg-inn-teal/5 hover:text-inn-teal transition-colors"
+                  >
+                    <ChevronRight className="w-3.5 h-3.5 text-inn-orange shrink-0" />
+                    {t.nav.programDiploma}
+                  </a>
+                  <a
+                    href="/fnb-program"
+                    onClick={() => { setMobileOpen(false); setProgramMobileOpen(false); }}
+                    className="flex items-center gap-2 px-3 py-2 text-sm text-slate-600 rounded-lg hover:bg-inn-teal/5 hover:text-inn-teal transition-colors"
+                  >
+                    <ChevronRight className="w-3.5 h-3.5 text-inn-orange shrink-0" />
+                    {t.nav.programFnb}
+                  </a>
+                </div>
+              )}
+            </div>
+
+            {/* Remaining links */}
             {mobileLinks.map((link) => (
               <a
                 key={link.href}
