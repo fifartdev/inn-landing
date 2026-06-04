@@ -533,7 +533,7 @@ export const translations = {
       cta: "Κάνε Αίτηση Τώρα",
       masterclassList: [
         { title: "Εστιατορική Τεχνική", desc: "Βασικές αρχές και σύγχρονες τεχνικές επαγγελματικής εξυπηρέτησης." },
-        { title: "Μαγειρική Τεχνική & Παρουσίαση Πρωινού", desc: "Delifrance" },
+        { title: "Μαγειρική Τεχνική & Παρουσίαση Πρωινού", desc: "" },
         { title: "Οινολογία", desc: "Εισαγωγή στον κόσμο του κρασιού, τη γευσιγνωσία και τους συνδυασμούς με το φαγητό." },
         { title: "Bar Service & Mixology", desc: "Τεχνικές bar service και δημιουργία δημοφιλών cocktails." },
       ],
@@ -1145,7 +1145,7 @@ export const translations = {
       cta: "Apply Now",
       masterclassList: [
         { title: "Restaurant Technique", desc: "Fundamental principles and modern techniques of professional service." },
-        { title: "Culinary Technique & Breakfast Presentation", desc: "Delifrance" },
+        { title: "Culinary Technique & Breakfast Presentation", desc: "" },
         { title: "Oenology", desc: "Introduction to the world of wine, tasting, and food pairing." },
         { title: "Bar Service & Mixology", desc: "Bar service techniques and creation of popular cocktails." },
       ],
@@ -1760,7 +1760,7 @@ export const translations = {
       cta: "Postuler Maintenant",
       masterclassList: [
         { title: "Technique de Restaurant", desc: "Principes fondamentaux et techniques modernes du service professionnel." },
-        { title: "Technique Culinaire & Présentation du Petit-déjeuner", desc: "Delifrance" },
+        { title: "Technique Culinaire & Présentation du Petit-déjeuner", desc: "" },
         { title: "Œnologie", desc: "Introduction au monde du vin, la dégustation et les accords mets-vins." },
         { title: "Bar Service & Mixologie", desc: "Techniques de service au bar et création de cocktails populaires." },
       ],
