@@ -1,3 +1,5 @@
 {
-  "/fnb-program/page": "app/fnb-program/page.js"
+  "/_not-found/page": "app/_not-found/page.js",
+  "/fnb-program/page": "app/fnb-program/page.js",
+  "/page": "app/page.js"
 }

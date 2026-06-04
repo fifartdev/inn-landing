@@ -23,60 +23,65 @@ export default function FnbProgramPage() {
 
       {/* Hero */}
       <section className="relative min-h-[620px] flex items-center pt-20">
+        {/* Mobile portrait image */}
+        <Image
+          src="/hero-mobile.jpg"
+          alt="F&B Management Program"
+          fill
+          className="object-cover object-top lg:hidden"
+          priority
+        />
+        {/* Desktop landscape image */}
         <Image
           src="/fnb-hero.jpg"
           alt="F&B Management Program"
           fill
-          className="object-cover object-[70%_center]"
+          className="object-cover object-center hidden lg:block"
           priority
         />
-        {/* Gradient: opaque left → transparent right so the face shows through */}
-        <div className="absolute inset-0 bg-gradient-to-r from-inn-dark/95 via-inn-dark/75 to-inn-dark/20" />
+        {/* Mobile: gradient bottom-heavy so text is readable */}
+        <div className="absolute inset-0 bg-gradient-to-b from-inn-dark/40 via-inn-dark/60 to-inn-dark/90 lg:hidden" />
+        {/* Desktop: gradient left→right, dark left for text, transparent right for face */}
+        <div className="absolute inset-0 bg-gradient-to-r from-inn-dark/95 via-inn-dark/55 to-inn-dark/10 hidden lg:block" />
+
         <div className="relative z-10 w-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
-          <div className="max-w-[68%] lg:max-w-[55%]">
-          <div className="inline-flex items-center gap-2 px-4 py-1.5 bg-inn-orange rounded-full text-white text-sm font-bold mb-6">
-            {f.badge}
+          <div className="w-full lg:max-w-[55%]">
+            <div className="inline-flex items-center gap-2 px-4 py-1.5 bg-inn-orange rounded-full text-white text-sm font-bold mb-6">
+              {f.badge}
+            </div>
+            <h1 className="text-4xl sm:text-5xl lg:text-6xl font-black text-white leading-tight mb-6">
+              {f.title}
+            </h1>
+            <p className="text-white/85 text-lg mb-4 leading-relaxed">{f.desc1}</p>
+            <p className="text-white/70 text-base mb-10 leading-relaxed">{f.desc2}</p>
+            <div className="flex flex-wrap gap-4 mb-10">
+              <div className="flex items-center gap-2 bg-white/10 backdrop-blur-sm rounded-xl px-4 py-2.5">
+                <Clock className="w-4 h-4 text-inn-orange" />
+                <span className="text-white text-sm font-semibold">{f.totalHours}</span>
+              </div>
+              <div className="flex items-center gap-2 bg-white/10 backdrop-blur-sm rounded-xl px-4 py-2.5">
+                <MapPin className="w-4 h-4 text-inn-orange" />
+                <span className="text-white text-sm font-semibold">{f.startLabel}: {f.startVal}</span>
+              </div>
+              <div className="flex items-center gap-2 bg-white/10 backdrop-blur-sm rounded-xl px-4 py-2.5">
+                <Award className="w-4 h-4 text-inn-orange" />
+                <span className="text-white text-sm font-semibold">{f.durationLabel}: {f.durationVal}</span>
+              </div>
+            </div>
+            <a
+              href="#apply"
+              className="inline-flex items-center gap-2 px-8 py-4 bg-inn-orange hover:bg-inn-orange-dark text-white font-black rounded-2xl transition-all shadow-lg text-sm"
+            >
+              {f.cta}
+            </a>
           </div>
-          <h1 className="text-4xl sm:text-5xl lg:text-6xl font-black text-white leading-tight mb-6">
-            {f.title}
-          </h1>
-          <p className="text-white/85 text-lg mb-4 leading-relaxed">
-            {f.desc1}
-          </p>
-          <p className="text-white/70 text-base mb-10 leading-relaxed">
-            {f.desc2}
-          </p>
-
-          {/* Key stats */}
-          <div className="flex flex-wrap gap-4 mb-10">
-            <div className="flex items-center gap-2 bg-white/10 backdrop-blur-sm rounded-xl px-4 py-2.5">
-              <Clock className="w-4 h-4 text-inn-orange" />
-              <span className="text-white text-sm font-semibold">{f.totalHours}</span>
-            </div>
-            <div className="flex items-center gap-2 bg-white/10 backdrop-blur-sm rounded-xl px-4 py-2.5">
-              <MapPin className="w-4 h-4 text-inn-orange" />
-              <span className="text-white text-sm font-semibold">{f.startLabel}: {f.startVal}</span>
-            </div>
-            <div className="flex items-center gap-2 bg-white/10 backdrop-blur-sm rounded-xl px-4 py-2.5">
-              <Award className="w-4 h-4 text-inn-orange" />
-              <span className="text-white text-sm font-semibold">{f.durationLabel}: {f.durationVal}</span>
-            </div>
-          </div>
-
-          <a
-            href="#apply"
-            className="inline-flex items-center gap-2 px-8 py-4 bg-inn-orange hover:bg-inn-orange-dark text-white font-black rounded-2xl transition-all shadow-lg text-sm"
-          >
-            {f.cta}
-          </a>
-          </div>{/* end left-column text block */}
         </div>
       </section>
 
       {/* Program overview */}
       <section className="py-16 bg-inn-light-grey">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="grid sm:grid-cols-2 gap-6">
+          <div className="grid sm:grid-cols-2 gap-6 mb-6">
             {/* Online */}
             <div className="bg-white rounded-2xl p-6 border border-slate-100 shadow-sm">
               <div className="flex items-center gap-3 mb-4">
@@ -90,24 +95,27 @@ export default function FnbProgramPage() {
 
             {/* In-person */}
             <div className="bg-white rounded-2xl p-6 border border-slate-100 shadow-sm">
-              <div className="flex items-center gap-3 mb-4">
+              <div className="flex items-center gap-3 mb-3">
                 <div className="w-10 h-10 rounded-xl bg-inn-orange/10 flex items-center justify-center shrink-0">
                   <Users className="w-5 h-5 text-inn-orange" />
                 </div>
                 <span className="font-black text-inn-dark text-base">Masterclasses</span>
               </div>
-              <p className="text-slate-600 text-sm leading-relaxed mb-4">{f.inPersonHours}</p>
-              <ul className="space-y-2">
-                <li className="flex items-start gap-2">
-                  <span className="text-inn-orange font-bold text-xs mt-0.5 shrink-0">→</span>
-                  <span className="text-slate-500 text-xs leading-relaxed">{f.mc1}</span>
-                </li>
-                <li className="flex items-start gap-2">
-                  <span className="text-inn-orange font-bold text-xs mt-0.5 shrink-0">→</span>
-                  <span className="text-slate-500 text-xs leading-relaxed">{f.mc2}</span>
-                </li>
-              </ul>
+              <p className="text-slate-500 text-xs leading-relaxed">{f.inPersonHours}</p>
             </div>
+          </div>
+
+          {/* 4 Masterclasses */}
+          <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-4">
+            {f.masterclassList.map((mc: { title: string; desc: string }, i: number) => (
+              <div key={i} className="bg-white rounded-2xl p-5 border border-slate-100 shadow-sm">
+                <div className="w-8 h-8 rounded-lg bg-inn-orange/10 flex items-center justify-center mb-3">
+                  <span className="text-inn-orange font-black text-sm">{i + 1}</span>
+                </div>
+                <p className="font-bold text-inn-dark text-sm leading-snug mb-1">{mc.title}</p>
+                <p className="text-xs text-slate-500 leading-relaxed">{mc.desc}</p>
+              </div>
+            ))}
           </div>
         </div>
       </section>
@@ -215,17 +223,23 @@ export default function FnbProgramPage() {
 
       {/* Certification */}
       <section className="py-16 bg-white">
-        <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+        <div className="max-w-2xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="inline-flex items-center gap-2 px-4 py-1.5 bg-inn-teal/10 rounded-full text-inn-teal text-sm font-semibold mb-6">
             {f.certTag}
           </div>
-          <h2 className="text-3xl font-black text-inn-dark mb-6">{f.certTitle}</h2>
-          <p className="text-slate-700 text-lg mb-4 leading-relaxed">
-            <strong>{f.certText}</strong>
-          </p>
-          <p className="text-slate-500 text-base leading-relaxed">
-            {f.certOptional}
-          </p>
+          <h2 className="text-2xl font-black text-inn-dark mb-6">{f.certTitle}</h2>
+          <ul className="space-y-4 mb-8">
+            {f.certBodies.map((body: string, i: number) => (
+              <li key={i} className="flex items-start gap-3">
+                <CheckCircle className="w-5 h-5 text-inn-teal shrink-0 mt-0.5" />
+                <span className="text-slate-700 text-base leading-relaxed">{body}</span>
+              </li>
+            ))}
+          </ul>
+          <div className="flex items-center gap-2 text-sm text-slate-500 bg-inn-light-grey rounded-xl px-4 py-3">
+            <span className="text-inn-orange font-bold shrink-0">★</span>
+            <span>{f.masterclassSchedule}</span>
+          </div>
         </div>
       </section>
 

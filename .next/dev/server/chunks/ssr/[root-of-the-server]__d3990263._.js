@@ -45,7 +45,7 @@ const translations = {
             description: "Εξέλιξε την καριέρα σου σε θέση διοίκησης στον ξενοδοχειακό κλάδο με online εκπαίδευση, βιωματικά masterclasses σε 5★ ξενοδοχεία και άμεση διασύνδεση με τα κορυφαία ξενοδοχειακά brands της χώρας.",
             stat1: "5 Μήνες",
             stat1sub: "Διάρκεια Προγράμματος",
-            stat2: "23+",
+            stat2: "24+",
             stat2sub: "Μαθήματα",
             stat3: "20+",
             stat3sub: "Συνεργαζόμενα Brands",
@@ -59,13 +59,11 @@ const translations = {
         },
         certBar: {
             title: "Πιστοποιημένο από:",
-            kdvm: "ΚΔΒΜ",
-            kdvmSub: "Κέντρο Δια Βίου Μάθησης",
-            acta: "Πιστοποίηση IST College",
-            actaSub: "Αναγνωρισμένη Πιστοποίηση",
-            paris: "Certificat Paris Education",
-            parisSub: "School of Hospitality",
-            graduation: "Paris Education Graduation Ceremony",
+            paris: "Πιστοποιητικό παρακολούθησης προγράμματος",
+            parisSub: "Paris Education School of Hospitality",
+            acta: "Πιστοποιητικό παρακολούθησης προγράμματος\nαπό το IST College",
+            actaSub: "Πιστοποιητικό παρακολούθησης προγράμματος\nαπό το IST College",
+            graduation: "Paris Education School of Hospitality Graduation Ceremony",
             graduationSub: "Τελετή Αποφοίτησης στο Παρίσι"
         },
         about: {
@@ -122,8 +120,8 @@ const translations = {
                 },
                 {
                     icon: "Award",
-                    title: "Πιστοποίηση IST College & Paris Education",
-                    desc: "Πιστοποιημένο δίπλωμα με διεθνή αναγνώριση και τελετή αποφοίτησης."
+                    title: "Πιστοποιητικό παρακολούθησης προγράμματος από τον γαλλικό εκπαιδευτικό όμιλο Paris Education School of Hospitality & το IST College",
+                    desc: "Δίπλωμα με διεθνή αναγνώριση και τελετή αποφοίτησης."
                 },
                 {
                     icon: "Globe",
@@ -140,7 +138,7 @@ const translations = {
         curriculum: {
             tag: "Αναλυτικό Πρόγραμμα",
             title: "Μαθήματα & Ενότητες",
-            subtitle: "23 εξειδικευμένα μαθήματα από κορυφαίους επαγγελματίες του κλάδου",
+            subtitle: "24 εξειδικευμένα μαθήματα από κορυφαίους επαγγελματίες του κλάδου",
             categories: {
                 MANAGEMENT: "Διοίκηση",
                 HR: "Ανθρώπινο Δυναμικό",
@@ -245,13 +243,13 @@ const translations = {
                 "Μάρκετινγκ, Πωλήσεις & Revenue Management",
                 "Μαγειρική & Υγιεινή Τροφίμων",
                 "Υγιεινή & Ασφάλεια Τροφίμων (HACCP & ISO Standards)",
-                "Εστιατορική Τεχνική & Service Management",
                 "Οινολογία & Τέχνη του Sommelier",
                 "Front Office & Ψηφιακά Συστήματα Ξενοδοχείων",
                 "Ψηφιακά Συστήματα Ξενοδοχείων (PMS, Channel Managers, CRM)",
                 "Διοίκηση Housekeeping & Οργανωτικές Διεργασίες",
                 "Στρατηγική Διοίκηση Ξενοδοχείων",
-                "Εστιατορική Τεχνική & Restaurant Management"
+                "Εστιατορική Τεχνική & Restaurant Management",
+                "Εστιατορική Τεχνική & Service Management"
             ]
         },
         pricing: {
@@ -262,31 +260,31 @@ const translations = {
                 badge: "Early Bird",
                 title: "Πρώιμη Εγγραφή",
                 subtitle: "Εγγραφή έως 1 μήνα πριν την έναρξη",
-                price: "1.990€",
-                saving: "Εξοικονομείς 510€",
-                installment1: "398€ με την εγγραφή (20%)",
-                installment2: "796€ με την έναρξη (40%)",
-                installment3: "796€ μέχρι 2 μήνες μετά την έναρξη (40%)",
+                price: "1.550€",
+                saving: "Εξοικονομείς 440€",
+                installment1: "310€ με την εγγραφή (20%)",
+                installment2: "620€ με την έναρξη (40%)",
+                installment3: "620€ μέχρι 2 μήνες μετά την έναρξη (40%)",
                 cta: "Εγγραφή Early Bird"
             },
             regular: {
                 badge: "Κανονική",
                 title: "Κανονική Εγγραφή",
                 subtitle: "Σε τρεις δόσεις",
-                price: "2.500€",
-                installment1: "500€ με την εγγραφή (20%)",
-                installment2: "1.000€ με την έναρξη (40%)",
-                installment3: "1.000€ μέχρι 2 μήνες μετά την έναρξη (40%)",
+                price: "1.990€",
+                installment1: "398€ με την εγγραφή (20%)",
+                installment2: "796€ με την έναρξη (40%)",
+                installment3: "796€ μέχρι 2 μήνες μετά την έναρξη (40%)",
                 cta: "Κανονική Εγγραφή"
             },
             includes: "Περιλαμβάνει:",
             includesList: [
-                "Όλα τα online μαθήματα",
+                "Όλα τα online μαθήματα (200 ώρες)",
                 "Δια ζώσης masterclasses (3 Σαββατοκύριακα)",
                 "Εκπαιδευτικό υλικό",
-                "Πιστοποιητικό ολοκλήρωσης Inn Academy",
-                "Πιστοποίηση IST College",
-                "Πιστοποιητικό Paris Education",
+                "Πιστοποιητικό παρακολούθησης προγράμματος από τον γαλλικό εκπαιδευτικό όμιλο Paris Education School of Hospitality - Higher Education Group",
+                "Πιστοποιητικό παρακολούθησης προγράμματος από το IST College",
+                "Paris Education School of Hospitality Graduation Ceremony - Τελετή Αποφοίτησης στο Παρίσι",
                 "Συμμετοχή σε Career Day",
                 "Πρόσβαση σε αγγελίες μέσω Innjobs"
             ],
@@ -320,11 +318,11 @@ const translations = {
                 },
                 {
                     q: "Ποιο είναι το κόστος συμμετοχής;",
-                    a: "Early Bird (εγγραφή έως 1 μήνα πριν): 1.990€ σε τρεις δόσεις (20% + 40% + 40%). Κανονική εγγραφή: 2.500€ σε τρεις δόσεις (20% + 40% + 40%). Οι τιμές περιλαμβάνουν Φ.Π.Α. Η εκδρομή στη Γαλλία έχει επιπλέον κόστος."
+                    a: "Early Bird (εγγραφή έως 1 μήνα πριν): 1.550€ σε τρεις δόσεις (20% + 40% + 40%). Κανονική εγγραφή: 1.990€ σε τρεις δόσεις (20% + 40% + 40%). Οι τιμές περιλαμβάνουν Φ.Π.Α. Η εκδρομή στη Γαλλία έχει επιπλέον κόστος."
                 },
                 {
                     q: "Τι πιστοποιήσεις λαμβάνω;",
-                    a: "Βεβαίωση Εξειδίκευσης Inn Academy, Πιστοποίηση IST College, Πιστοποιητικό Paris Education (Certificat) και πρόσκληση στην Paris Education Graduation Ceremony."
+                    a: "Βεβαίωση Εξειδίκευσης Inn Academy, Πιστοποιητικό παρακολούθησης προγράμματος από το IST College, Πιστοποιητικό Paris Education (Certificat) και πρόσκληση στην Paris Education Graduation Ceremony."
                 },
                 {
                     q: "Υπάρχει σύνδεση με την αγορά εργασίας;",
@@ -524,6 +522,93 @@ const translations = {
                 }
             ]
         },
+        fnb: {
+            badge: "F&B Management Program",
+            title: "Γίνε ο επόμενος F&B Manager.",
+            desc1: "Το νέο εξειδικευμένο πρόγραμμα στον τομέα του Food & Beverage Management έχει σχεδιαστεί για όσους επιδιώκουν να εξελιχθούν σε ένα διεθνές 5*, απαιτητικό και απόλυτα επαγγελματικό περιβάλλον στον χώρο της φιλοξενίας και των ξενοδοχείων.",
+            desc2: "Απόκτησε ουσιαστική γνώση και πρακτική κατανόηση του F&B, μέσα από την καθοδήγηση και την εμπειρία καταξιωμένων επαγγελματιών της αγοράς.",
+            totalHours: "Σύνολο: 80 ώρες",
+            onlineHours: "64 ώρες online εκπαίδευση μέσα από ειδική πλατφόρμα (3 φορές την εβδομάδα)",
+            inPersonHours: "16 ώρες πρακτική εκπαίδευση (4 Masterclasses στην Αθήνα)",
+            startLabel: "Έναρξη",
+            startVal: "20 Νοεμβρίου",
+            durationLabel: "Διάρκεια",
+            durationVal: "3 μήνες",
+            cta: "Κάνε Αίτηση Τώρα",
+            masterclassList: [
+                {
+                    title: "Εστιατορική Τεχνική",
+                    desc: "Βασικές αρχές και σύγχρονες τεχνικές επαγγελματικής εξυπηρέτησης."
+                },
+                {
+                    title: "Μαγειρική Τεχνική & Παρουσίαση Πρωινού",
+                    desc: "Delifrance"
+                },
+                {
+                    title: "Οινολογία",
+                    desc: "Εισαγωγή στον κόσμο του κρασιού, τη γευσιγνωσία και τους συνδυασμούς με το φαγητό."
+                },
+                {
+                    title: "Bar Service & Mixology",
+                    desc: "Τεχνικές bar service και δημιουργία δημοφιλών cocktails."
+                }
+            ],
+            currTag: "Θεματικές Ενότητες",
+            currTitle: "Περιεχόμενο Προγράμματος",
+            catManagement: "Management",
+            catHR: "HR",
+            catFB: "Food & Beverage",
+            managementCourses: [
+                "Operations Management - Ξενοδοχειακές Λειτουργίες & Επιχειρηματική Ανάπτυξη",
+                "Διοίκηση Ποιότητας & Πρότυπα Πιστοποίησης",
+                "Βιωσιμότητα & Αειφόρος Ανάπτυξη",
+                "Διαχείριση Κρίσεων",
+                "Mentoring & Coaching στη Φιλοξενία και τον Τουρισμό"
+            ],
+            hrCourses: [
+                "Διοίκηση Ανθρώπινου Δυναμικού στον Τουρισμό",
+                "Τουριστική Νομοθεσία & Εργατικό Δίκαιο",
+                "Ψυχολογία & Συμπεριφορική Ανάλυση στο Human Resources"
+            ],
+            fbCourses: [
+                "Διαχείριση Προμηθειών και Αγορών Ξενοδοχειακών/Επισιτιστικών Επιχειρήσεων",
+                "F&B Management - F&B Cost control",
+                "Εστιατορική Τεχνική & Service Management",
+                "Οινολογία & Τέχνη του Sommelier",
+                "Bar Management - Mixology",
+                "Βασικές Αρχές Μαγειρικής Τέχνης & Κουζίνας",
+                "Υγιεινή & Ασφάλεια Τροφίμων (HACCP & ISO Standards)"
+            ],
+            pricingTag: "Δίδακτρα",
+            pricingTitle: "Κόστος Συμμετοχής",
+            ebBadge: "Early Bird",
+            ebPrice: "950€",
+            ebSaving: "Εξοικονόμηση 300€",
+            ebInst1: "20% (190€) κατά την εγγραφή",
+            ebInst2: "40% (380€) με την έναρξη του προγράμματος",
+            ebInst3: "40% (380€) έως 3 μήνες μετά την έναρξη",
+            ebCta: "Εξασφάλισε Θέση",
+            regBadge: "Κανονική Τιμή",
+            regPrice: "1.250€",
+            regInst1: "20% (250€) κατά την εγγραφή",
+            regInst2: "40% (500€) με την έναρξη του προγράμματος",
+            regInst3: "40% (500€) έως 3 μήνες μετά την έναρξη",
+            regCta: "Εγγραφή",
+            certTag: "Πιστοποίηση",
+            certTitle: "Πιστοποίηση παρακολούθησης προγράμματος",
+            certBodies: [
+                "από τον γαλλικό εκπαιδευτικό όμιλο Paris Education School of Hospitality - Higher Education Group",
+                "από το IST College"
+            ],
+            masterclassSchedule: "Τα Masterclasses θα γίνονται Παρασκευή/Σάββατο (σύνολο 4 ημέρες)",
+            applyTag: "Αίτηση",
+            applyTitle: "Κάνε Αίτηση Τώρα",
+            applySubtitle: "Συμπλήρωσε τα στοιχεία σου και θα επικοινωνήσουμε μαζί σου άμεσα.",
+            formTitle: "F&B Management Program",
+            formSubtitle: "Συμπλήρωσε τα στοιχεία σου και θα επικοινωνήσουμε μαζί σου",
+            formStart: "Έναρξη: 20 Νοεμβρίου",
+            formSeats: "Περιορισμένες θέσεις"
+        },
         cookieBanner: {
             message: "Χρησιμοποιούμε cookies για τη σωστή λειτουργία της ιστοσελίδας. Δεν χρησιμοποιούμε cookies παρακολούθησης ή διαφήμισης.",
             accept: "Αποδοχή",
@@ -553,7 +638,7 @@ const translations = {
             description: "Advance your career to a management position in the hospitality industry with online education, hands-on masterclasses at 5★ hotels and direct connection to Greece's top hotel brands.",
             stat1: "5 Months",
             stat1sub: "Program Duration",
-            stat2: "23+",
+            stat2: "24+",
             stat2sub: "Courses",
             stat3: "20+",
             stat3sub: "Partner Brands",
@@ -567,13 +652,11 @@ const translations = {
         },
         certBar: {
             title: "Certified by:",
-            kdvm: "CLL",
-            kdvmSub: "Centre for Lifelong Learning",
-            acta: "IST College Certification",
-            actaSub: "Recognized Certification",
-            paris: "Paris Education Certificat",
+            paris: "Programme Attendance Certificate",
             parisSub: "School of Hospitality",
-            graduation: "Paris Education Graduation Ceremony",
+            acta: "Programme Attendance Certificate\nfrom IST College",
+            actaSub: "Programme Attendance Certificate\nfrom IST College",
+            graduation: "Paris Education School of Hospitality Graduation Ceremony",
             graduationSub: "Graduation Ceremony in Paris"
         },
         about: {
@@ -630,8 +713,8 @@ const translations = {
                 },
                 {
                     icon: "Award",
-                    title: "IST College & Paris Education Certification",
-                    desc: "Certified diploma with international recognition and graduation ceremony."
+                    title: "Paris Education School of Hospitality & IST College Programme Attendance Certificate",
+                    desc: "Diploma with international recognition and graduation ceremony."
                 },
                 {
                     icon: "Globe",
@@ -648,7 +731,7 @@ const translations = {
         curriculum: {
             tag: "Curriculum",
             title: "Courses & Modules",
-            subtitle: "23 specialized courses from leading hospitality professionals",
+            subtitle: "24 specialized courses from leading hospitality professionals",
             categories: {
                 MANAGEMENT: "Management",
                 HR: "Human Resources",
@@ -753,13 +836,13 @@ const translations = {
                 "Marketing, Sales & Revenue Management",
                 "Culinary Arts & Food Hygiene",
                 "Food Hygiene & Safety (HACCP & ISO Standards)",
-                "Restaurant Technique & Service Management",
                 "Oenology & The Art of Sommelier",
                 "Front Office & Hotel Digital Systems",
                 "Hotel Digital Systems (PMS, Channel Managers, CRM)",
                 "Housekeeping Management & Organizational Processes",
                 "Hotel Management Strategy",
-                "Restaurant Technique & Restaurant Management"
+                "Restaurant Technique & Restaurant Management",
+                "Restaurant Technique & Service Management"
             ]
         },
         pricing: {
@@ -770,31 +853,31 @@ const translations = {
                 badge: "Early Bird",
                 title: "Early Registration",
                 subtitle: "Register up to 1 month before start",
-                price: "€1,990",
-                saving: "Save €510",
-                installment1: "€398 on registration (20%)",
-                installment2: "€796 on start date (40%)",
-                installment3: "€796 up to 2 months after start (40%)",
+                price: "€1,550",
+                saving: "Save €440",
+                installment1: "€310 on registration (20%)",
+                installment2: "€620 on start date (40%)",
+                installment3: "€620 up to 2 months after start (40%)",
                 cta: "Early Bird Registration"
             },
             regular: {
                 badge: "Regular",
                 title: "Regular Registration",
                 subtitle: "In three installments",
-                price: "€2,500",
-                installment1: "€500 on registration (20%)",
-                installment2: "€1,000 on start date (40%)",
-                installment3: "€1,000 up to 2 months after start (40%)",
+                price: "€1,990",
+                installment1: "€398 on registration (20%)",
+                installment2: "€796 on start date (40%)",
+                installment3: "€796 up to 2 months after start (40%)",
                 cta: "Regular Registration"
             },
             includes: "Includes:",
             includesList: [
-                "All online courses",
+                "All online courses (200 hours)",
                 "In-person masterclasses (3 weekends)",
                 "Educational materials",
-                "Inn Academy completion certificate",
-                "IST College Certification",
-                "Paris Education Certificate",
+                "Programme Attendance Certificate from Paris Education School of Hospitality - Higher Education Group",
+                "Programme Attendance Certificate from IST College",
+                "Paris Education School of Hospitality Graduation Ceremony - Graduation in Paris",
                 "Career Day participation",
                 "Job listings access via Innjobs"
             ],
@@ -828,11 +911,11 @@ const translations = {
                 },
                 {
                     q: "What is the participation cost?",
-                    a: "Early Bird (registration up to 1 month before): €1,990 in three installments (20% + 40% + 40%). Regular registration: €2,500 in three installments (20% + 40% + 40%). Prices include VAT. The France trip has an additional cost."
+                    a: "Early Bird (registration up to 1 month before): €1,550 in three installments (20% + 40% + 40%). Regular registration: €1,990 in three installments (20% + 40% + 40%). Prices include VAT. The France trip has an additional cost."
                 },
                 {
                     q: "What certifications do I receive?",
-                    a: "Inn Academy Specialization Certificate, IST College Certification, Paris Education Certificate (Certificat) and invitation to the Paris Education Graduation Ceremony."
+                    a: "Inn Academy Specialization Certificate, Programme Attendance Certificate from IST College, Paris Education Certificate (Certificat) and invitation to the Paris Education Graduation Ceremony."
                 },
                 {
                     q: "Is there a connection to the job market?",
@@ -1032,6 +1115,93 @@ const translations = {
                 }
             ]
         },
+        fnb: {
+            badge: "F&B Management Program",
+            title: "Become the next F&B Manager.",
+            desc1: "The new specialized program in Food & Beverage Management has been designed for those who aspire to thrive in an international 5*, demanding and truly professional environment in hospitality and hotels.",
+            desc2: "Gain substantial knowledge and practical understanding of F&B, guided by the experience of established industry professionals.",
+            totalHours: "Total: 80 hours",
+            onlineHours: "64 hours of online training via a dedicated platform",
+            inPersonHours: "16 hours of in-person training (4 Masterclasses in Athens)",
+            startLabel: "Start",
+            startVal: "20 November",
+            durationLabel: "Duration",
+            durationVal: "3 months",
+            cta: "Apply Now",
+            masterclassList: [
+                {
+                    title: "Restaurant Technique",
+                    desc: "Fundamental principles and modern techniques of professional service."
+                },
+                {
+                    title: "Culinary Technique & Breakfast Presentation",
+                    desc: "Delifrance"
+                },
+                {
+                    title: "Oenology",
+                    desc: "Introduction to the world of wine, tasting, and food pairing."
+                },
+                {
+                    title: "Bar Service & Mixology",
+                    desc: "Bar service techniques and creation of popular cocktails."
+                }
+            ],
+            currTag: "Thematic Modules",
+            currTitle: "Program Content",
+            catManagement: "Management",
+            catHR: "HR",
+            catFB: "Food & Beverage",
+            managementCourses: [
+                "Operations Management - Hotel Operations & Business Development",
+                "Quality Management & Certification Standards",
+                "Sustainability & Sustainable Development",
+                "Crisis Management",
+                "Mentoring & Coaching in Hospitality and Tourism"
+            ],
+            hrCourses: [
+                "Human Resources Management in Tourism",
+                "Tourism Legislation & Labor Law",
+                "Psychology & Behavioral Analysis in Human Resources"
+            ],
+            fbCourses: [
+                "Procurement & Supply Management for Hotel/Food Service Businesses",
+                "F&B Management - F&B Cost Control",
+                "Restaurant Technique & Service Management",
+                "Oenology & The Art of Sommelier",
+                "Bar Management - Mixology",
+                "Fundamentals of Culinary Arts & Kitchen",
+                "Food Safety & Hygiene (HACCP & ISO Standards)"
+            ],
+            pricingTag: "Tuition",
+            pricingTitle: "Program Cost",
+            ebBadge: "Early Bird",
+            ebPrice: "950€",
+            ebSaving: "Save 300€",
+            ebInst1: "20% (€190) upon registration",
+            ebInst2: "40% (€380) on program start date",
+            ebInst3: "40% (€380) up to 3 months after start",
+            ebCta: "Secure Your Spot",
+            regBadge: "Regular Price",
+            regPrice: "1,250€",
+            regInst1: "20% (€250) upon registration",
+            regInst2: "40% (€500) on program start date",
+            regInst3: "40% (€500) up to 3 months after start",
+            regCta: "Register",
+            certTag: "Certification",
+            certTitle: "Programme Attendance Certification",
+            certBodies: [
+                "from the French educational group Paris Education School of Hospitality - Higher Education Group",
+                "from IST College"
+            ],
+            masterclassSchedule: "Masterclasses take place on Friday/Saturday (4 days total)",
+            applyTag: "Apply",
+            applyTitle: "Apply Now",
+            applySubtitle: "Fill in your details and we will contact you right away.",
+            formTitle: "F&B Management Program",
+            formSubtitle: "Fill in your details and we will contact you",
+            formStart: "Start: 20 November",
+            formSeats: "Limited seats"
+        },
         cookieBanner: {
             message: "We use cookies for the proper functioning of the website. We do not use tracking or advertising cookies.",
             accept: "Accept",
@@ -1061,7 +1231,7 @@ const translations = {
             description: "Faites progresser votre carrière vers un poste de direction dans l'industrie hôtelière grâce à une formation en ligne, des masterclasses dans des hôtels 5★ et une connexion directe avec les meilleures marques hôtelières.",
             stat1: "5 Mois",
             stat1sub: "Durée du Programme",
-            stat2: "23+",
+            stat2: "24+",
             stat2sub: "Cours",
             stat3: "20+",
             stat3sub: "Marques Partenaires",
@@ -1075,13 +1245,11 @@ const translations = {
         },
         certBar: {
             title: "Certifié par:",
-            kdvm: "CAP",
-            kdvmSub: "Centre d'Apprentissage Permanent",
-            acta: "Certification IST College",
-            actaSub: "Certification Reconnue",
-            paris: "Certificat Paris Education",
+            paris: "Certificat de participation au programme\nde Paris Education School of Hospitality",
             parisSub: "School of Hospitality",
-            graduation: "Cérémonie de Remise des Diplômes Paris Education",
+            acta: "Certificat de participation au programme\nde l'IST College",
+            actaSub: "Certificat de participation au programme\nde l'IST College",
+            graduation: "Paris Education School of Hospitality Graduation Ceremony",
             graduationSub: "Cérémonie de Remise des Diplômes à Paris"
         },
         about: {
@@ -1138,8 +1306,8 @@ const translations = {
                 },
                 {
                     icon: "Award",
-                    title: "Certification IST College & Paris Education",
-                    desc: "Diplôme certifié avec reconnaissance internationale et cérémonie de remise."
+                    title: "Certificat de participation au programme de Paris Education School of Hospitality & de l'IST College",
+                    desc: "Diplôme avec reconnaissance internationale et cérémonie de remise."
                 },
                 {
                     icon: "Globe",
@@ -1156,7 +1324,7 @@ const translations = {
         curriculum: {
             tag: "Programme des Cours",
             title: "Cours & Modules",
-            subtitle: "23 cours spécialisés dispensés par des professionnels hôteliers de premier plan",
+            subtitle: "24 cours spécialisés dispensés par des professionnels hôteliers de premier plan",
             categories: {
                 MANAGEMENT: "Management",
                 HR: "Ressources Humaines",
@@ -1261,13 +1429,13 @@ const translations = {
                 "Marketing, Ventes & Revenue Management",
                 "Arts Culinaires & Hygiène Alimentaire",
                 "Hygiène & Sécurité Alimentaire (HACCP & Normes ISO)",
-                "Technique de Restauration & Service Management",
                 "Œnologie & L'Art du Sommelier",
                 "Front Office & Systèmes Numériques Hôteliers",
                 "Systèmes Numériques Hôteliers (PMS, Channel Managers, CRM)",
                 "Gestion du Housekeeping & Processus Organisationnels",
                 "Management Stratégique Hôtelier",
-                "Technique de Restauration & Restaurant Management"
+                "Technique de Restauration & Restaurant Management",
+                "Technique de Restauration & Service Management"
             ]
         },
         pricing: {
@@ -1278,31 +1446,31 @@ const translations = {
                 badge: "Early Bird",
                 title: "Inscription Anticipée",
                 subtitle: "Inscription jusqu'à 1 mois avant le début",
-                price: "1.990€",
-                saving: "Économisez 510€",
-                installment1: "398€ à l'inscription (20%)",
-                installment2: "796€ au début des cours (40%)",
-                installment3: "796€ jusqu'à 2 mois après le début (40%)",
+                price: "1.550€",
+                saving: "Économisez 440€",
+                installment1: "310€ à l'inscription (20%)",
+                installment2: "620€ au début des cours (40%)",
+                installment3: "620€ jusqu'à 2 mois après le début (40%)",
                 cta: "Inscription Early Bird"
             },
             regular: {
                 badge: "Régulier",
                 title: "Inscription Régulière",
                 subtitle: "En trois versements",
-                price: "2.500€",
-                installment1: "500€ à l'inscription (20%)",
-                installment2: "1.000€ au début des cours (40%)",
-                installment3: "1.000€ jusqu'à 2 mois après le début (40%)",
+                price: "1.990€",
+                installment1: "398€ à l'inscription (20%)",
+                installment2: "796€ au début des cours (40%)",
+                installment3: "796€ jusqu'à 2 mois après le début (40%)",
                 cta: "Inscription Régulière"
             },
             includes: "Comprend:",
             includesList: [
-                "Tous les cours en ligne",
+                "Tous les cours en ligne (200 heures)",
                 "Masterclasses en présentiel (3 week-ends)",
                 "Matériel pédagogique",
-                "Certificat de fin de formation Inn Academy",
-                "Certification IST College",
-                "Certificat Paris Education",
+                "Certificat de participation au programme de Paris Education School of Hospitality - Higher Education Group",
+                "Certificat de participation au programme de l'IST College",
+                "Paris Education School of Hospitality Graduation Ceremony - Cérémonie de Remise des Diplômes à Paris",
                 "Participation à la Career Day",
                 "Accès aux offres d'emploi via Innjobs"
             ],
@@ -1336,11 +1504,11 @@ const translations = {
                 },
                 {
                     q: "Quel est le coût de participation?",
-                    a: "Early Bird (inscription jusqu'à 1 mois avant): 1.990€ en trois versements (20% + 40% + 40%). Inscription régulière: 2.500€ en trois versements (20% + 40% + 40%). Les prix incluent la TVA. Le voyage en France a un coût supplémentaire."
+                    a: "Early Bird (inscription jusqu'à 1 mois avant): 1.550€ en trois versements (20% + 40% + 40%). Inscription régulière: 1.990€ en trois versements (20% + 40% + 40%). Les prix incluent la TVA. Le voyage en France a un coût supplémentaire."
                 },
                 {
                     q: "Quelles certifications est-ce que je reçois?",
-                    a: "Certificat de spécialisation Inn Academy, Certification IST College, Certificat Paris Education et invitation à la Cérémonie de Remise des Diplômes."
+                    a: "Certificat de spécialisation Inn Academy, Certificat de participation au programme de l'IST College, Certificat Paris Education et invitation à la Cérémonie de Remise des Diplômes."
                 },
                 {
                     q: "Y a-t-il un lien avec le marché du travail?",
@@ -1539,6 +1707,93 @@ const translations = {
                     body: "Les présentes Conditions sont régies par le droit grec et le droit de l'Union européenne.\n\nPour tout litige pouvant découler de l'application ou de l'interprétation des présentes, les Tribunaux d'Athènes seront exclusivement compétents."
                 }
             ]
+        },
+        fnb: {
+            badge: "F&B Management Program",
+            title: "Devenez le prochain F&B Manager.",
+            desc1: "Le nouveau programme spécialisé en Food & Beverage Management a été conçu pour ceux qui aspirent à évoluer dans un environnement hôtelier international 5*, exigeant et véritablement professionnel.",
+            desc2: "Acquérez des connaissances approfondies et une compréhension pratique du F&B, guidé par l'expérience de professionnels reconnus du secteur.",
+            totalHours: "Total : 80 heures",
+            onlineHours: "64 heures de formation en ligne via une plateforme dédiée",
+            inPersonHours: "16 heures de formation en présentiel (4 Masterclasses à Athènes)",
+            startLabel: "Début",
+            startVal: "20 Novembre",
+            durationLabel: "Durée",
+            durationVal: "3 mois",
+            cta: "Postuler Maintenant",
+            masterclassList: [
+                {
+                    title: "Technique de Restaurant",
+                    desc: "Principes fondamentaux et techniques modernes du service professionnel."
+                },
+                {
+                    title: "Technique Culinaire & Présentation du Petit-déjeuner",
+                    desc: "Delifrance"
+                },
+                {
+                    title: "Œnologie",
+                    desc: "Introduction au monde du vin, la dégustation et les accords mets-vins."
+                },
+                {
+                    title: "Bar Service & Mixologie",
+                    desc: "Techniques de service au bar et création de cocktails populaires."
+                }
+            ],
+            currTag: "Modules Thématiques",
+            currTitle: "Contenu du Programme",
+            catManagement: "Management",
+            catHR: "RH",
+            catFB: "Food & Beverage",
+            managementCourses: [
+                "Operations Management - Opérations Hôtelières & Développement Commercial",
+                "Management de la Qualité & Normes de Certification",
+                "Durabilité & Développement Durable",
+                "Gestion de Crise",
+                "Mentoring & Coaching dans l'Hôtellerie et le Tourisme"
+            ],
+            hrCourses: [
+                "Gestion des Ressources Humaines dans le Tourisme",
+                "Législation Touristique & Droit du Travail",
+                "Psychologie & Analyse Comportementale en Ressources Humaines"
+            ],
+            fbCourses: [
+                "Gestion des Achats et des Approvisionnements pour les Entreprises Hôtelières/de Restauration",
+                "F&B Management - Contrôle des Coûts F&B",
+                "Technique de Restaurant & Service Management",
+                "Œnologie & L'Art du Sommelier",
+                "Bar Management - Mixologie",
+                "Fondamentaux de l'Art Culinaire & Cuisine",
+                "Sécurité & Hygiène Alimentaire (HACCP & Normes ISO)"
+            ],
+            pricingTag: "Frais de scolarité",
+            pricingTitle: "Coût du Programme",
+            ebBadge: "Early Bird",
+            ebPrice: "950€",
+            ebSaving: "Économisez 300€",
+            ebInst1: "20% (190€) à l'inscription",
+            ebInst2: "40% (380€) au début du programme",
+            ebInst3: "40% (380€) jusqu'à 3 mois après le début",
+            ebCta: "Réserver ma place",
+            regBadge: "Tarif Normal",
+            regPrice: "1 250€",
+            regInst1: "20% (250€) à l'inscription",
+            regInst2: "40% (500€) au début du programme",
+            regInst3: "40% (500€) jusqu'à 3 mois après le début",
+            regCta: "S'inscrire",
+            certTag: "Certification",
+            certTitle: "Certification de participation au programme",
+            certBodies: [
+                "du groupe éducatif français Paris Education School of Hospitality - Higher Education Group",
+                "de l'IST College"
+            ],
+            masterclassSchedule: "Les Masterclasses auront lieu Vendredi/Samedi (4 jours au total)",
+            applyTag: "Candidature",
+            applyTitle: "Postuler Maintenant",
+            applySubtitle: "Remplissez vos coordonnées et nous vous contacterons rapidement.",
+            formTitle: "F&B Management Program",
+            formSubtitle: "Remplissez vos coordonnées et nous vous contacterons",
+            formStart: "Début : 20 Novembre",
+            formSeats: "Places limitées"
         },
         cookieBanner: {
             message: "Nous utilisons des cookies pour le bon fonctionnement du site. Nous n'utilisons pas de cookies de suivi ou de publicité.",
@@ -1814,13 +2069,6 @@ const professorsData = [
         guestSpeaker: true
     },
     {
-        name: "Φυλάκτου Γεωργία",
-        nameLatin: "Georgia Fylaktou",
-        category: "F&B",
-        linkedin: "https://www.linkedin.com/in/georgia-fylaktou-2b274a327/",
-        image: "/professors/georgia_fylaktou.jpeg"
-    },
-    {
         name: "Μαρία Κατσούλη",
         nameLatin: "Maria Katsouli",
         category: "F&B",
@@ -1863,6 +2111,13 @@ const professorsData = [
         category: "F&B",
         linkedin: "https://www.linkedin.com/in/joanna-sarantopoulou-phdc-4a840022/",
         image: "/professors/ioanna_sarantopoulou.jpg"
+    },
+    {
+        name: "Αναστάσιος Πεδιαδίτης",
+        nameLatin: "Anastasios Pediaditis",
+        category: "F&B",
+        linkedin: "https://www.linkedin.com/in/anastasios-pediaditis-a4909041/",
+        image: "/professors/pediaditis_anastasios.png"
     }
 ];
 const hotelPartners = [
