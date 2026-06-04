@@ -133,6 +133,7 @@ export default function FnbProgramPage() {
               <div className="text-center mb-12">
                 <div className="inline-flex items-center gap-2 px-4 py-1.5 bg-inn-orange/10 rounded-full text-inn-orange text-sm font-semibold mb-4">{f.currTag}</div>
                 <h2 className="text-3xl sm:text-4xl font-black text-inn-dark mb-3">{f.currTitle}</h2>
+                <p className="text-lg text-slate-500 max-w-xl mx-auto">{f.currSubtitle}</p>
               </div>
 
               {/* Filter tabs */}
