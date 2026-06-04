@@ -587,8 +587,8 @@ export const translations = {
       regCta: "Κανονική Εγγραφή",
       includes: "Περιλαμβάνει:",
       includesList: [
-        "Online εκπαίδευση (64 ώρες)",
-        "Πρακτική εκπαίδευση — 4 Masterclasses στην Αθήνα",
+        "Όλα τα online μαθήματα (80 ώρες)",
+        "Δια ζώσης 4 masterclasses",
         "Εκπαιδευτικό υλικό",
         "Πιστοποιητικό παρακολούθησης από τον γαλλικό εκπαιδευτικό όμιλο Paris Education School of Hospitality - Higher Education Group",
         "Πιστοποιητικό παρακολούθησης από το IST College",
@@ -1209,8 +1209,8 @@ export const translations = {
       regCta: "Regular Registration",
       includes: "Includes:",
       includesList: [
-        "Online training (64 hours)",
-        "In-person training — 4 Masterclasses in Athens",
+        "All online courses (80 hours)",
+        "4 in-person masterclasses",
         "Educational materials",
         "Programme Attendance Certificate from Paris Education School of Hospitality - Higher Education Group",
         "Programme Attendance Certificate from IST College",
@@ -1834,8 +1834,8 @@ export const translations = {
       regCta: "Inscription Normale",
       includes: "Comprend :",
       includesList: [
-        "Formation en ligne (64 heures)",
-        "Formation en présentiel — 4 Masterclasses à Athènes",
+        "Tous les cours en ligne (80 heures)",
+        "4 masterclasses en présentiel",
         "Matériel pédagogique",
         "Certificat de participation du groupe éducatif français Paris Education School of Hospitality - Higher Education Group",
         "Certificat de participation de l'IST College",
