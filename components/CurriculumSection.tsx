@@ -101,12 +101,6 @@ export default function CurriculumSection() {
           </div>
         </div>
 
-        {/* Count badge */}
-        <div className="text-center mt-6">
-          <span className="text-sm text-slate-400">
-            {filtered.length} {c.count}
-          </span>
-        </div>
       </div>
     </section>
   );
