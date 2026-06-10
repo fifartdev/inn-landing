@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect } from "react";
+import { useEffect, useState } from "react";
 import Navbar from "@/components/Navbar";
 import Hero from "@/components/Hero";
 import LogoTicker from "@/components/LogoTicker";
@@ -12,8 +12,11 @@ import MasterclassVenues from "@/components/MasterclassVenues";
 import PricingSection from "@/components/PricingSection";
 import Footer from "@/components/Footer";
 import ContactForm from "@/components/ContactForm";
+import ContactFormModal from "@/components/ContactFormModal";
 
 export default function Home() {
+  const [modalOpen, setModalOpen] = useState(false);
+
   useEffect(() => {
     const scrollToApplyMobile = () => {
       if (window.innerWidth < 1024) {
@@ -60,7 +63,7 @@ export default function Home() {
           <ProgramHighlights />
           <CurriculumSection />
           <MasterclassVenues />
-          <PricingSection />
+          <PricingSection onOpenModal={() => setModalOpen(true)} />
         </div>
 
         {/* Right: sticky form sidebar — sticky works on a grid item with self-start */}
@@ -76,6 +79,7 @@ export default function Home() {
       </section>
 
       <Footer />
+      <ContactFormModal open={modalOpen} onClose={() => setModalOpen(false)} />
     </main>
   );
 }

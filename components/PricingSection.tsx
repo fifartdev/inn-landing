@@ -3,9 +3,16 @@
 import { useLang } from "@/contexts/LanguageContext";
 import { CheckCircle, Zap, Tag, Building2, CreditCard } from "lucide-react";
 
-export default function PricingSection() {
+export default function PricingSection({ onOpenModal }: { onOpenModal?: () => void }) {
   const { t } = useLang();
   const p = t.pricing;
+
+  const handleCta = (e: React.MouseEvent<HTMLAnchorElement>) => {
+    if (typeof window !== "undefined" && window.innerWidth >= 1024 && onOpenModal) {
+      e.preventDefault();
+      onOpenModal();
+    }
+  };
 
   return (
     <section id="pricing" className="py-20 lg:py-28 bg-white">
@@ -62,7 +69,8 @@ export default function PricingSection() {
               </div>
 
               <a
-                href="#apply"
+                href="/apply"
+                onClick={handleCta}
                 className="block text-center px-6 py-4 bg-white text-inn-teal font-black rounded-2xl hover:bg-inn-orange hover:text-white transition-all shadow-lg text-sm"
               >
                 {p.earlyBird.cta}
@@ -100,7 +108,8 @@ export default function PricingSection() {
             </div>
 
             <a
-              href="#apply"
+              href="/apply"
+              onClick={handleCta}
               className="block text-center px-6 py-4 bg-inn-dark text-white font-black rounded-2xl hover:bg-inn-teal transition-all text-sm"
             >
               {p.regular.cta}

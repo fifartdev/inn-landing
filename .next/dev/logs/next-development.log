@@ -1,32 +1,35 @@
-[00:00:01.101] Server  LOG     ✓ Ready in 813ms
-[00:00:37.728] Browser WARN    Image with src "/hero-mobile.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:01:07.232] Browser WARN    Image with src "/hero-mobile.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:02:19.863] Server  WARN    ⚠ Fast Refresh had to perform a full reload when ./lib/translations.ts changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
-[00:02:19.877] Server  LOG     ✓ Compiled in 105ms
-[00:02:32.159] Browser WARN    Image with src "/hero-mobile.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:04:28.544] Server  WARN    ⚠ Fast Refresh had to perform a full reload when ./lib/translations.ts changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
-[00:04:28.562] Server  LOG     ✓ Compiled in 57ms
-[00:04:38.227] Server  WARN    ⚠ Fast Refresh had to perform a full reload when ./lib/translations.ts changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
-[00:04:38.311] Server  LOG     ✓ Compiled in 11ms
-[00:04:43.777] Server  WARN    ⚠ Fast Refresh had to perform a full reload when ./lib/translations.ts changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
-[00:04:43.847] Server  LOG     ✓ Compiled in 8ms
-[00:04:51.257] Server  WARN    ⚠ Fast Refresh had to perform a full reload when ./lib/translations.ts changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
-[00:04:51.328] Server  LOG     ✓ Compiled in 9ms
-[00:04:57.698] Server  WARN    ⚠ Fast Refresh had to perform a full reload when ./lib/translations.ts changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
-[00:04:57.773] Server  LOG     ✓ Compiled in 10ms
-[00:05:05.398] Server  WARN    ⚠ Fast Refresh had to perform a full reload when ./lib/translations.ts changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
-[00:05:05.469] Server  LOG     ✓ Compiled in 10ms
-[00:06:45.951] Browser WARN    Image with src "/hero-mobile.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:08:28.869] Server  WARN    ⚠ Fast Refresh had to perform a full reload when ./lib/translations.ts changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
-[00:08:28.885] Server  LOG     ✓ Compiled in 24ms
-[00:08:35.497] Server  WARN    ⚠ Fast Refresh had to perform a full reload when ./lib/translations.ts changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
-[00:08:35.592] Server  LOG     ✓ Compiled in 10ms
-[00:08:45.797] Server  WARN    ⚠ Fast Refresh had to perform a full reload when ./lib/translations.ts changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
-[00:08:45.887] Server  LOG     ✓ Compiled in 13ms
-[00:08:59.733] Server  LOG     ✓ Compiled in 91ms
-[00:09:21.321] Server  WARN    ⚠ Fast Refresh had to perform a full reload when ./lib/translations.ts changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
-[00:09:21.321] Server  LOG     ✓ Compiled in 12ms
-[00:09:27.378] Server  LOG     ✓ Compiled in 14ms
-[00:09:27.380] Server  WARN    ⚠ Fast Refresh had to perform a full reload when ./lib/translations.ts changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
-[00:09:33.082] Server  WARN    ⚠ Fast Refresh had to perform a full reload when ./lib/translations.ts changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
-[00:09:33.196] Server  LOG     ✓ Compiled in 16ms
+[00:00:01.100] Server  LOG     ✓ Ready in 779ms
+[00:00:55.487] Server  LOG     ✓ Compiled in 979ms
+[00:01:02.689] Server  LOG     ✓ Compiled in 124ms
+[00:01:09.276] Server  LOG     ✓ Compiled in 66ms
+[00:01:15.046] Server  LOG     ✓ Compiled in 88ms
+[00:01:24.046] Server  LOG     ✓ Compiled in 891ms
+[00:01:28.645] Server  LOG     ✓ Compiled in 326ms
+[00:01:33.927] Server  LOG     ✓ Compiled in 300ms
+[00:01:39.154] Server  LOG     ✓ Compiled in 147ms
+[00:01:40.693] Browser WARN    Image with src "/hero-mobile.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:02:46.203] Browser WARN    Image with src "/fnb-hero.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:03:47.472] Server  LOG     ✓ Compiled in 134ms
+[00:03:53.965] Server  LOG     ✓ Compiled in 66ms
+[00:03:54.037] Browser WARN    Image with src "/hero-mobile.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:03:59.939] Server  LOG     ✓ Compiled in 395ms
+[00:04:05.939] Browser WARN    Image with src "/hero-mobile.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:04:35.461] Browser WARN    Image with src "/hero-mobile.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:05:53.387] Server  WARN    ⚠ Fast Refresh had to perform a full reload when ./lib/translations.ts changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+[00:05:53.388] Server  LOG     ✓ Compiled in 57ms
+[00:05:58.278] Server  WARN    ⚠ Fast Refresh had to perform a full reload when ./lib/translations.ts changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+[00:05:58.290] Server  LOG     ✓ Compiled in 19ms
+[00:06:03.828] Server  WARN    ⚠ Fast Refresh had to perform a full reload when ./lib/translations.ts changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+[00:06:03.841] Server  LOG     ✓ Compiled in 50ms
+[00:06:09.030] Browser WARN    Image with src "/hero-mobile.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:08:26.012] Browser WARN    Image with src "/hero-mobile.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:08:38.483] Server  LOG     ✓ Compiled in 157ms
+[00:10:11.323] Browser WARN    Image with src "/hero-mobile.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:11:24.017] Server  LOG     ✓ Compiled in 213ms
+[00:12:08.412] Server  WARN    ⚠ Fast Refresh had to perform a full reload when ./lib/translations.ts changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+[00:12:08.427] Server  LOG     ✓ Compiled in 39ms
+[00:12:13.614] Server  WARN    ⚠ Fast Refresh had to perform a full reload when ./lib/translations.ts changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+[00:12:13.634] Server  LOG     ✓ Compiled in 16ms
+[00:12:19.324] Server  LOG     ✓ Compiled in 31ms
+[00:12:19.326] Server  WARN    ⚠ Fast Refresh had to perform a full reload when ./lib/translations.ts changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+[00:15:06.268] Browser WARN    Image with src "/hero-mobile.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes

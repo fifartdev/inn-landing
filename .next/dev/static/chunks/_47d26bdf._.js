@@ -28,6 +28,8 @@ const translations = {
             gallery: "Γκάλερι",
             sponsors: "Χορηγοί",
             apply: "Αίτηση Εγγραφής",
+            programDiploma: "Diploma in Hotel Management",
+            programFnb: "F&B Management Program",
             countries: "Ευκαιρίες Εργασίας",
             france: "Εκπαιδευτική Εκδρομή",
             guests: "Επίτιμοι Προσκεκλημένοι"
@@ -100,7 +102,7 @@ const translations = {
                 {
                     icon: "Building",
                     title: "Masterclasses σε 5★ Ξενοδοχεία",
-                    desc: "3 Σαββατοκύριακα στην Αθήνα — Grand Hyatt, Electra Metropolis & Brown."
+                    desc: "4 ημέρες στην Αθήνα — Grand Hyatt, Electra Metropolis & Brown."
                 },
                 {
                     icon: "Plane",
@@ -114,8 +116,8 @@ const translations = {
                 },
                 {
                     icon: "Award",
-                    title: "Πιστοποιητικό παρακολούθησης προγράμματος από τον γαλλικό εκπαιδευτικό όμιλο Paris Education School of Hospitality & το IST College",
-                    desc: ""
+                    title: "Πιστοποίηση",
+                    desc: "από τον γαλλικό εκπαιδευτικό όμιλο Paris Education School of Hospitality & το IST College"
                 },
                 {
                     icon: "Globe",
@@ -275,7 +277,7 @@ const translations = {
             includes: "Περιλαμβάνει:",
             includesList: [
                 "Όλα τα online μαθήματα (200 ώρες)",
-                "Δια ζώσης masterclasses (3 Σαββατοκύριακα)",
+                "Δια ζώσης masterclasses",
                 "Εκπαιδευτικό υλικό",
                 "Πιστοποιητικό παρακολούθησης προγράμματος από τον γαλλικό εκπαιδευτικό όμιλο Paris Education School of Hospitality - Higher Education Group",
                 "Πιστοποιητικό παρακολούθησης προγράμματος από το IST College",
@@ -523,6 +525,11 @@ const translations = {
             desc1: "Το νέο εξειδικευμένο πρόγραμμα στον τομέα του Food & Beverage Management έχει σχεδιαστεί για όσους επιδιώκουν να εξελιχθούν σε ένα διεθνές 5*, απαιτητικό και απόλυτα επαγγελματικό περιβάλλον στον χώρο της φιλοξενίας και των ξενοδοχείων.",
             desc2: "Απόκτησε ουσιαστική γνώση και πρακτική κατανόηση του F&B, μέσα από την καθοδήγηση και την εμπειρία καταξιωμένων επαγγελματιών της αγοράς.",
             totalHours: "Σύνολο: 80 ώρες",
+            programTag: "Το Πρόγραμμα",
+            programTitle: "F&B Management Program",
+            programSubtitle: "Εξειδίκευση στον τομέα του Food & Beverage Management",
+            mode: "Τρόπος Διεξαγωγής",
+            modeVal: "Online + Masterclasses",
             onlineHours: "64 ώρες online εκπαίδευση μέσα από ειδική πλατφόρμα",
             inPersonHours: "16 ώρες πρακτική εκπαίδευση (4 Masterclasses στην Αθήνα)",
             startLabel: "Έναρξη",
@@ -536,8 +543,8 @@ const translations = {
                     desc: "Βασικές αρχές και σύγχρονες τεχνικές επαγγελματικής εξυπηρέτησης."
                 },
                 {
-                    title: "Μαγειρική Τεχνική & Παρουσίαση Πρωινού",
-                    desc: "Delifrance"
+                    title: "Μαγειρική Τεχνική & Παρουσίαση Ελληνικού Πρωινού",
+                    desc: ""
                 },
                 {
                     title: "Οινολογία",
@@ -548,8 +555,10 @@ const translations = {
                     desc: "Τεχνικές bar service και δημιουργία δημοφιλών cocktails."
                 }
             ],
-            currTag: "Θεματικές Ενότητες",
-            currTitle: "Περιεχόμενο Προγράμματος",
+            currTag: "Αναλυτικό Πρόγραμμα",
+            currTitle: "Μαθήματα & Ενότητες",
+            currSubtitle: "15 εξειδικευμένα μαθήματα από κορυφαίους επαγγελματίες του κλάδου",
+            currAll: "Όλα τα Μαθήματα",
             catManagement: "Management",
             catHR: "HR",
             catFB: "Food & Beverage",
@@ -574,28 +583,51 @@ const translations = {
                 "Βασικές Αρχές Μαγειρικής Τέχνης & Κουζίνας",
                 "Υγιεινή & Ασφάλεια Τροφίμων (HACCP & ISO Standards)"
             ],
-            pricingTag: "Δίδακτρα",
-            pricingTitle: "Κόστος Συμμετοχής",
+            pricingTag: "Κόστος Φοίτησης",
+            pricingTitle: "Επενδύστε στην Καριέρα σας",
+            pricingSubtitle: "Ευέλικτες επιλογές πληρωμής για κάθε ανάγκη",
             ebBadge: "Early Bird",
+            ebTitle: "Πρώιμη Εγγραφή",
+            ebSubtitle: "Εγγραφή έως 1 μήνα πριν την έναρξη",
             ebPrice: "950€",
-            ebSaving: "Εξοικονόμηση 300€",
-            ebInst1: "20% (190€) κατά την εγγραφή",
-            ebInst2: "40% (380€) με την έναρξη του προγράμματος",
-            ebInst3: "40% (380€) έως 3 μήνες μετά την έναρξη",
-            ebCta: "Εξασφάλισε Θέση",
-            regBadge: "Κανονική Τιμή",
+            ebSaving: "Εξοικονομείς 300€",
+            ebInst1: "190€ με την εγγραφή (20%)",
+            ebInst2: "380€ με την έναρξη (40%)",
+            ebInst3: "380€ μέχρι 3 μήνες μετά την έναρξη (40%)",
+            ebCta: "Εγγραφή Early Bird",
+            regBadge: "Κανονική",
+            regTitle: "Κανονική Εγγραφή",
+            regSubtitle: "Σε τρεις δόσεις",
             regPrice: "1.250€",
-            regInst1: "20% (250€) κατά την εγγραφή",
-            regInst2: "40% (500€) με την έναρξη του προγράμματος",
-            regInst3: "40% (500€) έως 3 μήνες μετά την έναρξη",
-            regCta: "Εγγραφή",
+            regInst1: "250€ με την εγγραφή (20%)",
+            regInst2: "500€ με την έναρξη (40%)",
+            regInst3: "500€ μέχρι 3 μήνες μετά την έναρξη (40%)",
+            regCta: "Κανονική Εγγραφή",
+            includes: "Περιλαμβάνει:",
+            includesList: [
+                "Όλα τα online μαθήματα (80 ώρες)",
+                "Δια ζώσης 4 masterclasses",
+                "Εκπαιδευτικό υλικό",
+                "Πιστοποιητικό παρακολούθησης από τον γαλλικό εκπαιδευτικό όμιλο Paris Education School of Hospitality - Higher Education Group",
+                "Πιστοποιητικό παρακολούθησης από το IST College",
+                "Συμμετοχή σε Career Day",
+                "Πρόσβαση σε αγγελίες μέσω Innjobs"
+            ],
+            vatNote: "Οι αναγραφόμενες τιμές περιλαμβάνουν Φ.Π.Α.",
             certTag: "Πιστοποίηση",
             certTitle: "Πιστοποίηση παρακολούθησης προγράμματος",
             certBodies: [
                 "από τον γαλλικό εκπαιδευτικό όμιλο Paris Education School of Hospitality - Higher Education Group",
                 "από το IST College"
             ],
-            masterclassSchedule: "Τα Masterclasses θα γίνονται Παρασκευή/Σάββατο (σύνολο 4 ημέρες)",
+            masterclassSchedule: "Τα Masterclasses θα γίνονται Παρασκευή/Σάββατο (συνολικά σε 3 ημέρες)",
+            masterclassTag: "Masterclass Venues",
+            masterclassTitle: "Βιωματική Εκπαίδευση σε 5★ Ξενοδοχεία",
+            masterclassSubtitle: "4 Masterclasses — Bar management, mixology και service excellence",
+            venueArea: "Bar & Restaurant Management",
+            venueName: "Brown Athens",
+            venueLocation: "Athens, Greece",
+            venueDesc: "Bar management, mixology και service excellence σε ένα από τα κορυφαία αστικά ξενοδοχεία.",
             applyTag: "Αίτηση",
             applyTitle: "Κάνε Αίτηση Τώρα",
             applySubtitle: "Συμπλήρωσε τα στοιχεία σου και θα επικοινωνήσουμε μαζί σου άμεσα.",
@@ -622,6 +654,8 @@ const translations = {
             gallery: "Gallery",
             sponsors: "Sponsors",
             apply: "Apply Now",
+            programDiploma: "Diploma in Hotel Management",
+            programFnb: "F&B Management Program",
             countries: "Work Opportunities",
             france: "France Trip",
             guests: "Honorary Guests"
@@ -694,7 +728,7 @@ const translations = {
                 {
                     icon: "Building",
                     title: "5★ Hotel Masterclasses",
-                    desc: "3 weekends in Athens — Grand Hyatt, Electra Metropolis & Brown."
+                    desc: "4 days in Athens — Grand Hyatt, Electra Metropolis & Brown."
                 },
                 {
                     icon: "Plane",
@@ -708,8 +742,8 @@ const translations = {
                 },
                 {
                     icon: "Award",
-                    title: "Paris Education School of Hospitality & IST College Programme Attendance Certificate",
-                    desc: ""
+                    title: "Certification",
+                    desc: "from Paris Education School of Hospitality & IST College"
                 },
                 {
                     icon: "Globe",
@@ -869,7 +903,7 @@ const translations = {
             includes: "Includes:",
             includesList: [
                 "All online courses (200 hours)",
-                "In-person masterclasses (3 weekends)",
+                "In-person masterclasses",
                 "Educational materials",
                 "Programme Attendance Certificate from Paris Education School of Hospitality - Higher Education Group",
                 "Programme Attendance Certificate from IST College",
@@ -1117,6 +1151,11 @@ const translations = {
             desc1: "The new specialized program in Food & Beverage Management has been designed for those who aspire to thrive in an international 5*, demanding and truly professional environment in hospitality and hotels.",
             desc2: "Gain substantial knowledge and practical understanding of F&B, guided by the experience of established industry professionals.",
             totalHours: "Total: 80 hours",
+            programTag: "The Program",
+            programTitle: "F&B Management Program",
+            programSubtitle: "Specialization in Food & Beverage Management",
+            mode: "Mode",
+            modeVal: "Online + Masterclasses",
             onlineHours: "64 hours of online training via a dedicated platform",
             inPersonHours: "16 hours of in-person training (4 Masterclasses in Athens)",
             startLabel: "Start",
@@ -1130,8 +1169,8 @@ const translations = {
                     desc: "Fundamental principles and modern techniques of professional service."
                 },
                 {
-                    title: "Culinary Technique & Breakfast Presentation",
-                    desc: "Delifrance"
+                    title: "Culinary Technique & Greek Breakfast Presentation",
+                    desc: ""
                 },
                 {
                     title: "Oenology",
@@ -1142,8 +1181,10 @@ const translations = {
                     desc: "Bar service techniques and creation of popular cocktails."
                 }
             ],
-            currTag: "Thematic Modules",
-            currTitle: "Program Content",
+            currTag: "Detailed Curriculum",
+            currTitle: "Courses & Modules",
+            currSubtitle: "15 specialised courses from top industry professionals",
+            currAll: "All Courses",
             catManagement: "Management",
             catHR: "HR",
             catFB: "Food & Beverage",
@@ -1169,27 +1210,50 @@ const translations = {
                 "Food Safety & Hygiene (HACCP & ISO Standards)"
             ],
             pricingTag: "Tuition",
-            pricingTitle: "Program Cost",
+            pricingTitle: "Invest in Your Career",
+            pricingSubtitle: "Flexible payment options for every need",
             ebBadge: "Early Bird",
+            ebTitle: "Early Registration",
+            ebSubtitle: "Register up to 1 month before start",
             ebPrice: "950€",
             ebSaving: "Save 300€",
-            ebInst1: "20% (€190) upon registration",
-            ebInst2: "40% (€380) on program start date",
-            ebInst3: "40% (€380) up to 3 months after start",
-            ebCta: "Secure Your Spot",
-            regBadge: "Regular Price",
+            ebInst1: "€190 upon registration (20%)",
+            ebInst2: "€380 on start date (40%)",
+            ebInst3: "€380 up to 3 months after start (40%)",
+            ebCta: "Early Bird Registration",
+            regBadge: "Regular",
+            regTitle: "Regular Registration",
+            regSubtitle: "In three instalments",
             regPrice: "1,250€",
-            regInst1: "20% (€250) upon registration",
-            regInst2: "40% (€500) on program start date",
-            regInst3: "40% (€500) up to 3 months after start",
-            regCta: "Register",
+            regInst1: "€250 upon registration (20%)",
+            regInst2: "€500 on start date (40%)",
+            regInst3: "€500 up to 3 months after start (40%)",
+            regCta: "Regular Registration",
+            includes: "Includes:",
+            includesList: [
+                "All online courses (80 hours)",
+                "4 in-person masterclasses",
+                "Educational materials",
+                "Programme Attendance Certificate from Paris Education School of Hospitality - Higher Education Group",
+                "Programme Attendance Certificate from IST College",
+                "Career Day participation",
+                "Job listings access via Innjobs"
+            ],
+            vatNote: "Listed prices include VAT.",
             certTag: "Certification",
             certTitle: "Programme Attendance Certification",
             certBodies: [
                 "from the French educational group Paris Education School of Hospitality - Higher Education Group",
                 "from IST College"
             ],
-            masterclassSchedule: "Masterclasses take place on Friday/Saturday (4 days total)",
+            masterclassSchedule: "Masterclasses take place on Friday/Saturday (3 days total)",
+            masterclassTag: "Masterclass Venues",
+            masterclassTitle: "Experiential Training at 5★ Hotels",
+            masterclassSubtitle: "4 Masterclasses — Bar management, mixology and service excellence",
+            venueArea: "Bar & Restaurant Management",
+            venueName: "Brown Athens",
+            venueLocation: "Athens, Greece",
+            venueDesc: "Bar management, mixology and service excellence at one of Athens' top urban hotels.",
             applyTag: "Apply",
             applyTitle: "Apply Now",
             applySubtitle: "Fill in your details and we will contact you right away.",
@@ -1216,6 +1280,8 @@ const translations = {
             gallery: "Galerie",
             sponsors: "Sponsors",
             apply: "Postuler",
+            programDiploma: "Diploma in Hotel Management",
+            programFnb: "F&B Management Program",
             countries: "Opportunités d'Emploi",
             france: "Voyage en France",
             guests: "Invités d'Honneur"
@@ -1288,7 +1354,7 @@ const translations = {
                 {
                     icon: "Building",
                     title: "Masterclasses en Hôtels 5★",
-                    desc: "3 week-ends à Athènes — Grand Hyatt, Electra Metropolis & Brown."
+                    desc: "4 jours à Athènes — Grand Hyatt, Electra Metropolis & Brown."
                 },
                 {
                     icon: "Plane",
@@ -1302,8 +1368,8 @@ const translations = {
                 },
                 {
                     icon: "Award",
-                    title: "Certificat de participation au programme de Paris Education School of Hospitality & de l'IST College",
-                    desc: ""
+                    title: "Certification",
+                    desc: "de Paris Education School of Hospitality & de l'IST College"
                 },
                 {
                     icon: "Globe",
@@ -1463,7 +1529,7 @@ const translations = {
             includes: "Comprend:",
             includesList: [
                 "Tous les cours en ligne (200 heures)",
-                "Masterclasses en présentiel (3 week-ends)",
+                "Masterclasses en présentiel",
                 "Matériel pédagogique",
                 "Certificat de participation au programme de Paris Education School of Hospitality - Higher Education Group",
                 "Certificat de participation au programme de l'IST College",
@@ -1711,6 +1777,11 @@ const translations = {
             desc1: "Le nouveau programme spécialisé en Food & Beverage Management a été conçu pour ceux qui aspirent à évoluer dans un environnement hôtelier international 5*, exigeant et véritablement professionnel.",
             desc2: "Acquérez des connaissances approfondies et une compréhension pratique du F&B, guidé par l'expérience de professionnels reconnus du secteur.",
             totalHours: "Total : 80 heures",
+            programTag: "Le Programme",
+            programTitle: "F&B Management Program",
+            programSubtitle: "Spécialisation en Food & Beverage Management",
+            mode: "Mode",
+            modeVal: "En ligne + Masterclasses",
             onlineHours: "64 heures de formation en ligne via une plateforme dédiée",
             inPersonHours: "16 heures de formation en présentiel (4 Masterclasses à Athènes)",
             startLabel: "Début",
@@ -1724,8 +1795,8 @@ const translations = {
                     desc: "Principes fondamentaux et techniques modernes du service professionnel."
                 },
                 {
-                    title: "Technique Culinaire & Présentation du Petit-déjeuner",
-                    desc: "Delifrance"
+                    title: "Technique Culinaire & Présentation du Petit-déjeuner Grec",
+                    desc: ""
                 },
                 {
                     title: "Œnologie",
@@ -1736,8 +1807,10 @@ const translations = {
                     desc: "Techniques de service au bar et création de cocktails populaires."
                 }
             ],
-            currTag: "Modules Thématiques",
-            currTitle: "Contenu du Programme",
+            currTag: "Programme Détaillé",
+            currTitle: "Cours & Modules",
+            currSubtitle: "15 cours spécialisés par les meilleurs professionnels du secteur",
+            currAll: "Tous les cours",
             catManagement: "Management",
             catHR: "RH",
             catFB: "Food & Beverage",
@@ -1762,28 +1835,51 @@ const translations = {
                 "Fondamentaux de l'Art Culinaire & Cuisine",
                 "Sécurité & Hygiène Alimentaire (HACCP & Normes ISO)"
             ],
-            pricingTag: "Frais de scolarité",
-            pricingTitle: "Coût du Programme",
+            pricingTag: "Frais de Scolarité",
+            pricingTitle: "Investissez dans Votre Carrière",
+            pricingSubtitle: "Options de paiement flexibles pour chaque besoin",
             ebBadge: "Early Bird",
+            ebTitle: "Inscription Anticipée",
+            ebSubtitle: "Inscription jusqu'à 1 mois avant le début",
             ebPrice: "950€",
             ebSaving: "Économisez 300€",
-            ebInst1: "20% (190€) à l'inscription",
-            ebInst2: "40% (380€) au début du programme",
-            ebInst3: "40% (380€) jusqu'à 3 mois après le début",
-            ebCta: "Réserver ma place",
-            regBadge: "Tarif Normal",
+            ebInst1: "190€ à l'inscription (20%)",
+            ebInst2: "380€ au début du programme (40%)",
+            ebInst3: "380€ jusqu'à 3 mois après le début (40%)",
+            ebCta: "Inscription Early Bird",
+            regBadge: "Normal",
+            regTitle: "Inscription Normale",
+            regSubtitle: "En trois versements",
             regPrice: "1 250€",
-            regInst1: "20% (250€) à l'inscription",
-            regInst2: "40% (500€) au début du programme",
-            regInst3: "40% (500€) jusqu'à 3 mois après le début",
-            regCta: "S'inscrire",
+            regInst1: "250€ à l'inscription (20%)",
+            regInst2: "500€ au début du programme (40%)",
+            regInst3: "500€ jusqu'à 3 mois après le début (40%)",
+            regCta: "Inscription Normale",
+            includes: "Comprend :",
+            includesList: [
+                "Tous les cours en ligne (80 heures)",
+                "4 masterclasses en présentiel",
+                "Matériel pédagogique",
+                "Certificat de participation du groupe éducatif français Paris Education School of Hospitality - Higher Education Group",
+                "Certificat de participation de l'IST College",
+                "Participation au Career Day",
+                "Accès aux offres d'emploi via Innjobs"
+            ],
+            vatNote: "Les prix indiqués incluent la TVA.",
             certTag: "Certification",
             certTitle: "Certification de participation au programme",
             certBodies: [
                 "du groupe éducatif français Paris Education School of Hospitality - Higher Education Group",
                 "de l'IST College"
             ],
-            masterclassSchedule: "Les Masterclasses auront lieu Vendredi/Samedi (4 jours au total)",
+            masterclassSchedule: "Les Masterclasses auront lieu Vendredi/Samedi (3 jours au total)",
+            masterclassTag: "Masterclass Venues",
+            masterclassTitle: "Formation Expérientielle dans des Hôtels 5★",
+            masterclassSubtitle: "4 Masterclasses — Bar management, mixologie et excellence de service",
+            venueArea: "Bar & Restaurant Management",
+            venueName: "Brown Athens",
+            venueLocation: "Athènes, Grèce",
+            venueDesc: "Bar management, mixologie et excellence de service dans l'un des meilleurs hôtels urbains d'Athènes.",
             applyTag: "Candidature",
             applyTitle: "Postuler Maintenant",
             applySubtitle: "Remplissez vos coordonnées et nous vous contacterons rapidement.",
@@ -1859,7 +1955,7 @@ const courseData = [
     },
     {
         id: 9,
-        category: "MANAGEMENT",
+        category: "F&B",
         title: "Διαχείριση Προμηθειών και Αγορών Ξενοδοχειακών Επιχειρήσεων",
         instructor: "Γιώτα Μπαλάφα",
         instructorLatin: "Giota Balafa"

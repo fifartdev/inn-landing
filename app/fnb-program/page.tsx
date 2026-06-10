@@ -2,10 +2,11 @@
 
 import Image from "next/image";
 import { useState } from "react";
-import { CheckCircle, Clock, Monitor, MapPin, Award, Zap, Tag, Star, Calendar, Building2, BookOpen, CreditCard } from "lucide-react";
+import { CheckCircle, Clock, Monitor, MapPin, Award, Zap, Tag, Star, Calendar, Building2, BookOpen, CreditCard, Briefcase } from "lucide-react";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import ContactForm from "@/components/ContactForm";
+import ContactFormModal from "@/components/ContactFormModal";
 import { useLang } from "@/contexts/LanguageContext";
 
 const FNB_CATS = ["ALL", "MANAGEMENT", "HR", "F&B"] as const;
@@ -15,6 +16,14 @@ export default function FnbProgramPage() {
   const { t } = useLang();
   const f = t.fnb;
   const [activeCat, setActiveCat] = useState<FnbCat>("ALL");
+  const [modalOpen, setModalOpen] = useState(false);
+
+  const handleCta = (e: React.MouseEvent<HTMLAnchorElement>) => {
+    if (typeof window !== "undefined" && window.innerWidth >= 1024) {
+      e.preventDefault();
+      setModalOpen(true);
+    }
+  };
 
   const allCourses = [
     ...f.managementCourses.map((title: string, i: number) => ({ id: i + 1, cat: "MANAGEMENT" as FnbCat, title })),
@@ -39,9 +48,9 @@ export default function FnbProgramPage() {
 
   const highlights = [
     { icon: <Monitor className="w-6 h-6" />, color: "bg-inn-teal text-white", title: f.onlineHours, desc: "" },
-    { icon: <Building2 className="w-6 h-6" />, color: "bg-inn-orange text-white", title: <>{f.inPersonHours.split("(4")[0]}<span className="whitespace-nowrap">(4{f.inPersonHours.split("(4")[1]}</span></>, desc: "Brown Athens — Bar & Restaurant Management" },
-    { icon: <Award className="w-6 h-6" />, color: "bg-purple-600 text-white", title: `${f.certTitle} ${f.certBodies[0]}`, desc: "" },
-    { icon: <Award className="w-6 h-6" />, color: "bg-emerald-600 text-white", title: `${f.certTitle} ${f.certBodies[1]}`, desc: "" },
+    { icon: <Building2 className="w-6 h-6" />, color: "bg-inn-orange text-white", title: <>{f.inPersonHours.split("(4")[0]}<span className="whitespace-nowrap">(4{f.inPersonHours.split("(4")[1]}</span></>, desc: <>Brown Athens — Bar & Restaurant Management<br />Delifrance</> },
+    { icon: <Briefcase className="w-6 h-6" />, color: "bg-emerald-600 text-white", title: t.program.highlights[3].title, desc: t.program.highlights[3].desc },
+    { icon: <Award className="w-6 h-6" />, color: "bg-purple-600 text-white", title: t.program.highlights[4].title, desc: t.program.highlights[4].desc },
   ];
 
   return (
@@ -302,7 +311,7 @@ export default function FnbProgramPage() {
                       ))}
                     </div>
                     <a href="#apply-mobile" className="lg:hidden block text-center px-6 py-4 bg-white text-inn-teal font-black rounded-2xl hover:bg-inn-orange hover:text-white transition-all shadow-lg text-sm">{f.ebCta}</a>
-                    <a href="#apply" className="hidden lg:block text-center px-6 py-4 bg-white text-inn-teal font-black rounded-2xl hover:bg-inn-orange hover:text-white transition-all shadow-lg text-sm">{f.ebCta}</a>
+                    <a href="#apply" onClick={handleCta} className="hidden lg:block text-center px-6 py-4 bg-white text-inn-teal font-black rounded-2xl hover:bg-inn-orange hover:text-white transition-all shadow-lg text-sm">{f.ebCta}</a>
                   </div>
                 </div>
 
@@ -323,7 +332,7 @@ export default function FnbProgramPage() {
                     ))}
                   </div>
                   <a href="#apply-mobile" className="lg:hidden block text-center px-6 py-4 bg-inn-dark text-white font-black rounded-2xl hover:bg-inn-teal transition-all text-sm">{f.regCta}</a>
-                  <a href="#apply" className="hidden lg:block text-center px-6 py-4 bg-inn-dark text-white font-black rounded-2xl hover:bg-inn-teal transition-all text-sm">{f.regCta}</a>
+                  <a href="#apply" onClick={handleCta} className="hidden lg:block text-center px-6 py-4 bg-inn-dark text-white font-black rounded-2xl hover:bg-inn-teal transition-all text-sm">{f.regCta}</a>
                 </div>
 
                 {/* Includes */}
@@ -385,6 +394,7 @@ export default function FnbProgramPage() {
       </section>
 
       <Footer />
+      <ContactFormModal open={modalOpen} onClose={() => setModalOpen(false)} />
     </main>
   );
 }

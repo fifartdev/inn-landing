@@ -88,7 +88,7 @@ export const translations = {
         {
           icon: "Building",
           title: "Masterclasses σε 5★ Ξενοδοχεία",
-          desc: "3 Σαββατοκύριακα στην Αθήνα — Grand Hyatt, Electra Metropolis & Brown.",
+          desc: "4 ημέρες στην Αθήνα — Grand Hyatt, Electra Metropolis & Brown.",
         },
         {
           icon: "Plane",
@@ -102,8 +102,8 @@ export const translations = {
         },
         {
           icon: "Award",
-          title: "Πιστοποιητικό παρακολούθησης προγράμματος από τον γαλλικό εκπαιδευτικό όμιλο Paris Education School of Hospitality & το IST College",
-          desc: "",
+          title: "Πιστοποίηση",
+          desc: "από τον γαλλικό εκπαιδευτικό όμιλο Paris Education School of Hospitality & το IST College",
         },
         {
           icon: "Globe",
@@ -268,7 +268,7 @@ export const translations = {
       includes: "Περιλαμβάνει:",
       includesList: [
         "Όλα τα online μαθήματα (200 ώρες)",
-        "Δια ζώσης masterclasses (3 Σαββατοκύριακα)",
+        "Δια ζώσης masterclasses",
         "Εκπαιδευτικό υλικό",
         "Πιστοποιητικό παρακολούθησης προγράμματος από τον γαλλικό εκπαιδευτικό όμιλο Paris Education School of Hospitality - Higher Education Group",
         "Πιστοποιητικό παρακολούθησης προγράμματος από το IST College",
@@ -533,7 +533,7 @@ export const translations = {
       cta: "Κάνε Αίτηση Τώρα",
       masterclassList: [
         { title: "Εστιατορική Τεχνική", desc: "Βασικές αρχές και σύγχρονες τεχνικές επαγγελματικής εξυπηρέτησης." },
-        { title: "Μαγειρική Τεχνική & Παρουσίαση Πρωινού", desc: "" },
+        { title: "Μαγειρική Τεχνική & Παρουσίαση Ελληνικού Πρωινού", desc: "" },
         { title: "Οινολογία", desc: "Εισαγωγή στον κόσμο του κρασιού, τη γευσιγνωσία και τους συνδυασμούς με το φαγητό." },
         { title: "Bar Service & Mixology", desc: "Τεχνικές bar service και δημιουργία δημοφιλών cocktails." },
       ],
@@ -712,7 +712,7 @@ export const translations = {
         {
           icon: "Building",
           title: "5★ Hotel Masterclasses",
-          desc: "3 weekends in Athens — Grand Hyatt, Electra Metropolis & Brown.",
+          desc: "4 days in Athens — Grand Hyatt, Electra Metropolis & Brown.",
         },
         {
           icon: "Plane",
@@ -726,8 +726,8 @@ export const translations = {
         },
         {
           icon: "Award",
-          title: "Paris Education School of Hospitality & IST College Programme Attendance Certificate",
-          desc: "",
+          title: "Certification",
+          desc: "from Paris Education School of Hospitality & IST College",
         },
         {
           icon: "Globe",
@@ -890,7 +890,7 @@ export const translations = {
       includes: "Includes:",
       includesList: [
         "All online courses (200 hours)",
-        "In-person masterclasses (3 weekends)",
+        "In-person masterclasses",
         "Educational materials",
         "Programme Attendance Certificate from Paris Education School of Hospitality - Higher Education Group",
         "Programme Attendance Certificate from IST College",
@@ -1155,7 +1155,7 @@ export const translations = {
       cta: "Apply Now",
       masterclassList: [
         { title: "Restaurant Technique", desc: "Fundamental principles and modern techniques of professional service." },
-        { title: "Culinary Technique & Breakfast Presentation", desc: "" },
+        { title: "Culinary Technique & Greek Breakfast Presentation", desc: "" },
         { title: "Oenology", desc: "Introduction to the world of wine, tasting, and food pairing." },
         { title: "Bar Service & Mixology", desc: "Bar service techniques and creation of popular cocktails." },
       ],
@@ -1334,7 +1334,7 @@ export const translations = {
         {
           icon: "Building",
           title: "Masterclasses en Hôtels 5★",
-          desc: "3 week-ends à Athènes — Grand Hyatt, Electra Metropolis & Brown.",
+          desc: "4 jours à Athènes — Grand Hyatt, Electra Metropolis & Brown.",
         },
         {
           icon: "Plane",
@@ -1348,8 +1348,8 @@ export const translations = {
         },
         {
           icon: "Award",
-          title: "Certificat de participation au programme de Paris Education School of Hospitality & de l'IST College",
-          desc: "",
+          title: "Certification",
+          desc: "de Paris Education School of Hospitality & de l'IST College",
         },
         {
           icon: "Globe",
@@ -1513,7 +1513,7 @@ export const translations = {
       includes: "Comprend:",
       includesList: [
         "Tous les cours en ligne (200 heures)",
-        "Masterclasses en présentiel (3 week-ends)",
+        "Masterclasses en présentiel",
         "Matériel pédagogique",
         "Certificat de participation au programme de Paris Education School of Hospitality - Higher Education Group",
         "Certificat de participation au programme de l'IST College",
@@ -1780,7 +1780,7 @@ export const translations = {
       cta: "Postuler Maintenant",
       masterclassList: [
         { title: "Technique de Restaurant", desc: "Principes fondamentaux et techniques modernes du service professionnel." },
-        { title: "Technique Culinaire & Présentation du Petit-déjeuner", desc: "" },
+        { title: "Technique Culinaire & Présentation du Petit-déjeuner Grec", desc: "" },
         { title: "Œnologie", desc: "Introduction au monde du vin, la dégustation et les accords mets-vins." },
         { title: "Bar Service & Mixologie", desc: "Techniques de service au bar et création de cocktails populaires." },
       ],
@@ -1883,7 +1883,7 @@ export const courseData = [
   { id: 6,  category: "MANAGEMENT",    title: "Επιχειρηματικότητα & Δημιουργία Ξενοδοχειακής Επιχείρησης", instructor: "Γιώργος Πελακανάκης",       instructorLatin: "Giorgos Pelakanakis" },
   { id: 7,  category: "MANAGEMENT",    title: "Διοίκηση Ποιότητας & Πρότυπα Πιστοποίησης",                 instructor: "Ανθή Μανέτα",               instructorLatin: "Anthi Maneta" },
   { id: 8,  category: "MANAGEMENT",    title: "Βιωσιμότητα & Αειφόρος Ανάπτυξη",                           instructor: "Ιωάννα Ρώσση",              instructorLatin: "Ioanna Rossi" },
-  { id: 9,  category: "MANAGEMENT",    title: "Διαχείριση Προμηθειών και Αγορών Ξενοδοχειακών Επιχειρήσεων", instructor: "Γιώτα Μπαλάφα",           instructorLatin: "Giota Balafa" },
+  { id: 9,  category: "F&B",           title: "Διαχείριση Προμηθειών και Αγορών Ξενοδοχειακών Επιχειρήσεων", instructor: "Γιώτα Μπαλάφα",           instructorLatin: "Giota Balafa" },
   { id: 10, category: "HR",            title: "Διοίκηση Ανθρώπινου Δυναμικού στον Τουρισμό",               instructor: "Ράνια Πάσσαρη",             instructorLatin: "Rania Passari" },
   { id: 11, category: "HR",            title: "Τουριστική Νομοθεσία & Εργατικό Δίκαιο",                    instructor: "Δημήτρης Βαλέργας",         instructorLatin: "Dimitris Valergas" },
   { id: 12, category: "HR",            title: "Ψυχολογία πάνω στο HR",                                     instructor: "Βασιλική Σφονδύλη",         instructorLatin: "Vasiliki Sfondyli" },
