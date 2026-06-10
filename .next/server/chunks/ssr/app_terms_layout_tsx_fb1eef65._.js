@@ -1,3 +1,0 @@
-module.exports=[58510,a=>{"use strict";var b=a.i(7997);function c({children:a}){return(0,b.jsx)(b.Fragment,{children:a})}a.s(["default",()=>c,"metadata",0,{title:"Όροι Χρήσης | Inn Academy",description:"Όροι και προϋποθέσεις χρήσης της ιστοσελίδας και των υπηρεσιών της Inn Academy.",alternates:{canonical:"https://innacademy.gr/terms",languages:{el:"https://innacademy.gr/terms",en:"https://innacademy.gr/terms",fr:"https://innacademy.gr/terms","x-default":"https://innacademy.gr/terms"}},openGraph:{title:"Όροι Χρήσης | Inn Academy",description:"Όροι και προϋποθέσεις χρήσης της ιστοσελίδας και των υπηρεσιών της Inn Academy.",type:"website"}}])}];
-
-//# sourceMappingURL=app_terms_layout_tsx_fb1eef65._.js.map
