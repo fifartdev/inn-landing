@@ -44,7 +44,7 @@ This file is a complete, authoritative data snapshot for the Inn Academy landing
 ### Pricing Includes List (all tiers)
 
 1. Όλα τα online μαθήματα
-2. Δια ζώσης masterclasses (3 Σαββατοκύριακα)
+2. Δια ζώσης masterclasses
 3. Εκπαιδευτικό υλικό
 4. Πιστοποιητικό παρακολούθησης προγράμματος από το **Paris Education College School of Hospitality**
 5. Πιστοποιητικό παρακολούθησης προγράμματος από το **IST College**
@@ -65,8 +65,8 @@ Three certifications are issued upon completion:
 | 3 | Paris Education College Graduation Ceremony | Τελετή Αποφοίτησης στο Παρίσι |
 
 **Program section highlight text** (Award icon card):
-- Title: "Πιστοποιητικό παρακολούθησης προγράμματος από το Paris Education College & το IST College"
-- Desc: "Δίπλωμα με διεθνή αναγνώριση και τελετή αποφοίτησης."
+- Title: "Πιστοποίηση"
+- Desc: "από τον γαλλικό εκπαιδευτικό όμιλο Paris Education School of Hospitality & το IST College"
 
 ---
 
@@ -118,7 +118,7 @@ Three certifications are issued upon completion:
 | 6 | MANAGEMENT | Επιχειρηματικότητα & Δημιουργία Ξενοδοχειακής Επιχείρησης | Γιώργος Πελακανάκης |
 | 7 | MANAGEMENT | Διοίκηση Ποιότητας & Πρότυπα Πιστοποίησης | Ανθή Μανέτα |
 | 8 | MANAGEMENT | Βιωσιμότητα & Αειφόρος Ανάπτυξη | Ιωάννα Ρώσση |
-| 9 | MANAGEMENT | Διαχείριση Προμηθειών και Αγορών Ξενοδοχειακών Επιχειρήσεων | Γιώτα Μπαλάφα |
+| 9 | F&B | Διαχείριση Προμηθειών και Αγορών Ξενοδοχειακών Επιχειρήσεων | Γιώτα Μπαλάφα |
 | 10 | HR | Διοίκηση Ανθρώπινου Δυναμικού στον Τουρισμό | Ράνια Πάσσαρη |
 | 11 | HR | Τουριστική Νομοθεσία & Εργατικό Δίκαιο | Δημήτρης Βαλέργας |
 | 12 | HR | Ψυχολογία πάνω στο HR | Βασιλική Σφονδύλη |

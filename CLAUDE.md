@@ -60,6 +60,8 @@ Each section of the page is its own component in [components/](components/). The
 - `sticky` — floats in the right sidebar on desktop (inside Hero's CSS grid)
 - `section` — full-width block rendered inline on mobile and on `/apply`
 
+**ContactFormModal** (`components/ContactFormModal.tsx`) — modal overlay wrapping `<ContactForm variant="section" />`. Opens on desktop (lg+) only; mobile falls through to `/apply` or `#apply-mobile`. Used on the homepage and `/fnb-program`. `app/page.tsx` holds `modalOpen` state and passes `onOpenModal` to `PricingSection`. F&B page manages its own `modalOpen` state inline. Closes on backdrop click or the X button. Locks body scroll while open.
+
 ### Data
 
 All professor and course data lives in [lib/translations.ts](lib/translations.ts):
@@ -124,7 +126,7 @@ Installment strings live in `t.pricing.earlyBird.installment1/2/3` and `t.pricin
 
 The `includesList` in all three languages follows this order:
 1. Online courses
-2. In-person masterclasses
+2. In-person masterclasses (no parenthetical count — e.g. NOT "(3 Σαββατοκύριακα)")
 3. Educational materials
 4. Programme Attendance Certificate from Paris Education School of Hospitality - Higher Education Group
 5. Programme Attendance Certificate from IST College
@@ -179,6 +181,11 @@ The Navbar is transparent on `/` and `/fnb-program` (`isTransparentHeroPage`), s
 - **PricingSection bank deposit**: Shows title and icon only — bank name, IBAN and beneficiary fields are intentionally not displayed.
 - **CertificationsBar order**: Paris Education School of Hospitality → IST College → Graduation Ceremony. `paris` key is the short certificate text; `parisSub` is "Paris Education School of Hospitality"; `acta` is short text; `actaSub` is "IST College".
 - **Navbar desktop vs mobile links**: Desktop nav omits `/guests`, `/countries`, `/france` — they appear only in the mobile drawer.
-- **ProgramHighlights**: Certification highlight card has empty `desc` — component renders `{h.desc && ...}` to avoid blank space.
+- **ProgramHighlights**: Certification highlight card — title: `"Πιστοποίηση"`, desc: institution names only (`"από τον γαλλικό εκπαιδευτικό όμιλο Paris Education School of Hospitality & το IST College"`). Component renders `{h.desc && ...}` to skip blank desc.
+- **PricingSection**: accepts `onOpenModal?: () => void` prop. CTA buttons call `onOpenModal` on desktop (lg+) via `onClick`; on mobile they fall through to `href="/apply"`. Homepage passes `() => setModalOpen(true)`.
+- **courseData id:9**: category is `"F&B"` (was MANAGEMENT) — "Διαχείριση Προμηθειών και Αγορών Ξενοδοχειακών Επιχειρήσεων".
 - **F&B Curriculum section**: uses `currAll` translation key for "All Courses" tab label. Course data is built inline from `f.managementCourses`, `f.hrCourses`, `f.fbCourses` arrays — not from `courseData`.
+- **F&B Highlights**: 4 cards — Online, Masterclasses (desc: "Brown Athens — Bar & Restaurant Management\nDelifrance"), Career Day (uses `t.program.highlights[3]`), Πιστοποίηση (uses `t.program.highlights[4]`).
+- **F&B masterclassList item 2**: "Μαγειρική Τεχνική & Παρουσίαση Ελληνικού Πρωινού" (all 3 languages).
+- **.gitignore**: `.next/` is excluded — never commit the build cache.
 - **Thank-you page**: `t.thankYou` holds translations in all three languages. No extra pixel calls needed — the hard redirect causes a full page reload so Analytics.tsx fires `PageView` with the correct `/thank-you` URL automatically.
