@@ -6,6 +6,7 @@ import { usePathname } from "next/navigation";
 import { useLang } from "@/contexts/LanguageContext";
 import { Lang } from "@/lib/translations";
 import { Menu, X, ChevronDown, ChevronRight } from "lucide-react";
+import ContactFormModal from "@/components/ContactFormModal";
 
 const FacebookIcon = () => (
   <svg viewBox="0 0 24 24" className="w-4 h-4" fill="currentColor">
@@ -38,7 +39,15 @@ export default function Navbar() {
   const [langOpen, setLangOpen] = useState(false);
   const [programOpen, setProgramOpen] = useState(false);
   const [programMobileOpen, setProgramMobileOpen] = useState(false);
+  const [applyModalOpen, setApplyModalOpen] = useState(false);
   const programCloseTimer = React.useRef<ReturnType<typeof setTimeout> | null>(null);
+
+  const handleApplyClick = (e: React.MouseEvent<HTMLAnchorElement>) => {
+    if (typeof window !== "undefined" && window.innerWidth >= 1024) {
+      e.preventDefault();
+      setApplyModalOpen(true);
+    }
+  };
 
   useEffect(() => {
     const onScroll = () => setScrolled(window.scrollY > 20);
@@ -190,6 +199,7 @@ export default function Navbar() {
             {/* CTA */}
             <a
               href={applyHref}
+              onClick={handleApplyClick}
               className="hidden sm:inline-flex items-center px-5 py-2 bg-inn-orange hover:bg-inn-orange-dark text-white text-sm font-bold rounded-xl transition-all shadow-sm hover:shadow-md"
             >
               {t.nav.apply}
@@ -207,6 +217,8 @@ export default function Navbar() {
           </div>
         </div>
       </div>
+
+      <ContactFormModal open={applyModalOpen} onClose={() => setApplyModalOpen(false)} />
 
       {/* Mobile menu */}
       {mobileOpen && (
