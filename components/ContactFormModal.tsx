@@ -1,6 +1,7 @@
 "use client";
 
-import { useEffect } from "react";
+import { useEffect, useState } from "react";
+import { createPortal } from "react-dom";
 import { X } from "lucide-react";
 import ContactForm from "@/components/ContactForm";
 
@@ -10,6 +11,10 @@ interface Props {
 }
 
 export default function ContactFormModal({ open, onClose }: Props) {
+  const [mounted, setMounted] = useState(false);
+
+  useEffect(() => { setMounted(true); }, []);
+
   useEffect(() => {
     if (open) {
       document.body.style.overflow = "hidden";
@@ -19,11 +24,11 @@ export default function ContactFormModal({ open, onClose }: Props) {
     return () => { document.body.style.overflow = ""; };
   }, [open]);
 
-  if (!open) return null;
+  if (!mounted || !open) return null;
 
-  return (
+  return createPortal(
     <div
-      className="fixed inset-0 z-[200] flex items-center justify-center p-4"
+      className="fixed inset-0 z-[9999] flex items-center justify-center p-4"
       onClick={onClose}
     >
       {/* Backdrop */}
@@ -45,6 +50,7 @@ export default function ContactFormModal({ open, onClose }: Props) {
           <ContactForm variant="section" />
         </div>
       </div>
-    </div>
+    </div>,
+    document.body
   );
 }
