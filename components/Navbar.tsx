@@ -55,6 +55,12 @@ export default function Navbar() {
     return () => window.removeEventListener("scroll", onScroll);
   }, []);
 
+  useEffect(() => {
+    const handler = () => setApplyModalOpen(true);
+    document.addEventListener("open-apply-modal", handler);
+    return () => document.removeEventListener("open-apply-modal", handler);
+  }, []);
+
   const isScrolledStyle = scrolled || !isTransparentHeroPage;
 
   const applyHref = pathname === "/" ? "#apply" : pathname === "/fnb-program" ? "#apply" : "/#apply";

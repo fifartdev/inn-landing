@@ -1,11 +1,19 @@
 "use client";
 
+import React from "react";
 import { useLang } from "@/contexts/LanguageContext";
 import { Calendar, MapPin, Wifi, Star, ChevronDown } from "lucide-react";
 
 export default function Hero() {
   const { t } = useLang();
   const h = t.hero;
+
+  const handleCta = (e: React.MouseEvent<HTMLAnchorElement>) => {
+    if (typeof window !== "undefined" && window.innerWidth >= 1024) {
+      e.preventDefault();
+      document.dispatchEvent(new CustomEvent("open-apply-modal"));
+    }
+  };
 
   return (
     <section className="relative min-h-screen flex items-center overflow-hidden">
@@ -79,6 +87,7 @@ export default function Hero() {
           <div className="flex flex-col sm:flex-row gap-4">
             <a
               href="#apply"
+              onClick={handleCta}
               className="inline-flex items-center justify-center px-8 py-4 bg-inn-orange hover:bg-inn-orange-dark text-white font-bold text-base rounded-2xl transition-all shadow-lg hover:shadow-xl hover:-translate-y-0.5"
             >
               {h.cta}
