@@ -63,7 +63,7 @@ export default function Navbar() {
 
   const isScrolledStyle = scrolled || !isTransparentHeroPage;
 
-  const applyHref = pathname === "/" ? "#apply" : pathname === "/fnb-program" ? "#apply" : "/#apply";
+  const applyHref = pathname === "/" ? "#apply" : pathname === "/fnb-program" ? "#apply-mobile" : "/#apply";
 
   const desktopLinks = [
     { href: "/#curriculum", label: t.nav.curriculum },
