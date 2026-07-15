@@ -1913,7 +1913,7 @@ export const professorsData = [
   { name: "Αντώνης Γιαννόπουλος", nameLatin: "Antonis Giannopoulos", category: "MARKETING", linkedin: "https://www.linkedin.com/in/antoniosgiannopoulos/", image: "/professors/antonis_giannopoulos.jpeg", guestSpeaker: true },
   { name: "Μάριος Ανδρακάκης", nameLatin: "Marios Andrakakis", category: "SALES", linkedin: "https://www.linkedin.com/in/marios-a-00a92823/", image: "/professors/marios_andrakakis.jpeg" },
   { name: "Σταμάτης Λουμουσιώτης", nameLatin: "Stamatis Loumousiotis", category: "F&B", linkedin: "https://www.linkedin.com/in/stamatis-loumousiotis-27703847/", image: "/professors/stamatis_loumousiotis.jpeg" },
-  { name: "Κωνσταντίνος Ντελέζος", nameLatin: "Konstantinos Ntelezos", category: "F&B", linkedin: "https://shorturl.at/di7Sh", image: "/professors/konstantinos_ntelezos.jpg", guestSpeaker: true },
+  { name: "Κωνσταντίνος Ντελέζος", nameLatin: "Konstantinos Ntelezos", category: "F&B", linkedin: "https://pch.uniwa.gr/profile/ntelezos-konstantinos/", image: "/professors/konstantinos_ntelezos.jpg", guestSpeaker: true },
   { name: "Μαρία Κατσούλη", nameLatin: "Maria Katsouli", category: "F&B", linkedin: "https://www.linkedin.com/in/maria-katsouli-5942ba6/", image: "/professors/maria_katsouli.webp" },
   { name: "Κώστας Ανδριανόπουλος", nameLatin: "Kostas Andrianopoulos", category: "FRONT OFFICE", linkedin: "https://www.linkedin.com/in/kostas-andrianopoulos-24b3a435/", image: "/professors/kostas-andrianopoulos.jpeg" },
   { name: "Κωνσταντίνος Σεργόπουλος", nameLatin: "Konstantinos Sergopoulos", category: "FRONT OFFICE", linkedin: "https://tourism.uniwa.gr/profile/sergopoulos-konstantinos/", image: "/professors/konstantinos_sergopoulos.jpg", guestSpeaker: true },
